@@ -1,0 +1,248 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
+
+// Load all additives
+const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
+const allAdditives = Object.values(additiveFiles) as any[];
+
+// Compare EU vs USA
+const comparison = {
+  euOnly: allAdditives.filter(a => a.regulations.eu.status === 'approved' && a.regulations.usa.status === 'banned'),
+  usaOnly: allAdditives.filter(a => a.regulations.usa.status === 'approved' && a.regulations.eu.status === 'banned'),
+  bothApproved: allAdditives.filter(a => a.regulations.eu.status === 'approved' && a.regulations.usa.status === 'approved'),
+  bothBanned: allAdditives.filter(a => a.regulations.eu.status === 'banned' && a.regulations.usa.status === 'banned'),
+  differences: allAdditives.filter(a => {
+    const euStatus = a.regulations.eu.status;
+    const usaStatus = a.regulations.usa.status;
+    return (euStatus === 'approved' && usaStatus === 'banned') ||
+           (euStatus === 'banned' && usaStatus === 'approved') ||
+           (euStatus === 'restricted' && usaStatus === 'approved') ||
+           (euStatus === 'approved' && usaStatus === 'restricted');
+  })
+};
+
+const title = 'EU vs USA Food Additive Regulations Comparison | Food Additive DB';
+const description = `Compare food additive regulations between the European Union and United States. ${comparison.differences.length} additives with different regulatory status. EU-only: ${comparison.euOnly.length}, USA-only: ${comparison.usaOnly.length}.`;
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://food.matrix-db.com/' },
+  { name: 'Country Comparisons', url: 'https://food.matrix-db.com/' },
+  { name: 'EU vs USA', url: 'https://food.matrix-db.com/compare/eu-vs-usa/' }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-6xl mx-auto">
+      <Disclaimer />
+
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">
+        EU vs USA: Food Additive Regulations
+      </h1>
+      <p class="text-xl text-gray-600 mb-8">
+        Comparing regulatory approaches to food additives between the European Union and United States
+      </p>
+
+      <!-- Key Statistics -->
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-primary-600">{comparison.differences.length}</div>
+          <div class="text-sm text-gray-600 mt-1">Different Status</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-green-600">{comparison.bothApproved.length}</div>
+          <div class="text-sm text-gray-600 mt-1">Both Approved</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-blue-600">{comparison.euOnly.length}</div>
+          <div class="text-sm text-gray-600 mt-1">EU Only</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-orange-600">{comparison.usaOnly.length}</div>
+          <div class="text-sm text-gray-600 mt-1">USA Only</div>
+        </div>
+      </div>
+
+      <!-- Regulatory Authorities -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Regulatory Authorities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇪🇺 European Union</h3>
+            <dl class="space-y-2 text-sm">
+              <div>
+                <dt class="font-medium text-gray-700">Primary Authority:</dt>
+                <dd class="text-gray-600">European Food Safety Authority (EFSA)</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Regulatory Framework:</dt>
+                <dd class="text-gray-600">Regulation (EC) No 1333/2008</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Approach:</dt>
+                <dd class="text-gray-600">Precautionary principle - additives must be proven safe before approval</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Designation:</dt>
+                <dd class="text-gray-600">E Numbers (E100-E1999)</dd>
+              </div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇺🇸 United States</h3>
+            <dl class="space-y-2 text-sm">
+              <div>
+                <dt class="font-medium text-gray-700">Primary Authority:</dt>
+                <dd class="text-gray-600">Food and Drug Administration (FDA)</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Regulatory Framework:</dt>
+                <dd class="text-gray-600">Federal Food, Drug, and Cosmetic Act (21 CFR)</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Approach:</dt>
+                <dd class="text-gray-600">GRAS (Generally Recognized As Safe) system - some additives self-affirmed</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Designation:</dt>
+                <dd class="text-gray-600">No standardized numbering system</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Differences -->
+      {comparison.differences.length > 0 && (
+        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Additives with Different Regulatory Status</h2>
+          <p class="text-sm text-gray-600 mb-4">
+            The following additives have different approval status between the EU and USA:
+          </p>
+
+          <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Additive</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Functional Class</th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">🇪🇺 EU</th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider">🇺🇸 USA</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-gray-200">
+                {comparison.differences.map((additive: any) => (
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3">
+                      <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline font-medium">
+                        {additive.names.common_name}
+                      </a>
+                      <div class="text-xs text-gray-500">{additive.names.e_number}</div>
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-700">{additive.classification.functional_class}</td>
+                    <td class="px-4 py-3 text-center">
+                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
+                        additive.regulations.eu.status === 'approved' ? 'bg-green-100 text-green-800' :
+                        additive.regulations.eu.status === 'banned' ? 'bg-red-100 text-red-800' :
+                        'bg-yellow-100 text-yellow-800'
+                      }`}>
+                        {additive.regulations.eu.status}
+                      </span>
+                    </td>
+                    <td class="px-4 py-3 text-center">
+                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
+                        additive.regulations.usa.status === 'approved' ? 'bg-green-100 text-green-800' :
+                        additive.regulations.usa.status === 'banned' ? 'bg-red-100 text-red-800' :
+                        'bg-yellow-100 text-yellow-800'
+                      }`}>
+                        {additive.regulations.usa.status}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <!-- Notable Examples -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Notable Regulatory Differences</h2>
+        <div class="space-y-4">
+          {comparison.euOnly.length > 0 && (
+            <div class="border-l-4 border-blue-500 pl-4">
+              <h3 class="font-semibold text-gray-900 mb-2">Approved in EU, Banned/Not Approved in USA</h3>
+              <div class="flex flex-wrap gap-2">
+                {comparison.euOnly.map((additive: any) => (
+                  <a
+                    href={`/additive/${additive.slug}/`}
+                    class="inline-block px-3 py-1 bg-blue-100 text-blue-800 rounded-lg hover:bg-blue-200 text-sm"
+                  >
+                    {additive.names.common_name} ({additive.names.e_number})
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {comparison.usaOnly.length > 0 && (
+            <div class="border-l-4 border-orange-500 pl-4">
+              <h3 class="font-semibold text-gray-900 mb-2">Approved in USA, Banned/Not Approved in EU</h3>
+              <div class="flex flex-wrap gap-2">
+                {comparison.usaOnly.map((additive: any) => (
+                  <a
+                    href={`/additive/${additive.slug}/`}
+                    class="inline-block px-3 py-1 bg-orange-100 text-orange-800 rounded-lg hover:bg-orange-200 text-sm"
+                  >
+                    {additive.names.common_name} ({additive.names.e_number})
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+      </section>
+
+      <!-- Data Sources -->
+      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Data Sources & Methodology</h3>
+        <ul class="space-y-2 text-sm text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span><strong>EU Data:</strong> Regulation (EC) No 1333/2008, EFSA Scientific Opinions</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span><strong>USA Data:</strong> 21 CFR (Code of Federal Regulations), FDA GRAS Database</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>Comparison based on regulatory status as of April 2026. Regulations may change over time.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>This comparison is for informational purposes only. Always consult official regulatory sources.</span>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+  <BreadcrumbSchema items={breadcrumbs} />
+</BaseLayout>

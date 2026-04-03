@@ -1,0 +1,171 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
+
+const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
+const allAdditives = Object.values(additiveFiles) as any[];
+
+const comparison = {
+  euOnly: allAdditives.filter(a => a.regulations.eu.status === 'approved' && a.regulations.japan.status === 'banned'),
+  japanOnly: allAdditives.filter(a => a.regulations.japan.status === 'approved' && a.regulations.eu.status === 'banned'),
+  bothApproved: allAdditives.filter(a => a.regulations.eu.status === 'approved' && a.regulations.japan.status === 'approved'),
+  bothBanned: allAdditives.filter(a => a.regulations.eu.status === 'banned' && a.regulations.japan.status === 'banned'),
+  differences: allAdditives.filter(a => {
+    const euStatus = a.regulations.eu.status;
+    const jpStatus = a.regulations.japan.status;
+    return (euStatus === 'approved' && jpStatus === 'banned') ||
+           (euStatus === 'banned' && jpStatus === 'approved') ||
+           (euStatus === 'restricted' && jpStatus === 'approved') ||
+           (euStatus === 'approved' && jpStatus === 'restricted');
+  })
+};
+
+const title = 'EU vs Japan Food Additive Regulations Comparison | Food Additive DB';
+const description = `Compare food additive regulations between the European Union and Japan. ${comparison.differences.length} additives with different regulatory status.`;
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://food.matrix-db.com/' },
+  { name: 'Country Comparisons', url: 'https://food.matrix-db.com/' },
+  { name: 'EU vs Japan', url: 'https://food.matrix-db.com/compare/eu-vs-japan/' }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-6xl mx-auto">
+      <Disclaimer />
+
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">
+        EU vs Japan: Food Additive Regulations
+      </h1>
+      <p class="text-xl text-gray-600 mb-8">
+        Comparing regulatory approaches between the European Union and Japan
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-primary-600">{comparison.differences.length}</div>
+          <div class="text-sm text-gray-600 mt-1">Different Status</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-green-600">{comparison.bothApproved.length}</div>
+          <div class="text-sm text-gray-600 mt-1">Both Approved</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-blue-600">{comparison.euOnly.length}</div>
+          <div class="text-sm text-gray-600 mt-1">EU Only</div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
+          <div class="text-3xl font-bold text-orange-600">{comparison.japanOnly.length}</div>
+          <div class="text-sm text-gray-600 mt-1">Japan Only</div>
+        </div>
+      </div>
+
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Regulatory Authorities</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇪🇺 European Union</h3>
+            <dl class="space-y-2 text-sm">
+              <div>
+                <dt class="font-medium text-gray-700">Primary Authority:</dt>
+                <dd class="text-gray-600">European Food Safety Authority (EFSA)</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Approach:</dt>
+                <dd class="text-gray-600">Precautionary principle with comprehensive pre-market approval</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Designation:</dt>
+                <dd class="text-gray-600">E Numbers (E100-E1999)</dd>
+              </div>
+            </dl>
+          </div>
+          <div>
+            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇯🇵 Japan</h3>
+            <dl class="space-y-2 text-sm">
+              <div>
+                <dt class="font-medium text-gray-700">Primary Authority:</dt>
+                <dd class="text-gray-600">Ministry of Health, Labour and Welfare (MHLW)</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Approach:</dt>
+                <dd class="text-gray-600">Positive list system with designated and existing additives</dd>
+              </div>
+              <div>
+                <dt class="font-medium text-gray-700">Categories:</dt>
+                <dd class="text-gray-600">指定添加物 (Designated) and 既存添加物 (Existing)</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      {comparison.differences.length > 0 && (
+        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Additives with Different Regulatory Status</h2>
+          <div class="overflow-x-auto">
+            <table class="min-w-full divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Additive</th>
+                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Class</th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇪🇺 EU</th>
+                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇯🇵 Japan</th>
+                </tr>
+              </thead>
+              <tbody class="bg-white divide-y divide-gray-200">
+                {comparison.differences.map((additive: any) => (
+                  <tr class="hover:bg-gray-50">
+                    <td class="px-4 py-3">
+                      <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline font-medium">
+                        {additive.names.common_name}
+                      </a>
+                      <div class="text-xs text-gray-500">{additive.names.e_number}</div>
+                    </td>
+                    <td class="px-4 py-3 text-sm text-gray-700">{additive.classification.functional_class}</td>
+                    <td class="px-4 py-3 text-center">
+                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
+                        additive.regulations.eu.status === 'approved' ? 'bg-green-100 text-green-800' :
+                        additive.regulations.eu.status === 'banned' ? 'bg-red-100 text-red-800' :
+                        'bg-yellow-100 text-yellow-800'
+                      }`}>
+                        {additive.regulations.eu.status}
+                      </span>
+                    </td>
+                    <td class="px-4 py-3 text-center">
+                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
+                        additive.regulations.japan.status === 'approved' ? 'bg-green-100 text-green-800' :
+                        additive.regulations.japan.status === 'banned' ? 'bg-red-100 text-red-800' :
+                        'bg-yellow-100 text-yellow-800'
+                      }`}>
+                        {additive.regulations.japan.status}
+                      </span>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Data Sources</h3>
+        <ul class="space-y-2 text-sm text-gray-700">
+          <li>• <strong>EU:</strong> Regulation (EC) No 1333/2008, EFSA Scientific Opinions</li>
+          <li>• <strong>Japan:</strong> MHLW Food Additive Lists (指定添加物・既存添加物)</li>
+          <li>• Comparison based on regulatory status as of April 2026</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+  <BreadcrumbSchema items={breadcrumbs} />
+</BaseLayout>
