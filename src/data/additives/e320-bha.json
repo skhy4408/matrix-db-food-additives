@@ -1,0 +1,116 @@
+{
+  "slug": "e320-bha",
+  "names": {
+    "e_number": "E320",
+    "ins_number": "320",
+    "cas_number": "25013-16-5",
+    "common_name": "Butylated Hydroxyanisole",
+    "scientific_name": "tert-Butyl-4-methoxyphenol",
+    "japanese_name": "ブチルヒドロキシアニソール",
+    "japanese_label_name": "BHA",
+    "aliases": ["BHA", "E320"]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic antioxidant not found in nature, used to prevent rancidity in fats and oils."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by alkylation of 4-methoxyphenol (p-anisole) with isobutylene in the presence of an acid catalyst."
+  },
+  "other_uses": {
+    "cosmetics": "Used in lipsticks and moisturizers as an antioxidant.",
+    "industrial": "Used in petroleum products, rubber, and plastics as a stabilizer.",
+    "pharmaceutical": "Used in pharmaceutical preparations to prevent oxidation.",
+    "household": "Found in some food packaging materials"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E320",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Restricted use; maximum levels typically 100-200 mg/kg",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.110",
+      "fda_url": null,
+      "notes": "Limited to specified levels in specific foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ブチルヒドロキシアニソール",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "320",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2020,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=BHA+butylated+hydroxyanisole+cancer",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=BHA+E320+carcinogenicity",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [
+    {
+      "year": 2011,
+      "event": "US Department of Health lists BHA as 'reasonably anticipated to be a human carcinogen' based on animal studies"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat emulsions",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "US National Toxicology Program"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

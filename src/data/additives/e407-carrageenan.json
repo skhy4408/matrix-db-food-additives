@@ -1,0 +1,121 @@
+{
+  "slug": "e407-carrageenan",
+  "names": {
+    "e_number": "E407",
+    "ins_number": "407",
+    "cas_number": "9000-07-1",
+    "common_name": "Carrageenan",
+    "scientific_name": "Carrageenan",
+    "japanese_name": "カラギーナン",
+    "japanese_label_name": "カラギナン",
+    "aliases": ["Carrageenin", "Irish moss extract"]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "seaweed-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Red seaweed (Rhodophyceae)", "Irish moss (Chondrus crispus)"],
+    "description": "A family of linear sulfated polysaccharides extracted from red seaweed. Used as a thickener, stabilizer, and gelling agent."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from red seaweed using hot water or alkaline solution, followed by filtration, precipitation, and drying."
+  },
+  "other_uses": {
+    "cosmetics": "Used in toothpaste, shampoos, and lotions as a thickening agent.",
+    "industrial": "Used in textile printing and as a clarifying agent in brewing.",
+    "pharmaceutical": "Used in pharmaceutical formulations as a suspending agent.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E407",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted; degraded carrageenan (poligeenan) is not permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.620",
+      "fda_url": null,
+      "notes": "Food-grade carrageenan only; degraded carrageenan not permitted"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カラギナン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "407",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=carrageenan+inflammation+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=carrageenan+E407+gastrointestinal",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluates carrageenan and confirms it does not raise safety concerns at current use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.3",
+      "category_name": "Breakfast cereals",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

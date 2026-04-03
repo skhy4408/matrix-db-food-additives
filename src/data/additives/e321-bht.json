@@ -1,0 +1,110 @@
+{
+  "slug": "e321-bht",
+  "names": {
+    "e_number": "E321",
+    "ins_number": "321",
+    "cas_number": "128-37-0",
+    "common_name": "Butylated Hydroxytoluene",
+    "scientific_name": "2,6-Di-tert-butyl-4-methylphenol",
+    "japanese_name": "ジブチルヒドロキシトルエン",
+    "japanese_label_name": "BHT",
+    "aliases": ["BHT", "E321", "Dibutylhydroxytoluene"]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic antioxidant not found in nature, used to prevent oxidation in foods, cosmetics, and industrial products."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by alkylation of p-cresol with isobutylene in the presence of an acid catalyst."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in lipsticks, moisturizers, and other cosmetics as an antioxidant.",
+    "industrial": "Used in jet fuels, rubber, petroleum products, and electrical transformer oil.",
+    "pharmaceutical": "Used in pharmaceutical preparations to prevent oxidation.",
+    "household": "Found in food packaging materials and some household products"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E321",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Restricted use; maximum levels typically 100-200 mg/kg",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2012",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.115",
+      "fda_url": null,
+      "notes": "Limited to specified levels in specific foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジブチルヒドロキシトルエン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "321",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.25 mg/kg bw/day",
+    "jecfa_evaluation_year": 2020,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.25 mg/kg bw/day",
+    "efsa_evaluation_year": 2012,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=BHT+butylated+hydroxytoluene+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=BHT+E321+endocrine",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat emulsions",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

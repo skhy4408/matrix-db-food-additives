@@ -1,0 +1,109 @@
+{
+  "slug": "e300-ascorbic-acid",
+  "names": {
+    "e_number": "E300",
+    "ins_number": "300",
+    "cas_number": "50-81-7",
+    "common_name": "Ascorbic Acid",
+    "scientific_name": "L-Ascorbic acid",
+    "japanese_name": "L-アスコルビン酸",
+    "japanese_label_name": "ビタミンC",
+    "aliases": ["Vitamin C", "L-Ascorbic acid"]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin",
+    "source_type": "synthetic or natural",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["citrus fruits", "strawberries", "kiwi", "bell peppers", "broccoli", "tomatoes"],
+    "description": "An essential vitamin (Vitamin C) naturally present in many fruits and vegetables. Humans cannot synthesize it and must obtain it from diet."
+  },
+  "manufacturing": {
+    "method": "fermentation or chemical synthesis",
+    "description": "Commercially produced by fermentation of glucose using microorganisms, or by the Reichstein process (chemical synthesis from glucose)."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in skincare for its antioxidant and skin-brightening properties.",
+    "industrial": null,
+    "pharmaceutical": "Used as a vitamin supplement and antioxidant in pharmaceutical formulations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E300",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3013",
+      "fda_url": null,
+      "notes": "Also used as a nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-アスコルビン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "300",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (vitamin)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified (vitamin)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ascorbic+acid+vitamin+C",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ascorbic+acid+antioxidant",
+    "controversy_level": "very_low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}
