@@ -1,0 +1,35 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-100 mt-12">
+  <div class="container mx-auto px-4 py-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">Food Additive DB</h3>
+        <p class="text-sm text-gray-600">
+          Cross-country food additive regulation database powered by Matrix DB.
+        </p>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">Resources</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/search" class="text-gray-600 hover:text-gray-900">Search Additives</a></li>
+          <li><a href="/about" class="text-gray-600 hover:text-gray-900">About</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-semibold text-gray-900 mb-3">Legal</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="/privacy-policy" class="text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
+          <li><a href="/terms" class="text-gray-600 hover:text-gray-900">Terms of Use</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 pt-8 border-t border-gray-200">
+      <p class="text-sm text-gray-600 text-center">
+        © {currentYear} Matrix DB. Data compiled from official regulatory sources.
+      </p>
+    </div>
+  </div>
+</footer>

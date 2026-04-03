@@ -1,0 +1,42 @@
+---
+interface Props {
+  status: 'approved' | 'banned' | 'restricted' | 'unverified';
+  country: string;
+}
+
+const { status, country } = Astro.props;
+
+const statusConfig = {
+  approved: {
+    bg: 'bg-primary-100',
+    text: 'text-primary-800',
+    border: 'border-primary-300',
+    label: 'Approved'
+  },
+  banned: {
+    bg: 'bg-danger-100',
+    text: 'text-danger-800',
+    border: 'border-danger-300',
+    label: 'Banned'
+  },
+  restricted: {
+    bg: 'bg-warning-100',
+    text: 'text-warning-800',
+    border: 'border-warning-300',
+    label: 'Restricted'
+  },
+  unverified: {
+    bg: 'bg-gray-100',
+    text: 'text-gray-800',
+    border: 'border-gray-300',
+    label: 'Unverified'
+  }
+};
+
+const config = statusConfig[status];
+---
+
+<span class={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${config.bg} ${config.text} ${config.border}`}>
+  <span class="mr-1.5">{country}</span>
+  <span class="font-semibold">{config.label}</span>
+</span>

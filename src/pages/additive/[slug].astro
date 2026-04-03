@@ -1,0 +1,251 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import RegulationStatusBadge from '../../components/RegulationStatusBadge.astro';
+
+export async function getStaticPaths() {
+  const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
+
+  const paths = Object.values(additiveFiles).map((file: any) => {
+    return {
+      params: { slug: file.slug },
+      props: { additive: file }
+    };
+  });
+
+  return paths;
+}
+
+const { additive } = Astro.props;
+const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses } = additive;
+
+const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
+const description = `${names.common_name} (${names.e_number}) regulation status in EU, USA, Japan, Australia/NZ, and Canada. ${classification.functional_class} additive. ADI: ${safety_evaluations.jecfa_adi || 'Not specified'}.`;
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <Disclaimer />
+
+      <!-- Title -->
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">
+        {names.common_name}
+      </h1>
+      <p class="text-xl text-gray-600 mb-6">
+        {names.e_number} {names.ins_number && `| INS ${names.ins_number}`}
+      </p>
+
+      <!-- Names & Identifiers -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Names & Identifiers</h2>
+        <dl class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <dt class="text-sm font-medium text-gray-500">E Number</dt>
+            <dd class="mt-1 text-base text-gray-900">{names.e_number}</dd>
+          </div>
+          {names.ins_number && (
+            <div>
+              <dt class="text-sm font-medium text-gray-500">INS Number</dt>
+              <dd class="mt-1 text-base text-gray-900">{names.ins_number}</dd>
+            </div>
+          )}
+          {names.cas_number && (
+            <div>
+              <dt class="text-sm font-medium text-gray-500">CAS Number</dt>
+              <dd class="mt-1 text-base text-gray-900">{names.cas_number}</dd>
+            </div>
+          )}
+          {names.scientific_name && (
+            <div>
+              <dt class="text-sm font-medium text-gray-500">Scientific Name</dt>
+              <dd class="mt-1 text-base text-gray-900">{names.scientific_name}</dd>
+            </div>
+          )}
+          {names.japanese_name && (
+            <div>
+              <dt class="text-sm font-medium text-gray-500">Japanese Name</dt>
+              <dd class="mt-1 text-base text-gray-900">{names.japanese_name}</dd>
+            </div>
+          )}
+          {names.aliases && names.aliases.length > 0 && (
+            <div class="md:col-span-2">
+              <dt class="text-sm font-medium text-gray-500">Also Known As</dt>
+              <dd class="mt-1 text-base text-gray-900">{names.aliases.join(', ')}</dd>
+            </div>
+          )}
+        </dl>
+      </section>
+
+      <!-- Regulation Status -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Regulation Status by Country</h2>
+
+        <div class="flex flex-wrap gap-3 mb-6">
+          <RegulationStatusBadge status={regulations.eu.status} country="🇪🇺 EU" />
+          <RegulationStatusBadge status={regulations.usa.status} country="🇺🇸 USA" />
+          <RegulationStatusBadge status={regulations.japan.status} country="🇯🇵 Japan" />
+          <RegulationStatusBadge status={regulations.australia_nz.status} country="🇦🇺 AU/NZ" />
+          <RegulationStatusBadge status={regulations.canada.status} country="🇨🇦 Canada" />
+        </div>
+
+        <div class="space-y-4">
+          <!-- EU -->
+          <div class="border-l-4 border-primary-400 pl-4">
+            <h3 class="font-semibold text-gray-900">European Union</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              <strong>Status:</strong> {regulations.eu.status}
+              {regulations.eu.max_level_mg_kg && ` | Max level: ${regulations.eu.max_level_mg_kg} mg/kg`}
+            </p>
+            {regulations.eu.conditions && (
+              <p class="text-sm text-gray-600 mt-1">{regulations.eu.conditions}</p>
+            )}
+            {regulations.eu.efsa_opinion_url && (
+              <a href={regulations.eu.efsa_opinion_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-1 inline-block">
+                View EFSA Opinion →
+              </a>
+            )}
+          </div>
+
+          <!-- USA -->
+          <div class="border-l-4 border-primary-400 pl-4">
+            <h3 class="font-semibold text-gray-900">United States</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              <strong>Status:</strong> {regulations.usa.status}
+              {regulations.usa.classification && ` | ${regulations.usa.classification}`}
+            </p>
+            {regulations.usa.notes && (
+              <p class="text-sm text-gray-600 mt-1">{regulations.usa.notes}</p>
+            )}
+          </div>
+
+          <!-- Japan -->
+          <div class="border-l-4 border-primary-400 pl-4">
+            <h3 class="font-semibold text-gray-900">Japan</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              <strong>Status:</strong> {regulations.japan.status}
+              {regulations.japan.category && ` | Category: ${regulations.japan.category}`}
+            </p>
+            {regulations.japan.notes && (
+              <p class="text-sm text-gray-600 mt-1">{regulations.japan.notes}</p>
+            )}
+          </div>
+
+          <!-- Australia/NZ -->
+          <div class="border-l-4 border-primary-400 pl-4">
+            <h3 class="font-semibold text-gray-900">Australia / New Zealand</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              <strong>Status:</strong> {regulations.australia_nz.status}
+              {regulations.australia_nz.code && ` | Code: ${regulations.australia_nz.code}`}
+            </p>
+            {regulations.australia_nz.notes && (
+              <p class="text-sm text-gray-600 mt-1">{regulations.australia_nz.notes}</p>
+            )}
+          </div>
+
+          <!-- Canada -->
+          <div class="border-l-4 border-primary-400 pl-4">
+            <h3 class="font-semibold text-gray-900">Canada</h3>
+            <p class="text-sm text-gray-600 mt-1">
+              <strong>Status:</strong> {regulations.canada.status}
+            </p>
+            {regulations.canada.notes && (
+              <p class="text-sm text-gray-600 mt-1">{regulations.canada.notes}</p>
+            )}
+          </div>
+        </div>
+      </section>
+
+      <!-- What is it? -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">What is {names.common_name}?</h2>
+
+        <div class="prose max-w-none">
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">Classification</h3>
+          <p class="text-gray-700 mb-4">
+            <strong>Function:</strong> {classification.functional_class}<br/>
+            <strong>Type:</strong> {classification.sub_class}<br/>
+            <strong>Source:</strong> {classification.source_type}
+          </p>
+
+          {natural_occurrence.found_in_nature && (
+            <>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Occurrence</h3>
+              <p class="text-gray-700 mb-2">{natural_occurrence.description}</p>
+              {natural_occurrence.natural_sources && natural_occurrence.natural_sources.length > 0 && (
+                <p class="text-gray-700 mb-4">
+                  <strong>Found in:</strong> {natural_occurrence.natural_sources.join(', ')}
+                </p>
+              )}
+            </>
+          )}
+
+          <h3 class="text-lg font-semibold text-gray-900 mb-2">How It's Made</h3>
+          <p class="text-gray-700 mb-4">
+            <strong>Method:</strong> {manufacturing.method}<br/>
+            {manufacturing.description}
+          </p>
+
+          {(other_uses.cosmetics || other_uses.industrial || other_uses.pharmaceutical || other_uses.household) && (
+            <>
+              <h3 class="text-lg font-semibold text-gray-900 mb-2">Uses Beyond Food</h3>
+              <ul class="list-disc pl-5 text-gray-700">
+                {other_uses.cosmetics && <li><strong>Cosmetics:</strong> {other_uses.cosmetics}</li>}
+                {other_uses.pharmaceutical && <li><strong>Pharmaceutical:</strong> {other_uses.pharmaceutical}</li>}
+                {other_uses.industrial && <li><strong>Industrial:</strong> {other_uses.industrial}</li>}
+                {other_uses.household && <li><strong>Household:</strong> {other_uses.household}</li>}
+              </ul>
+            </>
+          )}
+        </div>
+      </section>
+
+      <!-- Safety Evaluations -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Safety Evaluations (Official)</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div>
+            <h3 class="font-semibold text-gray-900 mb-2">JECFA (WHO/FAO)</h3>
+            <p class="text-sm text-gray-700">
+              <strong>ADI:</strong> {safety_evaluations.jecfa_adi || 'Not specified'}<br/>
+              {safety_evaluations.jecfa_evaluation_year && (
+                <>Evaluated: {safety_evaluations.jecfa_evaluation_year}</>
+              )}
+            </p>
+            {safety_evaluations.jecfa_url && (
+              <a href={safety_evaluations.jecfa_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-2 inline-block">
+                View JECFA Database →
+              </a>
+            )}
+          </div>
+
+          <div>
+            <h3 class="font-semibold text-gray-900 mb-2">EFSA (EU)</h3>
+            <p class="text-sm text-gray-700">
+              <strong>ADI:</strong> {safety_evaluations.efsa_adi || 'Not specified'}<br/>
+              {safety_evaluations.efsa_evaluation_year && (
+                <>Evaluated: {safety_evaluations.efsa_evaluation_year}</>
+              )}
+            </p>
+            {safety_evaluations.efsa_opinion_url && (
+              <a href={safety_evaluations.efsa_opinion_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-2 inline-block">
+                View EFSA Opinion →
+              </a>
+            )}
+          </div>
+        </div>
+
+        <p class="text-xs text-gray-500 mt-4">
+          ADI = Acceptable Daily Intake (mg per kg of body weight per day)
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
