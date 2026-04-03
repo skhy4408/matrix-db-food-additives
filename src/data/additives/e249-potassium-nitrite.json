@@ -1,0 +1,126 @@
+{
+  "slug": "e249-potassium-nitrite",
+  "names": {
+    "e_number": "E249",
+    "ins_number": "249",
+    "cas_number": "7758-09-0",
+    "common_name": "Potassium Nitrite",
+    "scientific_name": "Potassium nitrite",
+    "japanese_name": "亜硝酸カリウム",
+    "japanese_label_name": "亜硝酸K",
+    "aliases": ["KNO2"]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "inorganic",
+    "source_type": "synthetic",
+    "chemical_group": "nitrite"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic salt not found naturally in significant quantities. Used primarily in cured meats."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reduction of potassium nitrate or by absorption of nitrogen oxides in potassium hydroxide solution."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in dyeing and textile industry.",
+    "pharmaceutical": "Used as a vasodilator (though sodium nitrite is more common).",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E249",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Restricted to specific meat products; maximum residual levels 50-150 mg/kg",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved for specific uses",
+      "cfr_reference": "21 CFR 172.175",
+      "fda_url": null,
+      "notes": "Limited to cured meats; maximum 200 ppm"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜硝酸カリウム",
+      "notes": "Strictly regulated for use in meat products"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "249",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.07 mg/kg bw/day (for nitrite ion)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.07 mg/kg bw/day (group ADI for nitrites)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=nitrite+nitrosamine+cured+meat",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+nitrite+E249+safety",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "IARC classifies processed meat as Group 1 carcinogen, with nitrites as contributing factor"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates nitrites and confirms ADI while noting exposure concerns"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "150 (residual amount)"
+    },
+    {
+      "category_code": "08.3",
+      "category_name": "Meat products",
+      "max_level_mg_kg": "50-150 (residual amount)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017",
+      "IARC Monographs"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

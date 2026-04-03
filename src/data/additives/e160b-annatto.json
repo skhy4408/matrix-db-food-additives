@@ -1,0 +1,116 @@
+{
+  "slug": "e160b-annatto",
+  "names": {
+    "e_number": "E160b",
+    "ins_number": "160b",
+    "cas_number": "1393-63-1",
+    "common_name": "Annatto",
+    "scientific_name": "Bixin and norbixin",
+    "japanese_name": "アナトー",
+    "japanese_label_name": "アナトー色素",
+    "aliases": ["Bixin", "Norbixin", "Achiote", "CI 75120"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "carotenoid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Seeds of the achiote tree (Bixa orellana)"],
+    "description": "A natural orange-red pigment extracted from the seeds of the achiote tree, native to tropical regions of the Americas."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from the seed coat of achiote (Bixa orellana) using vegetable oil (bixin) or alkaline aqueous solution (norbixin)."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetics and body care products.",
+    "industrial": "Used in textile dyeing.",
+    "pharmaceutical": "Used as a colorant in pharmaceutical preparations.",
+    "household": "Traditionally used as a food colorant and body paint in Latin American cultures"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E160b",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Widely permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.30",
+      "fda_url": null,
+      "notes": "Widely used in cheese, butter, and snack foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アナトー色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "160b",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.6 mg/kg bw/day (for bixin)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "6 mg/kg bw/day (for bixin); 0.3 mg/kg bw/day (for norbixin)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4544"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=annatto+bixin+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=annatto+E160b+safety",
+    "controversy_level": "low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.1",
+      "category_name": "Unripened cheese",
+      "max_level_mg_kg": "15"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat emulsions mainly of type water-in-oil",
+      "max_level_mg_kg": "10"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

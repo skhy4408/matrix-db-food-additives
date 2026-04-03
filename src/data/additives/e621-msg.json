@@ -1,0 +1,128 @@
+{
+  "slug": "e621-msg",
+  "names": {
+    "e_number": "E621",
+    "ins_number": "621",
+    "cas_number": "142-47-2",
+    "common_name": "Monosodium Glutamate",
+    "scientific_name": "Monosodium (2S)-2-aminopentanedioate",
+    "japanese_name": "L-グルタミン酸ナトリウム",
+    "japanese_label_name": "調味料（アミノ酸等）",
+    "aliases": ["MSG", "Sodium glutamate", "Ajinomoto", "Ve-Tsin"]
+  },
+  "classification": {
+    "functional_class": "flavour enhancer",
+    "sub_class": "amino acid salt",
+    "source_type": "fermentation",
+    "chemical_group": "amino acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["tomatoes", "cheese", "mushrooms", "seaweed (kombu)", "soy sauce"],
+    "description": "The sodium salt of glutamic acid, an amino acid that occurs naturally in many foods and in the human body. Responsible for the umami (savory) taste."
+  },
+  "manufacturing": {
+    "method": "fermentation",
+    "description": "Commercially produced by bacterial fermentation of carbohydrates (e.g., sugar beet, sugar cane, cassava, corn) using Corynebacterium glutamicum."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": "Sold as flavor enhancer (Ac'cent, Ajinomoto brand)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E621",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1",
+      "fda_url": null,
+      "notes": "Must be declared on ingredient labels"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-グルタミン酸ナトリウム",
+      "notes": "Often labeled as 調味料（アミノ酸等）"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "621",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=MSG+monosodium+glutamate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=MSG+Chinese+restaurant+syndrome",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [
+    {
+      "year": 1968,
+      "event": "Dr. Robert Ho Man Kwok describes 'Chinese Restaurant Syndrome' in medical letter"
+    },
+    {
+      "year": 1995,
+      "event": "FDA concludes MSG is safe for general population after extensive review"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA and JECFA re-evaluate and confirm safety at current use levels"
+    },
+    {
+      "year": 2020,
+      "event": "Term 'Chinese Restaurant Syndrome' increasingly recognized as misleading and potentially racist"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Seasonings and condiments",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

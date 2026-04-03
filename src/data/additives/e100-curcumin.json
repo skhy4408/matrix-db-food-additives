@@ -1,0 +1,116 @@
+{
+  "slug": "e100-curcumin",
+  "names": {
+    "e_number": "E100",
+    "ins_number": "100",
+    "cas_number": "458-37-7",
+    "common_name": "Curcumin",
+    "scientific_name": "diferuloylmethane",
+    "japanese_name": "クルクミン",
+    "japanese_label_name": "ウコン色素",
+    "aliases": ["Turmeric Yellow", "CI 75300", "Natural Yellow 3"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polyphenol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["turmeric (Curcuma longa) rhizome", "ginger family (Zingiberaceae)"],
+    "description": "A yellow pigment naturally present in the rhizome of the turmeric plant (Curcuma longa), which is native to South Asia."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Commercially produced by solvent extraction from turmeric rhizomes using ethanol or hexane, followed by purification and crystallization."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a natural colorant in skincare products, soaps, and hair care formulations.",
+    "industrial": "Used as a pH indicator and in textile dyeing.",
+    "pharmaceutical": "Used as an excipient for coloring in tablets and capsules. Extensively studied for anti-inflammatory properties.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E100",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Quantum satis in some categories; specific limits in others",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2014",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3845"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.600",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.600",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ウコン色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "100",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–3 mg/kg bw/day",
+    "jecfa_evaluation_year": 2003,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "3 mg/kg bw/day",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3845"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=curcumin+food+additive",
+    "controversy_level": "low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery including breath refreshening microsweets",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "partial"
+    }
+  }
+}

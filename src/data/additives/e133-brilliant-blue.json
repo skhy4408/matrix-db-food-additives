@@ -1,0 +1,115 @@
+{
+  "slug": "e133-brilliant-blue",
+  "names": {
+    "e_number": "E133",
+    "ins_number": "133",
+    "cas_number": "3844-45-9",
+    "common_name": "Brilliant Blue FCF",
+    "scientific_name": "disodium;2-[[4-[ethyl-[(3-sulfonatophenyl)methyl]amino]phenyl]-[4-[ethyl-[(3-sulfonatophenyl)methyl]azaniumylidene]cyclohexa-2,5-dien-1-ylidene]methyl]benzenesulfonate",
+    "japanese_name": "ブリリアントブルーFCF",
+    "japanese_label_name": "青色1号",
+    "aliases": ["Blue 1", "FD&C Blue No. 1", "CI 42090"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "coal tar derivative",
+    "chemical_group": "triarylmethane"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic blue dye derived from coal tar, not found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized through condensation of benzaldehyde derivatives with aromatic amines."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in cosmetics and personal care products.",
+    "industrial": "Used in textile dyeing and as a biological stain.",
+    "pharmaceutical": "Used as a colorant in tablets, capsules, and medical diagnostic procedures.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E133",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Quantum satis in most categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Certified color additive",
+      "cfr_reference": "21 CFR 74.101",
+      "fda_url": null,
+      "notes": "One of the most commonly used food dyes in the USA"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "203",
+      "japanese_regulation_name": "青色1号",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "133",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–6 mg/kg bw/day",
+    "jecfa_evaluation_year": 2020,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "6 mg/kg bw/day",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=brilliant+blue+FCF+food+dye",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=brilliant+blue+E133+safety",
+    "controversy_level": "low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

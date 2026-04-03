@@ -1,0 +1,125 @@
+{
+  "slug": "e955-sucralose",
+  "names": {
+    "e_number": "E955",
+    "ins_number": "955",
+    "cas_number": "56038-13-2",
+    "common_name": "Sucralose",
+    "scientific_name": "1,6-Dichloro-1,6-dideoxy-β-D-fructofuranosyl-4-chloro-4-deoxy-α-D-galactopyranoside",
+    "japanese_name": "スクラロース",
+    "japanese_label_name": "スクラロース",
+    "aliases": ["Splenda", "Trichlorogalactosucrose"]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "chlorinated disaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic non-caloric sweetener approximately 600 times sweeter than sucrose. Made by selectively chlorinating sucrose."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by selective chlorination of sucrose, replacing three hydroxyl groups with chlorine atoms."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Used in liquid medicines, chewable tablets, and nutritional supplements.",
+    "household": "Sold as table-top sweetener (Splenda)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E955",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Under re-evaluation by EFSA (expected 2026)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2000",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.831",
+      "fda_url": null,
+      "notes": "Approved since 1998"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "スクラロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "955",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–15 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "15 mg/kg bw/day (under review)",
+    "efsa_evaluation_year": 2000,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sucralose+safety+gut+microbiome",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sucralose+E955+genotoxicity",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [
+    {
+      "year": 2023,
+      "event": "Studies raise concerns about genotoxicity metabolite (sucralose-6-acetate)"
+    },
+    {
+      "year": 2024,
+      "event": "EFSA announces re-evaluation scheduled for 2026"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "300"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "800"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "Recent scientific literature 2023-2024"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

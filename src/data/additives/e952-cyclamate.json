@@ -1,0 +1,129 @@
+{
+  "slug": "e952-cyclamate",
+  "names": {
+    "e_number": "E952",
+    "ins_number": "952",
+    "cas_number": "139-05-9",
+    "common_name": "Cyclamate",
+    "scientific_name": "Sodium cyclohexylsulfamate",
+    "japanese_name": "シクラミン酸",
+    "japanese_label_name": "シクラミン酸ナトリウム",
+    "aliases": ["Sodium cyclamate", "Cyclamic acid", "Sucaryl"]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "sulfamate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic non-caloric sweetener approximately 30-50 times sweeter than sucrose."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by sulfonation of cyclohexylamine followed by neutralization with sodium hydroxide."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Used in some countries in pharmaceutical preparations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E952",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically 250-1600 mg/kg",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4806"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": null,
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Banned since 1969 due to bladder cancer concerns in animal studies"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not approved for use in foods"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "952",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–11 mg/kg bw/day",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "7 mg/kg bw/day",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4806"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cyclamate+bladder+cancer",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=cyclamate+E952+safety",
+    "controversy_level": "very_high"
+  },
+  "regulatory_history": [
+    {
+      "year": 1969,
+      "event": "FDA bans cyclamate in USA following rat studies suggesting bladder cancer risk"
+    },
+    {
+      "year": 2000,
+      "event": "Petition to re-approve cyclamate in USA denied by FDA"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA and JECFA re-evaluate and maintain ADI, concluding it is safe at approved levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "250"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "500"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017",
+      "FDA historical records"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

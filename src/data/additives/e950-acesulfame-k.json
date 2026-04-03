@@ -1,0 +1,121 @@
+{
+  "slug": "e950-acesulfame-k",
+  "names": {
+    "e_number": "E950",
+    "ins_number": "950",
+    "cas_number": "55589-62-3",
+    "common_name": "Acesulfame K",
+    "scientific_name": "Potassium 6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide",
+    "japanese_name": "アセスルファムカリウム",
+    "japanese_label_name": "アセスルファムK",
+    "aliases": ["Acesulfame potassium", "Ace-K", "E950"]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "oxathiazinone"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic calorie-free sweetener approximately 200 times sweeter than sucrose."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from acetoacetic acid derivatives through cyclization and reaction with potassium hydroxide."
+  },
+  "other_uses": {
+    "cosmetics": "Used in toothpaste and mouthwash.",
+    "industrial": null,
+    "pharmaceutical": "Used to sweeten pharmaceutical preparations and chewable tablets.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E950",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically quantum satis or up to 2000 mg/kg",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2025",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.800",
+      "fda_url": null,
+      "notes": "Approved since 1988"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アセスルファムカリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "950",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–15 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "9 mg/kg bw/day",
+    "efsa_evaluation_year": 2025,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=acesulfame+K+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=acesulfame+potassium+E950",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2025,
+      "event": "EFSA completes re-evaluation and lowers ADI from 15 to 9 mg/kg bw/day"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "350"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "500"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2025"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "e220-sulfur-dioxide",
+  "names": {
+    "e_number": "E220",
+    "ins_number": "220",
+    "cas_number": "7446-09-5",
+    "common_name": "Sulfur Dioxide",
+    "scientific_name": "Sulfur dioxide",
+    "japanese_name": "二酸化硫黄",
+    "japanese_label_name": "亜硫酸",
+    "aliases": ["Sulphur dioxide", "SO2"]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "inorganic",
+    "source_type": "synthetic",
+    "chemical_group": "sulfite"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Volcanic gases", "produced during wine fermentation"],
+    "description": "A gas produced naturally during fermentation and volcanic activity, but the food additive is produced industrially."
+  },
+  "manufacturing": {
+    "method": "industrial production",
+    "description": "Produced industrially by burning sulfur or roasting sulfide ores."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in paper manufacturing, water treatment, and as a reducing agent.",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E220",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must be declared on labels; allergen concern for sensitive individuals (especially asthmatics)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3862",
+      "fda_url": null,
+      "notes": "Must be declared on labels; banned from fresh fruits and vegetables (except grapes) since 1986"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "二酸化硫黄",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "220",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Declared allergen; must be declared when present at 10 mg/kg or more"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Priority allergen in Canada; must be declared"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.7 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg/kg bw/day (group ADI for sulfites)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sulfur+dioxide+sulfite+asthma",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sulfite+E220+allergy+sensitivity",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 1986,
+      "event": "FDA bans use of sulfites on fresh fruits and vegetables (except grapes) after deaths linked to salad bar produce"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.1",
+      "category_name": "Dried fruit and vegetables",
+      "max_level_mg_kg": "varies (e.g., 2000 for dried apricots)"
+    },
+    {
+      "category_code": "14.2.2",
+      "category_name": "Wine and other grape-based products",
+      "max_level_mg_kg": "varies (150-400 mg/L)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "FDA historical records"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

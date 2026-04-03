@@ -1,0 +1,134 @@
+{
+  "slug": "e951-aspartame",
+  "names": {
+    "e_number": "E951",
+    "ins_number": "951",
+    "cas_number": "22839-47-0",
+    "common_name": "Aspartame",
+    "scientific_name": "N-(L-α-Aspartyl)-L-phenylalanine 1-methyl ester",
+    "japanese_name": "アスパルテーム",
+    "japanese_label_name": "L-フェニルアラニン化合物",
+    "aliases": ["NutraSweet", "Equal", "APM"]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "dipeptide methyl ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic low-calorie sweetener approximately 200 times sweeter than sucrose. Composed of two amino acids: aspartic acid and phenylalanine."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or enzymatic",
+    "description": "Synthesized by coupling aspartic acid with phenylalanine methyl ester, or produced using enzymatic methods."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Used in chewable tablets, liquid medicines, and vitamin supplements.",
+    "household": "Sold as table-top sweetener (Equal, NutraSweet)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E951",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must carry warning for phenylketonuria (PKU) patients; under re-evaluation following IARC classification",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3496"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.804",
+      "fda_url": null,
+      "notes": "Products must carry PKU warning; approved since 1981"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-アスパルチル-L-フェニルアラニンメチルエステル",
+      "notes": "Must carry PKU warning"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "951",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must carry PKU warning"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Must carry PKU warning"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–40 mg/kg bw/day",
+    "jecfa_evaluation_year": 2023,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "40 mg/kg bw/day",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3496"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=aspartame+safety+cancer",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=aspartame+E951+IARC",
+    "controversy_level": "very_high"
+  },
+  "regulatory_history": [
+    {
+      "year": 1981,
+      "event": "FDA approves aspartame for use in foods"
+    },
+    {
+      "year": 2013,
+      "event": "EFSA comprehensive re-evaluation confirms safety"
+    },
+    {
+      "year": 2023,
+      "event": "IARC classifies aspartame as 'possibly carcinogenic to humans' (Group 2B); JECFA maintains ADI"
+    },
+    {
+      "year": 2024,
+      "event": "WHO and EFSA state that aspartame is safe at current exposure levels despite IARC classification"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "600"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "2000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013",
+      "IARC Monographs 2023"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "e123-amaranth",
+  "names": {
+    "e_number": "E123",
+    "ins_number": "123",
+    "cas_number": "915-67-3",
+    "common_name": "Amaranth",
+    "scientific_name": "trisodium (4E)-3-oxo-4-[(4-sulfonato-1-naphthyl)hydrazinylidene]naphthalene-2,7-disulfonate",
+    "japanese_name": "アマランス",
+    "japanese_label_name": "赤色2号",
+    "aliases": ["Red No. 2", "CI 16185", "Acid Red 27"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "azo dye",
+    "chemical_group": "azo compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic red azo dye not found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from naphthionic acid through diazotization and coupling reactions."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in some regions.",
+    "industrial": "Used in textile and leather dyeing.",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E123",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Restricted use; only permitted in specific foods like caviar and alcoholic drinks",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": null,
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Banned since 1976 due to potential carcinogenicity concerns"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "207",
+      "japanese_regulation_name": "赤色2号",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "123",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted in limited food categories"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted in foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.15 mg/kg bw/day",
+    "jecfa_evaluation_year": 2010,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.15 mg/kg bw/day",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=amaranth+red+2+food+dye+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=amaranth+E123+carcinogenicity",
+    "controversy_level": "high"
+  },
+  "regulatory_history": [
+    {
+      "year": 1976,
+      "event": "Banned in USA due to concerns about potential carcinogenicity"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.4",
+      "category_name": "Caviar and caviar substitutes",
+      "max_level_mg_kg": "30"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA Evaluations Database",
+      "FDA historical records"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

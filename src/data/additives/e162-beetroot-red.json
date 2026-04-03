@@ -1,0 +1,114 @@
+{
+  "slug": "e162-beetroot-red",
+  "names": {
+    "e_number": "E162",
+    "ins_number": "162",
+    "cas_number": "7659-95-2",
+    "common_name": "Beetroot Red",
+    "scientific_name": "Betanin",
+    "japanese_name": "ビートレッド",
+    "japanese_label_name": "ビート色素",
+    "aliases": ["Betanin", "Beet red", "Betaine"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "betalain"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Red beets (Beta vulgaris)", "Swiss chard", "Amaranth"],
+    "description": "A natural red-violet pigment extracted from beetroot, belonging to the betalain family of pigments."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from red beet roots using water or aqueous ethanol, followed by concentration and standardization."
+  },
+  "other_uses": {
+    "cosmetics": "Used in natural cosmetics as a colorant.",
+    "industrial": null,
+    "pharmaceutical": "Used as a natural colorant in some pharmaceutical preparations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E162",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.40",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ビート色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "162",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=beetroot+betanin+food+color",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=beetroot+red+E162",
+    "controversy_level": "very_low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

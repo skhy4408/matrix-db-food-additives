@@ -1,0 +1,110 @@
+{
+  "slug": "e101-riboflavin",
+  "names": {
+    "e_number": "E101",
+    "ins_number": "101",
+    "cas_number": "83-88-5",
+    "common_name": "Riboflavin",
+    "scientific_name": "7,8-Dimethyl-10-ribityl-isoalloxazine",
+    "japanese_name": "リボフラビン",
+    "japanese_label_name": "ビタミンB2",
+    "aliases": ["Vitamin B2", "Lactoflavin"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "vitamin",
+    "chemical_group": "flavin"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["milk", "eggs", "almonds", "leafy vegetables", "meat", "yeast"],
+    "description": "An essential vitamin (Vitamin B2) naturally present in many foods, particularly dairy products and green vegetables."
+  },
+  "manufacturing": {
+    "method": "fermentation",
+    "description": "Commercially produced by microbial fermentation using Bacillus subtilis or Ashbya gossypii, or by chemical synthesis."
+  },
+  "other_uses": {
+    "cosmetics": "Used in skincare products for its antioxidant properties.",
+    "industrial": null,
+    "pharmaceutical": "Used as a vitamin supplement and as a colorant in pharmaceutical formulations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E101",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for general use",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS, Exempt from certification",
+      "cfr_reference": "21 CFR 73.450",
+      "fda_url": null,
+      "notes": "Also approved as a nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ビタミンB2",
+      "notes": "Also used as a nutritional fortification agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "101",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (vitamin)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (vitamin)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=riboflavin+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=riboflavin+food+coloring",
+    "controversy_level": "very_low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "slug": "e110-sunset-yellow",
+  "names": {
+    "e_number": "E110",
+    "ins_number": "110",
+    "cas_number": "2783-94-0",
+    "common_name": "Sunset Yellow FCF",
+    "scientific_name": "disodium 6-hydroxy-5-[(4-sulfophenyl)azo]-2-naphthalenesulfonate",
+    "japanese_name": "サンセットイエローFCF",
+    "japanese_label_name": "黄色5号",
+    "aliases": ["Orange Yellow S", "FD&C Yellow No. 6", "CI 15985"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "azo dye",
+    "chemical_group": "azo compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic orange-yellow azo dye not found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by coupling diazotized sulfanilic acid with 6-hydroxy-2-naphthalenesulfonic acid."
+  },
+  "other_uses": {
+    "cosmetics": "Used in some cosmetic formulations.",
+    "industrial": "Used in textile dyeing.",
+    "pharmaceutical": "Used as a colorant in tablets and capsules.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E110",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children'",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1330"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Certified color additive",
+      "cfr_reference": "21 CFR 74.706",
+      "fda_url": null,
+      "notes": "Requires batch certification by FDA"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "205",
+      "japanese_regulation_name": "黄色5号",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "110",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–4 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "4 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1330"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sunset+yellow+food+dye+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sunset+yellow+E110+hyperactivity",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2010,
+      "event": "EU requires warning label about effects on children's behavior"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "300"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "300"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

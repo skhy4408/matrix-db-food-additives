@@ -1,0 +1,121 @@
+{
+  "slug": "e129-allura-red",
+  "names": {
+    "e_number": "E129",
+    "ins_number": "129",
+    "cas_number": "25956-17-6",
+    "common_name": "Allura Red AC",
+    "scientific_name": "disodium 6-hydroxy-5-((2-methoxy-5-methyl-4-sulfophenyl)azo)-2-naphthalenesulfonate",
+    "japanese_name": "アルラレッドAC",
+    "japanese_label_name": "赤色40号",
+    "aliases": ["Red 40", "FD&C Red No. 40", "CI 16035"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "azo dye",
+    "chemical_group": "azo compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic red azo dye not found in nature, commonly used as a replacement for Amaranth."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by coupling diazotized 5-amino-4-methoxy-2-methylbenzenesulfonic acid with 6-hydroxy-2-naphthalenesulfonic acid."
+  },
+  "other_uses": {
+    "cosmetics": "Used in various cosmetic products.",
+    "industrial": "Used in textile dyeing.",
+    "pharmaceutical": "Used as a colorant in tablets and capsules.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E129",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children'",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Certified color additive",
+      "cfr_reference": "21 CFR 74.340",
+      "fda_url": null,
+      "notes": "Most widely used synthetic food dye in the USA"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "208",
+      "japanese_regulation_name": "赤色40号",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "129",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–7 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "7 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=allura+red+food+dye+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=allura+red+E129+hyperactivity",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2010,
+      "event": "EU requires warning label about effects on children's behavior"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "300"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "300"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

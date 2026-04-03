@@ -1,0 +1,115 @@
+{
+  "slug": "e104-quinoline-yellow",
+  "names": {
+    "e_number": "E104",
+    "ins_number": "104",
+    "cas_number": "8004-92-0",
+    "common_name": "Quinoline Yellow",
+    "scientific_name": "Mixture of disulfonates (principally)",
+    "japanese_name": "キノリンイエロー",
+    "japanese_label_name": "黄色203号",
+    "aliases": ["CI 47005", "Food Yellow 13"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "coal tar derivative",
+    "chemical_group": "quinoline"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic greenish-yellow dye derived from coal tar, not found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by sulfonation of quinoline derivatives, resulting in a mixture of disulfonates."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in cosmetics in some regions.",
+    "industrial": "Used in textile and paper industries.",
+    "pharmaceutical": "Used as a colorant in some pharmaceutical preparations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E104",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children'",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": null,
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not approved for use in foods in the USA"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "黄色203号",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "104",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted in foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2008,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=quinoline+yellow+food+dye",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quinoline+yellow+E104+safety",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2010,
+      "event": "EU requires warning label about effects on children's behavior"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "300"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "partial",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

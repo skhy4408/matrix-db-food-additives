@@ -1,0 +1,120 @@
+{
+  "slug": "e120-cochineal",
+  "names": {
+    "e_number": "E120",
+    "ins_number": "120",
+    "cas_number": "1260-17-9",
+    "common_name": "Cochineal",
+    "scientific_name": "Carminic acid",
+    "japanese_name": "コチニール",
+    "japanese_label_name": "コチニール色素",
+    "aliases": ["Carmine", "Carminic acid", "CI 75470", "Natural Red 4"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "insect-derived",
+    "chemical_group": "anthraquinone"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Cochineal insects (Dactylopius coccus)"],
+    "description": "A natural red dye extracted from the dried bodies of female cochineal insects, which live on prickly pear cacti."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from dried cochineal insects using aqueous ethanol or water, followed by purification. Approximately 70,000 insects are needed to produce 1 pound of dye."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in lipsticks, blushes, and other color cosmetics.",
+    "industrial": "Used in textile dyeing and art supplies.",
+    "pharmaceutical": "Used as a colorant in tablets and capsules.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E120",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must be labeled clearly; cannot be labeled simply as 'natural color'",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.100",
+      "fda_url": null,
+      "notes": "Must be specifically declared on ingredient labels"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "コチニール色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "120",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cochineal+carmine+allergy",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=carminic+acid+food+safety",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2012,
+      "event": "FDA requires specific declaration on labels in USA (cannot be listed as 'natural color')"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "150"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "slug": "e150d-caramel-iv",
+  "names": {
+    "e_number": "E150d",
+    "ins_number": "150d",
+    "cas_number": "68909-72-8",
+    "common_name": "Caramel IV - Sulfite Ammonia Caramel",
+    "scientific_name": "Sulfite ammonia caramel",
+    "japanese_name": "カラメルIV",
+    "japanese_label_name": "カラメル色素",
+    "aliases": ["Sulfite ammonia caramel", "Class IV caramel"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural-derived",
+    "source_type": "heat-treated carbohydrate",
+    "chemical_group": "caramelized sugar"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Produced by controlled heat treatment of carbohydrates in the presence of both sulfite and ammonia compounds. Most commonly used in cola beverages."
+  },
+  "manufacturing": {
+    "method": "heat treatment with chemicals",
+    "description": "Made by controlled heating of food-grade carbohydrates with both sulfite compounds and ammonia or ammonium compounds. This process can produce 4-methylimidazole (4-MEI) as a byproduct."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E150d",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted; 4-MEI levels are monitored",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS, Exempt from certification",
+      "cfr_reference": "21 CFR 73.85",
+      "fda_url": null,
+      "notes": "FDA monitors 4-MEI levels; California Prop 65 requires warning if 4-MEI exceeds 29 mcg/day"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カラメル色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "150d",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (for caramel colors overall)",
+    "jecfa_evaluation_year": 2011,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=caramel+IV+4-methylimidazole",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E150d+caramel+color+4-MEI",
+    "controversy_level": "medium"
+  },
+  "regulatory_history": [
+    {
+      "year": 2012,
+      "event": "California adds 4-methylimidazole to Prop 65 list as a possible carcinogen"
+    },
+    {
+      "year": 2012,
+      "event": "Major soft drink manufacturers reformulate to reduce 4-MEI levels in products sold in California"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "California Prop 65"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "slug": "e171-titanium-dioxide",
+  "names": {
+    "e_number": "E171",
+    "ins_number": "171",
+    "cas_number": "13463-67-7",
+    "common_name": "Titanium Dioxide",
+    "scientific_name": "Titanium(IV) oxide",
+    "japanese_name": "二酸化チタン",
+    "japanese_label_name": "酸化チタン",
+    "aliases": ["Titania", "TiO2", "CI 77891"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "inorganic",
+    "source_type": "mineral",
+    "chemical_group": "metal oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Rutile mineral", "Anatase mineral", "Brookite mineral"],
+    "description": "A naturally occurring mineral, though the food-grade additive is produced industrially."
+  },
+  "manufacturing": {
+    "method": "industrial processing",
+    "description": "Produced commercially by the sulfate process or chloride process from titanium-containing minerals like ilmenite or rutile."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in sunscreens, makeup, and toothpaste as a white pigment and UV filter.",
+    "industrial": "Used in paints, plastics, paper, and as a photocatalyst.",
+    "pharmaceutical": "Used as an opacifier and colorant in tablets and capsules.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E171",
+      "max_level_mg_kg": null,
+      "conditions": "Banned as a food additive since August 2022",
+      "legal_reference": "Regulation (EU) 2022/63",
+      "efsa_last_evaluated": "2021",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6585"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.575",
+      "fda_url": null,
+      "notes": "Not to exceed 1% by weight of the food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酸化チタン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "171",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (under review)",
+    "jecfa_evaluation_year": 2022,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": 2021,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6585"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=titanium+dioxide+food+genotoxicity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=titanium+dioxide+E171+safety+nanoparticles",
+    "controversy_level": "very_high"
+  },
+  "regulatory_history": [
+    {
+      "year": 2021,
+      "event": "EFSA concludes E171 can no longer be considered safe due to genotoxicity concerns"
+    },
+    {
+      "year": 2022,
+      "event": "EU bans E171 as a food additive (effective August 7, 2022)"
+    },
+    {
+      "year": 2023,
+      "event": "France had already banned E171 in 2020, ahead of EU-wide ban"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EU) 2022/63",
+      "FDA 21 CFR",
+      "EFSA Scientific Opinion 2021",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

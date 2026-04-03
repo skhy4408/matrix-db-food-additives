@@ -1,0 +1,114 @@
+{
+  "slug": "e163-anthocyanins",
+  "names": {
+    "e_number": "E163",
+    "ins_number": "163",
+    "cas_number": "11029-12-2",
+    "common_name": "Anthocyanins",
+    "scientific_name": "Anthocyanin pigments",
+    "japanese_name": "アントシアニン",
+    "japanese_label_name": "アントシアニン色素",
+    "aliases": ["Grape skin extract", "Red cabbage extract", "Blackcurrant extract"]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "flavonoid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["grapes", "berries", "red cabbage", "purple sweet potatoes", "eggplant", "blackcurrants"],
+    "description": "Natural red, purple, or blue pigments found in many fruits, vegetables, and flowers. Responsible for the red-purple colors in many plants."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from plant sources such as grape skins, red cabbage, or berries using water or aqueous ethanol."
+  },
+  "other_uses": {
+    "cosmetics": "Used in natural cosmetics.",
+    "industrial": null,
+    "pharmaceutical": "Studied for potential antioxidant and health benefits.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E163",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.40 (as fruit/vegetable juice)",
+      "fda_url": null,
+      "notes": "Generally recognized as safe when from approved sources"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アントシアニン色素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "163",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=anthocyanins+food+color",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=anthocyanins+natural+colorant",
+    "controversy_level": "very_low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}

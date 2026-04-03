@@ -1,0 +1,115 @@
+{
+  "slug": "e200-sorbic-acid",
+  "names": {
+    "e_number": "E200",
+    "ins_number": "200",
+    "cas_number": "110-44-1",
+    "common_name": "Sorbic Acid",
+    "scientific_name": "(2E,4E)-hexa-2,4-dienoic acid",
+    "japanese_name": "ソルビン酸",
+    "japanese_label_name": "ソルビン酸",
+    "aliases": ["2,4-Hexadienoic acid"]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic acid",
+    "source_type": "synthetic (originally natural)",
+    "chemical_group": "carboxylic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["Rowan berries (Sorbus aucuparia)", "Hippophae"],
+    "description": "Originally isolated from rowan berries, but now commercially produced synthetically. Occurs naturally in some plants."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Commercially produced by condensation of crotonaldehyde and ketene, or by oxidation of sorbaldehyde."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a preservative in cosmetics and personal care products.",
+    "industrial": "Used in packaging materials and coatings.",
+    "pharmaceutical": "Used as a preservative in pharmaceutical preparations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E200",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically 300-2000 mg/kg depending on food type",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3640",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "200",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–3 mg/kg bw/day",
+    "jecfa_evaluation_year": 2019,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "3 mg/kg bw/day",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sorbic+acid+preservative+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sorbic+acid+E200+food+preservation",
+    "controversy_level": "very_low"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.2",
+      "category_name": "Ripened cheese",
+      "max_level_mg_kg": "quantum satis (surface treatment only)"
+    },
+    {
+      "category_code": "04.2.2",
+      "category_name": "Processed fruit and vegetables",
+      "max_level_mg_kg": "1000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-03",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  }
+}
