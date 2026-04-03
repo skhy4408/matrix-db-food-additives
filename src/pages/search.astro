@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="Search Food Additives | Food Additive DB"
+  description="Search our database of food additives by E number, name, or regulation status."
+>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <h1 class="text-4xl font-bold text-gray-900 mb-4">Search Food Additives</h1>
+      <p class="text-lg text-gray-600 mb-8">
+        Search by E number, additive name, or keyword
+      </p>
+
+      <div id="search" class="mb-8"></div>
+
+      <div id="search-results"></div>
+    </div>
+  </main>
+
+  <Footer />
+
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: "#search",
+        showSubResults: true,
+        showImages: false,
+        excerptLength: 30
+      });
+    });
+  </script>
+</BaseLayout>
