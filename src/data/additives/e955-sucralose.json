@@ -138,5 +138,23 @@
     "Protein bars and meal replacements",
     "Diet/light products",
     "Sugar-free ice cream"
-  ]
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 15,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 900,
+    "equivalents": [
+      {
+        "product": "cans of diet soda (355ml)",
+        "typical_content_mg": 50,
+        "quantity": "~18"
+      },
+      {
+        "product": "packets of Splenda sweetener",
+        "typical_content_mg": 12,
+        "quantity": "~75"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and typical product concentrations."
+  }
 }

@@ -134,5 +134,23 @@
     "Breakfast cereals",
     "Yogurt and flavored dairy products",
     "Snack foods and chips"
-  ]
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 7.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 450,
+    "equivalents": [
+      {
+        "product": "servings of colored candy (50g)",
+        "typical_content_mg": 25,
+        "quantity": "~18"
+      },
+      {
+        "product": "cans of yellow-colored soft drink (355ml)",
+        "typical_content_mg": 30,
+        "quantity": "~15"
+      }
+    ],
+    "source_note": "Based on EFSA 2009 ADI and typical product concentrations in confectionery and beverages."
+  }
 }

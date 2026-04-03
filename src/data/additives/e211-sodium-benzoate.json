@@ -138,5 +138,18 @@
     "Cheese and dairy products",
     "Wine and alcoholic beverages",
     "Dried fruits"
-  ]
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "cans of soft drink (355ml)",
+        "typical_content_mg": 50,
+        "quantity": "~6"
+      }
+    ],
+    "source_note": "Based on JECFA group ADI for benzoic acid and benzoates. Typical soft drink concentration: 100-200 mg/L."
+  }
 }

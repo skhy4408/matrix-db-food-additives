@@ -148,5 +148,23 @@
     "Protein bars and meal replacements",
     "Diet/light products",
     "Sugar-free ice cream"
-  ]
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 40,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 2400,
+    "equivalents": [
+      {
+        "product": "cans of diet soda (355ml)",
+        "typical_content_mg": 180,
+        "quantity": "~13"
+      },
+      {
+        "product": "packets of tabletop sweetener (Equal, NutraSweet)",
+        "typical_content_mg": 35,
+        "quantity": "~68"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and typical product concentrations reported in FDA and EFSA evaluations."
+  }
 }

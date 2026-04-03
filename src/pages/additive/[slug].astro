@@ -31,7 +31,7 @@ export async function getStaticPaths() {
 }
 
 const { additive, relatedAdditives } = Astro.props;
-const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu, research_links, commonly_found_in } = additive;
+const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu, research_links, commonly_found_in, adi_context } = additive;
 
 const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
 const description = `${names.common_name} (${names.e_number}) regulation status in EU, USA, Japan, Australia/NZ, and Canada. ${classification.functional_class} additive. ADI: ${safety_evaluations.jecfa_adi || 'Not specified'}.`;
@@ -356,6 +356,43 @@ if (names.aliases && names.aliases.length >= 2) {
           ADI = Acceptable Daily Intake (mg per kg of body weight per day)
         </p>
       </section>
+
+      <!-- ADI in Everyday Terms -->
+      {adi_context && (
+        <section class="bg-blue-50 border-l-4 border-blue-400 p-6 mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">ADI in Everyday Terms</h2>
+
+          <p class="text-gray-700 mb-4">
+            For a <strong>{adi_context.body_weight_kg} kg adult</strong>, the JECFA ADI of <strong>{adi_context.adi_value_mg_per_kg} mg/kg bw/day</strong> equals approximately <strong>{adi_context.daily_limit_mg} mg per day</strong>.
+          </p>
+
+          <p class="text-sm font-medium text-gray-700 mb-3">
+            This is roughly equivalent to:
+          </p>
+
+          <ul class="list-disc list-inside space-y-2 mb-4 text-gray-700">
+            {adi_context.equivalents.map((equiv: any) => (
+              <li>
+                <strong>{equiv.quantity}</strong> {equiv.product}
+                <span class="text-sm text-gray-600 ml-1">
+                  (typical: ~{equiv.typical_content_mg} mg per serving)
+                </span>
+              </li>
+            ))}
+          </ul>
+
+          <div class="bg-white border border-blue-200 rounded-lg p-4 mt-4">
+            <div class="flex">
+              <svg class="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <div class="text-sm text-gray-700">
+                <strong>Important:</strong> This is a mathematical calculation based on the official ADI and typical product concentrations. It is <strong>not</strong> a safety recommendation or consumption guideline. Actual content varies by product and brand. {adi_context.source_note}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       <!-- Research & Official Documents -->
       <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
