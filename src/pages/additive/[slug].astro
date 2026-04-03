@@ -4,6 +4,8 @@ import Header from '../../components/Header.astro';
 import Footer from '../../components/Footer.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
 import RegulationStatusBadge from '../../components/RegulationStatusBadge.astro';
+import FAQSchema from '../../components/FAQSchema.astro';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
 
 export async function getStaticPaths() {
   const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
@@ -19,10 +21,87 @@ export async function getStaticPaths() {
 }
 
 const { additive } = Astro.props;
-const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses } = additive;
+const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu } = additive;
 
 const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
 const description = `${names.common_name} (${names.e_number}) regulation status in EU, USA, Japan, Australia/NZ, and Canada. ${classification.functional_class} additive. ADI: ${safety_evaluations.jecfa_adi || 'Not specified'}.`;
+
+// Breadcrumb
+const breadcrumbs = [
+  { name: 'Home', url: 'https://food.matrix-db.com/' },
+  { name: 'Additives', url: 'https://food.matrix-db.com/' },
+  { name: `${names.common_name} (${names.e_number})`, url: `https://food.matrix-db.com/additive/${additive.slug}/` }
+];
+
+// Generate FAQs
+const faqs = [];
+
+// FAQ 1: Always include
+faqs.push({
+  question: `What is ${names.common_name} (${names.e_number})?`,
+  answer: `${names.common_name} (${names.e_number}) is a ${classification.functional_class} used in food products. It is ${classification.sub_class} and ${classification.source_type}. ${natural_occurrence.description || ''}`
+});
+
+// FAQ 2: If banned/restricted anywhere
+const bannedCountries = [];
+if (regulations.eu.status === 'banned') bannedCountries.push('EU');
+if (regulations.usa.status === 'banned') bannedCountries.push('USA');
+if (regulations.japan.status === 'banned') bannedCountries.push('Japan');
+if (regulations.canada.status === 'banned') bannedCountries.push('Canada');
+if (regulations.australia_nz.status === 'banned') bannedCountries.push('Australia/NZ');
+
+const restrictedCountries = [];
+if (regulations.eu.status === 'restricted') restrictedCountries.push('EU');
+if (regulations.usa.status === 'restricted') restrictedCountries.push('USA');
+if (regulations.japan.status === 'restricted') restrictedCountries.push('Japan');
+
+if (bannedCountries.length > 0 || restrictedCountries.length > 0) {
+  let answer = '';
+  if (bannedCountries.length > 0) {
+    answer += `${names.common_name} is banned in ${bannedCountries.join(', ')}. `;
+  }
+  if (restrictedCountries.length > 0) {
+    answer += `It has restricted use in ${restrictedCountries.join(', ')}. `;
+  }
+  answer += 'Regulatory status varies by country. Always check with your local food regulatory authority for current information.';
+  faqs.push({
+    question: `Is ${names.common_name} banned in any country?`,
+    answer: answer
+  });
+}
+
+// FAQ 3: If found in nature
+if (natural_occurrence.found_in_nature && natural_occurrence.natural_sources && natural_occurrence.natural_sources.length > 0) {
+  faqs.push({
+    question: `Where is ${names.common_name} found naturally?`,
+    answer: `${names.common_name} is naturally found in ${natural_occurrence.natural_sources.join(', ')}. ${natural_occurrence.description || ''}`
+  });
+}
+
+// FAQ 4: If ADI exists
+if (safety_evaluations.jecfa_adi && safety_evaluations.jecfa_adi !== 'Not specified') {
+  faqs.push({
+    question: `What is the ADI for ${names.common_name}?`,
+    answer: `The Acceptable Daily Intake (ADI) for ${names.common_name} is ${safety_evaluations.jecfa_adi} as established by JECFA (Joint FAO/WHO Expert Committee on Food Additives). ADI represents the amount that can be consumed daily over a lifetime without appreciable health risk.`
+  });
+}
+
+// FAQ 5: If food categories exist
+if (food_categories_eu && food_categories_eu.length > 0) {
+  const categories = food_categories_eu.map((cat: any) => cat.category_name).slice(0, 3).join(', ');
+  faqs.push({
+    question: `What foods contain ${names.common_name}?`,
+    answer: `${names.common_name} is used in various food categories including ${categories}. It is used as a ${classification.functional_class} in these products.`
+  });
+}
+
+// FAQ 6: If multiple aliases
+if (names.aliases && names.aliases.length >= 2) {
+  faqs.push({
+    question: `Is ${names.common_name} the same as ${names.aliases[0]}?`,
+    answer: `Yes, ${names.common_name} is also known as ${names.aliases.join(', ')}. These are different names for the same substance.`
+  });
+}
 ---
 
 <BaseLayout title={title} description={description}>
@@ -244,8 +323,26 @@ const description = `${names.common_name} (${names.e_number}) regulation status 
           ADI = Acceptable Daily Intake (mg per kg of body weight per day)
         </p>
       </section>
+
+      <!-- FAQ Section -->
+      {faqs.length > 0 && (
+        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Frequently Asked Questions</h2>
+
+          <div class="space-y-6">
+            {faqs.map((faq, index) => (
+              <div key={index}>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                <p class="text-gray-700">{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
     </div>
   </main>
 
   <Footer />
+  <FAQSchema faqs={faqs} />
+  <BreadcrumbSchema items={breadcrumbs} />
 </BaseLayout>
