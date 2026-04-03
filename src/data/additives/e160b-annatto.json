@@ -8,7 +8,12 @@
     "scientific_name": "Bixin and norbixin",
     "japanese_name": "アナトー",
     "japanese_label_name": "アナトー色素",
-    "aliases": ["Bixin", "Norbixin", "Achiote", "CI 75120"]
+    "aliases": [
+      "Bixin",
+      "Norbixin",
+      "Achiote",
+      "CI 75120"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +23,9 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Seeds of the achiote tree (Bixa orellana)"],
+    "natural_sources": [
+      "Seeds of the achiote tree (Bixa orellana)"
+    ],
     "description": "A natural orange-red pigment extracted from the seeds of the achiote tree, native to tropical regions of the Americas."
   },
   "manufacturing": {
@@ -79,7 +86,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=annatto+bixin+food+additive",
     "google_scholar_url": "https://scholar.google.com/scholar?q=annatto+E160b+safety",
-    "controversy_level": "low"
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4544",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.30",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=160b"
   },
   "regulatory_history": [],
   "food_categories_eu": [

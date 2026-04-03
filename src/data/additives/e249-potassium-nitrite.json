@@ -8,7 +8,9 @@
     "scientific_name": "Potassium nitrite",
     "japanese_name": "亜硝酸カリウム",
     "japanese_label_name": "亜硝酸K",
-    "aliases": ["KNO2"]
+    "aliases": [
+      "KNO2"
+    ]
   },
   "classification": {
     "functional_class": "preservative",
@@ -79,7 +81,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=nitrite+nitrosamine+cured+meat",
     "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+nitrite+E249+safety",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.175",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=249"
   },
   "regulatory_history": [
     {

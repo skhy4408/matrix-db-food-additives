@@ -8,7 +8,11 @@
     "scientific_name": "disodium;2-[[4-[ethyl-[(3-sulfonatophenyl)methyl]amino]phenyl]-[4-[ethyl-[(3-sulfonatophenyl)methyl]azaniumylidene]cyclohexa-2,5-dien-1-ylidene]methyl]benzenesulfonate",
     "japanese_name": "ブリリアントブルーFCF",
     "japanese_label_name": "青色1号",
-    "aliases": ["Blue 1", "FD&C Blue No. 1", "CI 42090"]
+    "aliases": [
+      "Blue 1",
+      "FD&C Blue No. 1",
+      "CI 42090"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=brilliant+blue+FCF+food+dye",
     "google_scholar_url": "https://scholar.google.com/scholar?q=brilliant+blue+E133+safety",
-    "controversy_level": "low"
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-74.101",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=133"
   },
   "regulatory_history": [],
   "food_categories_eu": [

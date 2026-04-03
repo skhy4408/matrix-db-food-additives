@@ -8,7 +8,12 @@
     "scientific_name": "Carminic acid",
     "japanese_name": "コチニール",
     "japanese_label_name": "コチニール色素",
-    "aliases": ["Carmine", "Carminic acid", "CI 75470", "Natural Red 4"]
+    "aliases": [
+      "Carmine",
+      "Carminic acid",
+      "CI 75470",
+      "Natural Red 4"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +23,9 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Cochineal insects (Dactylopius coccus)"],
+    "natural_sources": [
+      "Cochineal insects (Dactylopius coccus)"
+    ],
     "description": "A natural red dye extracted from the dried bodies of female cochineal insects, which live on prickly pear cacti."
   },
   "manufacturing": {
@@ -79,7 +86,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cochineal+carmine+allergy",
     "google_scholar_url": "https://scholar.google.com/scholar?q=carminic+acid+food+safety",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.100",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=120"
   },
   "regulatory_history": [
     {

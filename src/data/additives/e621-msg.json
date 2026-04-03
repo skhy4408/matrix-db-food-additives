@@ -8,7 +8,12 @@
     "scientific_name": "Monosodium (2S)-2-aminopentanedioate",
     "japanese_name": "L-グルタミン酸ナトリウム",
     "japanese_label_name": "調味料（アミノ酸等）",
-    "aliases": ["MSG", "Sodium glutamate", "Ajinomoto", "Ve-Tsin"]
+    "aliases": [
+      "MSG",
+      "Sodium glutamate",
+      "Ajinomoto",
+      "Ve-Tsin"
+    ]
   },
   "classification": {
     "functional_class": "flavour enhancer",
@@ -18,7 +23,13 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["tomatoes", "cheese", "mushrooms", "seaweed (kombu)", "soy sauce"],
+    "natural_sources": [
+      "tomatoes",
+      "cheese",
+      "mushrooms",
+      "seaweed (kombu)",
+      "soy sauce"
+    ],
     "description": "The sodium salt of glutamic acid, an amino acid that occurs naturally in many foods and in the human body. Responsible for the umami (savory) taste."
   },
   "manufacturing": {
@@ -79,7 +90,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=MSG+monosodium+glutamate+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=MSG+Chinese+restaurant+syndrome",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.1",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=621"
   },
   "regulatory_history": [
     {

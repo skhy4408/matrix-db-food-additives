@@ -8,7 +8,11 @@
     "scientific_name": "Potassium 6-methyl-1,2,3-oxathiazin-4(3H)-one 2,2-dioxide",
     "japanese_name": "アセスルファムカリウム",
     "japanese_label_name": "アセスルファムK",
-    "aliases": ["Acesulfame potassium", "Ace-K", "E950"]
+    "aliases": [
+      "Acesulfame potassium",
+      "Ace-K",
+      "E950"
+    ]
   },
   "classification": {
     "functional_class": "sweetener",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=acesulfame+K+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=acesulfame+potassium+E950",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.800",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=950"
   },
   "regulatory_history": [
     {

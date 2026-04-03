@@ -8,7 +8,10 @@
     "scientific_name": "tert-Butyl-4-methoxyphenol",
     "japanese_name": "ブチルヒドロキシアニソール",
     "japanese_label_name": "BHA",
-    "aliases": ["BHA", "E320"]
+    "aliases": [
+      "BHA",
+      "E320"
+    ]
   },
   "classification": {
     "functional_class": "antioxidant",
@@ -79,7 +82,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=BHA+butylated+hydroxyanisole+cancer",
     "google_scholar_url": "https://scholar.google.com/scholar?q=BHA+E320+carcinogenicity",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.110",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=320"
   },
   "regulatory_history": [
     {

@@ -8,7 +8,11 @@
     "scientific_name": "trisodium (4E)-5-oxo-1-(4-sulfonatophenyl)-4-[(4-sulfonatophenyl)hydrazinylidene]-3-pyrazolecarboxylate",
     "japanese_name": "タートラジン",
     "japanese_label_name": "黄色4号",
-    "aliases": ["Yellow 5", "FD&C Yellow No. 5", "CI 19140"]
+    "aliases": [
+      "Yellow 5",
+      "FD&C Yellow No. 5",
+      "CI 19140"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=tartrazine+hyperactivity+children",
     "google_scholar_url": "https://scholar.google.com/scholar?q=tartrazine+food+dye+safety",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1331",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-74.705",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=102"
   },
   "regulatory_history": [
     {

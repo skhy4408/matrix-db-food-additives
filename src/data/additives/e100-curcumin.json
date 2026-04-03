@@ -8,7 +8,11 @@
     "scientific_name": "diferuloylmethane",
     "japanese_name": "クルクミン",
     "japanese_label_name": "ウコン色素",
-    "aliases": ["Turmeric Yellow", "CI 75300", "Natural Yellow 3"]
+    "aliases": [
+      "Turmeric Yellow",
+      "CI 75300",
+      "Natural Yellow 3"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +22,10 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["turmeric (Curcuma longa) rhizome", "ginger family (Zingiberaceae)"],
+    "natural_sources": [
+      "turmeric (Curcuma longa) rhizome",
+      "ginger family (Zingiberaceae)"
+    ],
     "description": "A yellow pigment naturally present in the rhizome of the turmeric plant (Curcuma longa), which is native to South Asia."
   },
   "manufacturing": {
@@ -79,7 +86,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=curcumin+food+additive+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=curcumin+food+additive",
-    "controversy_level": "low"
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3845",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.600",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=100"
   },
   "regulatory_history": [],
   "food_categories_eu": [

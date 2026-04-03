@@ -8,7 +8,11 @@
     "scientific_name": "Beta-carotene and mixed carotenes",
     "japanese_name": "カロテン",
     "japanese_label_name": "β-カロテン",
-    "aliases": ["Beta-carotene", "Provitamin A", "Mixed carotenes"]
+    "aliases": [
+      "Beta-carotene",
+      "Provitamin A",
+      "Mixed carotenes"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +22,14 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["carrots", "sweet potatoes", "pumpkins", "spinach", "kale", "apricots"],
+    "natural_sources": [
+      "carrots",
+      "sweet potatoes",
+      "pumpkins",
+      "spinach",
+      "kale",
+      "apricots"
+    ],
     "description": "Orange-yellow pigments naturally found in many fruits and vegetables. Beta-carotene is a precursor to vitamin A."
   },
   "manufacturing": {
@@ -79,7 +90,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=beta-carotene+food+additive",
     "google_scholar_url": "https://scholar.google.com/scholar?q=carotenes+E160a+safety",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.95",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=160a"
   },
   "regulatory_history": [],
   "food_categories_eu": [

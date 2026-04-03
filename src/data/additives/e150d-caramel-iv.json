@@ -8,7 +8,10 @@
     "scientific_name": "Sulfite ammonia caramel",
     "japanese_name": "カラメルIV",
     "japanese_label_name": "カラメル色素",
-    "aliases": ["Sulfite ammonia caramel", "Class IV caramel"]
+    "aliases": [
+      "Sulfite ammonia caramel",
+      "Class IV caramel"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +82,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=caramel+IV+4-methylimidazole",
     "google_scholar_url": "https://scholar.google.com/scholar?q=E150d+caramel+color+4-MEI",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.85",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=150d"
   },
   "regulatory_history": [
     {

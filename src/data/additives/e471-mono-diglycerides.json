@@ -8,7 +8,11 @@
     "scientific_name": "Glycerol monostearate and glycerol distearate",
     "japanese_name": "グリセリン脂肪酸エステル",
     "japanese_label_name": "グリセリン脂肪酸エステル",
-    "aliases": ["Monoglycerides", "Diglycerides", "E471"]
+    "aliases": [
+      "Monoglycerides",
+      "Diglycerides",
+      "E471"
+    ]
   },
   "classification": {
     "functional_class": "emulsifier",
@@ -18,7 +22,10 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Produced naturally during fat digestion", "present in small amounts in fats and oils"],
+    "natural_sources": [
+      "Produced naturally during fat digestion",
+      "present in small amounts in fats and oils"
+    ],
     "description": "Esters of glycerol and fatty acids. Occur naturally in small amounts during fat digestion and in some fats, but commercially produced for use as emulsifiers."
   },
   "manufacturing": {
@@ -79,7 +86,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=monoglycerides+diglycerides+food",
     "google_scholar_url": "https://scholar.google.com/scholar?q=E471+mono+diglycerides",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1505",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=471"
   },
   "regulatory_history": [],
   "food_categories_eu": [

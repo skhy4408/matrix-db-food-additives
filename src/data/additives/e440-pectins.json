@@ -8,7 +8,11 @@
     "scientific_name": "Pectin",
     "japanese_name": "ペクチン",
     "japanese_label_name": "ペクチン",
-    "aliases": ["Fruit pectin", "Apple pectin", "Citrus pectin"]
+    "aliases": [
+      "Fruit pectin",
+      "Apple pectin",
+      "Citrus pectin"
+    ]
   },
   "classification": {
     "functional_class": "stabiliser",
@@ -18,7 +22,13 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["apples", "citrus peels", "berries", "carrots", "tomatoes"],
+    "natural_sources": [
+      "apples",
+      "citrus peels",
+      "berries",
+      "carrots",
+      "tomatoes"
+    ],
     "description": "A structural polysaccharide found in the cell walls of plants. Particularly abundant in fruit peels and cores."
   },
   "manufacturing": {
@@ -79,7 +89,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=pectin+health+benefits",
     "google_scholar_url": "https://scholar.google.com/scholar?q=pectin+E440+prebiotic",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1588",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=440"
   },
   "regulatory_history": [],
   "food_categories_eu": [

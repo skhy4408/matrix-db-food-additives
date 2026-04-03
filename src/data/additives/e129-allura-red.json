@@ -8,7 +8,11 @@
     "scientific_name": "disodium 6-hydroxy-5-((2-methoxy-5-methyl-4-sulfophenyl)azo)-2-naphthalenesulfonate",
     "japanese_name": "アルラレッドAC",
     "japanese_label_name": "赤色40号",
-    "aliases": ["Red 40", "FD&C Red No. 40", "CI 16035"]
+    "aliases": [
+      "Red 40",
+      "FD&C Red No. 40",
+      "CI 16035"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=allura+red+food+dye+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=allura+red+E129+hyperactivity",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-74.340",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=129"
   },
   "regulatory_history": [
     {

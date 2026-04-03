@@ -8,7 +8,10 @@
     "scientific_name": "7,8-Dimethyl-10-ribityl-isoalloxazine",
     "japanese_name": "リボフラビン",
     "japanese_label_name": "ビタミンB2",
-    "aliases": ["Vitamin B2", "Lactoflavin"]
+    "aliases": [
+      "Vitamin B2",
+      "Lactoflavin"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +21,14 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["milk", "eggs", "almonds", "leafy vegetables", "meat", "yeast"],
+    "natural_sources": [
+      "milk",
+      "eggs",
+      "almonds",
+      "leafy vegetables",
+      "meat",
+      "yeast"
+    ],
     "description": "An essential vitamin (Vitamin B2) naturally present in many foods, particularly dairy products and green vegetables."
   },
   "manufacturing": {
@@ -79,7 +89,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=riboflavin+food+additive",
     "google_scholar_url": "https://scholar.google.com/scholar?q=riboflavin+food+coloring",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.450",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=101"
   },
   "regulatory_history": [],
   "food_categories_eu": [

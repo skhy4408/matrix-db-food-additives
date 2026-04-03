@@ -8,7 +8,11 @@
     "scientific_name": "disodium 6-hydroxy-5-[(4-sulfophenyl)azo]-2-naphthalenesulfonate",
     "japanese_name": "サンセットイエローFCF",
     "japanese_label_name": "黄色5号",
-    "aliases": ["Orange Yellow S", "FD&C Yellow No. 6", "CI 15985"]
+    "aliases": [
+      "Orange Yellow S",
+      "FD&C Yellow No. 6",
+      "CI 15985"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sunset+yellow+food+dye+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=sunset+yellow+E110+hyperactivity",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1330",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-74.706",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=110"
   },
   "regulatory_history": [
     {

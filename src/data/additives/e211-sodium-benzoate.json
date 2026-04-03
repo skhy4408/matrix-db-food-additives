@@ -8,7 +8,9 @@
     "scientific_name": "Sodium benzenecarboxylate",
     "japanese_name": "安息香酸ナトリウム",
     "japanese_label_name": "安息香酸Na",
-    "aliases": ["Benzoate of soda"]
+    "aliases": [
+      "Benzoate of soda"
+    ]
   },
   "classification": {
     "functional_class": "preservative",
@@ -18,7 +20,12 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Cranberries", "prunes", "cinnamon", "cloves"],
+    "natural_sources": [
+      "Cranberries",
+      "prunes",
+      "cinnamon",
+      "cloves"
+    ],
     "description": "The sodium salt of benzoic acid. Benzoic acid occurs naturally in some fruits and spices, but the additive is produced synthetically."
   },
   "manufacturing": {
@@ -79,7 +86,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+benzoate+benzene+formation",
     "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+benzoate+E211+safety",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1733",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=211"
   },
   "regulatory_history": [
     {

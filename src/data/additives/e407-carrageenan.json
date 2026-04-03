@@ -8,7 +8,10 @@
     "scientific_name": "Carrageenan",
     "japanese_name": "カラギーナン",
     "japanese_label_name": "カラギナン",
-    "aliases": ["Carrageenin", "Irish moss extract"]
+    "aliases": [
+      "Carrageenin",
+      "Irish moss extract"
+    ]
   },
   "classification": {
     "functional_class": "stabiliser",
@@ -18,7 +21,10 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Red seaweed (Rhodophyceae)", "Irish moss (Chondrus crispus)"],
+    "natural_sources": [
+      "Red seaweed (Rhodophyceae)",
+      "Irish moss (Chondrus crispus)"
+    ],
     "description": "A family of linear sulfated polysaccharides extracted from red seaweed. Used as a thickener, stabilizer, and gelling agent."
   },
   "manufacturing": {
@@ -79,7 +85,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=carrageenan+inflammation+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=carrageenan+E407+gastrointestinal",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.620",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=407"
   },
   "regulatory_history": [
     {

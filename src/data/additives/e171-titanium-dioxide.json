@@ -8,7 +8,11 @@
     "scientific_name": "Titanium(IV) oxide",
     "japanese_name": "二酸化チタン",
     "japanese_label_name": "酸化チタン",
-    "aliases": ["Titania", "TiO2", "CI 77891"]
+    "aliases": [
+      "Titania",
+      "TiO2",
+      "CI 77891"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -18,7 +22,11 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Rutile mineral", "Anatase mineral", "Brookite mineral"],
+    "natural_sources": [
+      "Rutile mineral",
+      "Anatase mineral",
+      "Brookite mineral"
+    ],
     "description": "A naturally occurring mineral, though the food-grade additive is produced industrially."
   },
   "manufacturing": {
@@ -79,7 +87,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=titanium+dioxide+food+genotoxicity",
     "google_scholar_url": "https://scholar.google.com/scholar?q=titanium+dioxide+E171+safety+nanoparticles",
-    "controversy_level": "very_high"
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6585",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.575",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=171"
   },
   "regulatory_history": [
     {

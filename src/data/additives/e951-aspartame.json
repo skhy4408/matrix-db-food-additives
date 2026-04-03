@@ -8,7 +8,11 @@
     "scientific_name": "N-(L-α-Aspartyl)-L-phenylalanine 1-methyl ester",
     "japanese_name": "アスパルテーム",
     "japanese_label_name": "L-フェニルアラニン化合物",
-    "aliases": ["NutraSweet", "Equal", "APM"]
+    "aliases": [
+      "NutraSweet",
+      "Equal",
+      "APM"
+    ]
   },
   "classification": {
     "functional_class": "sweetener",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=aspartame+safety+cancer",
     "google_scholar_url": "https://scholar.google.com/scholar?q=aspartame+E951+IARC",
-    "controversy_level": "very_high"
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3496",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.804",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=951"
   },
   "regulatory_history": [
     {

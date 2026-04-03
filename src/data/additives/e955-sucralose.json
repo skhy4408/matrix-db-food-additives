@@ -8,7 +8,10 @@
     "scientific_name": "1,6-Dichloro-1,6-dideoxy-β-D-fructofuranosyl-4-chloro-4-deoxy-α-D-galactopyranoside",
     "japanese_name": "スクラロース",
     "japanese_label_name": "スクラロース",
-    "aliases": ["Splenda", "Trichlorogalactosucrose"]
+    "aliases": [
+      "Splenda",
+      "Trichlorogalactosucrose"
+    ]
   },
   "classification": {
     "functional_class": "sweetener",
@@ -79,7 +82,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sucralose+safety+gut+microbiome",
     "google_scholar_url": "https://scholar.google.com/scholar?q=sucralose+E955+genotoxicity",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.831",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=955"
   },
   "regulatory_history": [
     {

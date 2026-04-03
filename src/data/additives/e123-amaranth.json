@@ -8,7 +8,11 @@
     "scientific_name": "trisodium (4E)-3-oxo-4-[(4-sulfonato-1-naphthyl)hydrazinylidene]naphthalene-2,7-disulfonate",
     "japanese_name": "アマランス",
     "japanese_label_name": "赤色2号",
-    "aliases": ["Red No. 2", "CI 16185", "Acid Red 27"]
+    "aliases": [
+      "Red No. 2",
+      "CI 16185",
+      "Acid Red 27"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=amaranth+red+2+food+dye+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=amaranth+E123+carcinogenicity",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=123"
   },
   "regulatory_history": [
     {

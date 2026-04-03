@@ -8,7 +8,10 @@
     "scientific_name": "Xanthan gum",
     "japanese_name": "キサンタンガム",
     "japanese_label_name": "キサンタンガム",
-    "aliases": ["Xanthan", "Corn sugar gum"]
+    "aliases": [
+      "Xanthan",
+      "Corn sugar gum"
+    ]
   },
   "classification": {
     "functional_class": "stabiliser",
@@ -79,7 +82,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=xanthan+gum+food+additive",
     "google_scholar_url": "https://scholar.google.com/scholar?q=xanthan+gum+E415",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.695",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=415"
   },
   "regulatory_history": [],
   "food_categories_eu": [

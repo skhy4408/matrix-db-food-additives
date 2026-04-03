@@ -8,7 +8,10 @@
     "scientific_name": "L-Ascorbic acid",
     "japanese_name": "L-アスコルビン酸",
     "japanese_label_name": "ビタミンC",
-    "aliases": ["Vitamin C", "L-Ascorbic acid"]
+    "aliases": [
+      "Vitamin C",
+      "L-Ascorbic acid"
+    ]
   },
   "classification": {
     "functional_class": "antioxidant",
@@ -18,7 +21,14 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["citrus fruits", "strawberries", "kiwi", "bell peppers", "broccoli", "tomatoes"],
+    "natural_sources": [
+      "citrus fruits",
+      "strawberries",
+      "kiwi",
+      "bell peppers",
+      "broccoli",
+      "tomatoes"
+    ],
     "description": "An essential vitamin (Vitamin C) naturally present in many fruits and vegetables. Humans cannot synthesize it and must obtain it from diet."
   },
   "manufacturing": {
@@ -79,7 +89,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ascorbic+acid+vitamin+C",
     "google_scholar_url": "https://scholar.google.com/scholar?q=ascorbic+acid+antioxidant",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3013",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=300"
   },
   "regulatory_history": [],
   "food_categories_eu": [

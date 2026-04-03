@@ -8,7 +8,11 @@
     "scientific_name": "Phosphatidylcholines",
     "japanese_name": "レシチン",
     "japanese_label_name": "レシチン",
-    "aliases": ["Soy lecithin", "Sunflower lecithin", "Phospholipids"]
+    "aliases": [
+      "Soy lecithin",
+      "Sunflower lecithin",
+      "Phospholipids"
+    ]
   },
   "classification": {
     "functional_class": "emulsifier",
@@ -18,7 +22,12 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["soybeans", "sunflower seeds", "egg yolks", "rapeseed"],
+    "natural_sources": [
+      "soybeans",
+      "sunflower seeds",
+      "egg yolks",
+      "rapeseed"
+    ],
     "description": "A mixture of phospholipids naturally found in plant and animal tissues. Essential component of cell membranes."
   },
   "manufacturing": {
@@ -79,7 +88,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=lecithin+food+additive",
     "google_scholar_url": "https://scholar.google.com/scholar?q=soy+lecithin+E322",
-    "controversy_level": "very_low"
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1400",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=322"
   },
   "regulatory_history": [],
   "food_categories_eu": [

@@ -8,7 +8,10 @@
     "scientific_name": "Sulfur dioxide",
     "japanese_name": "二酸化硫黄",
     "japanese_label_name": "亜硫酸",
-    "aliases": ["Sulphur dioxide", "SO2"]
+    "aliases": [
+      "Sulphur dioxide",
+      "SO2"
+    ]
   },
   "classification": {
     "functional_class": "preservative",
@@ -18,7 +21,10 @@
   },
   "natural_occurrence": {
     "found_in_nature": true,
-    "natural_sources": ["Volcanic gases", "produced during wine fermentation"],
+    "natural_sources": [
+      "Volcanic gases",
+      "produced during wine fermentation"
+    ],
     "description": "A gas produced naturally during fermentation and volcanic activity, but the food additive is produced industrially."
   },
   "manufacturing": {
@@ -79,7 +85,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sulfur+dioxide+sulfite+asthma",
     "google_scholar_url": "https://scholar.google.com/scholar?q=sulfite+E220+allergy+sensitivity",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3862",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=220"
   },
   "regulatory_history": [
     {

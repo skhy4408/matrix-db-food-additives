@@ -21,7 +21,7 @@ export async function getStaticPaths() {
 }
 
 const { additive } = Astro.props;
-const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu } = additive;
+const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu, research_links } = additive;
 
 const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
 const description = `${names.common_name} (${names.e_number}) regulation status in EU, USA, Japan, Australia/NZ, and Canada. ${classification.functional_class} additive. ADI: ${safety_evaluations.jecfa_adi || 'Not specified'}.`;
@@ -322,6 +322,119 @@ if (names.aliases && names.aliases.length >= 2) {
         <p class="text-xs text-gray-500 mt-4">
           ADI = Acceptable Daily Intake (mg per kg of body weight per day)
         </p>
+      </section>
+
+      <!-- Research & Official Documents -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Research & Official Documents</h2>
+
+        <div class="space-y-3">
+          <p class="text-sm text-gray-700 mb-4">
+            Official evaluations and scientific research:
+          </p>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+            {research_links.efsa_opinion_url && (
+              <a
+                href={research_links.efsa_opinion_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
+              >
+                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div class="font-medium text-gray-900">EFSA Scientific Opinion</div>
+                  <div class="text-xs text-gray-600">European Food Safety Authority</div>
+                </div>
+              </a>
+            )}
+
+            {research_links.jecfa_url && (
+              <a
+                href={research_links.jecfa_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
+              >
+                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div class="font-medium text-gray-900">JECFA Evaluation</div>
+                  <div class="text-xs text-gray-600">WHO/FAO Expert Committee</div>
+                </div>
+              </a>
+            )}
+
+            {research_links.fda_cfr_url && (
+              <a
+                href={research_links.fda_cfr_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
+              >
+                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div class="font-medium text-gray-900">FDA CFR Reference</div>
+                  <div class="text-xs text-gray-600">Code of Federal Regulations</div>
+                </div>
+              </a>
+            )}
+
+            {research_links.codex_url && (
+              <a
+                href={research_links.codex_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
+              >
+                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <div>
+                  <div class="font-medium text-gray-900">Codex Alimentarius</div>
+                  <div class="text-xs text-gray-600">International Food Standards</div>
+                </div>
+              </a>
+            )}
+          </div>
+
+          <div class="mt-6 pt-6 border-t border-gray-200">
+            <p class="text-sm font-medium text-gray-700 mb-3">Search research databases:</p>
+            <div class="flex flex-wrap gap-3">
+              {research_links.pubmed_search_url && (
+                <a
+                  href={research_links.pubmed_search_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
+                >
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  Search PubMed
+                </a>
+              )}
+              {research_links.google_scholar_url && (
+                <a
+                  href={research_links.google_scholar_url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
+                >
+                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  </svg>
+                  Search Google Scholar
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- FAQ Section -->

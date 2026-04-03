@@ -8,7 +8,11 @@
     "scientific_name": "Sodium cyclohexylsulfamate",
     "japanese_name": "シクラミン酸",
     "japanese_label_name": "シクラミン酸ナトリウム",
-    "aliases": ["Sodium cyclamate", "Cyclamic acid", "Sucaryl"]
+    "aliases": [
+      "Sodium cyclamate",
+      "Cyclamic acid",
+      "Sucaryl"
+    ]
   },
   "classification": {
     "functional_class": "sweetener",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cyclamate+bladder+cancer",
     "google_scholar_url": "https://scholar.google.com/scholar?q=cyclamate+E952+safety",
-    "controversy_level": "very_high"
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4806",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=952"
   },
   "regulatory_history": [
     {

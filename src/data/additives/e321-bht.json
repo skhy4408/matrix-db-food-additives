@@ -8,7 +8,11 @@
     "scientific_name": "2,6-Di-tert-butyl-4-methylphenol",
     "japanese_name": "ジブチルヒドロキシトルエン",
     "japanese_label_name": "BHT",
-    "aliases": ["BHT", "E321", "Dibutylhydroxytoluene"]
+    "aliases": [
+      "BHT",
+      "E321",
+      "Dibutylhydroxytoluene"
+    ]
   },
   "classification": {
     "functional_class": "antioxidant",
@@ -79,7 +83,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=BHT+butylated+hydroxytoluene+safety",
     "google_scholar_url": "https://scholar.google.com/scholar?q=BHT+E321+endocrine",
-    "controversy_level": "high"
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.115",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=321"
   },
   "regulatory_history": [],
   "food_categories_eu": [

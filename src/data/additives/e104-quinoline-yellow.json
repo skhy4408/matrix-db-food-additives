@@ -8,7 +8,10 @@
     "scientific_name": "Mixture of disulfonates (principally)",
     "japanese_name": "キノリンイエロー",
     "japanese_label_name": "黄色203号",
-    "aliases": ["CI 47005", "Food Yellow 13"]
+    "aliases": [
+      "CI 47005",
+      "Food Yellow 13"
+    ]
   },
   "classification": {
     "functional_class": "colour",
@@ -79,7 +82,11 @@
   "research_links": {
     "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=quinoline+yellow+food+dye",
     "google_scholar_url": "https://scholar.google.com/scholar?q=quinoline+yellow+E104+safety",
-    "controversy_level": "medium"
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=104"
   },
   "regulatory_history": [
     {
