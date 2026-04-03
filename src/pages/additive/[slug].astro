@@ -9,18 +9,28 @@ import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
 
 export async function getStaticPaths() {
   const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
+  const allAdditives = Object.values(additiveFiles) as any[];
 
-  const paths = Object.values(additiveFiles).map((file: any) => {
+  const paths = allAdditives.map((file: any) => {
+    // Find related additives (same functional class, different slug)
+    const relatedAdditives = allAdditives.filter((other: any) =>
+      other.classification?.functional_class === file.classification?.functional_class &&
+      other.slug !== file.slug
+    ).slice(0, 5);
+
     return {
       params: { slug: file.slug },
-      props: { additive: file }
+      props: {
+        additive: file,
+        relatedAdditives
+      }
     };
   });
 
   return paths;
 }
 
-const { additive } = Astro.props;
+const { additive, relatedAdditives } = Astro.props;
 const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu, research_links, commonly_found_in } = additive;
 
 const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
@@ -472,6 +482,47 @@ if (names.aliases && names.aliases.length >= 2) {
                 <p class="text-gray-700">{faq.answer}</p>
               </div>
             ))}
+          </div>
+        </section>
+      )}
+
+      <!-- Related Additives -->
+      {relatedAdditives && relatedAdditives.length > 0 && (
+        <section class="bg-gray-50 rounded-lg p-6 mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Related Additives</h2>
+          <p class="text-sm text-gray-600 mb-4">
+            Other {classification.functional_class}s in our database:
+          </p>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {relatedAdditives.map((related: any) => {
+              const hasBan = related.regulations?.eu?.status === 'banned' ||
+                            related.regulations?.usa?.status === 'banned' ||
+                            related.regulations?.japan?.status === 'banned';
+
+              return (
+                <a
+                  href={`/additive/${related.slug}/`}
+                  class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-primary-400 hover:shadow-md transition-all"
+                >
+                  <div class="flex items-start justify-between mb-2">
+                    <div class="flex-1">
+                      <div class="font-semibold text-gray-900">{related.names?.common_name}</div>
+                      <div class="text-sm text-gray-600">{related.names?.e_number}</div>
+                    </div>
+                    {hasBan && (
+                      <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-danger-100 text-danger-800 ml-2">
+                        Banned
+                      </span>
+                    )}
+                  </div>
+                  {related.names?.aliases && related.names.aliases.length > 0 && (
+                    <div class="text-xs text-gray-500 mt-1">
+                      {related.names.aliases[0]}
+                    </div>
+                  )}
+                </a>
+              );
+            })}
           </div>
         </section>
       )}
