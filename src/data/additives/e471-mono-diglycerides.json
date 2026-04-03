@@ -122,5 +122,14 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Bread and baked goods",
+    "Margarine and butter spreads",
+    "Ice cream and frozen desserts",
+    "Cakes and pastries",
+    "Non-dairy creamers",
+    "Whipped toppings",
+    "Processed cheese products"
+  ]
 }

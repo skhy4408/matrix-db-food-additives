@@ -119,5 +119,14 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Fruit juices and beverages",
+    "Breakfast cereals (fortified)",
+    "Canned fruits and vegetables",
+    "Frozen foods",
+    "Vitamin supplements",
+    "Processed meats",
+    "Baked goods"
+  ]
 }

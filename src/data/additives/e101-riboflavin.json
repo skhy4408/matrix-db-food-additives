@@ -120,5 +120,14 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Candies and sweets",
+    "Soft drinks and flavored beverages",
+    "Baked goods and desserts",
+    "Ice cream and frozen desserts",
+    "Breakfast cereals",
+    "Yogurt and flavored dairy products",
+    "Snack foods and chips"
+  ]
 }

@@ -139,5 +139,15 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Savory snacks (chips, crackers)",
+    "Instant noodles and ramen",
+    "Canned soups and broths",
+    "Seasoning mixes",
+    "Frozen dinners and meals",
+    "Soy sauce and Asian condiments",
+    "Processed meats",
+    "Restaurant food (especially Asian cuisine)"
+  ]
 }

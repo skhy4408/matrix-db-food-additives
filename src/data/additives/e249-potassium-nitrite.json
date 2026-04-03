@@ -128,5 +128,15 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Packaged bread and baked goods",
+    "Soft drinks and fruit juices",
+    "Salad dressings and condiments",
+    "Processed meats and deli products",
+    "Canned and jarred foods",
+    "Cheese and dairy products",
+    "Wine and alcoholic beverages",
+    "Dried fruits"
+  ]
 }

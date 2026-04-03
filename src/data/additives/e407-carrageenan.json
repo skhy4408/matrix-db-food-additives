@@ -127,5 +127,13 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Dairy products (chocolate milk, pudding)",
+    "Plant-based milk alternatives",
+    "Ice cream and frozen desserts",
+    "Deli meats and processed meats",
+    "Cottage cheese",
+    "Whipped cream products"
+  ]
 }

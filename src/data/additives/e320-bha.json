@@ -119,5 +119,14 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Butter and margarine",
+    "Vegetable oils and cooking fats",
+    "Snack foods and chips",
+    "Breakfast cereals",
+    "Baked goods and crackers",
+    "Chewing gum",
+    "Dehydrated foods"
+  ]
 }

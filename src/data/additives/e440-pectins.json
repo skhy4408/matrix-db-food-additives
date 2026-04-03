@@ -124,5 +124,13 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Jams and jellies",
+    "Yogurt and dairy desserts",
+    "Fruit juice and drinks",
+    "Bakery fillings",
+    "Confectionery",
+    "Low-sugar preserves"
+  ]
 }

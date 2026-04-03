@@ -118,5 +118,13 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Salad dressings",
+    "Sauces and gravies",
+    "Gluten-free baked goods",
+    "Ice cream and frozen desserts",
+    "Plant-based milk alternatives",
+    "Processed foods"
+  ]
 }

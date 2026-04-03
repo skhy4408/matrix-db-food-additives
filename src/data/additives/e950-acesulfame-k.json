@@ -125,5 +125,15 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Diet sodas and sugar-free beverages",
+    "Sugar-free chewing gum",
+    "Low-calorie yogurt and desserts",
+    "Tabletop sweeteners (packets)",
+    "Sugar-free candy and mints",
+    "Protein bars and meal replacements",
+    "Diet/light products",
+    "Sugar-free ice cream"
+  ]
 }

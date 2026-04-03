@@ -123,5 +123,14 @@
       "australia_nz": "complete",
       "canada": "complete"
     }
-  }
+  },
+  "commonly_found_in": [
+    "Chocolate and chocolate products",
+    "Baked goods and bread",
+    "Margarine and spreads",
+    "Salad dressings",
+    "Ice cream and frozen desserts",
+    "Instant food products",
+    "Non-stick cooking sprays"
+  ]
 }
