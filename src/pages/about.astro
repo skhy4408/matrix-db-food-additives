@@ -1,0 +1,85 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<BaseLayout
+  title="About | Food Additive Regulation Database"
+  description="Learn about the Food Additive Regulation Database, a comprehensive resource for comparing food additive regulations across EU, USA, Japan, Australia/NZ, and Canada."
+>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-3xl mx-auto prose prose-lg">
+      <h1>About Food Additive Regulation Database</h1>
+
+      <p class="lead">
+        The Food Additive Regulation Database is a comprehensive resource for comparing food additive regulations across different countries and regions.
+      </p>
+
+      <h2>What We Do</h2>
+      <p>
+        We compile and present factual regulatory information about food additives from official government sources, making it easier to understand how different countries regulate the same substance.
+      </p>
+
+      <h3>Coverage</h3>
+      <p>Our database currently covers food additive regulations from:</p>
+      <ul>
+        <li><strong>European Union</strong> - Based on Regulation (EC) No 1333/2008</li>
+        <li><strong>United States</strong> - Based on FDA regulations (21 CFR)</li>
+        <li><strong>Japan</strong> - Based on MHLW food additive lists</li>
+        <li><strong>Australia & New Zealand</strong> - Based on FSANZ standards</li>
+        <li><strong>Canada</strong> - Based on Health Canada regulations</li>
+      </ul>
+
+      <h3>Data Sources</h3>
+      <p>All regulatory information is compiled from official sources including:</p>
+      <ul>
+        <li>European Food Safety Authority (EFSA)</li>
+        <li>U.S. Food & Drug Administration (FDA)</li>
+        <li>Joint FAO/WHO Expert Committee on Food Additives (JECFA)</li>
+        <li>Japan Ministry of Health, Labour and Welfare (MHLW)</li>
+        <li>Food Standards Australia New Zealand (FSANZ)</li>
+        <li>Health Canada</li>
+      </ul>
+
+      <h2>Important Disclaimers</h2>
+      <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 my-6">
+        <p class="font-semibold text-yellow-800">This database provides factual regulatory information only.</p>
+        <p class="text-yellow-700 mt-2">
+          We do NOT provide medical, nutritional, or safety advice. Regulatory status varies by country and may change. Always refer to your local regulatory authority for the most current information.
+        </p>
+      </div>
+
+      <h2>Who We Are</h2>
+      <p>
+        This database is part of the Matrix DB project, which creates specialized cross-reference databases for various domains.
+      </p>
+
+      <h3>Operator Information</h3>
+      <p>
+        <strong>Operated by:</strong> SHOYA KIHARA<br/>
+        <strong>Email:</strong> contact@matrix-db.com<br/>
+        <strong>Address:</strong> 7F, Tenjin First Building, 4-6-28 Tenjin, Chuo-ku, Fukuoka-shi, Fukuoka 810-0001, Japan
+      </p>
+
+      <h2>Data Accuracy</h2>
+      <p>
+        While we strive for accuracy, regulatory information can change. We recommend:
+      </p>
+      <ul>
+        <li>Always verify critical information with official regulatory sources</li>
+        <li>Refer to the official references provided on each additive page</li>
+        <li>Consult with qualified professionals for specific applications</li>
+      </ul>
+
+      <h2>Contact Us</h2>
+      <p>
+        For questions, corrections, or feedback, please contact us at <a href="mailto:contact@matrix-db.com">contact@matrix-db.com</a>.
+      </p>
+    </div>
+  </main>
+
+  <Footer />
+</BaseLayout>
