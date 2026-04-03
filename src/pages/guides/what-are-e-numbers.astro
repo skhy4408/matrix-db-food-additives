@@ -1,0 +1,288 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
+
+const title = 'What Are E Numbers? Complete Guide to European Food Additive Codes | Food Additive DB';
+const description = 'Complete guide to E numbers: what they mean, how the system works, classification categories, and why the EU uses this numbering system for food additives.';
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://food.matrix-db.com/' },
+  { name: 'Guides', url: 'https://food.matrix-db.com/' },
+  { name: 'What Are E Numbers?', url: 'https://food.matrix-db.com/guides/what-are-e-numbers/' }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <Disclaimer />
+
+      <article class="prose prose-lg max-w-none">
+        <h1>What Are E Numbers? Complete Guide</h1>
+
+        <p class="text-xl text-gray-600 mb-8">
+          E numbers are codes for food additives approved for use in the European Union. This comprehensive guide explains what E numbers mean, how the system works, and what you need to know when reading food labels.
+        </p>
+
+        <h2>Understanding E Numbers: The Basics</h2>
+
+        <p>
+          E numbers are a standardized system for identifying food additives used in the European Union and several other countries. The "E" stands for "Europe" (or "European"), and the number that follows indicates a specific additive substance.
+        </p>
+
+        <p>
+          When you see "E300" on a food label, it refers to ascorbic acid (Vitamin C), which is used as an antioxidant. The E number system was developed to simplify food labeling across multiple European languages. Instead of listing "ascorbic acid" in English, "Ascorbinsäure" in German, "acide ascorbique" in French, and so on, manufacturers can simply use "E300" — a code understood across all EU member states.
+        </p>
+
+        <h3>Why Does the EU Use E Numbers?</h3>
+
+        <p>
+          The E number system was established for several important reasons:
+        </p>
+
+        <ul>
+          <li><strong>Language Uniformity:</strong> With 24 official languages in the EU, using numerical codes eliminates translation errors and ensures consistency across all member states.</li>
+          <li><strong>Space Efficiency:</strong> Chemical names can be extremely long. E numbers save valuable space on food packaging labels.</li>
+          <li><strong>Safety Assurance:</strong> An E number indicates that the additive has been assessed by the European Food Safety Authority (EFSA) and approved for use within the EU.</li>
+          <li><strong>Consumer Information:</strong> Consumers can quickly identify additives and research them using a standardized reference system.</li>
+        </ul>
+
+        <h2>History of the E Number System</h2>
+
+        <p>
+          The E number system was first introduced in the 1960s as part of early efforts to harmonize food regulations across European countries. The original system was developed following the 1962 Codex Alimentarius Commission meeting, which aimed to create international food standards.
+        </p>
+
+        <p>
+          In 1962, the European Economic Community (EEC), predecessor to the modern EU, began developing the system. The first comprehensive list was published in 1967, covering primarily colors and preservatives. Over the following decades, the system expanded to include:
+        </p>
+
+        <ul>
+          <li>1970s: Antioxidants and emulsifiers added</li>
+          <li>1980s: Sweeteners and glazing agents included</li>
+          <li>1990s: Enhanced flavor additives covered</li>
+          <li>2000s: Comprehensive re-evaluation program initiated by EFSA</li>
+        </ul>
+
+        <p>
+          Today, the system is governed by Regulation (EC) No 1333/2008 on food additives, which consolidates and updates all previous EU regulations on food additives.
+        </p>
+
+        <h2>E Number Classification System</h2>
+
+        <p>
+          E numbers are organized into functional categories based on the hundreds digit. This classification system helps consumers and food manufacturers quickly understand an additive's primary purpose:
+        </p>
+
+        <h3>E100-E199: Colors</h3>
+
+        <p>
+          These additives are used to add or restore color in food products. They include both natural and synthetic coloring agents. Examples include:
+        </p>
+
+        <ul>
+          <li><strong>E100 (Curcumin):</strong> Yellow-orange color derived from turmeric, used in curry powder, mustard, and dairy products</li>
+          <li><strong>E120 (Cochineal):</strong> Red color derived from insects, used in yogurts, candies, and beverages</li>
+          <li><strong>E171 (Titanium Dioxide):</strong> White color used in confectionery — banned in EU as of 2022 following safety re-evaluation</li>
+        </ul>
+
+        <h3>E200-E299: Preservatives</h3>
+
+        <p>
+          Preservatives extend shelf life by preventing microbial growth and oxidation. Common examples include:
+        </p>
+
+        <ul>
+          <li><strong>E200 (Sorbic Acid):</strong> Prevents mold and yeast growth in cheese, baked goods, and wine</li>
+          <li><strong>E211 (Sodium Benzoate):</strong> Widely used in acidic foods like soft drinks and pickles</li>
+          <li><strong>E220 (Sulfur Dioxide):</strong> Used in dried fruits and wine; requires allergen labeling</li>
+        </ul>
+
+        <h3>E300-E399: Antioxidants and Acidity Regulators</h3>
+
+        <p>
+          These additives prevent oxidation (which causes food to go rancid) and control pH levels:
+        </p>
+
+        <ul>
+          <li><strong>E300 (Ascorbic Acid / Vitamin C):</strong> Natural antioxidant in fruit juices and cured meats</li>
+          <li><strong>E330 (Citric Acid):</strong> Acidity regulator in soft drinks, candies, and jams</li>
+        </ul>
+
+        <h3>E400-E499: Thickeners, Stabilizers, and Emulsifiers</h3>
+
+        <p>
+          These additives affect food texture, consistency, and stability:
+        </p>
+
+        <ul>
+          <li><strong>E407 (Carrageenan):</strong> Seaweed-derived thickener in dairy alternatives and desserts</li>
+          <li><strong>E415 (Xanthan Gum):</strong> Stabilizer in gluten-free baking and salad dressings</li>
+          <li><strong>E471 (Mono- and Diglycerides):</strong> Emulsifier in margarine and ice cream</li>
+        </ul>
+
+        <h3>E500-E599: pH Regulators and Anti-Caking Agents</h3>
+
+        <p>
+          These include raising agents, acidity regulators, and substances that prevent clumping:
+        </p>
+
+        <ul>
+          <li><strong>E500 (Sodium Carbonates):</strong> Raising agent in baking powder</li>
+          <li><strong>E551 (Silicon Dioxide):</strong> Anti-caking agent in powdered foods</li>
+        </ul>
+
+        <h3>E600-E699: Flavor Enhancers</h3>
+
+        <p>
+          Additives that enhance or modify the flavor of food without adding their own distinct taste:
+        </p>
+
+        <ul>
+          <li><strong>E621 (Monosodium Glutamate / MSG):</strong> Umami flavor enhancer in savory foods</li>
+          <li><strong>E627 (Disodium Guanylate):</strong> Often used with MSG to intensify savory flavor</li>
+        </ul>
+
+        <h3>E900-E999: Glazing Agents and Gases</h3>
+
+        <p>
+          Surface treatments, gases, and sweeteners:
+        </p>
+
+        <ul>
+          <li><strong>E900 (Dimethylpolysiloxane):</strong> Anti-foaming agent in frying oils</li>
+          <li><strong>E948 (Oxygen):</strong> Packaging gas</li>
+          <li><strong>E950-E969:</strong> Artificial sweeteners (though some fall in different ranges)</li>
+        </ul>
+
+        <h3>E1000+: Additional Additives</h3>
+
+        <p>
+          Miscellaneous additives added to the system after the original classification, including additional thickeners, glazing agents, and other functional ingredients.
+        </p>
+
+        <h2>Important Points About E Numbers</h2>
+
+        <h3>E Number Does NOT Mean "Harmful"</h3>
+
+        <p>
+          A common misconception is that E numbers indicate artificial or dangerous substances. In reality:
+        </p>
+
+        <ul>
+          <li>Many E numbers are for completely natural substances (E300 is Vitamin C, E160a is beta-carotene from carrots)</li>
+          <li>An E number means the additive has been evaluated by EFSA and deemed safe for use at specified levels</li>
+          <li>Some completely natural ingredients would have E numbers if used as additives, though they might appear under different names when used as ingredients</li>
+        </ul>
+
+        <h3>E Numbers vs INS Numbers</h3>
+
+        <p>
+          The International Numbering System (INS) was created by the Codex Alimentarius Commission for global use. INS numbers are similar to E numbers but without the "E" prefix. For example:
+        </p>
+
+        <ul>
+          <li>E300 (EU) = INS 300 (International) = Ascorbic Acid</li>
+          <li>E621 (EU) = INS 621 (International) = Monosodium Glutamate</li>
+        </ul>
+
+        <p>
+          Most E numbers align with INS numbers, facilitating international trade and consistency. Countries like Australia, New Zealand, and Japan primarily use INS numbers rather than E numbers.
+        </p>
+
+        <h2>How E Numbers Are Approved</h2>
+
+        <p>
+          For a substance to receive an E number designation, it must undergo rigorous evaluation:
+        </p>
+
+        <ol>
+          <li><strong>Application:</strong> A food manufacturer or additive producer submits an application to use a new additive or expand use of an existing one</li>
+          <li><strong>Scientific Review:</strong> EFSA's Panel on Food Additives and Flavourings (FAF) conducts a comprehensive safety assessment</li>
+          <li><strong>Toxicology Studies:</strong> Animal studies, metabolism studies, and exposure assessments are reviewed</li>
+          <li><strong>ADI Establishment:</strong> If safe, an Acceptable Daily Intake (ADI) is set — the amount that can be consumed daily over a lifetime without health risk</li>
+          <li><strong>Approval Decision:</strong> The European Commission, advised by EU member states, makes the final approval decision</li>
+          <li><strong>Re-evaluation:</strong> All approved additives undergo periodic re-evaluation as new scientific evidence emerges</li>
+        </ol>
+
+        <h2>Regional Differences: E Numbers Around the World</h2>
+
+        <p>
+          While E numbers are primarily a European system, their influence extends globally:
+        </p>
+
+        <ul>
+          <li><strong>United Kingdom:</strong> Continues to use E numbers post-Brexit, as the system is well-established</li>
+          <li><strong>Australia/New Zealand:</strong> Use the INS system, but many food manufacturers also display E numbers for clarity</li>
+          <li><strong>United States:</strong> Does not use E numbers; additives are listed by name (e.g., "ascorbic acid" rather than E300)</li>
+          <li><strong>Canada:</strong> Similar to the US, lists additives by name rather than code</li>
+          <li><strong>Middle East and Africa:</strong> Many countries follow the Codex INS system, which closely mirrors E numbers</li>
+        </ul>
+
+        <h2>Reading E Numbers on Food Labels</h2>
+
+        <p>
+          In the EU, food labels must list all additives, either by name or by E number plus functional category. For example:
+        </p>
+
+        <ul>
+          <li>"Preservative: E211" or "Preservative: Sodium Benzoate"</li>
+          <li>"Color: E120" or "Color: Cochineal"</li>
+        </ul>
+
+        <p>
+          This dual-naming system allows consumers who prefer to avoid certain additives to make informed choices while maintaining clarity for those unfamiliar with chemical names.
+        </p>
+
+        <h2>Controversial E Numbers and Ongoing Debates</h2>
+
+        <p>
+          While all E numbers have been approved as safe by EFSA, some remain controversial due to ongoing scientific debate or specific health concerns:
+        </p>
+
+        <ul>
+          <li><strong>E102, E104, E110, E122, E124, E129 (Azo Dyes):</strong> Must carry warnings about potential effects on activity and attention in children</li>
+          <li><strong>E171 (Titanium Dioxide):</strong> Banned in the EU as of 2022 due to genotoxicity concerns, though still approved in the US</li>
+          <li><strong>E951 (Aspartame):</strong> Classified as "possibly carcinogenic" (Group 2B) by IARC in 2023, though EFSA maintains it's safe at current exposure levels</li>
+          <li><strong>E621 (MSG):</strong> Subject to decades of debate; scientific consensus finds it safe, but some individuals report sensitivity</li>
+        </ul>
+
+        <h2>The Future of E Numbers</h2>
+
+        <p>
+          The E number system continues to evolve with food science and consumer preferences:
+        </p>
+
+        <ul>
+          <li><strong>Ongoing Re-evaluations:</strong> EFSA is systematically re-evaluating all approved additives using the latest scientific methods</li>
+          <li><strong>Clean Label Trend:</strong> Consumer preference for fewer additives is driving reformulation, though this doesn't always mean healthier products</li>
+          <li><strong>New Technologies:</strong> Novel food processing techniques and natural alternatives may lead to new E number applications</li>
+          <li><strong>Transparency Demands:</strong> Increasing consumer demand for clear, accessible information about what E numbers really are and why they're used</li>
+        </ul>
+
+        <h2>Conclusion</h2>
+
+        <p>
+          E numbers are neither inherently good nor bad — they're simply a standardized way to identify food additives that have been assessed and approved for use in the European Union. Understanding what E numbers mean, how they're classified, and why they're used empowers consumers to make informed decisions about the foods they eat.
+        </p>
+
+        <p>
+          Whether an additive is beneficial, neutral, or something you personally choose to avoid depends on the specific substance, your individual health circumstances, and your dietary preferences. The E number system provides the transparency needed to make those choices.
+        </p>
+
+        <p class="text-sm text-gray-600 italic mt-8">
+          <strong>Note:</strong> This guide is for informational purposes only. For health concerns related to specific additives, consult healthcare professionals. For current regulatory status, consult official EFSA and EU sources.
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <Footer />
+  <BreadcrumbSchema items={breadcrumbs} />
+</BaseLayout>
+
