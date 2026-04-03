@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import Disclaimer from '../../components/Disclaimer.astro';
+import TimelineView from '../../components/TimelineView.astro';
+import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
+
+export async function getStaticPaths() {
+  const historyFiles = import.meta.glob('../../data/regulatory-history/*.json', { eager: true });
+  const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
+
+  // Create additive map for quick lookup
+  const additiveMap = Object.values(additiveFiles).reduce((acc, file: any) => {
+    acc[file.slug] = file;
+    return acc;
+  }, {} as Record<string, any>);
+
+  const paths = Object.values(historyFiles).map((file: any) => {
+    const additive = additiveMap[file.additive_slug];
+
+    return {
+      params: { slug: file.slug },
+      props: {
+        history: file,
+        additive: additive
+      }
+    };
+  });
+
+  return paths;
+}
+
+const { history, additive } = Astro.props;
+
+const title = `${additive.names.common_name} (${additive.names.e_number}) — Regulatory History Timeline | Food Additive DB`;
+const description = `Complete timeline of regulatory events, safety evaluations, and approvals/bans for ${additive.names.common_name} (${additive.names.e_number}). ${history.events.length} documented events from regulatory agencies worldwide.`;
+
+// Breadcrumb
+const breadcrumbs = [
+  { name: 'Home', url: 'https://food.matrix-db.com/' },
+  { name: 'Additives', url: 'https://food.matrix-db.com/' },
+  { name: `${additive.names.common_name} (${additive.names.e_number})`, url: `https://food.matrix-db.com/additive/${additive.slug}/` },
+  { name: 'Regulatory Timeline', url: `https://food.matrix-db.com/timeline/${history.slug}/` }
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Header />
+
+  <main class="container mx-auto px-4 py-8">
+    <div class="max-w-4xl mx-auto">
+      <Disclaimer />
+
+      <!-- Breadcrumb -->
+      <nav class="mb-4 text-sm">
+        <a href="/" class="text-blue-600 hover:underline">Home</a>
+        <span class="mx-2 text-gray-400">/</span>
+        <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline">
+          {additive.names.common_name}
+        </a>
+        <span class="mx-2 text-gray-400">/</span>
+        <span class="text-gray-600">Regulatory Timeline</span>
+      </nav>
+
+      <!-- Title -->
+      <h1 class="text-4xl font-bold text-gray-900 mb-2">
+        Regulatory History: {additive.names.common_name}
+      </h1>
+      <p class="text-xl text-gray-600 mb-6">
+        {additive.names.e_number} — Complete timeline of regulatory events
+      </p>
+
+      <!-- Overview -->
+      <section class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
+        <h2 class="text-lg font-semibold text-blue-900 mb-2">About This Timeline</h2>
+        <p class="text-sm text-blue-800 mb-3">
+          This page documents the regulatory history of {additive.names.common_name} ({additive.names.e_number}),
+          including approvals, bans, safety evaluations, and classification changes by regulatory agencies worldwide.
+        </p>
+        <p class="text-xs text-blue-700">
+          <strong>Data source:</strong> Official regulatory documents, scientific publications, and agency announcements.
+          All events are documented with source agencies and dates.
+        </p>
+      </section>
+
+      <!-- Timeline -->
+      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+        <div class="flex items-center justify-between mb-6">
+          <h2 class="text-2xl font-semibold text-gray-900">Complete Timeline</h2>
+          <span class="text-sm text-gray-600">{history.events.length} events</span>
+        </div>
+
+        <TimelineView events={history.events} compact={false} />
+      </section>
+
+      <!-- Disclaimer -->
+      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
+        <h3 class="text-lg font-semibold text-gray-900 mb-3">Important Notes</h3>
+        <ul class="space-y-2 text-sm text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>This timeline is for informational purposes only and does not constitute safety advice.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>Regulatory decisions reflect the state of scientific knowledge at the time they were made.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>Current regulations may differ from historical events shown. Always consult official sources for up-to-date information.</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+            </svg>
+            <span>An approval in one country does not imply approval in others. Regulatory standards vary by jurisdiction.</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Back link -->
+      <div class="text-center">
+        <a
+          href={`/additive/${additive.slug}/`}
+          class="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
+        >
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+          </svg>
+          Back to {additive.names.common_name} Details
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+  <BreadcrumbSchema items={breadcrumbs} />
+</BaseLayout>

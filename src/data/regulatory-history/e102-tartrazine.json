@@ -1,0 +1,70 @@
+{
+  "slug": "e102-tartrazine",
+  "additive_slug": "e102-tartrazine",
+  "events": [
+    {
+      "year": 1916,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "Tartrazine approved for use in foods in the USA."
+    },
+    {
+      "year": 1959,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "listed",
+      "detail": "Tartrazine listed as certified color additive FD&C Yellow No. 5 under Color Additives Amendment."
+    },
+    {
+      "year": 1979,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "labeling requirement",
+      "detail": "FDA required specific labeling of tartrazine due to reports of allergic reactions in sensitive individuals, particularly those with aspirin sensitivity."
+    },
+    {
+      "year": 2007,
+      "month": 9,
+      "agency": "University of Southampton",
+      "country": "UK",
+      "action": "publication",
+      "detail": "Southampton study published in The Lancet suggesting link between artificial colors (including tartrazine) and hyperactivity in children."
+    },
+    {
+      "year": 2008,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "reviewed",
+      "detail": "EFSA reviewed Southampton study, concluded evidence does not warrant revision of ADI but noted some children may show sensitivity."
+    },
+    {
+      "year": 2010,
+      "month": 7,
+      "agency": "European Commission",
+      "country": "EU",
+      "action": "labeling requirement",
+      "detail": "EU mandated warning label on foods containing tartrazine and other azo dyes: 'may have an adverse effect on activity and attention in children'."
+    },
+    {
+      "year": 2014,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "re-evaluated",
+      "detail": "EFSA re-evaluated tartrazine (E102), reduced ADI from 7.5 to 7.5 mg/kg bw/day after comprehensive review of toxicological data."
+    },
+    {
+      "year": 2021,
+      "month": null,
+      "agency": "California EPA",
+      "country": "USA",
+      "action": "proposed legislation",
+      "detail": "California Assembly Bill introduced to ban tartrazine and other synthetic dyes in foods (not enacted)."
+    }
+  ]
+}

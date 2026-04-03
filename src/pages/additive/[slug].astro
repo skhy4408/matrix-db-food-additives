@@ -6,10 +6,18 @@ import Disclaimer from '../../components/Disclaimer.astro';
 import RegulationStatusBadge from '../../components/RegulationStatusBadge.astro';
 import FAQSchema from '../../components/FAQSchema.astro';
 import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
+import TimelineView from '../../components/TimelineView.astro';
 
 export async function getStaticPaths() {
   const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
   const allAdditives = Object.values(additiveFiles) as any[];
+
+  // Load all regulatory history files
+  const historyFiles = import.meta.glob('../../data/regulatory-history/*.json', { eager: true });
+  const historyMap = Object.entries(historyFiles).reduce((acc, [path, file]: [string, any]) => {
+    acc[file.additive_slug] = file;
+    return acc;
+  }, {} as Record<string, any>);
 
   const paths = allAdditives.map((file: any) => {
     // Find related additives (same functional class, different slug)
@@ -18,11 +26,15 @@ export async function getStaticPaths() {
       other.slug !== file.slug
     ).slice(0, 5);
 
+    // Check if regulatory history exists
+    const regulatoryHistory = historyMap[file.slug] || null;
+
     return {
       params: { slug: file.slug },
       props: {
         additive: file,
-        relatedAdditives
+        relatedAdditives,
+        regulatoryHistory
       }
     };
   });
@@ -30,7 +42,7 @@ export async function getStaticPaths() {
   return paths;
 }
 
-const { additive, relatedAdditives } = Astro.props;
+const { additive, relatedAdditives, regulatoryHistory } = Astro.props;
 const { names, classification, regulations, safety_evaluations, natural_occurrence, manufacturing, other_uses, food_categories_eu, research_links, commonly_found_in, adi_context } = additive;
 
 const title = `${names.common_name} (${names.e_number}) — Regulation Status by Country | Food Additive DB`;
@@ -506,6 +518,27 @@ if (names.aliases && names.aliases.length >= 2) {
           </div>
         </div>
       </section>
+
+      <!-- Regulatory History Timeline -->
+      {regulatoryHistory && regulatoryHistory.events && regulatoryHistory.events.length > 0 && (
+        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="text-2xl font-semibold text-gray-900">Regulatory History</h2>
+            <a
+              href={`/timeline/${additive.slug}/`}
+              class="text-sm text-blue-600 hover:text-blue-800 font-medium"
+            >
+              View Full Timeline →
+            </a>
+          </div>
+
+          <p class="text-sm text-gray-600 mb-6">
+            Key regulatory events and safety evaluations over time.
+          </p>
+
+          <TimelineView events={regulatoryHistory.events} compact={true} />
+        </section>
+      )}
 
       <!-- FAQ Section -->
       {faqs.length > 0 && (

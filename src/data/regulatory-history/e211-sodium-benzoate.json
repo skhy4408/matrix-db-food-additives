@@ -1,0 +1,70 @@
+{
+  "slug": "e211-sodium-benzoate",
+  "additive_slug": "e211-sodium-benzoate",
+  "events": [
+    {
+      "year": 1908,
+      "month": null,
+      "agency": "USDA",
+      "country": "USA",
+      "action": "studies",
+      "detail": "USDA Bureau of Chemistry studied safety of sodium benzoate in foods, one of the earliest food additive evaluations."
+    },
+    {
+      "year": 1958,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "Sodium benzoate affirmed as GRAS (Generally Recognized As Safe) under FDA Food Additives Amendment."
+    },
+    {
+      "year": 1990,
+      "month": null,
+      "agency": "FDA / University of Florida",
+      "country": "USA",
+      "action": "safety concern",
+      "detail": "Research identified that sodium benzoate can react with ascorbic acid (vitamin C) in beverages to form benzene, a known carcinogen."
+    },
+    {
+      "year": 2005,
+      "month": 11,
+      "agency": "UK FSA",
+      "country": "UK",
+      "action": "investigation",
+      "detail": "UK Food Standards Agency found elevated benzene levels in some soft drinks, prompting industry reformulations."
+    },
+    {
+      "year": 2006,
+      "month": 3,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "survey",
+      "detail": "FDA tested 100 soft drinks and found low benzene levels in most products. Manufacturers reformulated products with higher levels."
+    },
+    {
+      "year": 2007,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "reviewed",
+      "detail": "EFSA reviewed benzene formation in beverages, concluded risk is very low when products are properly formulated and stored."
+    },
+    {
+      "year": 2016,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "re-evaluated",
+      "detail": "EFSA re-evaluated benzoic acid and benzoates (E210-E213), established group ADI of 5 mg/kg bw/day."
+    },
+    {
+      "year": 2025,
+      "month": null,
+      "agency": "Regulatory Agencies",
+      "country": "International",
+      "action": "status unchanged",
+      "detail": "Sodium benzoate remains approved worldwide. Industry guidelines recommend avoiding combination with ascorbic acid or controlling pH and storage to minimize benzene formation."
+    }
+  ]
+}

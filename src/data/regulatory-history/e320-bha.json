@@ -1,0 +1,62 @@
+{
+  "slug": "e320-bha",
+  "additive_slug": "e320-bha",
+  "events": [
+    {
+      "year": 1947,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA approved BHA (butylated hydroxyanisole) as antioxidant for food preservation."
+    },
+    {
+      "year": 1982,
+      "month": null,
+      "agency": "Japanese Researchers",
+      "country": "Japan",
+      "action": "studies",
+      "detail": "Japanese studies found BHA caused tumors in forestomach of rats at high doses, raising safety concerns."
+    },
+    {
+      "year": 1983,
+      "month": null,
+      "agency": "IARC",
+      "country": "International",
+      "action": "classification",
+      "detail": "IARC classified BHA as 'possibly carcinogenic to humans' (Group 2B) based on animal studies."
+    },
+    {
+      "year": 1987,
+      "month": null,
+      "agency": "JECFA",
+      "country": "International",
+      "action": "evaluated",
+      "detail": "JECFA concluded forestomach tumors in rats are not relevant to humans (humans lack forestomach). Maintained ADI of 0-0.5 mg/kg bw/day."
+    },
+    {
+      "year": 1989,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "reviewed",
+      "detail": "FDA reviewed BHA safety following IARC classification, concluded available evidence supports continued safe use within regulated limits."
+    },
+    {
+      "year": 2011,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "re-evaluated",
+      "detail": "EFSA re-evaluated BHA (E320), concluded ADI of 0.5 mg/kg bw/day is protective and BHA is safe at current use levels."
+    },
+    {
+      "year": 2024,
+      "month": null,
+      "agency": "California EPA",
+      "country": "USA",
+      "action": "listed",
+      "detail": "California added BHA to Proposition 65 list of chemicals known to cause cancer, requiring warning labels on products sold in California."
+    }
+  ]
+}

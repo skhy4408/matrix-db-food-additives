@@ -1,0 +1,78 @@
+{
+  "slug": "e952-cyclamate",
+  "additive_slug": "e952-cyclamate",
+  "events": [
+    {
+      "year": 1937,
+      "month": null,
+      "agency": "DuPont Laboratories",
+      "country": "USA",
+      "action": "discovered",
+      "detail": "Cyclamate discovered accidentally by graduate student Michael Sveda at University of Illinois."
+    },
+    {
+      "year": 1950,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA approved cyclamate as GRAS (Generally Recognized As Safe) sweetener."
+    },
+    {
+      "year": 1969,
+      "month": 10,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "safety concern",
+      "detail": "Studies suggested that cyclamate combined with saccharin may cause bladder cancer in laboratory rats."
+    },
+    {
+      "year": 1970,
+      "month": 10,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "banned",
+      "detail": "FDA banned cyclamate in the USA under Delaney Clause due to cancer concerns in animal studies."
+    },
+    {
+      "year": 1984,
+      "month": null,
+      "agency": "JECFA",
+      "country": "International",
+      "action": "evaluated",
+      "detail": "JECFA established ADI of 0-11 mg/kg bw/day, concluded cyclamate is safe at this level."
+    },
+    {
+      "year": 1994,
+      "month": null,
+      "agency": "European Commission",
+      "country": "EU",
+      "action": "approved",
+      "detail": "Cyclamate approved as E952 in the EU with maximum use levels specified."
+    },
+    {
+      "year": 2000,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "reviewed",
+      "detail": "Scientific Committee on Food re-evaluated cyclamate, confirmed ADI of 7 mg/kg bw/day (lower than JECFA)."
+    },
+    {
+      "year": 2017,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "re-evaluated",
+      "detail": "EFSA re-evaluated cyclamate and cyclamic acid (E952), maintained previous safety conclusions and ADI."
+    },
+    {
+      "year": 2024,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "status unchanged",
+      "detail": "Cyclamate remains banned in USA despite multiple petitions for re-approval and approval in many other countries."
+    }
+  ]
+}

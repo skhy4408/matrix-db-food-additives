@@ -1,0 +1,86 @@
+{
+  "slug": "e951-aspartame",
+  "additive_slug": "e951-aspartame",
+  "events": [
+    {
+      "year": 1965,
+      "month": null,
+      "agency": "Searle Laboratories",
+      "country": "USA",
+      "action": "discovered",
+      "detail": "Aspartame discovered accidentally by chemist James M. Schlatter while developing anti-ulcer drug."
+    },
+    {
+      "year": 1974,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA initially approved aspartame for limited uses, but approval was stayed pending further review."
+    },
+    {
+      "year": 1981,
+      "month": 7,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA approved aspartame for dry goods and tabletop sweetener use."
+    },
+    {
+      "year": 1983,
+      "month": 7,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA approved aspartame for use in carbonated beverages."
+    },
+    {
+      "year": 1996,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "approved",
+      "detail": "FDA approved aspartame as a general purpose sweetener for all foods and beverages."
+    },
+    {
+      "year": 2002,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "reviewed",
+      "detail": "EFSA Scientific Committee on Food confirmed safety and ADI of 40 mg/kg bw/day."
+    },
+    {
+      "year": 2013,
+      "month": 12,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "comprehensive re-evaluation",
+      "detail": "EFSA completed comprehensive risk assessment, concluded aspartame and its breakdown products are safe at current exposure levels. Confirmed ADI of 40 mg/kg bw/day."
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "agency": "IARC",
+      "country": "International",
+      "action": "classification",
+      "detail": "IARC classified aspartame as 'possibly carcinogenic to humans' (Group 2B) based on limited evidence."
+    },
+    {
+      "year": 2023,
+      "month": 7,
+      "agency": "JECFA",
+      "country": "International",
+      "action": "re-evaluated",
+      "detail": "JECFA (meeting same month as IARC) reaffirmed ADI of 0-40 mg/kg bw/day, concluded no reason to change previously established safe intake levels."
+    },
+    {
+      "year": 2024,
+      "month": null,
+      "agency": "WHO / EFSA",
+      "country": "International",
+      "action": "clarification",
+      "detail": "WHO and EFSA clarified that aspartame remains safe at current exposure levels despite IARC Group 2B classification. IARC identifies hazard, not risk at typical consumption."
+    }
+  ]
+}

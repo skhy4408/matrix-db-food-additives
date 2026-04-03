@@ -1,0 +1,78 @@
+{
+  "slug": "e621-msg",
+  "additive_slug": "e621-msg",
+  "events": [
+    {
+      "year": 1908,
+      "month": null,
+      "agency": "Kikunae Ikeda",
+      "country": "Japan",
+      "action": "discovered",
+      "detail": "Japanese chemist Kikunae Ikeda isolated glutamic acid from kombu seaweed and identified umami as the fifth basic taste."
+    },
+    {
+      "year": 1909,
+      "month": null,
+      "agency": "Ajinomoto Co.",
+      "country": "Japan",
+      "action": "commercialized",
+      "detail": "MSG commercially produced and marketed in Japan as 'Ajinomoto' (essence of taste)."
+    },
+    {
+      "year": 1968,
+      "month": 4,
+      "agency": "Dr. Robert Ho Man Kwok",
+      "country": "USA",
+      "action": "publication",
+      "detail": "Dr. Kwok published letter in New England Journal of Medicine describing symptoms after eating at Chinese restaurants, coining term 'Chinese Restaurant Syndrome'."
+    },
+    {
+      "year": 1969,
+      "month": null,
+      "agency": "Researchers",
+      "country": "USA",
+      "action": "studies",
+      "detail": "Animal studies suggested possible neurotoxic effects at very high doses, sparking public concern."
+    },
+    {
+      "year": 1970,
+      "month": null,
+      "agency": "FASEB",
+      "country": "USA",
+      "action": "reviewed",
+      "detail": "Federation of American Societies for Experimental Biology (FASEB) conducted review, found MSG safe for most people."
+    },
+    {
+      "year": 1987,
+      "month": null,
+      "agency": "JECFA",
+      "country": "International",
+      "action": "evaluated",
+      "detail": "JECFA placed MSG in safest category for food additives, with ADI 'not specified' meaning no safety concerns at current use levels."
+    },
+    {
+      "year": 1995,
+      "month": null,
+      "agency": "FDA",
+      "country": "USA",
+      "action": "comprehensive review",
+      "detail": "FDA commissioned comprehensive report by FASEB, concluded MSG is safe for general population. Acknowledged small percentage may have short-term reactions."
+    },
+    {
+      "year": 2017,
+      "month": null,
+      "agency": "EFSA",
+      "country": "EU",
+      "action": "re-evaluated",
+      "detail": "EFSA re-evaluated glutamic acid and glutamates (E620-E625), concluded no safety concern at current use and exposure levels."
+    },
+    {
+      "year": 2020,
+      "month": null,
+      "agency": "Researchers / Advocates",
+      "country": "International",
+      "action": "terminology review",
+      "detail": "Growing recognition that term 'Chinese Restaurant Syndrome' is misleading and potentially racist. Medical community moving away from the term."
+    }
+  ]
+}
