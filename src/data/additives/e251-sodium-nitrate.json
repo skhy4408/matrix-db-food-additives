@@ -1,0 +1,165 @@
+{
+  "slug": "e251-sodium-nitrate",
+  "names": {
+    "e_number": "E251",
+    "ins_number": "251",
+    "cas_number": "7631-99-4",
+    "common_name": "Sodium nitrate",
+    "scientific_name": "Sodium nitrate",
+    "japanese_name": "硝酸ナトリウム",
+    "japanese_label_name": "硝酸Na",
+    "aliases": [
+      "Chile saltpeter",
+      "Soda niter"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "curing agent",
+    "source_type": "synthetic or mineral",
+    "chemical_group": "nitrate salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Chilean saltpeter deposits",
+      "Vegetables (especially leafy greens)",
+      "Well water"
+    ],
+    "description": "A preservative and curing agent used in processed meats to prevent botulism, maintain pink color, and develop cured meat flavor. Converts to nitrite in the curing process."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or mineral extraction",
+    "description": "Produced by neutralizing nitric acid with sodium carbonate or extracted from natural Chilean saltpeter deposits."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Fertilizer production, glass manufacturing, rocket propellants",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E251",
+      "max_level_mg_kg": "varies by meat type (typically 150-300 mg/kg residual)",
+      "conditions": "Only permitted in specific meat products",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.170",
+      "fda_url": null,
+      "notes": "Limited to 500 ppm in finished product when used alone, 200 ppm when used with nitrite"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "硝酸ナトリウム",
+      "notes": "Permitted in meat curing"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "251",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted with maximum levels"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Maximum 200 mg/kg in meat products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–3.7 mg/kg bw/day (as nitrate ion)",
+    "jecfa_evaluation_year": 2002,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "3.7 mg/kg bw/day (as nitrate ion)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+nitrate+meat+curing+nitrosamine",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E251+sodium+nitrate+preservative+cancer",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.170",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=251"
+  },
+  "regulatory_history": [
+    {
+      "year": 1925,
+      "event": "Nitrates first regulated in cured meats in various countries"
+    },
+    {
+      "year": 2002,
+      "event": "JECFA re-evaluates nitrates and nitrites"
+    },
+    {
+      "year": 2015,
+      "event": "WHO classifies processed meat as Group 1 carcinogen (partly due to nitrates/nitrites)"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and maintains ADI despite cancer concerns"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "150"
+    },
+    {
+      "category_code": "08.3",
+      "category_name": "Meat products",
+      "max_level_mg_kg": "150-250 depending on product"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017",
+      "WHO IARC Monographs"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cured meats (bacon, ham, salami)",
+    "Hot dogs and sausages",
+    "Corned beef",
+    "Smoked fish",
+    "Hard cheeses (trace amounts)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 3.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 222,
+    "equivalents": [
+      {
+        "product": "slices of bacon (typical 30mg/kg sodium nitrate)",
+        "typical_content_mg": 0.9,
+        "quantity": "~246"
+      }
+    ],
+    "source_note": "Based on EFSA ADI. Nitrates and nitrites are controversial due to potential formation of carcinogenic nitrosamines when heated. However, they're critical for preventing deadly botulism in cured meats."
+  }
+}

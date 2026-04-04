@@ -1,0 +1,146 @@
+{
+  "slug": "e586-4-hexylresorcinol",
+  "names": {
+    "e_number": "E586",
+    "ins_number": "586",
+    "cas_number": "136-77-6",
+    "common_name": "4-Hexylresorcinol",
+    "scientific_name": "4-Hexylresorcinol (C12H18O2)",
+    "japanese_name": "4-ヘキシルレゾルシノール",
+    "japanese_label_name": "4-ヘキシルレゾルシノール",
+    "aliases": [
+      "4-Hexyl-1,3-benzenediol",
+      "Hexylresorcinol"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "preservative, color retention agent",
+    "source_type": "synthetic",
+    "chemical_group": "organic phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "4-Hexylresorcinol does not occur naturally. It is synthetically manufactured for use as an antioxidant and preservative, primarily in seafood."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by alkylation of resorcinol with hexyl halide or similar organic synthesis routes. The resulting 4-hexylresorcinol is purified for food or pharmaceutical use."
+  },
+  "other_uses": {
+    "cosmetics": "Skin lightening agent, anti-aging ingredient (inhibits melanin production).",
+    "industrial": "Limited industrial use outside of food and pharmaceuticals.",
+    "pharmaceutical": "Topical antiseptic, throat lozenges (historical use), wound care products.",
+    "household": "Some throat lozenges and antiseptic products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E586",
+      "max_level_mg_kg": "varies (typically 1-6 mg/kg for crustaceans)",
+      "conditions": "Restricted to use on fresh and frozen crustaceans to prevent melanosis (black spot). Specific maximum residue limits apply.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4392"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Food additive (not GRAS)",
+      "cfr_reference": "21 CFR 172.155",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Approved for use on fresh shrimp to prevent melanosis, maximum 6 ppm."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "430",
+      "japanese_regulation_name": "4-ヘキシルレゾルシノール",
+      "notes": "Used on seafood with maximum residue limits."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "586",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Limited to crustacean applications."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Maximum 1 mg/kg on fresh or frozen shrimp."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-0.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2014,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5299",
+    "efsa_adi": "0.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4392"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=4-hexylresorcinol+shrimp+melanosis",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=hexylresorcinol+black+spot+prevention",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4392",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5299",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=586"
+  },
+  "regulatory_history": [
+    {
+      "year": 2016,
+      "event": "EFSA re-evaluated 4-hexylresorcinol and confirmed safety at current use levels for prevention of melanosis in crustaceans."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "09.1.1",
+      "category_name": "Fresh fish and fresh cephalopods",
+      "max_level_mg_kg": "not permitted"
+    },
+    {
+      "category_code": "09.1.2",
+      "category_name": "Fresh molluscs and fresh crustaceans",
+      "max_level_mg_kg": "2 (on edible part, crustaceans only)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "FRESH AND FROZEN SHRIMP (prevents black spots on shells and meat)",
+    "Fresh and frozen lobster (melanosis prevention)",
+    "Fresh and frozen crayfish",
+    "Other crustaceans (prawns, langostinos)",
+    "Some throat lozenges (pharmaceutical use, not food)",
+    "Skin lightening cosmetics"
+  ],
+  "fun_facts": [
+    "Prevents SHRIMP from turning BLACK after harvest - melanosis (black spot disease) makes shrimp look spoiled even when fresh",
+    "Works by inhibiting polyphenol oxidase enzyme - the same enzyme that makes apples turn brown when cut",
+    "Without it, shrimp would develop unsightly black spots within hours, even if perfectly fresh and safe to eat",
+    "Also used in THROAT LOZENGES as a mild antiseptic (though this use has declined)",
+    "Found in some SKIN LIGHTENING cosmetics because it inhibits melanin production",
+    "The melanosis it prevents is purely cosmetic - doesn't affect safety or nutritional value of shrimp",
+    "Discovered in the 1920s and used medicinally before its food application was developed",
+    "Very small amounts needed - effective at just 1-6 parts per million"
+  ]
+}

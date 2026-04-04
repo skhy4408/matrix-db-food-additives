@@ -1,0 +1,142 @@
+{
+  "slug": "e553a-magnesium-silicate",
+  "names": {
+    "e_number": "E553a",
+    "ins_number": "553(i)",
+    "cas_number": "1343-88-0",
+    "common_name": "Magnesium Silicate (talc-free)",
+    "scientific_name": "Magnesium silicate (Mg2SiO4, MgSiO3, and related forms)",
+    "japanese_name": "ケイ酸マグネシウム",
+    "japanese_label_name": "ケイ酸Mg",
+    "aliases": [
+      "Synthetic magnesium silicate",
+      "Magnesium trisilicate (pharmaceutical grade)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "carrier, release agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic silicate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Various magnesium silicate minerals (olivine, enstatite)",
+      "Not talc - E553a is specifically talc-free synthetic form"
+    ],
+    "description": "E553a is synthetic magnesium silicate, distinct from talc (E553b). It's manufactured to be pure and free from potential contaminants found in natural talc."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by controlled precipitation of magnesium and silicate salts, or by reacting magnesium oxide with silicon dioxide. The synthetic process ensures purity and absence of asbestos contamination (a concern with natural talc)."
+  },
+  "other_uses": {
+    "cosmetics": "Absorbent, bulking agent, texture enhancer.",
+    "industrial": "Ceramics, refractories, insulation.",
+    "pharmaceutical": "Antacid (magnesium trisilicate), tablet glidant and disintegrant.",
+    "household": "Not typically used."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E553a",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as anti-caking agent and carrier. Must be talc-free synthetic form.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.2437",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Synthetic magnesium silicate, distinct from talc."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "120",
+      "japanese_regulation_name": "ケイ酸マグネシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "553",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4085",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+silicate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=synthetic+magnesium+silicate+anti-caking",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4085",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=553"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Icing sugar and powdered sugar",
+    "Table salt",
+    "Dried vegetable powders",
+    "Chewing gum",
+    "Tablet coatings and supplements",
+    "Spice mixes"
+  ],
+  "fun_facts": [
+    "Specifically NOT talc - E553a is the talc-FREE synthetic version to avoid controversy",
+    "Pharmaceutical grade magnesium trisilicate has been used as an antacid for decades",
+    "Provides both magnesium and anti-caking benefits",
+    "Preferred over talc (E553b) in many applications due to absence of contamination concerns",
+    "Completely inert and not absorbed by the digestive system",
+    "The synthetic process ensures no asbestos fibers (a historical contamination issue with natural talc)"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "e579-ferrous-gluconate",
+  "names": {
+    "e_number": "E579",
+    "ins_number": "579",
+    "cas_number": "299-29-6",
+    "common_name": "Ferrous Gluconate",
+    "scientific_name": "Iron(II) D-gluconate (C12H22FeO14)",
+    "japanese_name": "グルコン酸第一鉄",
+    "japanese_label_name": "グルコン酸第一鉄",
+    "aliases": [
+      "Iron gluconate",
+      "Ferrous salt of gluconic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "color retention agent",
+    "sub_class": "iron source, food fortification",
+    "source_type": "fermentation-derived",
+    "chemical_group": "organic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Ferrous gluconate does not occur naturally but is derived from gluconic acid, which occurs in honey and fruits."
+  },
+  "manufacturing": {
+    "method": "neutralization",
+    "description": "Produced by neutralizing gluconic acid (from glucose fermentation) with ferrous carbonate or ferrous hydroxide. The resulting ferrous gluconate is purified and may be spray-dried or crystallized."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Water treatment (prevents yellow staining from iron).",
+    "pharmaceutical": "Iron supplement for treating iron-deficiency anemia (gentler than ferrous sulfate).",
+    "household": "Iron supplement tablets."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E579",
+      "max_level_mg_kg": "varies by category (typically limited levels)",
+      "conditions": "Permitted as color retention agent and iron source in specific food categories including ripe olives.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1307",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used as nutrient supplement and color retention agent in ripe olives."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "100",
+      "japanese_regulation_name": "グルコン酸第一鉄",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "579",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0.8 mg/kg bw/day (as iron, for all iron compounds)",
+    "jecfa_evaluation_year": 1983,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4093",
+    "efsa_adi": "not specified (safe at current use levels for fortification)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ferrous+gluconate+iron+supplement",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ferrous+gluconate+ripe+olives",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4093",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=579"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.2.4",
+      "category_name": "Vegetables in vinegar, brine or oil (includes olives)",
+      "max_level_mg_kg": "150 (as Fe)"
+    },
+    {
+      "category_code": "13.2",
+      "category_name": "Dietary supplements",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "BLACK RIPE OLIVES (keeps them uniformly black)",
+    "Iron-fortified cereals and breads",
+    "Iron dietary supplements",
+    "Fortified infant formulas",
+    "Nutritional beverages",
+    "Some processed meats"
+  ],
+  "fun_facts": [
+    "Makes canned BLACK OLIVES uniformly dark - without it, they'd be patchy brown and green",
+    "Preferred iron supplement in pills - less constipating and gentler on stomach than ferrous sulfate",
+    "Green olives are naturally cured; black olives are often green olives darkened with ferrous gluconate",
+    "The gluconate form makes iron more bioavailable and easier to absorb than some other iron salts",
+    "Widely used to treat iron-deficiency anemia, especially during pregnancy",
+    "Provides both iron supplementation AND color retention in foods"
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "slug": "e574-gluconic-acid",
+  "names": {
+    "e_number": "E574",
+    "ins_number": "574",
+    "cas_number": "526-95-4",
+    "common_name": "Gluconic Acid",
+    "scientific_name": "D-Gluconic acid (C6H12O7)",
+    "japanese_name": "グルコン酸",
+    "japanese_label_name": "グルコン酸",
+    "aliases": [
+      "Dextronic acid",
+      "Glycogenic acid",
+      "Maltonic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "chelating agent, raising agent",
+    "source_type": "fermentation (from glucose)",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Honey",
+      "Fruit juices",
+      "Wine",
+      "Formed by oxidation of glucose"
+    ],
+    "description": "Gluconic acid occurs naturally in small amounts in honey, fruits, and wine. It is produced commercially by fermentation of glucose using specific bacteria or fungi."
+  },
+  "manufacturing": {
+    "method": "fermentation",
+    "description": "Produced by fermentation of glucose (from corn or other starch sources) using Aspergillus niger (fungus) or Gluconobacter bacteria. The glucose is oxidized to gluconic acid, which is then purified and crystallized."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster, chelating agent in skin care products.",
+    "industrial": "Metal cleaning, concrete additives (retarder), textile processing.",
+    "pharmaceutical": "Mineral supplement formulations (as gluconates), pH buffer.",
+    "household": "Some cleaning products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E574",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as acidity regulator and chelating agent in various food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1318",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used in baking powder and as acidity regulator."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "96",
+      "japanese_regulation_name": "グルコン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "574",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4089",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=gluconic+acid+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=gluconic+acid+chelating+agent",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4089",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=574"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baking powder formulations",
+    "Processed meats (curing agent)",
+    "Dairy products",
+    "Mineral supplements (precursor to gluconates)",
+    "Tofu coagulant (as glucono delta-lactone E575)"
+  ],
+  "fun_facts": [
+    "Produced from GLUCOSE by fermentation - basically oxidized sugar",
+    "Naturally occurs in HONEY, giving it some of its unique properties",
+    "Milder and less sour than citric acid, making it useful where gentle acidity is needed",
+    "The parent compound for various mineral gluconates (E577-E579) used as supplements",
+    "Can chelate (bind to) metal ions, useful in preventing discoloration in foods",
+    "Metabolized by the body just like glucose - it's basically a modified sugar"
+  ]
+}

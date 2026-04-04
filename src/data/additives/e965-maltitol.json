@@ -1,0 +1,159 @@
+{
+  "slug": "e965-maltitol",
+  "names": {
+    "e_number": "E965",
+    "ins_number": "965",
+    "cas_number": "585-88-6",
+    "common_name": "Maltitol",
+    "scientific_name": "4-O-α-D-Glucopyranosyl-D-glucitol",
+    "japanese_name": "マルチトール",
+    "japanese_label_name": "マルチトール",
+    "aliases": [
+      "Maltisorb",
+      "Malbit",
+      "Hydrogenated maltose"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "synthetic",
+    "chemical_group": "disaccharide polyol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A sugar alcohol made by hydrogenation of maltose. About 75-90% as sweet as sucrose with approximately 75% of the calories. Tastes very similar to sugar without aftertaste."
+  },
+  "manufacturing": {
+    "method": "hydrogenation of maltose",
+    "description": "Produced by catalytic hydrogenation of maltose derived from corn or wheat starch. High-purity crystalline maltitol is preferred for many applications."
+  },
+  "other_uses": {
+    "cosmetics": "Humectant and texturizer in skin care products",
+    "industrial": null,
+    "pharmaceutical": "Coating for tablets and capsules; sugar-free syrup base",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E965",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Warning required: excessive consumption may have laxative effects",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1835",
+      "fda_url": null,
+      "notes": "Generally recognized as safe for use in foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "マルチトール",
+      "notes": "Very popular in Japanese sugar-free products"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "965",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "GRAS status recognized"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=maltitol+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=maltitol+E965+sugar+alcohol",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1835",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=965"
+  },
+  "regulatory_history": [
+    {
+      "year": 1984,
+      "event": "JECFA establishes acceptable for quantum satis use"
+    },
+    {
+      "year": 1990,
+      "event": "EU approval granted"
+    },
+    {
+      "year": 2006,
+      "event": "FDA GRAS affirmation"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chocolate (Russell Stover, Whitman's)",
+    "Sugar-free candy and hard candy",
+    "Sugar-free ice cream",
+    "Chewing gum",
+    "Protein bars (Quest Bars, Atkins)",
+    "Sugar-free cookies and baked goods",
+    "Diabetic-friendly desserts",
+    "Sugar-free cough drops"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. However, consumption above 30-40g/day (about 15 sugar-free candies) may cause digestive discomfort and laxative effects."
+  },
+  "fun_fact": "Maltitol is the secret weapon in sugar-free chocolate - it's the only sugar alcohol that comes close to matching real sugar's taste and texture, which is why almost all premium sugar-free chocolates use it!"
+}

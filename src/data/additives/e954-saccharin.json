@@ -1,0 +1,174 @@
+{
+  "slug": "e954-saccharin",
+  "names": {
+    "e_number": "E954",
+    "ins_number": "954",
+    "cas_number": "81-07-2",
+    "common_name": "Saccharin",
+    "scientific_name": "1,2-Benzisothiazol-3(2H)-one 1,1-dioxide",
+    "japanese_name": "サッカリン",
+    "japanese_label_name": "サッカリンナトリウム",
+    "aliases": [
+      "Sweet'N Low",
+      "Sodium saccharin",
+      "Calcium saccharin"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "sulfonamide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "The oldest artificial sweetener, discovered in 1879. About 300-500 times sweeter than sucrose. May have a bitter or metallic aftertaste, especially at high concentrations."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from toluene through oxidation and reaction with ammonia. Modern production uses the Remsen-Fahlberg process developed in the late 1800s."
+  },
+  "other_uses": {
+    "cosmetics": "Flavoring agent in toothpaste and mouthwash",
+    "industrial": null,
+    "pharmaceutical": "Sweetener in liquid medications and chewable tablets",
+    "household": "Tabletop sweetener (Sweet'N Low pink packets)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E954",
+      "max_level_mg_kg": "varies by food category (80-500 mg/kg typical)",
+      "conditions": "Maximum levels specified for different food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4784"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 180.37",
+      "fda_url": null,
+      "notes": "Removed from carcinogen list in 2000; considered safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "サッカリン、サッカリンナトリウム",
+      "notes": "Approved with maximum use levels"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "954",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener with specified limits"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved after decades of controversy"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2019,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4784"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=saccharin+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=saccharin+E954+bladder+cancer",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4784",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-180.37",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=954"
+  },
+  "regulatory_history": [
+    {
+      "year": 1879,
+      "event": "Discovered accidentally by Constantin Fahlberg at Johns Hopkins University"
+    },
+    {
+      "year": 1977,
+      "event": "FDA proposes ban due to rat bladder cancer studies"
+    },
+    {
+      "year": 1991,
+      "event": "FDA withdraws proposed ban"
+    },
+    {
+      "year": 2000,
+      "event": "Removed from US National Toxicology Program's carcinogen list"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluation confirms safety at current use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "80"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "500"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Tabletop sweeteners (Sweet'N Low)",
+    "Diet sodas and beverages",
+    "Sugar-free gum and candy",
+    "Diabetic food products",
+    "Toothpaste and mouthwash",
+    "Low-calorie jams and jellies",
+    "Chewable vitamins",
+    "Canned fruits (light syrup)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "packets of Sweet'N Low",
+        "typical_content_mg": 36,
+        "quantity": "~8"
+      },
+      {
+        "product": "cans of diet soda (355ml)",
+        "typical_content_mg": 40,
+        "quantity": "~7"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA ADI and typical product concentrations."
+  },
+  "fun_fact": "Saccharin was discovered completely by accident in 1879 when chemist Constantin Fahlberg forgot to wash his hands before lunch and noticed everything tasted sweet. It's the oldest artificial sweetener still in use today - over 145 years old!"
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "e538-calcium-ferrocyanide",
+  "names": {
+    "e_number": "E538",
+    "ins_number": "538",
+    "cas_number": "13821-08-4",
+    "common_name": "Calcium Ferrocyanide",
+    "scientific_name": "Calcium ferrocyanide (Ca2[Fe(CN)6])",
+    "japanese_name": "フェロシアン化カルシウム",
+    "japanese_label_name": "フェロシアン化Ca",
+    "aliases": [
+      "Calcium hexacyanoferrate",
+      "Calcium hexacyanoferrate(II)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "crystallization aid",
+    "source_type": "synthetic",
+    "chemical_group": "coordination compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Calcium ferrocyanide does not occur naturally. It is synthetically manufactured for use as an anti-caking agent in salt."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting sodium or potassium ferrocyanide with calcium chloride. Like other ferrocyanides, the hexacyanoferrate complex is extremely stable with cyanide groups tightly bound to iron."
+  },
+  "other_uses": {
+    "cosmetics": "Not used.",
+    "industrial": "Limited industrial use compared to sodium and potassium ferrocyanides.",
+    "pharmaceutical": "Not used.",
+    "household": "Present in table salt."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E538",
+      "max_level_mg_kg": "20 (as anhydrous ferrocyanide)",
+      "conditions": "Restricted to use in salt and salt substitutes only. Same maximum levels as other ferrocyanides.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (limited use)",
+      "cfr_reference": "21 CFR 172.490",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to 13 ppm in table salt."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "402",
+      "japanese_regulation_name": "フェロシアン化カルシウム",
+      "notes": "Restricted use with maximum limits."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "538",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Limited to salt products."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Limited use in salt."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-0.025 mg/kg bw/day (as ferrocyanide ion, group ADI for all ferrocyanides)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4081",
+    "efsa_adi": "0.03 mg/kg bw/day (as ferrocyanide ion, group ADI)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+ferrocyanide+anti-caking",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ferrocyanide+salt+additive+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4081",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=538"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA evaluated all three ferrocyanides (E535, E536, E538) together and established a group ADI."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "20 (as anhydrous)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Table salt (anti-caking agent)",
+    "Sea salt products",
+    "Salt substitutes"
+  ],
+  "fun_facts": [
+    "Third member of the ferrocyanide family - all contain CYANIDE but are SAFE due to stable iron complex",
+    "Less commonly used than sodium (E535) or potassium (E536) ferrocyanides",
+    "Provides calcium along with anti-caking properties, though the calcium content is negligible",
+    "All three ferrocyanides (E535, E536, E538) work the same way and have the same safety profile",
+    "The choice between sodium, potassium, or calcium ferrocyanide depends on the salt formulation and desired mineral profile",
+    "Despite alarming name with 'cyanide', these have been used safely in salt for decades worldwide"
+  ]
+}

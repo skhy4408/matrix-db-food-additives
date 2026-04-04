@@ -1,0 +1,136 @@
+{
+  "slug": "e281-sodium-propionate",
+  "names": {
+    "e_number": "E281",
+    "ins_number": "281",
+    "cas_number": "137-40-6",
+    "common_name": "Sodium Propionate",
+    "scientific_name": "Sodium propanoate",
+    "japanese_name": "プロピオン酸ナトリウム",
+    "japanese_label_name": "プロピオン酸Na",
+    "aliases": [
+      "Sodium propanoate",
+      "Propionic acid sodium salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "antimicrobial",
+    "source_type": "synthetic",
+    "chemical_group": "propionate salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "The sodium salt of propionic acid, widely used as a mold inhibitor in bread and baked goods. More effective in acidic conditions."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing propionic acid with sodium hydroxide or sodium carbonate."
+  },
+  "other_uses": {
+    "cosmetics": "Preservative",
+    "industrial": "Animal feed preservative",
+    "pharmaceutical": "Antifungal agent in topical preparations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E281",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1784",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "プロピオン酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "281",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+propionate+food+preservative",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+propionate+E281",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1784",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=281"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "07.1",
+      "category_name": "Bread and rolls",
+      "max_level_mg_kg": "3000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Bread and rolls",
+    "Baked goods",
+    "Processed cheese",
+    "Pizza dough",
+    "Tortillas"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at levels used in food."
+  }
+}

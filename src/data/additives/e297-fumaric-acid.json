@@ -1,0 +1,144 @@
+{
+  "slug": "e297-fumaric-acid",
+  "names": {
+    "e_number": "E297",
+    "ins_number": "297",
+    "cas_number": "110-17-8",
+    "common_name": "Fumaric Acid",
+    "scientific_name": "trans-Butenedioic acid",
+    "japanese_name": "フマル酸",
+    "japanese_label_name": "フマル酸",
+    "aliases": [
+      "Trans-butenedioic acid",
+      "Boletic acid",
+      "Lichenic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity_regulator",
+    "sub_class": "acidulant",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "unsaturated dicarboxylic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Fumitory plant (Fumaria officinalis)",
+      "Bolete mushrooms",
+      "Lichen",
+      "Some fruits and vegetables in small amounts"
+    ],
+    "description": "A naturally occurring organic acid with a fruit-like, tart taste. More acidic than citric or malic acid and has very low solubility in water, making it useful for dry food products."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Industrially produced by catalytic isomerization of maleic acid, which itself is produced from benzene or butane."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster",
+    "industrial": "Manufacturing unsaturated polyester resins, plasticizers, alkyd resins",
+    "pharmaceutical": "Used in treatment of psoriasis, component of some drug formulations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E297",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1287",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "フマル酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "297",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=fumaric+acid+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=fumaric+acid+E297",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1287",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=297"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dry beverage powders (Kool-Aid type drinks)",
+    "Gelatin desserts (Jell-O)",
+    "Pie fillings",
+    "Powdered fruit drinks",
+    "Wine (as acidulant)",
+    "Baking powder",
+    "Processed cheese"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at levels used in food. Part of the citric acid cycle (Krebs cycle) in your cells!"
+  }
+}

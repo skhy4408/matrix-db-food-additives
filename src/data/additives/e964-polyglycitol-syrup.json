@@ -1,0 +1,155 @@
+{
+  "slug": "e964-polyglycitol-syrup",
+  "names": {
+    "e_number": "E964",
+    "ins_number": "964",
+    "cas_number": "68425-17-2",
+    "common_name": "Polyglycitol syrup",
+    "scientific_name": "Hydrogenated glucose syrup",
+    "japanese_name": "還元水飴",
+    "japanese_label_name": "マルチトールシロップ",
+    "aliases": [
+      "Hydrogenated glucose syrup",
+      "Maltitol syrup",
+      "HSH (Hydrogenated starch hydrolysate)"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "synthetic",
+    "chemical_group": "polyol mixture"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A mixture of sugar alcohols obtained by hydrogenation of corn or wheat starch syrup. About 40-90% as sweet as sucrose depending on composition. Provides bulk and texture in sugar-free products."
+  },
+  "manufacturing": {
+    "method": "hydrogenation of starch hydrolysate",
+    "description": "Produced by hydrogenation of glucose syrup derived from corn or wheat starch. Contains maltitol and various other polyols (sorbitol, maltotriitol)."
+  },
+  "other_uses": {
+    "cosmetics": "Humectant in skin creams and lotions",
+    "industrial": null,
+    "pharmaceutical": "Excipient in sugar-free syrups and chewable tablets",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E964",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Warning required: excessive consumption may have laxative effects",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1835",
+      "fda_url": null,
+      "notes": "Generally recognized as safe for use in foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "還元水飴",
+      "notes": "Widely used in Japanese confectionery"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "964",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "GRAS status recognized"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polyglycitol+syrup+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E964+hydrogenated+glucose+syrup",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1835",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=964"
+  },
+  "regulatory_history": [
+    {
+      "year": 1984,
+      "event": "JECFA evaluates and establishes acceptable for quantum satis use"
+    },
+    {
+      "year": 1990,
+      "event": "EU approves as E964"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chocolate",
+    "Sugar-free candy and hard candy",
+    "Chewing gum",
+    "Low-calorie ice cream",
+    "Sugar-free baked goods",
+    "Protein bars",
+    "Cough drops",
+    "Sugar-free desserts"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. However, consumption above 20-30g/day may cause gastrointestinal discomfort and laxative effects."
+  },
+  "fun_fact": "Polyglycitol syrup is a chameleon ingredient - it can mimic the texture, bulk, and browning properties of regular sugar syrup, making it perfect for creating sugar-free versions of your favorite candies and chocolates!"
+}

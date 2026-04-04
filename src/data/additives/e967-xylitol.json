@@ -1,0 +1,164 @@
+{
+  "slug": "e967-xylitol",
+  "names": {
+    "e_number": "E967",
+    "ins_number": "967",
+    "cas_number": "87-99-0",
+    "common_name": "Xylitol",
+    "scientific_name": "Xylitol",
+    "japanese_name": "キシリトール",
+    "japanese_label_name": "キシリトール",
+    "aliases": [
+      "Birch sugar",
+      "Wood sugar"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "natural/synthetic",
+    "chemical_group": "pentitol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "birch bark",
+      "strawberries",
+      "raspberries",
+      "plums",
+      "corn cobs"
+    ],
+    "description": "A sugar alcohol as sweet as sucrose with 40% fewer calories. Famous for preventing tooth decay and inhibiting bacterial growth in the mouth. Has a cooling sensation when dissolved."
+  },
+  "manufacturing": {
+    "method": "hydrogenation of xylose",
+    "description": "Commercially produced by hydrogenation of xylose derived from birch bark or corn cobs. The process involves acid hydrolysis of hemicellulose followed by catalytic hydrogenation."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Used in nasal sprays, oral rinses, and ear infection prevention",
+    "household": "Dental care products, sugar-free toothpaste"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E967",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Warning required: excessive consumption may have laxative effects",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.395",
+      "fda_url": null,
+      "notes": "GRAS for use as sweetener, also approved for dental health claims"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "キシリトール",
+      "notes": "Very popular in Japanese dental gum products"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "967",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved with dental health claims permitted"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=xylitol+dental+caries+prevention",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=xylitol+E967+tooth+decay",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.395",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=967"
+  },
+  "regulatory_history": [
+    {
+      "year": 1963,
+      "event": "First approved in Europe"
+    },
+    {
+      "year": 1986,
+      "event": "FDA grants GRAS status"
+    },
+    {
+      "year": 2008,
+      "event": "FDA approves dental caries reduction health claim"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chewing gum (Trident, Orbit, Ice Breakers)",
+    "Sugar-free mints and breath fresheners",
+    "Dental care gum",
+    "Sugar-free candy",
+    "Nasal sprays (Xlear)",
+    "Sugar-free chocolate",
+    "Toothpaste and mouthwash",
+    "Children's vitamins and medications"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. However, consumption above 40-50g/day may cause digestive discomfort. WARNING: Xylitol is EXTREMELY TOXIC to dogs - even small amounts can be fatal."
+  },
+  "fun_fact": "Xylitol is the only sweetener that actively fights tooth decay! Cavity-causing bacteria can't digest it, so it starves them and prevents cavities. In Finland, kids get xylitol gum after school meals as part of a national dental health program. But keep it away from dogs - it's highly toxic to them!"
+}

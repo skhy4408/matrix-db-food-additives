@@ -1,0 +1,139 @@
+{
+  "slug": "e442-ammonium-phosphatides",
+  "names": {
+    "e_number": "E442",
+    "ins_number": "442",
+    "cas_number": "8002-43-5",
+    "common_name": "Ammonium Phosphatides",
+    "scientific_name": "Ammonium salts of phosphatidic acids",
+    "japanese_name": "リン酸化アンモニウム塩",
+    "japanese_label_name": "リン脂質アンモニウム塩",
+    "aliases": [
+      "Ammonium salts of phosphatidic acid",
+      "YN (Yeast nutrient)"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "phospholipid",
+    "source_type": "modified_natural",
+    "chemical_group": "phospholipid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Modified phospholipids (usually from soy or rapeseed) treated with ammonia. Used as an emulsifier and viscosity reducer in chocolate and cocoa products."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating natural lecithin or phospholipids with ammonia or ammonium salts."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E442",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Only in cocoa and chocolate products",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4746"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1063",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "リン脂質",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "442",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4746"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ammonium+phosphatides",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ammonium+phosphatides+E442",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4746",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1063",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=442"
+  },
+  "regulatory_history": [
+    {
+      "year": 1973,
+      "event": "Evaluated by JECFA"
+    },
+    {
+      "year": 2017,
+      "event": "Re-evaluated by EFSA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chocolate and chocolate products",
+    "Cocoa powder",
+    "Chocolate coatings",
+    "Compound chocolate"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - helps chocolate flow smoothly and reduces viscosity."
+  }
+}

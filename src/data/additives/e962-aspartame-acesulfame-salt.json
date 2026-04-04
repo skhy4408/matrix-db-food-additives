@@ -1,0 +1,154 @@
+{
+  "slug": "e962-aspartame-acesulfame-salt",
+  "names": {
+    "e_number": "E962",
+    "ins_number": "962",
+    "cas_number": "106372-55-8",
+    "common_name": "Aspartame-acesulfame salt",
+    "scientific_name": "Aspartame-acesulfame salt (2:1)",
+    "japanese_name": "アスパルテーム・アセスルファムカリウム塩",
+    "japanese_label_name": "アスパルテーム・アセスルファムK塩",
+    "aliases": [
+      "Twinsweet",
+      "Ace-K/Aspartame salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial blend",
+    "source_type": "synthetic",
+    "chemical_group": "molecular complex"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A molecular salt combining aspartame and acesulfame-K in a 2:1 ratio. About 350 times sweeter than sucrose. Provides synergistic sweetness with improved taste profile compared to either sweetener alone."
+  },
+  "manufacturing": {
+    "method": "molecular combination",
+    "description": "Formed by combining aspartame and acesulfame potassium in aqueous solution to create a stable molecular salt. The combination exhibits better stability than aspartame alone."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Sweetener in chewable tablets and syrups",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E962",
+      "max_level_mg_kg": "varies by food category (350-2000 mg/kg)",
+      "conditions": "Must carry PKU warning due to aspartame component",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4489"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "GRAS Notice 765",
+      "fda_url": null,
+      "notes": "Must carry PKU warning; approved for general use"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アスパルテーム・アセスルファムK塩",
+      "notes": "Must carry PKU warning"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "962",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must carry PKU warning"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "PKU warning required"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "based on individual components (E950 and E951)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not separately specified - based on E950 and E951 ADIs",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4489"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=aspartame+acesulfame+salt+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E962+aspartame+acesulfame+synergy",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4489",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=962"
+  },
+  "regulatory_history": [
+    {
+      "year": 2000,
+      "event": "First approved in EU"
+    },
+    {
+      "year": 2010,
+      "event": "FDA GRAS approval in USA"
+    },
+    {
+      "year": 2016,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "350"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "2000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA GRAS Notice",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Diet soft drinks (Pepsi products)",
+    "Sugar-free chewing gum",
+    "Low-calorie desserts",
+    "Sugar-free ice cream",
+    "Reduced-sugar yogurt",
+    "Protein bars",
+    "Sugar-free candy",
+    "Diet energy drinks"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "Safety is assessed based on the individual ADIs of aspartame (E951: 40 mg/kg bw/day) and acesulfame-K (E950: 15 mg/kg bw/day). The amounts consumed should not exceed these individual limits."
+  },
+  "fun_fact": "This sweetener is a true molecular 'marriage' - aspartame and acesulfame-K actually form a chemical salt together, creating a synergistic sweetness that tastes better than either sweetener alone! It's like 1+1=3 in the sweetness world."
+}

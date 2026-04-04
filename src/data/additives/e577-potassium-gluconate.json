@@ -1,0 +1,132 @@
+{
+  "slug": "e577-potassium-gluconate",
+  "names": {
+    "e_number": "E577",
+    "ins_number": "577",
+    "cas_number": "299-27-4",
+    "common_name": "Potassium Gluconate",
+    "scientific_name": "Potassium D-gluconate (C6H11KO7)",
+    "japanese_name": "グルコン酸カリウム",
+    "japanese_label_name": "グルコン酸K",
+    "aliases": [
+      "Potassium salt of gluconic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "sequestrant",
+    "sub_class": "acidity regulator, potassium source",
+    "source_type": "fermentation-derived",
+    "chemical_group": "organic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Potassium gluconate does not occur naturally but is derived from gluconic acid, which occurs in honey and fruits."
+  },
+  "manufacturing": {
+    "method": "neutralization",
+    "description": "Produced by neutralizing gluconic acid (from glucose fermentation) with potassium hydroxide or potassium carbonate. The resulting potassium gluconate is purified and crystallized."
+  },
+  "other_uses": {
+    "cosmetics": "Chelating agent, pH adjuster.",
+    "industrial": "Rare industrial use.",
+    "pharmaceutical": "Potassium supplement (gentler on stomach than potassium chloride).",
+    "household": "Not typically used."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E577",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as sequestrant and acidity regulator in various food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.6285",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used as nutrient supplement and sequestrant."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "98",
+      "japanese_regulation_name": "グルコン酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "577",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4091",
+    "efsa_adi": "not specified (no safety concern)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+gluconate+food+supplement",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+gluconate+sequestrant",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4091",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=577"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "13.2",
+      "category_name": "Dietary supplements",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Potassium dietary supplements",
+    "Sports drinks and electrolyte beverages",
+    "Fortified foods (potassium source)",
+    "Reduced-sodium foods (potassium replacement)",
+    "Some processed foods"
+  ],
+  "fun_facts": [
+    "Preferred form of potassium supplement in pills - easier on the stomach than potassium chloride",
+    "Provides both potassium AND the benefits of gluconic acid (chelating, mild acidity)",
+    "Doesn't have the bitter/metallic taste of potassium chloride",
+    "Well-absorbed by the body and metabolized like glucose",
+    "Used in sports nutrition for potassium replenishment without GI upset",
+    "The gluconate form makes it gentler and more palatable than other potassium salts"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "e213-calcium-benzoate",
+  "names": {"e_number": "E213", "ins_number": "213", "cas_number": "2090-05-3", "common_name": "Calcium benzoate", "scientific_name": "Calcium dibenzoate", "japanese_name": "安息香酸カルシウム", "japanese_label_name": "安息香酸Ca", "aliases": ["Benzoic acid calcium salt"]},
+  "classification": {"functional_class": "preservative", "sub_class": "antimicrobial", "source_type": "synthetic", "chemical_group": "benzoate salt"},
+  "natural_occurrence": {"found_in_nature": false, "natural_sources": [], "description": "A preservative in the benzoate family, used to prevent microbial growth in acidic foods and beverages."},
+  "manufacturing": {"method": "chemical synthesis", "description": "Produced by neutralizing benzoic acid with calcium hydroxide or calcium carbonate."},
+  "other_uses": {"cosmetics": null, "industrial": null, "pharmaceutical": null, "household": null},
+  "regulations": {
+    "eu": {"status": "approved", "e_number": "E213", "max_level_mg_kg": "varies by food category", "conditions": "Same limits as E210-E219 expressed as benzoic acid", "legal_reference": "Regulation (EC) No 1333/2008, Annex II", "efsa_last_evaluated": "2016", "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4621"},
+    "usa": {"status": "approved", "classification": "GRAS", "cfr_reference": "21 CFR 184.1187", "fda_url": null, "notes": "Approved as antimicrobial preservative"},
+    "japan": {"status": "approved", "category": "指定添加物", "mhlw_list_number": null, "japanese_regulation_name": "安息香酸カルシウム", "notes": "Permitted preservative"},
+    "australia_nz": {"status": "approved", "code": "213", "fsanz_reference": "Schedule 16", "notes": "Permitted preservative"},
+    "canada": {"status": "approved", "reference": "Lists of Permitted Preservatives", "health_canada_url": null, "notes": "Approved preservative"}
+  },
+  "safety_evaluations": {"jecfa_adi": "0–5 mg/kg bw/day (as benzoic acid)", "jecfa_evaluation_year": 2016, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "efsa_adi": "5 mg/kg bw/day (as benzoic acid)", "efsa_evaluation_year": 2016, "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4621"},
+  "research_links": {"pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+benzoate+preservative", "google_scholar_url": "https://scholar.google.com/scholar?q=E213+calcium+benzoate", "controversy_level": "low", "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4621", "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1187", "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=213"},
+  "regulatory_history": [{"year": 2016, "event": "EFSA and JECFA re-evaluate benzoates"}],
+  "food_categories_eu": [{"category_code": "various", "category_name": "Multiple food categories", "max_level_mg_kg": "150-500 depending on category"}],
+  "cross_references": {"cosmetics_db_slug": null},
+  "metadata": {"data_sources": ["EU Regulation (EC) No 1333/2008", "FDA 21 CFR", "JECFA Database", "EFSA Opinion 2016"], "last_updated": "2026-04-04", "data_completeness": {"eu": "complete", "usa": "complete", "japan": "complete", "australia_nz": "complete", "canada": "complete"}},
+  "commonly_found_in": ["Fruit juices", "Soft drinks", "Pickles", "Sauces"],
+  "adi_context": {"adi_value_mg_per_kg": 5, "body_weight_kg": 60, "daily_limit_mg": 300, "equivalents": [{"product": "ml of soft drink with calcium benzoate (150ppm)", "typical_content_mg": 0.15, "quantity": "~2000"}], "source_note": "Based on EFSA ADI for benzoates. Part of the benzoate preservative family (E210-E213)."}
+}

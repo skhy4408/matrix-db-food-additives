@@ -1,0 +1,135 @@
+{
+  "slug": "e1420-acetylated-starch",
+  "names": {
+    "e_number": "E1420",
+    "ins_number": "1420",
+    "cas_number": "9045-28-7",
+    "common_name": "Acetylated Starch",
+    "scientific_name": "Starch acetate",
+    "japanese_name": "アセチル化でん粉",
+    "japanese_label_name": "アセチル化デンプン",
+    "aliases": [
+      "Starch acetate"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "modified_starch",
+    "source_type": "modified_natural",
+    "chemical_group": "modified carbohydrate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Starch modified by acetylation to improve stability, clarity, and texture. Resistant to retrogradation and provides smooth mouthfeel."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating starch with acetic anhydride or vinyl acetate."
+  },
+  "other_uses": {
+    "cosmetics": "Texture modifier",
+    "industrial": "Paper coating, textile sizing",
+    "pharmaceutical": "Tablet binder",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E1420",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.892",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アセチル化でん粉",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "1420",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Enzymes",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=acetylated+starch+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=acetylated+starch+E1420",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.892",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=1420"
+  },
+  "regulatory_history": [
+    {
+      "year": 2017,
+      "event": "Re-evaluated by JECFA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sauces and gravies",
+    "Salad dressings",
+    "Puddings and pie fillings",
+    "Frozen foods",
+    "Batter and breading mixes"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - modified starch is digested like regular starch."
+  }
+}

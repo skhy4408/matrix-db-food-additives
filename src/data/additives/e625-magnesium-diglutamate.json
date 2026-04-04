@@ -1,0 +1,132 @@
+{
+  "slug": "e625-magnesium-diglutamate",
+  "names": {
+    "e_number": "E625",
+    "ins_number": "625",
+    "cas_number": "18543-68-5",
+    "common_name": "Magnesium Diglutamate",
+    "scientific_name": "Magnesium di-L-glutamate",
+    "japanese_name": "L-グルタミン酸マグネシウム",
+    "japanese_label_name": "L-グルタミン酸Mg",
+    "aliases": [
+      "Magnesium glutamate"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "umami",
+    "source_type": "synthetic",
+    "chemical_group": "glutamate salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "The magnesium salt of glutamic acid, providing umami flavor."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing glutamic acid with magnesium hydroxide or magnesium carbonate."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E625",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1430",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-グルタミン酸マグネシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "625",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1988,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+glutamate",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=magnesium+diglutamate+E625",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1430",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=625"
+  },
+  "regulatory_history": [
+    {
+      "year": 1988,
+      "event": "JECFA evaluates glutamates"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Seasonings",
+    "Savory snacks"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - glutamate salt."
+  }
+}

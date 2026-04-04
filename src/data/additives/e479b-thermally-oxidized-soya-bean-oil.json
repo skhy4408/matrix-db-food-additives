@@ -1,0 +1,134 @@
+{
+  "slug": "e479b-thermally-oxidized-soya-bean-oil",
+  "names": {
+    "e_number": "E479b",
+    "ins_number": "479b",
+    "cas_number": "232-410-2",
+    "common_name": "Thermally oxidized soya bean oil",
+    "scientific_name": "Thermally oxidized soya bean oil interacted with mono- and diglycerides of fatty acids",
+    "japanese_name": "加熱酸化大豆油",
+    "japanese_label_name": "加熱酸化大豆油",
+    "aliases": [
+      "TOSOM",
+      "Oxidized soybean oil"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "release agent",
+    "source_type": "semi-synthetic",
+    "chemical_group": "modified vegetable oil"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A release agent and emulsifier made by heating soybean oil with mono- and diglycerides. Used to prevent food from sticking to baking pans and machinery."
+  },
+  "manufacturing": {
+    "method": "thermal oxidation",
+    "description": "Produced by heating soybean oil in the presence of air along with mono- and diglycerides of fatty acids."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Industrial release agent for baking equipment",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E479b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specific food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2007",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Food additive",
+      "cfr_reference": "21 CFR 178.3570",
+      "fda_url": null,
+      "notes": "Approved as release agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "加熱酸化大豆油",
+      "notes": "Permitted as emulsifier"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "479b",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted as emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying Agents",
+      "health_canada_url": null,
+      "notes": "Approved as release agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=thermally+oxidized+soybean+oil",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E479b+TOSOM+emulsifier",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-178.3570",
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates thermally oxidized oils"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Bakery products (release agent)",
+    "Commercial baked goods",
+    "Industrial food processing equipment coating"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "No ADI specified. Primarily used as a release agent to prevent baked goods from sticking to pans during manufacturing."
+  }
+}

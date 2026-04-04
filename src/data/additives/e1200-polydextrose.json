@@ -1,0 +1,142 @@
+{
+  "slug": "e1200-polydextrose",
+  "names": {
+    "e_number": "E1200",
+    "ins_number": "1200",
+    "cas_number": "68424-04-4",
+    "common_name": "Polydextrose",
+    "scientific_name": "Polydextrose",
+    "japanese_name": "ポリデキストロース",
+    "japanese_label_name": "ポリデキストロース",
+    "aliases": [
+      "PDX"
+    ]
+  },
+  "classification": {
+    "functional_class": "bulking_agent",
+    "sub_class": "low_calorie_bulking_agent",
+    "source_type": "synthetic",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic, randomly-bonded polymer of glucose used as a low-calorie bulking agent and prebiotic fiber in sugar-free and reduced-calorie foods. Provides only 1 calorie per gram compared to sugar's 4 calories."
+  },
+  "manufacturing": {
+    "method": "thermal polymerization",
+    "description": "Produced by heating glucose with sorbitol and citric acid or phosphoric acid, creating randomly cross-linked glucose polymers."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Bulking agent in tablets",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E1200",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2011,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1589"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.841",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリデキストロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "1200",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1981,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1589"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polydextrose+prebiotic",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=polydextrose+E1200",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1589",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.841",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=1200"
+  },
+  "regulatory_history": [
+    {
+      "year": 1981,
+      "event": "Approved by FDA and evaluated by JECFA"
+    },
+    {
+      "year": 2011,
+      "event": "Re-evaluated by EFSA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free candies and gum",
+    "Low-calorie ice cream and frozen desserts",
+    "Baked goods and cookies",
+    "Fiber-enriched foods",
+    "Meal replacement bars",
+    "Sugar-free puddings",
+    "Low-sugar yogurt",
+    "Diabetic-friendly foods"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - acts as dietary fiber and provides prebiotic benefits. The secret ingredient in many sugar-free foods! May cause laxative effects if consumed in large amounts."
+  }
+}

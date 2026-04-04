@@ -1,0 +1,140 @@
+{
+  "slug": "e535-sodium-ferrocyanide",
+  "names": {
+    "e_number": "E535",
+    "ins_number": "535",
+    "cas_number": "13601-19-9",
+    "common_name": "Sodium Ferrocyanide",
+    "scientific_name": "Sodium ferrocyanide decahydrate (Na4[Fe(CN)6]·10H2O)",
+    "japanese_name": "フェロシアン化ナトリウム",
+    "japanese_label_name": "フェロシアン化Na",
+    "aliases": [
+      "Yellow prussiate of soda",
+      "Tetrasodium hexacyanoferrate",
+      "Sodium hexacyanoferrate(II)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "crystallization aid",
+    "source_type": "synthetic",
+    "chemical_group": "coordination compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Sodium ferrocyanide does not occur naturally. It is synthetically manufactured for use in salt refining and other industrial applications."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting ferrous sulfate with sodium cyanide and then oxidizing, or from spent oxide from gas purification. The hexacyanoferrate complex is extremely stable, with the cyanide groups tightly bound to the iron center."
+  },
+  "other_uses": {
+    "cosmetics": "Not used.",
+    "industrial": "Salt refining, wine fining, photography, pigment production (Prussian blue), metal surface treatment.",
+    "pharmaceutical": "Not used in pharmaceuticals.",
+    "household": "Present in table salt as anti-caking agent."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E535",
+      "max_level_mg_kg": "20 (as anhydrous ferrocyanide)",
+      "conditions": "Restricted to use in salt and salt substitutes only. Maximum levels strictly enforced.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (limited use)",
+      "cfr_reference": "21 CFR 172.490",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to 13 ppm in table salt."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "400",
+      "japanese_regulation_name": "フェロシアン化ナトリウム",
+      "notes": "Restricted use with maximum limits in salt."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "535",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Limited to use in salt products."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Maximum 15 ppm in table salt."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-0.025 mg/kg bw/day (as ferrocyanide ion)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4079",
+    "efsa_adi": "0.03 mg/kg bw/day (as ferrocyanide ion)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+ferrocyanide+salt+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ferrocyanide+anti-caking+agent+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4079",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=535"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated ferrocyanides and confirmed safety at current use levels, though established ADI due to concerns about cyanide release under extreme conditions (not normal food use)."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "20 (as anhydrous)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Table salt (anti-caking agent - prevents clumping)",
+    "Sea salt products",
+    "Kosher salt",
+    "Salt substitutes",
+    "Wine (fining agent to remove iron)"
+  ],
+  "fun_facts": [
+    "Contains CYANIDE in its name but is COMPLETELY SAFE - the cyanide is tightly locked in a stable iron complex",
+    "The cyanide groups are bonded so strongly to iron that they cannot be released under normal cooking or eating conditions",
+    "Would need temperatures over 400°C or strong acids to break down and release cyanide - never happens in food",
+    "Used in table salt for decades with an excellent safety record",
+    "Also used to make Prussian blue pigment - one of the first modern synthetic pigments (1704)",
+    "The 'yellow prussiate' name comes from its historical production method related to Prussian blue dye",
+    "Prevents salt from clumping by crystal modification rather than moisture absorption"
+  ]
+}

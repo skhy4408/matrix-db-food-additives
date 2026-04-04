@@ -1,0 +1,23 @@
+{
+  "slug": "e203-calcium-sorbate",
+  "names": {"e_number": "E203", "ins_number": "203", "cas_number": "7492-55-9", "common_name": "Calcium sorbate", "scientific_name": "Calcium (E,E)-hexa-2,4-dienoate", "japanese_name": "ソルビン酸カルシウム", "japanese_label_name": "ソルビン酸Ca", "aliases": ["Calcium 2,4-hexadienoate"]},
+  "classification": {"functional_class": "preservative", "sub_class": "antimicrobial", "source_type": "synthetic", "chemical_group": "sorbate salt"},
+  "natural_occurrence": {"found_in_nature": false, "natural_sources": [], "description": "A preservative closely related to E202 (potassium sorbate). Prevents mold and yeast growth in food products."},
+  "manufacturing": {"method": "chemical synthesis", "description": "Produced by neutralizing sorbic acid with calcium hydroxide or calcium carbonate."},
+  "other_uses": {"cosmetics": null, "industrial": null, "pharmaceutical": null, "household": null},
+  "regulations": {
+    "eu": {"status": "approved", "e_number": "E203", "max_level_mg_kg": "varies by food category", "conditions": "Same limits as E200-E202 expressed as sorbic acid", "legal_reference": "Regulation (EC) No 1333/2008, Annex II", "efsa_last_evaluated": "2015", "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"},
+    "usa": {"status": "approved", "classification": "GRAS", "cfr_reference": "21 CFR 182.3225", "fda_url": null, "notes": "Approved as antimicrobial preservative"},
+    "japan": {"status": "approved", "category": "指定添加物", "mhlw_list_number": null, "japanese_regulation_name": "ソルビン酸カルシウム", "notes": "Permitted preservative"},
+    "australia_nz": {"status": "approved", "code": "203", "fsanz_reference": "Schedule 16", "notes": "Permitted preservative"},
+    "canada": {"status": "approved", "reference": "Lists of Permitted Preservatives", "health_canada_url": null, "notes": "Approved preservative"}
+  },
+  "safety_evaluations": {"jecfa_adi": "0–25 mg/kg bw/day (as sorbic acid)", "jecfa_evaluation_year": 1973, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "efsa_adi": "3 mg/kg bw/day (as sorbic acid)", "efsa_evaluation_year": 2015, "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"},
+  "research_links": {"pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+sorbate+preservative", "google_scholar_url": "https://scholar.google.com/scholar?q=E203+calcium+sorbate", "controversy_level": "very_low", "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144", "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3225", "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=203"},
+  "regulatory_history": [{"year": 1973, "event": "JECFA establishes ADI for sorbates"}, {"year": 2015, "event": "EFSA re-evaluates sorbates"}],
+  "food_categories_eu": [{"category_code": "various", "category_name": "Multiple food categories", "max_level_mg_kg": "300-2000 depending on category"}],
+  "cross_references": {"cosmetics_db_slug": null},
+  "metadata": {"data_sources": ["EU Regulation (EC) No 1333/2008", "FDA 21 CFR", "JECFA Database", "EFSA Opinion 2015"], "last_updated": "2026-04-04", "data_completeness": {"eu": "complete", "usa": "complete", "japan": "complete", "australia_nz": "complete", "canada": "complete"}},
+  "commonly_found_in": ["Cheese", "Baked goods", "Beverages", "Dried fruits"],
+  "adi_context": {"adi_value_mg_per_kg": 3, "body_weight_kg": 60, "daily_limit_mg": 180, "equivalents": [{"product": "grams of cheese with calcium sorbate (1000ppm)", "typical_content_mg": 1, "quantity": "~180"}], "source_note": "Based on EFSA ADI for sorbates. Part of the sorbate family (E200-E203), all considered very safe preservatives."}
+}

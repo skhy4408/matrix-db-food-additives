@@ -1,0 +1,148 @@
+{
+  "slug": "e554-sodium-aluminium-silicate",
+  "names": {
+    "e_number": "E554",
+    "ins_number": "554",
+    "cas_number": "1344-00-9",
+    "common_name": "Sodium Aluminium Silicate",
+    "scientific_name": "Sodium aluminium silicate (Na2Al2Si2O8 and related forms)",
+    "japanese_name": "アルミノケイ酸ナトリウム",
+    "japanese_label_name": "アルミノケイ酸Na",
+    "aliases": [
+      "Sodium aluminosilicate",
+      "Sodium aluminum silicate",
+      "Zeolite (some natural forms)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "carrier",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic aluminosilicate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Zeolite minerals",
+      "Albite and other feldspars"
+    ],
+    "description": "While sodium aluminium silicate occurs in nature as zeolites and feldspars, food-grade material is synthetically produced for purity and consistent properties."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting sodium silicate with aluminum sulfate or aluminum hydroxide, followed by washing, drying, and milling. The synthetic process controls particle size and purity."
+  },
+  "other_uses": {
+    "cosmetics": "Absorbent, bulking agent, opacifier.",
+    "industrial": "Zeolite catalysts, water softening, detergents, molecular sieves.",
+    "pharmaceutical": "Rare use as excipient.",
+    "household": "Water softening, some cleaning products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E554",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as anti-caking agent. Part of aluminum-containing additives with exposure concerns.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.2727",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Maximum 2% by weight as anti-caking agent."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "4",
+      "japanese_regulation_name": "アルミノケイ酸ナトリウム",
+      "notes": "Restricted use with monitoring of aluminum exposure."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "554",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (subject to overall aluminum limits)",
+    "jecfa_evaluation_year": 2006,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4087",
+    "efsa_adi": "no ADI (part of overall aluminum TWI of 1 mg/kg bw/week)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+aluminum+silicate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+aluminosilicate+anti-caking",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4087",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=554"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated aluminum-containing food additives including E554, expressing concern about dietary aluminum exposure, particularly for children."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.2.2",
+      "category_name": "Seasonings and condiments",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Table salt and seasoned salts",
+    "Powdered non-dairy creamers",
+    "Spice mixes and dried seasonings",
+    "Cake mixes and baking powders",
+    "Dried soup mixes",
+    "Chewing gum"
+  ],
+  "fun_facts": [
+    "Related to zeolites - minerals with cage-like structures used as molecular sieves and catalysts",
+    "One of the aluminum-containing additives under regulatory scrutiny due to aluminum exposure concerns",
+    "Extremely effective anti-caking agent due to its porous structure that absorbs moisture",
+    "Natural zeolites have been used for water purification for centuries",
+    "Part of ongoing debate about aluminum in food and potential health effects",
+    "The same family of compounds used in cat litter and water softeners (industrial grade zeolites)"
+  ]
+}

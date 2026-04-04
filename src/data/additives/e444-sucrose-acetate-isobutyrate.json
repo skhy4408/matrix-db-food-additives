@@ -1,0 +1,145 @@
+{
+  "slug": "e444-sucrose-acetate-isobutyrate",
+  "names": {
+    "e_number": "E444",
+    "ins_number": "444",
+    "cas_number": "126-13-6",
+    "common_name": "Sucrose Acetate Isobutyrate",
+    "scientific_name": "Sucrose acetate isobutyrate",
+    "japanese_name": "酢酸イソ酪酸スクロース",
+    "japanese_label_name": "酢酸イソ酪酸スクロース",
+    "aliases": [
+      "SAIB",
+      "Sucrose diacetate hexaisobutyrate"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "weighting_agent",
+    "source_type": "synthetic",
+    "chemical_group": "sucrose ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A density-adjusting agent used in beverages to keep flavor oils and citrus oils in suspension. Prevents separation and cloudiness in drinks."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by esterification of sucrose with acetic anhydride and isobutyric anhydride."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E444",
+      "max_level_mg_kg": "300",
+      "conditions": "Only in non-alcoholic flavored drinks",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2015,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4087"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.833",
+      "fda_url": null,
+      "notes": "Maximum 300 ppm in beverages"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酢酸イソ酪酸スクロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "444",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-10 mg/kg bw/day",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "7 mg/kg bw/day",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4087"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sucrose+acetate+isobutyrate+SAIB",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sucrose+acetate+isobutyrate+E444",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4087",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.833",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=444"
+  },
+  "regulatory_history": [
+    {
+      "year": 1961,
+      "event": "Approved by FDA for use in beverages"
+    },
+    {
+      "year": 2015,
+      "event": "Re-evaluated by EFSA and JECFA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "300"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Citrus-flavored sodas and soft drinks",
+    "Sports drinks",
+    "Fruit-flavored beverages",
+    "Cloud emulsions in drinks"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 420,
+    "equivalents": [
+      {
+        "product": "citrus soda (with maximum SAIB)",
+        "typical_content_mg": 105,
+        "quantity": "~4 cans"
+      }
+    ],
+    "source_note": "Based on EFSA ADI. Helps keep citrus oils suspended in your favorite sodas."
+  }
+}

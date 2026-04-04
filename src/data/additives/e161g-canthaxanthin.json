@@ -1,0 +1,155 @@
+{
+  "slug": "e161g-canthaxanthin",
+  "names": {
+    "e_number": "E161g",
+    "ins_number": "161g",
+    "cas_number": "514-78-3",
+    "common_name": "Canthaxanthin",
+    "scientific_name": "β,β-carotene-4,4'-dione",
+    "japanese_name": "カンタキサンチン",
+    "japanese_label_name": "カンタキサンチン",
+    "aliases": [
+      "Food Orange 8",
+      "CI 40850"
+    ]
+  },
+  "classification": {
+    "functional_class": "color",
+    "sub_class": "carotenoid",
+    "source_type": "synthetic or natural",
+    "chemical_group": "carotenoid pigment"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Mushrooms (chanterelles)",
+      "Salmon",
+      "Crustaceans",
+      "Flamingo feathers"
+    ],
+    "description": "A naturally occurring orange-red carotenoid pigment. Used to give farmed salmon its pink color and to enhance egg yolk color in poultry. Also used as a tanning agent in pills (now banned for this use in many countries)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or microbial fermentation",
+    "description": "Commercially produced by chemical synthesis or extracted from algae and bacteria. Used extensively in salmon farming to color the flesh pink."
+  },
+  "other_uses": {
+    "cosmetics": "Previously used in tanning pills (now banned in many countries)",
+    "industrial": "Animal feed colorant for salmon and egg-laying hens",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E161g",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Permitted in specific foods only",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1678"
+    },
+    "usa": {
+      "status": "restricted",
+      "classification": "Color additive subject to certification exemption",
+      "cfr_reference": "21 CFR 73.75",
+      "fda_url": null,
+      "notes": "Approved for use in foods but banned in tanning pills due to eye damage (retinal deposits)"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カンタキサンチン",
+      "notes": "Permitted as natural colorant"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "161g",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Banned in tanning tablets"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Approved for food use only"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.03 mg/kg bw/day",
+    "jecfa_evaluation_year": 2004,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.03 mg/kg bw/day",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1678"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=canthaxanthin+safety+retinal",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E161g+canthaxanthin+salmon+color",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1678",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.75",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=161g"
+  },
+  "regulatory_history": [
+    {
+      "year": 1995,
+      "event": "UK bans canthaxanthin in tanning pills due to retinal crystal deposits"
+    },
+    {
+      "year": 2004,
+      "event": "JECFA evaluates canthaxanthin and establishes ADI"
+    },
+    {
+      "year": 2010,
+      "event": "EFSA re-evaluates and confirms ADI with concerns about high doses"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "09.2",
+      "category_name": "Processed fish and fishery products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2010"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Farmed salmon (added to feed to color flesh pink)",
+    "Egg yolks (fed to chickens to enhance yellow color)",
+    "Trout",
+    "Some sausages and meat products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.03,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 1.8,
+    "equivalents": [
+      {
+        "product": "grams of farmed salmon (typical 5 ppm)",
+        "typical_content_mg": 0.005,
+        "quantity": "~360"
+      }
+    ],
+    "source_note": "Based on EFSA ADI. Fun fact: This is what makes farmed salmon pink! Wild salmon get this color from eating krill and shrimp, but farmed salmon need it added to their feed. It's also why flamingos are pink!"
+  }
+}

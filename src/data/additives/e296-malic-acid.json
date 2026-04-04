@@ -1,0 +1,146 @@
+{
+  "slug": "e296-malic-acid",
+  "names": {
+    "e_number": "E296",
+    "ins_number": "296",
+    "cas_number": "6915-15-7 (L), 97-67-6 (D), 617-48-1 (DL)",
+    "common_name": "Malic Acid",
+    "scientific_name": "2-Hydroxybutanedioic acid",
+    "japanese_name": "リンゴ酸",
+    "japanese_label_name": "リンゴ酸",
+    "aliases": [
+      "Apple acid",
+      "Hydroxysuccinic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity_regulator",
+    "sub_class": "acidulant",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "alpha-hydroxy dicarboxylic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Apples (highest concentration)",
+      "Grapes and wine",
+      "Cherries",
+      "Rhubarb",
+      "Tomatoes",
+      "Many fruits and vegetables"
+    ],
+    "description": "A naturally occurring organic acid found in many fruits, especially apples. Gives fruits their characteristic tart taste and is widely used as a flavor enhancer and acidity regulator in foods."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or fermentation",
+    "description": "Industrially produced by catalytic hydration of maleic acid or fumaric acid, or by fermentation of glucose using selected microorganisms. Natural L-malic acid can be extracted from apples."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster, alpha-hydroxy acid in skincare",
+    "industrial": "Chelating agent, buffering agent",
+    "pharmaceutical": "Flavor enhancer, buffering agent in medications",
+    "household": "Cleaning products, descaling agents"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E296",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1069",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "DL-リンゴ酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "296",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=malic+acid+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=malic+acid+E296",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1069",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=296"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sour candies and gummies",
+    "Fruit-flavored beverages",
+    "Wine (from grapes and malolactic fermentation)",
+    "Fruit preserves and jams",
+    "Powdered drink mixes",
+    "Hard candies",
+    "Chewing gum",
+    "Sports drinks"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - naturally occurring in many fruits and vegetables. This is the acid that gives sour candies their mouth-puckering tartness!"
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "e492-sorbitan-tristearate",
+  "names": {
+    "e_number": "E492",
+    "ins_number": "492",
+    "cas_number": "26658-19-5",
+    "common_name": "Sorbitan tristearate",
+    "scientific_name": "Sorbitan tristearate",
+    "japanese_name": "ソルビタントリステアレート",
+    "japanese_label_name": "ソルビタン脂肪酸エステル",
+    "aliases": [
+      "Span 65",
+      "STS"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "non-ionic surfactant",
+    "source_type": "synthetic",
+    "chemical_group": "sorbitan ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier with three stearic acid chains attached to sorbitan. More lipophilic than monostearate, used in water-in-oil emulsions."
+  },
+  "manufacturing": {
+    "method": "esterification",
+    "description": "Produced by esterifying sorbitan with three molecules of stearic acid under controlled conditions."
+  },
+  "other_uses": {
+    "cosmetics": "Emulsifier in lipsticks and creams",
+    "industrial": "Lubricant additive, anti-foaming agent",
+    "pharmaceutical": "Emulsifier in topical formulations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E492",
+      "max_level_mg_kg": "varies by food category (500-25000 mg/kg)",
+      "conditions": "Quantum satis in many categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.842",
+      "fda_url": null,
+      "notes": "Approved for use as emulsifier"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビタン脂肪酸エステル",
+      "notes": "Part of sorbitan fatty acid esters group"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "492",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–25 mg/kg bw/day (for sorbitan esters group)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sorbitan+tristearate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E492+span+65+emulsifier",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.842",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=492"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates sorbitan esters group"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA and JECFA re-evaluate and confirm safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "10000"
+    },
+    {
+      "category_code": "06.6",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chocolate coatings",
+    "Compound chocolate",
+    "Non-dairy creamers",
+    "Margarine and spreads",
+    "Cake icings and glazes",
+    "Sugar confectionery coatings",
+    "Bakery release agents"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 25,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 1500,
+    "equivalents": [],
+    "source_note": "Based on JECFA group ADI for sorbitan esters (E491-E495)."
+  },
+  "fun_fact": "With three fatty acid tails instead of one, sorbitan tristearate is like the 'heavy duty' version of sorbitan monostearate - it's more oil-loving and better at stabilizing oil-based coatings like the shiny chocolate shell on ice cream bars!"
+}

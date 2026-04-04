@@ -1,0 +1,153 @@
+{
+  "slug": "e541-sodium-aluminium-phosphate",
+  "names": {
+    "e_number": "E541",
+    "ins_number": "541",
+    "cas_number": "7785-88-8 (acidic), 10305-76-7 (basic)",
+    "common_name": "Sodium Aluminium Phosphate",
+    "scientific_name": "Sodium aluminium phosphate (NaH14Al3(PO4)8·4H2O - acidic type; Na3H15Al2(PO4)8 - basic type)",
+    "japanese_name": "リン酸アルミニウムナトリウム",
+    "japanese_label_name": "リン酸アルミニウムNa",
+    "aliases": [
+      "SALP",
+      "Sodium aluminum phosphate",
+      "Kasal"
+    ]
+  },
+  "classification": {
+    "functional_class": "raising agent",
+    "sub_class": "acidity regulator, emulsifier",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Sodium aluminium phosphate does not occur naturally. It is synthetically manufactured for use in baking powder and processed cheese."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting aluminum hydroxide or aluminum sulfate with phosphoric acid and sodium carbonate or hydroxide. Two types exist: acidic SALP (for baking powder) and basic SALP (for processed cheese)."
+  },
+  "other_uses": {
+    "cosmetics": "Not typically used.",
+    "industrial": "Fire retardants, water treatment.",
+    "pharmaceutical": "Not commonly used.",
+    "household": "Component of baking powder, self-raising flour."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E541",
+      "max_level_mg_kg": "varies by category (typically 1000-40000 mg/kg depending on use)",
+      "conditions": "Permitted in baking powder, processed cheese, and specific food categories. Part of total aluminum exposure concerns.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1781",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in commercial baking powder and self-raising flour."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "125",
+      "japanese_regulation_name": "リン酸アルミニウムナトリウム",
+      "notes": "Restricted use with maximum levels."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "541",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted in specific food categories."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Common in baking powder formulations."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified for SALP specifically (subject to aluminum limits)",
+    "jecfa_evaluation_year": 2006,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4082",
+    "efsa_adi": "no ADI established (part of overall aluminum TWI of 1 mg/kg bw/week)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+aluminum+phosphate+baking+powder",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=SALP+aluminum+food+additive",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4082",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=541"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated aluminum-containing food additives and expressed concern about dietary aluminum exposure, particularly for children. Established weekly tolerable intake."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.1",
+      "category_name": "Unripened cheese",
+      "max_level_mg_kg": "40000"
+    },
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "1000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "BAKING POWDER (major ingredient in many commercial formulations)",
+    "Self-raising flour",
+    "Pancake and waffle mixes",
+    "Cake mixes and baking mixes",
+    "Processed cheese and cheese products",
+    "Doughnuts and pastries",
+    "Biscuits and scones (from baking powder)",
+    "Frozen batters and doughs"
+  ],
+  "fun_facts": [
+    "One of the most common leavening agents in COMMERCIAL BAKING POWDER - check your pantry!",
+    "Comes in two forms: 'slow-acting' (releases CO2 during baking) and 'double-acting' (releases some at mixing, more when heated)",
+    "Preferred over simple sodium bicarbonate in commercial baking because it doesn't leave a bitter aftertaste",
+    "The 'aluminum-free' baking powder trend is a response to concerns about aluminum exposure (though evidence is debated)",
+    "Has been used in baking for over 100 years with widespread use globally",
+    "Part of ongoing scientific debate about aluminum and health, particularly neurotoxicity concerns",
+    "Provides both leavening AND helps processed cheese stay smooth and melt evenly"
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "slug": "e968-erythritol",
+  "names": {
+    "e_number": "E968",
+    "ins_number": "968",
+    "cas_number": "149-32-6",
+    "common_name": "Erythritol",
+    "scientific_name": "meso-1,2,3,4-Butanetetrol",
+    "japanese_name": "エリスリトール",
+    "japanese_label_name": "エリスリトール",
+    "aliases": [
+      "Erythrite",
+      "Zerose",
+      "Swerve"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "natural/synthetic",
+    "chemical_group": "tetritol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "watermelon",
+      "pears",
+      "grapes",
+      "mushrooms",
+      "fermented foods (wine, sake, soy sauce)"
+    ],
+    "description": "A sugar alcohol about 60-70% as sweet as sucrose with virtually zero calories. Unique among sugar alcohols for being mostly absorbed and excreted unchanged, causing minimal digestive issues."
+  },
+  "manufacturing": {
+    "method": "fermentation",
+    "description": "Produced by fermentation of glucose using osmophilic yeast (typically Moniliella pollinis or Yarrowia lipolytica). The erythritol is then purified through crystallization."
+  },
+  "other_uses": {
+    "cosmetics": "Humectant and skin conditioning agent",
+    "industrial": null,
+    "pharmaceutical": "Excipient in tablets and lozenges",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E968",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "No laxative warning required unlike other polyols",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4033"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "GRAS Notice 789",
+      "fda_url": null,
+      "notes": "GRAS for use in foods; zero calorie status granted"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エリスリトール",
+      "notes": "Widely used in Japanese low-calorie products"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "968",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "GRAS status recognized"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4033"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=erythritol+safety+digestive+tolerance",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=erythritol+E968+cardiovascular",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4033",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=968"
+  },
+  "regulatory_history": [
+    {
+      "year": 1990,
+      "event": "First approved in Japan"
+    },
+    {
+      "year": 1997,
+      "event": "FDA accepts GRAS notification"
+    },
+    {
+      "year": 2006,
+      "event": "EU approves as E968"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms safety"
+    },
+    {
+      "year": 2023,
+      "event": "Cleveland Clinic study suggests potential cardiovascular concerns at high intakes (under review)"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavored drinks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA GRAS Notice",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Keto-friendly sweeteners (Swerve, Truvia, Lakanto)",
+    "Sugar-free energy drinks (Bang, Zevia)",
+    "Sugar-free chocolate (Lily's)",
+    "Protein bars (Atkins, Quest)",
+    "Sugar-free gum and mints",
+    "Low-carb ice cream (Halo Top, Enlightened)",
+    "Sugar-free beverages",
+    "Keto baking mixes"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. Unlike other sugar alcohols, erythritol is 90% absorbed in the small intestine and excreted unchanged, so it rarely causes digestive issues even at high intakes (50g+). However, some 2023 research suggests potential cardiovascular effects warrant further study."
+  },
+  "fun_fact": "Erythritol is the 'unicorn' of sugar alcohols - it has almost zero calories, doesn't spike blood sugar, AND doesn't cause the dreaded digestive issues that plague other sugar alcohols! That's because 90% of it gets absorbed before reaching your colon. It's become the darling of the keto diet movement."
+}

@@ -1,0 +1,137 @@
+{
+  "slug": "e1412-distarch-phosphate",
+  "names": {
+    "e_number": "E1412",
+    "ins_number": "1412",
+    "cas_number": "55963-33-2",
+    "common_name": "Distarch Phosphate",
+    "scientific_name": "Phosphated distarch phosphate",
+    "japanese_name": "リン酸架橋でん粉",
+    "japanese_label_name": "リン酸架橋デンプン",
+    "aliases": [
+      "Cross-linked starch",
+      "Phosphate cross-linked starch"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "modified_starch",
+    "source_type": "modified_natural",
+    "chemical_group": "modified carbohydrate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Cross-linked starch with phosphate bridges between starch molecules. Provides excellent stability under heat, acid, and shear stress. Very resistant to breakdown during processing."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating starch with phosphorus oxychloride or sodium trimetaphosphate, creating cross-links between starch chains."
+  },
+  "other_uses": {
+    "cosmetics": "Texture modifier",
+    "industrial": "Paper manufacturing, textile sizing",
+    "pharmaceutical": "Tablet binder",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E1412",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.892",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "リン酸架橋でん粉",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "1412",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Enzymes",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=distarch+phosphate+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=distarch+phosphate+E1412",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.892",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=1412"
+  },
+  "regulatory_history": [
+    {
+      "year": 2017,
+      "event": "Re-evaluated by JECFA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Canned soups and sauces",
+    "Frozen meals",
+    "Baby food",
+    "Pie fillings",
+    "Gravies",
+    "Mayonnaise and salad dressings"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - modified starch is digested like regular starch."
+  }
+}

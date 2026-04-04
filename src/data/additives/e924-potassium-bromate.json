@@ -1,0 +1,23 @@
+{
+  "slug": "e924-potassium-bromate",
+  "names": {"e_number": "E924", "ins_number": "924", "cas_number": "7758-01-2", "common_name": "Potassium bromate", "scientific_name": "Potassium bromate", "japanese_name": "臭素酸カリウム", "japanese_label_name": "臭素酸カリウム", "aliases": ["KBrO3", "Bromic acid potassium salt"]},
+  "classification": {"functional_class": "flour treatment agent", "sub_class": "oxidizing agent", "source_type": "synthetic", "chemical_group": "bromate salt"},
+  "natural_occurrence": {"found_in_nature": false, "natural_sources": [], "description": "A powerful oxidizing agent formerly used as a flour improver to strengthen dough. Now BANNED in most of the world due to cancer concerns!"},
+  "manufacturing": {"method": "chemical synthesis", "description": "Produced by electrolysis of potassium bromide solution or by reacting bromine with potassium hydroxide."},
+  "other_uses": {"cosmetics": null, "industrial": "Laboratory reagent, analytical chemistry", "pharmaceutical": null, "household": null},
+  "regulations": {
+    "eu": {"status": "banned", "e_number": "E924", "max_level_mg_kg": "0", "conditions": "Banned since 1990s", "legal_reference": "Not permitted under Regulation (EC) No 1333/2008", "efsa_last_evaluated": null, "efsa_opinion_url": null},
+    "usa": {"status": "restricted", "classification": "Approved with conditions", "cfr_reference": "21 CFR 172.730", "fda_url": null, "notes": "Legal but rarely used; max 75 ppm in flour, must bake out to undetectable levels"},
+    "japan": {"status": "banned", "category": null, "mhlw_list_number": null, "japanese_regulation_name": null, "notes": "Banned in 1992"},
+    "australia_nz": {"status": "banned", "code": null, "fsanz_reference": null, "notes": "Not permitted"},
+    "canada": {"status": "banned", "reference": null, "health_canada_url": null, "notes": "Banned in 1994"}
+  },
+  "safety_evaluations": {"jecfa_adi": "Withdrawn", "jecfa_evaluation_year": 1992, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "efsa_adi": "Not established (banned)", "efsa_evaluation_year": null, "efsa_opinion_url": null},
+  "research_links": {"pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+bromate+carcinogen+cancer", "google_scholar_url": "https://scholar.google.com/scholar?q=E924+potassium+bromate+toxicity", "controversy_level": "very_high", "efsa_opinion_url": null, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.730", "codex_url": null},
+  "regulatory_history": [{"year": 1982, "event": "Found to cause cancer in animal studies"}, {"year": 1990, "event": "UK bans potassium bromate"}, {"year": 1992, "event": "JECFA withdraws ADI due to carcinogenicity"}, {"year": 1994, "event": "Canada bans potassium bromate"}, {"year": 1999, "event": "IARC classifies as Group 2B possible carcinogen"}, {"year": 2000, "event": "Most countries ban; USA keeps it legal but industry largely abandons it"}],
+  "food_categories_eu": [],
+  "cross_references": {"cosmetics_db_slug": null},
+  "metadata": {"data_sources": ["FDA 21 CFR", "IARC Monographs", "JECFA Database"], "last_updated": "2026-04-04", "data_completeness": {"eu": "complete", "usa": "complete", "japan": "complete", "australia_nz": "complete", "canada": "complete"}},
+  "commonly_found_in": ["Virtually no products (banned in most countries)", "Some US bread products (rare, mostly phased out voluntarily)"],
+  "adi_context": {"adi_value_mg_per_kg": 0, "body_weight_kg": 60, "daily_limit_mg": 0, "equivalents": [], "source_note": "NO SAFE INTAKE LEVEL - classified as possible carcinogen and banned in EU, UK, Canada, Brazil, China, and most of the world. Only the USA still permits it (though most bakeries voluntarily stopped using it). This is one of the most controversial food additives ever approved!"}
+}

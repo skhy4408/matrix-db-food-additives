@@ -1,0 +1,168 @@
+{
+  "slug": "e969-advantame",
+  "names": {
+    "e_number": "E969",
+    "ins_number": "969",
+    "cas_number": "714229-20-6",
+    "common_name": "Advantame",
+    "scientific_name": "N-[3-(3-Hydroxy-4-methoxyphenyl)propyl]-L-α-aspartyl]-L-phenylalanine 1-methyl ester",
+    "japanese_name": "アドバンテーム",
+    "japanese_label_name": "アドバンテーム",
+    "aliases": [
+      "ADV"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "dipeptide derivative"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "The newest and most potent artificial sweetener approved globally. About 20,000-37,000 times sweeter than sucrose. Derived from aspartame but does not require PKU warning. Extremely heat-stable."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from aspartame and vanillin through a multi-step chemical process. The resulting compound is significantly more potent than its parent molecule aspartame."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Flavor enhancer",
+    "pharmaceutical": "Potential use in medications",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E969",
+      "max_level_mg_kg": "varies by food category (0.5-5 mg/kg)",
+      "conditions": "Extremely low maximum levels due to ultra-high sweetness intensity",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3301"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.913",
+      "fda_url": null,
+      "notes": "Approved in 2014; no PKU warning required"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アドバンテーム",
+      "notes": "Approved with extremely low maximum use levels"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "969",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as sweetener and flavor enhancer"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved for use in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2013,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3301"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=advantame+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=advantame+E969+sweetener",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3301",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.913",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=969"
+  },
+  "regulatory_history": [
+    {
+      "year": 2013,
+      "event": "JECFA and EFSA complete safety evaluations and establish ADI"
+    },
+    {
+      "year": 2014,
+      "event": "FDA approves advantame for general use"
+    },
+    {
+      "year": 2014,
+      "event": "EU approves as E969"
+    },
+    {
+      "year": 2015,
+      "event": "Australia/NZ approval granted"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "0.5"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "1.6"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Diet beverages",
+    "Sugar-free gum and candy",
+    "Low-calorie dairy products",
+    "Baked goods",
+    "Flavor enhancers",
+    "Tabletop sweetener blends",
+    "Protein supplements",
+    "Sugar-free sauces and condiments"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "cans of advantame-sweetened beverage (355ml)",
+        "typical_content_mg": 0.18,
+        "quantity": "~1,667"
+      },
+      {
+        "product": "pieces of advantame-sweetened gum",
+        "typical_content_mg": 0.05,
+        "quantity": "~6,000"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and estimated usage levels. Due to extreme sweetness, actual consumption is far below ADI levels."
+  },
+  "fun_fact": "Advantame is the Superman of sweeteners - at 20,000-37,000 times sweeter than sugar, it's one of the most potent sweeteners ever approved! A single gram can sweeten 5,000 liters of beverage. It's so powerful that food manufacturers need only microscopic amounts, making it extremely cost-effective."
+}

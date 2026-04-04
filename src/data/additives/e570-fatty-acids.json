@@ -1,0 +1,152 @@
+{
+  "slug": "e570-fatty-acids",
+  "names": {
+    "e_number": "E570",
+    "ins_number": "570",
+    "cas_number": "Various (depends on specific fatty acid)",
+    "common_name": "Fatty Acids",
+    "scientific_name": "Fatty acids (various saturated and unsaturated carboxylic acids)",
+    "japanese_name": "脂肪酸",
+    "japanese_label_name": "脂肪酸",
+    "aliases": [
+      "Stearic acid (C18:0)",
+      "Palmitic acid (C16:0)",
+      "Oleic acid (C18:1)",
+      "Caprylic acid (C8:0)",
+      "Various other fatty acids"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "anti-foaming agent, release agent, emulsifier",
+    "source_type": "natural (from fats/oils)",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "All fats and oils (animal and plant)",
+      "Coconut oil, palm oil (saturated fatty acids)",
+      "Olive oil, canola oil (unsaturated fatty acids)",
+      "Butter, lard, tallow"
+    ],
+    "description": "Fatty acids are natural components of all fats and oils. They are released when fats are hydrolyzed (split apart). E570 includes various saturated and unsaturated fatty acids typically derived from vegetable oils or animal fats."
+  },
+  "manufacturing": {
+    "method": "extraction from natural fats",
+    "description": "Produced by hydrolysis (splitting) of fats and oils using water, enzymes, or alkaline treatment. The resulting fatty acids are separated, purified, and may be further processed (hydrogenation, fractionation). Common sources include palm oil, coconut oil, and tallow."
+  },
+  "other_uses": {
+    "cosmetics": "Emulsifier, emollient, thickener in creams, lotions, soaps.",
+    "industrial": "Soap making (saponification), lubricants, candle making, plastics, rubber.",
+    "pharmaceutical": "Suppository bases, tablet lubricants, topical formulations.",
+    "household": "Soap, candles."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E570",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories as glazing agent, anti-foaming agent, and release agent.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4666"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.860 (various sections for different fatty acids)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used as GRAS substances, naturally present in foods."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "416",
+      "japanese_regulation_name": "脂肪酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "570",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (natural food components)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4088",
+    "efsa_adi": "not specified (no safety concern)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4666"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=fatty+acids+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=fatty+acids+food+processing",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4666",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4088",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=570"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.4.1",
+      "category_name": "Fruit and vegetable preparations",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum (softener, flavor carrier)",
+    "Bakery products (release agent for pans)",
+    "Dried fruits (glazing agent, prevents sticking)",
+    "Confectionery (glazing, anti-sticking)",
+    "Dehydrating fruits and vegetables (coating)",
+    "Dietary supplements (tablet lubricant)"
+  ],
+  "fun_facts": [
+    "Not a single chemical - E570 is a category covering many different fatty acids naturally found in food",
+    "The same molecules that make up the fats you eat every day - butter is about 10% free fatty acids",
+    "Used to make SOAP through saponification (reaction with lye) - been doing this for thousands of years",
+    "Stearic acid (common E570 component) is also used to make candles",
+    "Completely natural and already part of your diet from fats and oils",
+    "Different fatty acids have different properties: saturated ones are solid at room temp, unsaturated are liquid"
+  ]
+}

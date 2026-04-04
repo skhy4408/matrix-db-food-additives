@@ -1,0 +1,136 @@
+{
+  "slug": "e628-dipotassium-guanylate",
+  "names": {
+    "e_number": "E628",
+    "ins_number": "628",
+    "cas_number": "3254-39-5",
+    "common_name": "Dipotassium Guanylate",
+    "scientific_name": "Dipotassium 5'-guanylate",
+    "japanese_name": "5'-グアニル酸二カリウム",
+    "japanese_label_name": "5'-グアニル酸K",
+    "aliases": [
+      "Potassium guanylate",
+      "5'-GMP dipotassium"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "nucleotide_umami",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "nucleotide salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Mushrooms",
+      "Dried fish"
+    ],
+    "description": "The potassium salt of guanylic acid, providing umami flavor. Less common than the sodium form but used in low-sodium applications."
+  },
+  "manufacturing": {
+    "method": "enzymatic degradation",
+    "description": "Produced by enzymatic degradation of RNA and neutralization with potassium hydroxide."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E628",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1323",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "5'-グアニル酸二カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "628",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=dipotassium+guanylate",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=dipotassium+guanylate+E628",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1323",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=628"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates 5'-nucleotides"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium seasonings",
+    "Savory snacks"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - nucleotide umami enhancer."
+  }
+}

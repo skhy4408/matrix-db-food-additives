@@ -1,0 +1,161 @@
+{
+  "slug": "e420-sorbitol",
+  "names": {
+    "e_number": "E420",
+    "ins_number": "420",
+    "cas_number": "50-70-4",
+    "common_name": "Sorbitol",
+    "scientific_name": "D-Glucitol",
+    "japanese_name": "ソルビトール",
+    "japanese_label_name": "ソルビット",
+    "aliases": [
+      "Glucitol",
+      "D-Sorbitol",
+      "Sorbitol syrup"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "natural/synthetic",
+    "chemical_group": "polyol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "apples",
+      "pears",
+      "peaches",
+      "prunes",
+      "berries"
+    ],
+    "description": "A sugar alcohol that occurs naturally in many fruits. About 60% as sweet as sucrose with fewer calories. Provides bulk and texture in sugar-free products."
+  },
+  "manufacturing": {
+    "method": "hydrogenation",
+    "description": "Commercially produced by hydrogenation of glucose derived from corn or wheat starch. Can also be extracted from fruits but this is not commercially viable."
+  },
+  "other_uses": {
+    "cosmetics": "Humectant in creams, lotions, and toothpaste",
+    "industrial": "Used in production of vitamin C and citric acid",
+    "pharmaceutical": "Excipient in tablets, syrups, and laxatives",
+    "household": "Sugar-free toothpaste and mouthwash"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E420",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Foods containing >10% may cause laxative effect - warning required",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 184.1835",
+      "fda_url": null,
+      "notes": "Approved for use as sweetener, humectant, and bulking agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビトール",
+      "notes": "Widely used in Japanese confectionery and beverages"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "420",
+      "fsanz_reference": "Schedule 16",
+      "notes": "No specific restrictions"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "GRAS status recognized"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sorbitol+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sorbitol+E420+polyol",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4768",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1835",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=420"
+  },
+  "regulatory_history": [
+    {
+      "year": 1980,
+      "event": "JECFA establishes acceptable daily intake as not specified"
+    },
+    {
+      "year": 1984,
+      "event": "FDA grants GRAS status"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and confirms safety at all usage levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Sugar-free beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chewing gum",
+    "Sugar-free candy and mints",
+    "Diabetic chocolate and sweets",
+    "Low-calorie ice cream",
+    "Sugar-free cough drops",
+    "Diet frozen desserts",
+    "Protein bars",
+    "Sugar-free baked goods"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all levels of consumption. However, excessive consumption (>20-50g/day) may cause gastrointestinal discomfort and laxative effects."
+  },
+  "fun_fact": "Sorbitol was first discovered in 1872 in the berries of the mountain ash tree. It's also the key ingredient that gives sugar-free gum its cooling sensation and chewy texture!"
+}

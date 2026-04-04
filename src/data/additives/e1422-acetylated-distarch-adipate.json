@@ -1,0 +1,137 @@
+{
+  "slug": "e1422-acetylated-distarch-adipate",
+  "names": {
+    "e_number": "E1422",
+    "ins_number": "1422",
+    "cas_number": "68130-14-3",
+    "common_name": "Acetylated Distarch Adipate",
+    "scientific_name": "Acetylated distarch adipate",
+    "japanese_name": "アセチル化アジピン酸架橋でん粉",
+    "japanese_label_name": "アセチル化アジピン酸架橋デンプン",
+    "aliases": [
+      "Acetylated cross-linked starch with adipic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "modified_starch",
+    "source_type": "modified_natural",
+    "chemical_group": "modified carbohydrate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "One of the most widely used modified starches. Combines acetylation for stability with adipate cross-linking for heat and shear resistance. Excellent for frozen and refrigerated products."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Starch is treated with acetic anhydride for acetylation and adipic acid anhydride for cross-linking."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Paper coating",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E1422",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.892",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アセチル化アジピン酸架橋でん粉",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "1422",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Enzymes",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=acetylated+distarch+adipate",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=acetylated+distarch+adipate+E1422",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.892",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=1422"
+  },
+  "regulatory_history": [
+    {
+      "year": 2017,
+      "event": "Re-evaluated by JECFA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Frozen dinners and entrees",
+    "Refrigerated sauces and dressings",
+    "Pie fillings",
+    "Gravies and sauces",
+    "Canned soups",
+    "Baby food",
+    "Yogurt"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - the most common modified starch in processed foods."
+  }
+}

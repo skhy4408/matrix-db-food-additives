@@ -1,0 +1,144 @@
+{
+  "slug": "e1404-oxidized-starch",
+  "names": {
+    "e_number": "E1404",
+    "ins_number": "1404",
+    "cas_number": "65996-62-5",
+    "common_name": "Oxidized starch",
+    "scientific_name": "Oxidized starch",
+    "japanese_name": "酸化デンプン",
+    "japanese_label_name": "酸化デンプン",
+    "aliases": [
+      "Chlorinated starch"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "modified starch",
+    "source_type": "natural/processed",
+    "chemical_group": "carbohydrate polymer"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Starch treated with oxidizing agents like sodium hypochlorite. Produces clearer, more stable pastes with lower viscosity than native starch."
+  },
+  "manufacturing": {
+    "method": "chemical oxidation",
+    "description": "Native starch is treated with oxidizing agents (sodium hypochlorite, hydrogen peroxide, or peracetic acid) under controlled pH and temperature."
+  },
+  "other_uses": {
+    "cosmetics": "Absorbent and binder in powders",
+    "industrial": "Paper coating, textile sizing, adhesives",
+    "pharmaceutical": "Tablet binder and disintegrant",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E1404",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "No restrictions on use levels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4911"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.892",
+      "fda_url": null,
+      "notes": "GRAS for use in food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酸化デンプン",
+      "notes": "Approved modified starch"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "1404",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved thickener"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": "Permitted without restriction"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4911"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=oxidized+starch+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E1404+oxidized+starch",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4911",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.892",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=1404"
+  },
+  "regulatory_history": [
+    {
+      "year": 1975,
+      "event": "JECFA evaluates modified starches including oxidized starch"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "all",
+      "category_name": "All food categories",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Breading and batters",
+    "Bakery fillings and glazes",
+    "Confectionery coatings",
+    "Salad dressings",
+    "Sauces and gravies",
+    "Canned soups",
+    "Baby food",
+    "Low-fat products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. Oxidized starch is digested like normal starch."
+  },
+  "fun_fact": "Oxidized starch makes crystal-clear, sparkling glazes for donuts and pastries - that's why bakery glazes look so glossy and transparent! Regular starch would give a cloudy, opaque appearance."
+}

@@ -1,0 +1,143 @@
+{
+  "slug": "e319-tbhq",
+  "names": {
+    "e_number": "E319",
+    "ins_number": "319",
+    "cas_number": "1948-33-0",
+    "common_name": "TBHQ (tert-Butylhydroquinone)",
+    "scientific_name": "Tertiary butylhydroquinone",
+    "japanese_name": "tert-ブチルヒドロキノン",
+    "japanese_label_name": "TBHQ",
+    "aliases": [
+      "Tertiary butylhydroquinone",
+      "tert-Butylhydroquinone",
+      "TBHQ"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "phenolic",
+    "source_type": "synthetic",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A highly effective synthetic antioxidant used to prevent rancidity in fats and oils. Particularly stable at high temperatures, making it popular in fried foods and cooking oils."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by alkylation of hydroquinone with isobutylene in the presence of an acid catalyst."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant in lipstick and other cosmetics",
+    "industrial": "Stabilizer for biodiesel",
+    "pharmaceutical": "Antioxidant in vitamin preparations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E319",
+      "max_level_mg_kg": "200",
+      "conditions": "Maximum 200 mg/kg alone or in combination with BHA (E320) and BHT (E321)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2004,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.185",
+      "fda_url": null,
+      "notes": "Limited to 0.02% of oil or fat content"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "tert-ブチルヒドロキノン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "319",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Maximum 200 mg/kg"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-0.7 mg/kg bw/day",
+    "jecfa_evaluation_year": 1998,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg/kg bw/day",
+    "efsa_evaluation_year": 2004,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=TBHQ+antioxidant+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=TBHQ+E319+food",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.185",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=319"
+  },
+  "regulatory_history": [
+    {
+      "year": 1972,
+      "event": "Approved by FDA for use in foods"
+    },
+    {
+      "year": 1998,
+      "event": "JECFA establishes ADI"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat and oil emulsions",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cooking oils and vegetable oils",
+    "Fried foods (french fries, chicken nuggets)",
+    "Crackers and chips",
+    "Microwave popcorn",
+    "Frozen fish products",
+    "Processed meats",
+    "Nuts and nut products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [],
+    "source_note": "Based on JECFA/EFSA ADI. Widely used in fried foods and oils to prevent rancidity."
+  }
+}

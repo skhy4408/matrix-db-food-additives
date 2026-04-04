@@ -1,0 +1,143 @@
+{
+  "slug": "e262-sodium-acetate",
+  "names": {
+    "e_number": "E262",
+    "ins_number": "262",
+    "cas_number": "127-09-3 (i), 126-96-5 (ii)",
+    "common_name": "Sodium Acetate",
+    "scientific_name": "Sodium ethanoate",
+    "japanese_name": "酢酸ナトリウム",
+    "japanese_label_name": "酢酸Na",
+    "aliases": [
+      "E262(i) Sodium acetate",
+      "E262(ii) Sodium hydrogen acetate",
+      "Sodium diacetate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity_regulator",
+    "sub_class": "buffer",
+    "source_type": "synthetic",
+    "chemical_group": "acetate salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "The sodium salt of acetic acid, used as an acidity regulator, preservative, and flavor enhancer. Available as sodium acetate (i) and sodium hydrogen acetate/diacetate (ii)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing acetic acid with sodium hydroxide or sodium carbonate. Diacetate form is a 1:1 mixture of sodium acetate and acetic acid."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster in cosmetic formulations",
+    "industrial": "Textile dyeing, concrete sealer, heating pads (supersaturated solution)",
+    "pharmaceutical": "Buffering agent in pharmaceutical formulations",
+    "household": "Hand warmer packs (reusable)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E262",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1721 (acetate), 21 CFR 184.1754 (diacetate)",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酢酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "262",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+acetate+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+acetate+E262",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1721",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=262"
+  },
+  "regulatory_history": [
+    {
+      "year": 1982,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "15.1",
+      "category_name": "Snacks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Salt and vinegar potato chips",
+    "Pickles and relishes",
+    "Bread and baked goods",
+    "Processed meats",
+    "Cheese products",
+    "Condiments and sauces"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at levels used in food. Commonly found in salt & vinegar chips for that tangy flavor."
+  }
+}

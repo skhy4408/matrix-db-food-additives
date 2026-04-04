@@ -1,0 +1,144 @@
+{
+  "slug": "e631-disodium-inosinate",
+  "names": {
+    "e_number": "E631",
+    "ins_number": "631",
+    "cas_number": "4691-65-0",
+    "common_name": "Disodium Inosinate",
+    "scientific_name": "Disodium 5'-inosinate",
+    "japanese_name": "5'-イノシン酸二ナトリウム",
+    "japanese_label_name": "5'-イノシン酸Na",
+    "aliases": [
+      "Disodium 5'-IMP",
+      "Sodium inosinate",
+      "IMP"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "nucleotide_umami",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "nucleotide salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Meat (especially aged beef and pork)",
+      "Fish (especially dried bonito)",
+      "Sardines",
+      "Tuna"
+    ],
+    "description": "The sodium salt of inosinic acid, providing intense umami flavor. Naturally found in meat and fish. Creates powerful flavor synergy when combined with glutamates - up to 8 times stronger umami than MSG alone."
+  },
+  "manufacturing": {
+    "method": "enzymatic degradation or fermentation",
+    "description": "Produced by enzymatic degradation of RNA from yeast or bacteria, or by microbial fermentation using Bacillus or Corynebacterium species."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E631",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1292",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "5'-イノシン酸二ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "631",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=disodium+inosinate+umami",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=disodium+inosinate+E631",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1292",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=631"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates 5'-nucleotides and confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Instant ramen and noodles",
+    "Savory snacks (potato chips, crackers)",
+    "Seasoning mixes and bouillon cubes",
+    "Soups and broths",
+    "Processed meats",
+    "Canned foods",
+    "Fast food seasonings"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - naturally occurring in meat and fish. The secret ingredient that makes instant ramen so savory when combined with MSG!"
+  }
+}

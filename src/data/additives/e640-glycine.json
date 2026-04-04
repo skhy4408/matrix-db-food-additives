@@ -1,0 +1,143 @@
+{
+  "slug": "e640-glycine",
+  "names": {
+    "e_number": "E640",
+    "ins_number": "640",
+    "cas_number": "56-40-6",
+    "common_name": "Glycine",
+    "scientific_name": "Aminoacetic acid",
+    "japanese_name": "グリシン",
+    "japanese_label_name": "グリシン",
+    "aliases": [
+      "Aminoacetic acid",
+      "Gly"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "amino_acid",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "amino acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Meat and poultry",
+      "Fish and seafood",
+      "Dairy products",
+      "Legumes",
+      "Gelatin and collagen"
+    ],
+    "description": "The simplest amino acid, naturally occurring in proteins. Has a sweet taste and is used as a flavor enhancer and sweetener. Also acts as a buffering agent."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or extraction",
+    "description": "Commercially produced by chemical synthesis from chloroacetic acid and ammonia, or extracted from gelatin hydrolysate."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster, skin conditioning agent",
+    "industrial": "Chemical intermediate, metal complexing agent",
+    "pharmaceutical": "Used in antacid formulations, nutritional supplements, ingredient in IV solutions",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E640",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1320",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "グリシン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "640",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=glycine+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=glycine+E640+food",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.1320",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=640"
+  },
+  "regulatory_history": [
+    {
+      "year": 1973,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sweeteners and sugar substitutes",
+    "Protein bars and supplements",
+    "Low-sodium salt substitutes",
+    "Soft drinks",
+    "Antacid medications",
+    "Processed meats"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - naturally occurring amino acid. Your body makes glycine and it's abundant in collagen."
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "slug": "e260-acetic-acid",
+  "names": {
+    "e_number": "E260",
+    "ins_number": "260",
+    "cas_number": "64-19-7",
+    "common_name": "Acetic acid",
+    "scientific_name": "Acetic acid",
+    "japanese_name": "酢酸",
+    "japanese_label_name": "酢酸",
+    "aliases": ["Ethanoic acid", "Vinegar acid"]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "organic acid",
+    "source_type": "natural/synthetic",
+    "chemical_group": "carboxylic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": ["vinegar", "fruits", "fermented foods"],
+    "description": "The main component of vinegar (4-8%). Used as acidulant, preservative, and flavoring. Antimicrobial properties inhibit bacteria and molds."
+  },
+  "manufacturing": {
+    "method": "fermentation or synthesis",
+    "description": "Produced by bacterial fermentation of ethanol (acetobacter) or chemical synthesis from methanol and carbon monoxide."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster",
+    "industrial": "Chemical synthesis, cleaning products",
+    "pharmaceutical": "Excipient, ear drops",
+    "household": "Vinegar for cleaning and cooking"
+  },
+  "regulations": {
+    "eu": {"status": "approved", "e_number": "E260", "max_level_mg_kg": "quantum satis", "conditions": null, "legal_reference": "Regulation (EC) No 1333/2008", "efsa_last_evaluated": "2014", "efsa_opinion_url": null},
+    "usa": {"status": "approved", "classification": "GRAS", "cfr_reference": "21 CFR 184.1005", "fda_url": null, "notes": "GRAS as acidifier"},
+    "japan": {"status": "approved", "category": "既存添加物", "mhlw_list_number": null, "japanese_regulation_name": "酢酸", "notes": "Widely used"},
+    "australia_nz": {"status": "approved", "code": "260", "fsanz_reference": "Schedule 16", "notes": null},
+    "canada": {"status": "approved", "reference": "Lists of Permitted Food Acids", "health_canada_url": null, "notes": null}
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=acetic+acid+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E260+acetic+acid",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1005",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=260"
+  },
+  "regulatory_history": [
+    {"year": 1974, "event": "JECFA evaluates and accepts for quantum satis use"},
+    {"year": 1982, "event": "FDA affirms GRAS status"}
+  ],
+  "food_categories_eu": [
+    {"category_code": "all", "category_name": "All food categories", "max_level_mg_kg": "quantum satis"}
+  ],
+  "cross_references": {"cosmetics_db_slug": null},
+  "metadata": {
+    "data_sources": ["EU Regulation (EC) No 1333/2008", "FDA 21 CFR", "JECFA Database"],
+    "last_updated": "2026-04-04",
+    "data_completeness": {"eu": "complete", "usa": "complete", "japan": "complete", "australia_nz": "complete", "canada": "complete"}
+  },
+  "commonly_found_in": ["Pickles", "Condiments (ketchup, mustard)", "Salad dressings", "Mayonnaise", "Bread", "Cheese", "Chips and snacks", "Sauces"],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI - acetic acid is a normal metabolite in the body and component of vinegar used for millennia."
+  },
+  "fun_fact": "Acetic acid is what makes vinegar sour! Humans have been making and using vinegar for over 10,000 years - it's one of our oldest food preservatives and flavorings."
+}

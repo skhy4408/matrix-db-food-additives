@@ -1,0 +1,133 @@
+{
+  "slug": "e285-sodium-tetraborate",
+  "names": {
+    "e_number": "E285",
+    "ins_number": "285",
+    "cas_number": "1303-96-4",
+    "common_name": "Sodium Tetraborate (Borax)",
+    "scientific_name": "Sodium tetraborate decahydrate",
+    "japanese_name": "四ホウ酸ナトリウム",
+    "japanese_label_name": "ホウ砂",
+    "aliases": [
+      "Borax",
+      "Sodium borate",
+      "Disodium tetraborate"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "antimicrobial",
+    "source_type": "mineral",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Dried lake beds",
+      "Mineral deposits",
+      "Evaporite deposits"
+    ],
+    "description": "A naturally occurring mineral salt with antimicrobial properties. Historically used as a food preservative but now banned in most countries due to toxicity concerns."
+  },
+  "manufacturing": {
+    "method": "mining and purification",
+    "description": "Mined from natural deposits and purified, or synthesized from boric acid and sodium carbonate."
+  },
+  "other_uses": {
+    "cosmetics": "Restricted or banned in many regions",
+    "industrial": "Cleaning agent, flux for soldering, fire retardant",
+    "pharmaceutical": "Historically used but now restricted",
+    "household": "Laundry booster, cleaning agent, slime-making (craft use)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E285",
+      "max_level_mg_kg": "0",
+      "conditions": "Not authorized for use in foods",
+      "legal_reference": "Regulation (EC) No 1333/2008",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved for food use",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not approved for use in food"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not permitted in food"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": "285",
+      "fsanz_reference": null,
+      "notes": "Not permitted"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not evaluated for food use",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not safe for food use",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=borax+sodium+tetraborate+toxicity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+tetraborate+E285+food",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": 1980,
+      "event": "Banned in most countries for food use due to reproductive toxicity concerns"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA",
+      "Scientific literature"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Historically used in some Asian foods (now illegal)",
+    "Not permitted in modern food production",
+    "Sometimes illegally used in imported foods - avoid"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "BANNED in food worldwide due to reproductive toxicity. Do not consume. You might know this as the household cleaning product Borax."
+  }
+}

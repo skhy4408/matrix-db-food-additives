@@ -1,0 +1,149 @@
+{
+  "slug": "e493-sorbitan-monolaurate",
+  "names": {
+    "e_number": "E493",
+    "ins_number": "493",
+    "cas_number": "1338-39-2",
+    "common_name": "Sorbitan monolaurate",
+    "scientific_name": "Sorbitan monolaurate",
+    "japanese_name": "ソルビタンモノラウレート",
+    "japanese_label_name": "ソルビタン脂肪酸エステル",
+    "aliases": [
+      "Span 20",
+      "SML"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "non-ionic surfactant",
+    "source_type": "synthetic",
+    "chemical_group": "sorbitan ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier made from sorbitan and lauric acid (C12 fatty acid). More hydrophilic than stearate versions due to shorter fatty acid chain."
+  },
+  "manufacturing": {
+    "method": "esterification",
+    "description": "Produced by esterifying sorbitan with lauric acid, typically derived from coconut or palm kernel oil."
+  },
+  "other_uses": {
+    "cosmetics": "Emulsifier in lotions and creams",
+    "industrial": "Textile processing",
+    "pharmaceutical": "Emulsifier in formulations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E493",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Quantum satis in many categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.842",
+      "fda_url": null,
+      "notes": "Approved for use as emulsifier"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビタン脂肪酸エステル",
+      "notes": "Part of sorbitan fatty acid esters group"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "493",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–25 mg/kg bw/day (for sorbitan esters group)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sorbitan+monolaurate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E493+span+20+emulsifier",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4152",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.842",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=493"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates sorbitan esters group"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA and JECFA re-evaluate and confirm safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "15.1",
+      "category_name": "Snacks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cake mixes and icings",
+    "Whipped toppings",
+    "Coffee whitener",
+    "Dessert mixes",
+    "Bakery coatings",
+    "Confectionery products",
+    "Fat-based fillings"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 25,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 1500,
+    "equivalents": [],
+    "source_note": "Based on JECFA group ADI for sorbitan esters (E491-E495)."
+  },
+  "fun_fact": "Sorbitan monolaurate (Span 20) has the shortest fatty acid tail of the common sorbitan esters, making it more water-friendly. It's derived from coconut oil's lauric acid - the same fatty acid that makes coconut oil so special!"
+}

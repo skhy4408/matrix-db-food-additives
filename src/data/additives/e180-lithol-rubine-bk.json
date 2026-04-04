@@ -1,0 +1,131 @@
+{
+  "slug": "e180-lithol-rubine-bk",
+  "names": {
+    "e_number": "E180",
+    "ins_number": "180",
+    "cas_number": "5160-02-1",
+    "common_name": "Lithol Rubine BK",
+    "scientific_name": "Calcium 3-hydroxy-4-[(4-methyl-2-sulfophenyl)azo]-2-naphthoate",
+    "japanese_name": "リトールルビンBK",
+    "japanese_label_name": "リトールルビンBK",
+    "aliases": [
+      "Pigment Rubine",
+      "CI Pigment Red 57"
+    ]
+  },
+  "classification": {
+    "functional_class": "color",
+    "sub_class": "azo dye",
+    "source_type": "synthetic",
+    "chemical_group": "azo pigment"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic red azo dye used EXCLUSIVELY for coloring the rind of hard cheeses. It is not permitted in any other food application."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized through azo coupling reactions to produce a red pigment specifically for cheese rind coating."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used as a pigment in inks and paints",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E180",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "ONLY permitted for edible cheese rind - no other food use allowed",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not permitted in US foods"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not permitted"
+    },
+    "australia_nz": {
+      "status": "restricted",
+      "code": "180",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Only for cheese rind"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not evaluated",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=lithol+rubine+bk+cheese",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E180+pigment+rubine+cheese+rind",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": 1960,
+      "event": "Approved in EU for cheese rind coloring only"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.5",
+      "category_name": "Edible cheese rind",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "partial",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Hard cheese rinds (Edam, Gouda, etc.)",
+    "Red wax coating on cheese wheels"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "No ADI established. This additive has the most restricted use of any E number - it's ONLY allowed on cheese rinds, which are typically not eaten anyway. A true one-trick pony of the food additive world!"
+  }
+}

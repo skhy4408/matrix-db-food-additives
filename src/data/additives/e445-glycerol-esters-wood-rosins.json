@@ -1,0 +1,143 @@
+{
+  "slug": "e445-glycerol-esters-wood-rosins",
+  "names": {
+    "e_number": "E445",
+    "ins_number": "445",
+    "cas_number": "8050-31-5",
+    "common_name": "Glycerol Esters of Wood Rosins",
+    "scientific_name": "Ester gum",
+    "japanese_name": "ロジングリセリンエステル",
+    "japanese_label_name": "エステルガム",
+    "aliases": [
+      "Ester gum",
+      "Rosin esters",
+      "Glycerol abietate"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "weighting_agent",
+    "source_type": "natural",
+    "chemical_group": "resin ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Pine tree resin (rosin)",
+      "Conifer trees"
+    ],
+    "description": "Derived from natural wood rosin (pine tree resin), esterified with glycerol. Used as a density-adjusting agent and emulsifier in beverages to keep citrus oils in suspension."
+  },
+  "manufacturing": {
+    "method": "esterification",
+    "description": "Produced by esterifying wood rosin (from pine trees) with glycerol at high temperature."
+  },
+  "other_uses": {
+    "cosmetics": "Used in makeup and cosmetic products",
+    "industrial": "Adhesives, chewing gum base, printing inks",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E445",
+      "max_level_mg_kg": "100",
+      "conditions": "Only in non-alcoholic flavored drinks",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2018,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5370"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.735",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エステルガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "445",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-12.5 mg/kg bw/day (group ADI with E445i)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "12.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5370"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=glycerol+esters+wood+rosin",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=glycerol+esters+wood+rosins+E445",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5370",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.735",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=445"
+  },
+  "regulatory_history": [
+    {
+      "year": 1960,
+      "event": "Approved for use in beverages"
+    },
+    {
+      "year": 2018,
+      "event": "Re-evaluated by EFSA and JECFA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "100"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Citrus-flavored sodas",
+    "Orange and lemon soft drinks",
+    "Cloud emulsions in beverages",
+    "Chewing gum base"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 12.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 750,
+    "equivalents": [],
+    "source_note": "Based on EFSA ADI. Made from pine tree resin - helps keep citrus flavor oils suspended in drinks."
+  }
+}

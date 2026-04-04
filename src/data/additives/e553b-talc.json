@@ -1,0 +1,162 @@
+{
+  "slug": "e553b-talc",
+  "names": {
+    "e_number": "E553b",
+    "ins_number": "553(ii)",
+    "cas_number": "14807-96-6",
+    "common_name": "Talc",
+    "scientific_name": "Talc (Mg3Si4O10(OH)2)",
+    "japanese_name": "タルク",
+    "japanese_label_name": "タルク",
+    "aliases": [
+      "Talcum",
+      "Talcum powder (cosmetic form)",
+      "French chalk",
+      "Soapstone (impure massive form)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "release agent, carrier, glazing agent",
+    "source_type": "mineral",
+    "chemical_group": "inorganic silicate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Talc mineral deposits",
+      "Soapstone (massive talc)",
+      "Associated with metamorphic rocks"
+    ],
+    "description": "Talc is a naturally occurring mineral, the softest mineral on the Mohs hardness scale. Food-grade talc must be purified and certified asbestos-free, as talc deposits can naturally occur near asbestos minerals."
+  },
+  "manufacturing": {
+    "method": "mining and purification",
+    "description": "Mined from talc deposits, then crushed, purified, and milled to fine powder. Food-grade and pharmaceutical-grade talc undergo rigorous testing to ensure absence of asbestos fibers. The purification process removes impurities and potential contaminants."
+  },
+  "other_uses": {
+    "cosmetics": "Talcum powder (baby powder, body powder), makeup (absorbent, texture), dry shampoo.",
+    "industrial": "Paper coating, plastics, rubber, ceramics, paints.",
+    "pharmaceutical": "Tablet and capsule lubricant, dusting powder.",
+    "household": "Baby powder (increasingly phased out due to contamination concerns), anti-chafing powder."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E553b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Must be asbestos-free and meet purity standards. Permitted as release agent and anti-caking agent in specific foods.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.2906",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Must be asbestos-free. Limited use in food applications."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "368",
+      "japanese_regulation_name": "タルク",
+      "notes": "Used in food processing with asbestos-free certification required."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "553",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must meet purity standards."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Asbestos-free talc only."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use when asbestos-free)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4086",
+    "efsa_adi": "not specified (safe at current use levels when asbestos-free)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=talc+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=talc+asbestos+food+grade",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4086",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=553"
+  },
+  "regulatory_history": [
+    {
+      "year": "2018-ongoing",
+      "event": "Increased scrutiny of talc products due to asbestos contamination concerns in cosmetic talcum powder. Food-grade talc requires strict asbestos-free certification. Several major brands discontinued talc-based baby powder."
+    },
+    {
+      "year": 2020,
+      "event": "Johnson & Johnson discontinued talc-based baby powder in North America due to declining sales and litigation over asbestos contamination concerns (cosmetic grade, not food grade)."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.4.1",
+      "category_name": "Fruit and vegetable preparations (coatings)",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery (release agent)",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.3",
+      "category_name": "Breakfast cereals (polishing agent for rice)",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "CHEWING GUM (dusting powder, release agent)",
+    "POLISHED WHITE RICE (gives shiny appearance)",
+    "Confections and candies (prevents sticking)",
+    "Tablet coatings (pharmaceuticals and supplements)",
+    "Mochi and rice cakes (prevents sticking)",
+    "Some dried fruits (anti-caking)",
+    "Icing and fondant (prevents sticking)"
+  ],
+  "fun_facts": [
+    "Used in both BABY POWDER and CHEWING GUM - same mineral, different applications!",
+    "The softest mineral on Earth - rates 1 on the Mohs hardness scale (diamonds are 10)",
+    "Makes white rice shiny and attractive - the polished look comes from talc coating",
+    "CONTROVERSIAL: Cosmetic talc (baby powder) has faced lawsuits over asbestos contamination - food-grade must be certified asbestos-free",
+    "Talc naturally occurs near asbestos deposits, which is why rigorous testing is essential",
+    "Also known as 'French chalk' and used by tailors to mark fabric",
+    "Soapstone (used for countertops and sculptures) is massive talc",
+    "Declining use in food due to public perception issues, despite food-grade safety when properly purified"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "slug": "e216-propyl-paraben",
+  "names": {"e_number": "E216", "ins_number": "216", "cas_number": "94-13-3", "common_name": "Propyl paraben", "scientific_name": "Propyl 4-hydroxybenzoate", "japanese_name": "プロピルパラベン", "japanese_label_name": "パラオキシ安息香酸プロピル", "aliases": ["Propylparaben", "Propyl p-hydroxybenzoate"]},
+  "classification": {"functional_class": "preservative", "sub_class": "antimicrobial", "source_type": "synthetic", "chemical_group": "paraben ester"},
+  "natural_occurrence": {"found_in_nature": false, "natural_sources": [], "description": "A paraben preservative used to prevent microbial growth in foods and cosmetics. Part of the paraben family (E214-E219)."},
+  "manufacturing": {"method": "chemical synthesis", "description": "Synthesized by esterifying p-hydroxybenzoic acid with propanol."},
+  "other_uses": {"cosmetics": "Widely used in cosmetics and personal care products", "industrial": "Preservative in pharmaceuticals", "pharmaceutical": "Used in oral and topical medications", "household": null},
+  "regulations": {
+    "eu": {"status": "approved", "e_number": "E216", "max_level_mg_kg": "300 (as paraben)", "conditions": "Permitted in limited food categories", "legal_reference": "Regulation (EC) No 1333/2008, Annex II", "efsa_last_evaluated": "2004", "efsa_opinion_url": null},
+    "usa": {"status": "approved", "classification": "GRAS", "cfr_reference": "21 CFR 184.1670", "fda_url": null, "notes": "Maximum 0.1% in food"},
+    "japan": {"status": "approved", "category": "指定添加物", "mhlw_list_number": null, "japanese_regulation_name": "パラオキシ安息香酸プロピル", "notes": "Permitted preservative"},
+    "australia_nz": {"status": "approved", "code": "216", "fsanz_reference": "Schedule 16", "notes": "Permitted with restrictions"},
+    "canada": {"status": "approved", "reference": "Lists of Permitted Preservatives", "health_canada_url": null, "notes": "Maximum 0.1%"}
+  },
+  "safety_evaluations": {"jecfa_adi": "0–10 mg/kg bw/day (for parabens)", "jecfa_evaluation_year": 1973, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "efsa_adi": "Not established (under review)", "efsa_evaluation_year": 2004, "efsa_opinion_url": null},
+  "research_links": {"pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=propyl+paraben+safety+endocrine", "google_scholar_url": "https://scholar.google.com/scholar?q=E216+propyl+paraben+preservative", "controversy_level": "medium", "efsa_opinion_url": null, "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/", "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1670", "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=216"},
+  "regulatory_history": [{"year": 1973, "event": "JECFA establishes ADI for parabens"}, {"year": 2004, "event": "EFSA evaluates parabens"}, {"year": 2011, "event": "EU restricts parabens in cosmetics due to endocrine concerns"}],
+  "food_categories_eu": [{"category_code": "various", "category_name": "Limited food categories", "max_level_mg_kg": "300"}],
+  "cross_references": {"cosmetics_db_slug": "propylparaben"},
+  "metadata": {"data_sources": ["EU Regulation (EC) No 1333/2008", "FDA 21 CFR", "JECFA Database"], "last_updated": "2026-04-04", "data_completeness": {"eu": "complete", "usa": "complete", "japan": "complete", "australia_nz": "complete", "canada": "complete"}},
+  "commonly_found_in": ["Baked goods", "Soft drinks", "Sauces", "Cosmetics and shampoos"],
+  "adi_context": {"adi_value_mg_per_kg": 10, "body_weight_kg": 60, "daily_limit_mg": 600, "equivalents": [{"product": "grams of food with propyl paraben (300ppm)", "typical_content_mg": 0.3, "quantity": "~2000"}], "source_note": "Based on JECFA ADI. Parabens are controversial due to potential endocrine disruption concerns, though regulatory bodies maintain they're safe at current use levels."}
+}

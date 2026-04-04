@@ -1,0 +1,168 @@
+{
+  "slug": "e961-neotame",
+  "names": {
+    "e_number": "E961",
+    "ins_number": "961",
+    "cas_number": "165450-17-9",
+    "common_name": "Neotame",
+    "scientific_name": "N-[N-(3,3-Dimethylbutyl)-L-α-aspartyl]-L-phenylalanine 1-methyl ester",
+    "japanese_name": "ネオテーム",
+    "japanese_label_name": "ネオテーム",
+    "aliases": [
+      "Newtame"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "artificial",
+    "source_type": "synthetic",
+    "chemical_group": "dipeptide derivative"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic high-intensity sweetener derived from aspartame. About 7,000-13,000 times sweeter than sucrose. Chemically similar to aspartame but does not require PKU warning."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from aspartame by adding a 3,3-dimethylbutyl group. This modification makes it much sweeter and eliminates the need for phenylketonuria (PKU) warnings."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Sweetener in chewable tablets and liquid medicines",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E961",
+      "max_level_mg_kg": "varies by food category (2-33 mg/kg)",
+      "conditions": "Very low maximum levels due to high sweetness intensity",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4210"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved food additive",
+      "cfr_reference": "21 CFR 172.829",
+      "fda_url": null,
+      "notes": "Approved in 2002; no PKU warning required unlike aspartame"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ネオテーム",
+      "notes": "Approved with maximum use levels"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "961",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and flavor enhancer"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved for use in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–2 mg/kg bw/day",
+    "jecfa_evaluation_year": 2003,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "2 mg/kg bw/day",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4210"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=neotame+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=neotame+E961+sweetener",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4210",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.829",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=961"
+  },
+  "regulatory_history": [
+    {
+      "year": 2002,
+      "event": "FDA approves neotame for general use"
+    },
+    {
+      "year": 2003,
+      "event": "JECFA establishes ADI"
+    },
+    {
+      "year": 2010,
+      "event": "EU approves as E961"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "2"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "10"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Diet soft drinks",
+    "Sugar-free chewing gum",
+    "Low-calorie desserts",
+    "Protein shakes",
+    "Sugar-free baked goods",
+    "Tabletop sweetener blends",
+    "Sugar-free candy",
+    "Dairy products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 2,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 120,
+    "equivalents": [
+      {
+        "product": "cans of neotame-sweetened beverage (355ml)",
+        "typical_content_mg": 0.7,
+        "quantity": "~171"
+      },
+      {
+        "product": "pieces of neotame-sweetened gum",
+        "typical_content_mg": 0.5,
+        "quantity": "~240"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and typical usage levels. Very small amounts needed due to extreme sweetness."
+  },
+  "fun_fact": "Neotame is one of the most powerful artificial sweeteners - up to 13,000 times sweeter than sugar! It's made from aspartame but modified so people with PKU can safely consume it without any warnings."
+}

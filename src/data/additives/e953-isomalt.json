@@ -1,0 +1,154 @@
+{
+  "slug": "e953-isomalt",
+  "names": {
+    "e_number": "E953",
+    "ins_number": "953",
+    "cas_number": "64519-82-0",
+    "common_name": "Isomalt",
+    "scientific_name": "Hydrogenated isomaltulose",
+    "japanese_name": "イソマルト",
+    "japanese_label_name": "還元イソマルトオリゴ糖",
+    "aliases": [
+      "Palatinit",
+      "Hydrogenated palatinose"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "synthetic",
+    "chemical_group": "disaccharide polyol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A sugar alcohol derived from sucrose. About 45-65% as sweet as sugar with half the calories. Known for excellent stability and tooth-friendly properties."
+  },
+  "manufacturing": {
+    "method": "enzymatic conversion and hydrogenation",
+    "description": "Produced by enzymatic conversion of sucrose to isomaltulose, followed by hydrogenation. The result is a mixture of two disaccharide alcohols."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in candy making and sugar sculpture",
+    "pharmaceutical": "Coating for tablets and lozenges",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E953",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Warning required: excessive consumption may have laxative effects",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2094"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1835",
+      "fda_url": null,
+      "notes": "Generally recognized as safe for use in foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "還元イソマルトオリゴ糖",
+      "notes": "Approved for use in confectionery and beverages"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "953",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved for use in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2011,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2094"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=isomalt+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=isomalt+E953+dental",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2094",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1835",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=953"
+  },
+  "regulatory_history": [
+    {
+      "year": 1985,
+      "event": "First approved in Germany"
+    },
+    {
+      "year": 1990,
+      "event": "EU approval granted"
+    },
+    {
+      "year": 2011,
+      "event": "EFSA completes safety re-evaluation"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA GRAS Notice",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2011"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free hard candy and lollipops",
+    "Sugar-free chocolate",
+    "Cough drops and throat lozenges",
+    "Sugar-free toffee",
+    "Chewing gum",
+    "Ice cream and frozen desserts",
+    "Baked goods",
+    "Candy decorations"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - safe at all consumption levels. However, consumption above 50g/day may cause mild laxative effects in some individuals."
+  },
+  "fun_fact": "Isomalt is the secret ingredient professional pastry chefs use to make crystal-clear sugar sculptures and edible decorations because it doesn't crystallize or change color when heated!"
+}

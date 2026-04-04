@@ -1,0 +1,175 @@
+{
+  "slug": "e960-steviol-glycosides",
+  "names": {
+    "e_number": "E960",
+    "ins_number": "960",
+    "cas_number": "57817-89-7",
+    "common_name": "Steviol glycosides (Stevia)",
+    "scientific_name": "Steviol glycosides from Stevia rebaudiana",
+    "japanese_name": "ステビア",
+    "japanese_label_name": "ステビア抽出物",
+    "aliases": [
+      "Stevia",
+      "Rebaudioside A",
+      "Stevioside",
+      "Reb A",
+      "Truvia",
+      "PureVia"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "natural",
+    "source_type": "natural",
+    "chemical_group": "diterpene glycosides"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Stevia rebaudiana (stevia plant leaves)"
+    ],
+    "description": "Natural zero-calorie sweetener extracted from stevia plant leaves. About 200-300 times sweeter than sucrose. Different steviol glycosides (like Reb A, Reb M) have varying taste profiles."
+  },
+  "manufacturing": {
+    "method": "extraction from stevia leaves",
+    "description": "Extracted from dried stevia leaves through water extraction, followed by purification using ion exchange resins and crystallization. High-purity extracts contain >95% steviol glycosides."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Natural food preservative (antimicrobial properties)",
+    "pharmaceutical": "Sweetener in liquid medicines and supplements",
+    "household": "Tabletop sweetener and cooking sweetener"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E960",
+      "max_level_mg_kg": "varies by food category (100-800 mg/kg)",
+      "conditions": "Minimum purity 95% steviol glycosides required",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2020",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6106"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (for high-purity extracts)",
+      "cfr_reference": "GRAS Notice 252",
+      "fda_url": null,
+      "notes": "Whole-leaf stevia and crude extracts not approved; only high-purity steviol glycosides"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ステビア抽出物",
+      "notes": "Used in Japan since 1970s; major market for stevia products"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "960",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for use in various food categories"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved for use as table-top sweetener and food ingredient"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–4 mg/kg bw/day (as steviol equivalents)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "4 mg/kg bw/day (as steviol equivalents)",
+    "efsa_evaluation_year": 2020,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6106"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=steviol+glycosides+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=stevia+E960+natural+sweetener",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/6106",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=960"
+  },
+  "regulatory_history": [
+    {
+      "year": 1970,
+      "event": "First commercial use in Japan"
+    },
+    {
+      "year": 2008,
+      "event": "FDA grants GRAS status for high-purity steviol glycosides"
+    },
+    {
+      "year": 2011,
+      "event": "EU approves steviol glycosides as E960"
+    },
+    {
+      "year": 2020,
+      "event": "EFSA completes comprehensive re-evaluation and confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.5.2",
+      "category_name": "Other non-alcoholic beverages",
+      "max_level_mg_kg": "100"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "350"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA GRAS Notice",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2020"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Diet sodas (Coca-Cola Life, Sprite Zero)",
+    "Tabletop sweeteners (Truvia, PureVia, Stevia In The Raw)",
+    "Sugar-free yogurt",
+    "Protein bars and shakes",
+    "Sugar-free ice cream",
+    "Flavored water beverages",
+    "Energy drinks",
+    "Sugar-free chocolate"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 4,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 240,
+    "equivalents": [
+      {
+        "product": "packets of stevia sweetener",
+        "typical_content_mg": 40,
+        "quantity": "~6 (expressed as steviol)"
+      },
+      {
+        "product": "cans of stevia-sweetened soda (355ml)",
+        "typical_content_mg": 35,
+        "quantity": "~7 (expressed as steviol)"
+      }
+    ],
+    "source_note": "ADI is expressed as steviol equivalents. Based on JECFA/EFSA ADI and typical product concentrations."
+  },
+  "fun_fact": "Stevia is 200-300 times sweeter than sugar and has been used for over 1,500 years by indigenous Guaraní people in South America! Japan accounts for 40% of global stevia consumption and has used it safely since the 1970s when they banned artificial sweeteners."
+}

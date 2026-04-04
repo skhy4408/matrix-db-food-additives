@@ -1,0 +1,158 @@
+{
+  "slug": "e966-lactitol",
+  "names": {
+    "e_number": "E966",
+    "ins_number": "966",
+    "cas_number": "585-86-4",
+    "common_name": "Lactitol",
+    "scientific_name": "4-O-β-D-Galactopyranosyl-D-glucitol",
+    "japanese_name": "ラクチトール",
+    "japanese_label_name": "ラクチトール",
+    "aliases": [
+      "Lactitol monohydrate",
+      "Lactit"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "sugar alcohol",
+    "source_type": "synthetic",
+    "chemical_group": "disaccharide polyol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A sugar alcohol made from lactose (milk sugar). About 30-40% as sweet as sucrose. Has prebiotic properties and is used both as a sweetener and laxative."
+  },
+  "manufacturing": {
+    "method": "hydrogenation of lactose",
+    "description": "Produced by catalytic hydrogenation of lactose, which is derived from whey (a byproduct of cheese production)."
+  },
+  "other_uses": {
+    "cosmetics": "Humectant in creams and lotions",
+    "industrial": null,
+    "pharmaceutical": "Osmotic laxative (prescription and OTC); excipient in tablets",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E966",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Warning required: excessive consumption may have laxative effects",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1848",
+      "fda_url": null,
+      "notes": "GRAS for use in foods; also approved as OTC laxative"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ラクチトール",
+      "notes": "Used in food and pharmaceutical applications"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "966",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and bulking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "GRAS status recognized"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=lactitol+safety+prebiotic",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=lactitol+E966+laxative",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4759",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1848",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=966"
+  },
+  "regulatory_history": [
+    {
+      "year": 1983,
+      "event": "First approved in Switzerland"
+    },
+    {
+      "year": 1984,
+      "event": "JECFA establishes acceptable for quantum satis use"
+    },
+    {
+      "year": 1996,
+      "event": "FDA GRAS status granted"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Sugar-free confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chocolate",
+    "Low-calorie ice cream",
+    "Sugar-free baked goods",
+    "Sugar-free candy",
+    "Chewing gum",
+    "Dietary fiber supplements",
+    "Laxative products (Picolax, Importal)",
+    "Sugar-free confectionery"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. However, the laxative effect is intentional at higher doses (10-20g for therapeutic use). Lower amounts in food (5-10g) may cause mild digestive effects."
+  },
+  "fun_fact": "Lactitol has a double life - it's both a food sweetener AND a prescription medicine! At low doses it sweetens your sugar-free chocolate, but at higher doses it's sold as a laxative to treat constipation. It also acts as a prebiotic, feeding good gut bacteria!"
+}

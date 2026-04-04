@@ -1,0 +1,166 @@
+{
+  "slug": "e959-neohesperidin-dc",
+  "names": {
+    "e_number": "E959",
+    "ins_number": "959",
+    "cas_number": "20702-77-6",
+    "common_name": "Neohesperidin DC",
+    "scientific_name": "Neohesperidin dihydrochalcone",
+    "japanese_name": "ネオヘスペリジンDC",
+    "japanese_label_name": "ネオヘスペリジンジヒドロカルコン",
+    "aliases": [
+      "Neohesperidin dihydrochalcone",
+      "NHDC",
+      "Citrus extract sweetener"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "semi-synthetic",
+    "source_type": "natural/synthetic",
+    "chemical_group": "flavonoid derivative"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A semi-synthetic sweetener derived from naringin, a bitter compound in citrus peels. About 1,500-1,800 times sweeter than sucrose with a menthol-like cooling sensation and slight licorice aftertaste."
+  },
+  "manufacturing": {
+    "method": "chemical modification of citrus flavonoids",
+    "description": "Produced by hydrogenation of neohesperidin extracted from bitter orange (Citrus aurantium) or grapefruit peels. The bitter neohesperidin is converted to sweet NHDC through alkaline treatment."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Flavor modifier and taste masker",
+    "pharmaceutical": "Bitter taste masking in liquid medicines",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E959",
+      "max_level_mg_kg": "varies by food category (5-50 mg/kg)",
+      "conditions": "Limited to specific food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4446"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "GRAS Notice 902",
+      "fda_url": null,
+      "notes": "Approved as flavor enhancer and sweetener"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ネオヘスペリジンジヒドロカルコン",
+      "notes": "Approved with usage limits"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "959",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved sweetener and flavor enhancer"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Permitted in specific food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4446"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=neohesperidin+dihydrochalcone+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=NHDC+E959+sweetener",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4446",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=959"
+  },
+  "regulatory_history": [
+    {
+      "year": 1988,
+      "event": "First approved in EU"
+    },
+    {
+      "year": 1994,
+      "event": "JECFA establishes ADI"
+    },
+    {
+      "year": 2016,
+      "event": "EFSA re-evaluation confirms safety at current use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavored drinks",
+      "max_level_mg_kg": "5"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "50"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA GRAS Notice",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum",
+    "Flavored beverages",
+    "Fruit juice blends",
+    "Confectionery",
+    "Pharmaceutical syrups",
+    "Oral care products",
+    "Low-calorie desserts",
+    "Dietary supplements"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "glasses of NHDC-sweetened beverage (250ml)",
+        "typical_content_mg": 1.25,
+        "quantity": "~240"
+      },
+      {
+        "product": "pieces of NHDC-sweetened gum",
+        "typical_content_mg": 2,
+        "quantity": "~150"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and typical usage levels reported in EFSA evaluation."
+  },
+  "fun_fact": "NHDC transforms something bitter into something incredibly sweet! It's made from the bitter compound in orange peels and becomes 1,500 times sweeter than sugar, with a unique cooling sensation similar to menthol."
+}

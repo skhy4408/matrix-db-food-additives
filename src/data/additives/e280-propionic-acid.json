@@ -1,0 +1,140 @@
+{
+  "slug": "e280-propionic-acid",
+  "names": {
+    "e_number": "E280",
+    "ins_number": "280",
+    "cas_number": "79-09-4",
+    "common_name": "Propionic Acid",
+    "scientific_name": "Propanoic acid",
+    "japanese_name": "プロピオン酸",
+    "japanese_label_name": "プロピオン酸",
+    "aliases": [
+      "Propanoic acid",
+      "Methylacetic acid",
+      "Ethylformic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "antimicrobial",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "short-chain fatty acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Swiss cheese and other fermented dairy",
+      "Produced by gut bacteria during fiber fermentation",
+      "Small amounts in many foods"
+    ],
+    "description": "A naturally occurring short-chain fatty acid produced by bacterial fermentation. Particularly effective against mold and rope-forming bacteria in baked goods."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or bacterial fermentation",
+    "description": "Industrially produced by hydrocarboxylation of ethylene with carbon monoxide and water, or by bacterial fermentation of carbohydrates."
+  },
+  "other_uses": {
+    "cosmetics": "Preservative in cosmetic formulations",
+    "industrial": "Herbicide, grain preservative, chemical intermediate",
+    "pharmaceutical": "Antifungal agent",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E280",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1081",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "プロピオン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "280",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=propionic+acid+food+preservative",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=propionic+acid+E280",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1081",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=280"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "07.1",
+      "category_name": "Bread and rolls",
+      "max_level_mg_kg": "3000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Bread and baked goods",
+    "Processed cheese",
+    "Baked goods mixes",
+    "Animal feed"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - naturally produced by gut bacteria and found in dairy products."
+  }
+}

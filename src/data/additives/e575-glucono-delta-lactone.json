@@ -1,0 +1,146 @@
+{
+  "slug": "e575-glucono-delta-lactone",
+  "names": {
+    "e_number": "E575",
+    "ins_number": "575",
+    "cas_number": "90-80-2",
+    "common_name": "Glucono Delta-Lactone",
+    "scientific_name": "D-Glucono-1,5-lactone (C6H10O6)",
+    "japanese_name": "グルコノデルタラクトン",
+    "japanese_label_name": "グルコノデルタラクトン",
+    "aliases": [
+      "GDL",
+      "Gluconolactone",
+      "Glucono-delta-lactone"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "sequestrant, raising agent, firming agent",
+    "source_type": "fermentation-derived (from glucose)",
+    "chemical_group": "organic lactone"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Formed from gluconic acid",
+      "Honey (trace amounts)",
+      "Some fruits"
+    ],
+    "description": "GDL is the lactone (cyclic ester) form of gluconic acid. It occurs in small amounts in nature and is produced commercially by purification and crystallization from gluconic acid solutions."
+  },
+  "manufacturing": {
+    "method": "fermentation and crystallization",
+    "description": "Produced by fermenting glucose to gluconic acid (using Aspergillus niger or bacteria), then crystallizing the lactone form. GDL forms naturally when gluconic acid is concentrated and cooled. The solid crystalline form is stable but slowly hydrolyzes back to gluconic acid in water."
+  },
+  "other_uses": {
+    "cosmetics": "Exfoliant, pH adjuster, moisturizer (polyhydroxy acid, PHA).",
+    "industrial": "Textile treatment, concrete additives, metal cleaning.",
+    "pharmaceutical": "Slow-release acidulant, calcium supplement formulations.",
+    "household": "Not typically used."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E575",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as acidity regulator, raising agent, and sequestrant in various food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1318",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in tofu production and as leavening acid in baking."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "97",
+      "japanese_regulation_name": "グルコノデルタラクトン",
+      "notes": "Widely used in tofu production in Japan."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "575",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4090",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=glucono+delta+lactone+tofu",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=GDL+food+acidulant",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5028",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4090",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=575"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.8.1",
+      "category_name": "Soya bean products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "SILKEN TOFU (primary coagulant for smooth, delicate tofu)",
+    "Sausages and processed meats (slow-acting acidulant)",
+    "Baking powder (slow-release acid for extended leavening)",
+    "Fresh sausages (curing aid)",
+    "Dairy products (acidity regulator)",
+    "Some cheese products",
+    "Fermented foods"
+  ],
+  "fun_facts": [
+    "THE secret to SILKEN TOFU - creates ultra-smooth, custard-like texture that nigari or calcium can't match",
+    "Acts as a 'slow-release' acid - dissolves and gradually releases acid over time",
+    "When mixed with water, it slowly converts back to gluconic acid, providing delayed acidification",
+    "This delayed action is perfect for tofu: allows soy milk to be poured and settled before coagulation begins",
+    "Used in cosmetics as a gentle exfoliant (polyhydroxy acid - milder than glycolic acid)",
+    "Also makes better-textured sausages by allowing proteins time to bind before pH drops",
+    "Popular in Chinese and Japanese tofu making for its ability to create smooth, uniform texture"
+  ]
+}

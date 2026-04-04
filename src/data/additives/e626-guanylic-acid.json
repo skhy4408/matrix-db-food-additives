@@ -1,0 +1,140 @@
+{
+  "slug": "e626-guanylic-acid",
+  "names": {
+    "e_number": "E626",
+    "ins_number": "626",
+    "cas_number": "85-32-5",
+    "common_name": "Guanylic Acid",
+    "scientific_name": "Guanosine-5'-monophosphate",
+    "japanese_name": "グアニル酸",
+    "japanese_label_name": "5'-グアニル酸",
+    "aliases": [
+      "5'-GMP",
+      "Guanosine monophosphate"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "nucleotide_umami",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "nucleotide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Mushrooms (especially shiitake)",
+      "Dried fish",
+      "Seaweed",
+      "Yeast extract"
+    ],
+    "description": "A nucleotide that provides intense umami flavor. Synergistic with glutamates, multiplying umami taste intensity up to 8-fold when combined."
+  },
+  "manufacturing": {
+    "method": "enzymatic degradation or extraction",
+    "description": "Produced by enzymatic degradation of RNA from yeast or fish, or extracted from dried mushrooms."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Nutritional supplement, research reagent",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E626",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1323",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "5'-グアニル酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "626",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=guanylic+acid+umami",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=guanylic+acid+E626",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1323",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=626"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates 5'-nucleotides"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Instant ramen and noodles",
+    "Savory snacks",
+    "Seasonings",
+    "Soups and broths"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - nucleotide that enhances umami flavor synergistically with MSG."
+  }
+}

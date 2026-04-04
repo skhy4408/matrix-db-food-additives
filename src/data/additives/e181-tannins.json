@@ -1,0 +1,141 @@
+{
+  "slug": "e181-tannins",
+  "names": {
+    "e_number": "E181",
+    "ins_number": "181",
+    "cas_number": "1401-55-4",
+    "common_name": "Tannins",
+    "scientific_name": "Tannic acid",
+    "japanese_name": "タンニン",
+    "japanese_label_name": "タンニン",
+    "aliases": [
+      "Tannic acid",
+      "Gallotannin"
+    ]
+  },
+  "classification": {
+    "functional_class": "color",
+    "sub_class": "natural plant extract",
+    "source_type": "natural",
+    "chemical_group": "polyphenol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Tea leaves",
+      "Wine grapes",
+      "Oak bark",
+      "Nutgalls",
+      "Pomegranates"
+    ],
+    "description": "Natural polyphenolic compounds extracted from plants. Used as a brown/yellow colorant and flavor enhancer in beverages, especially in wine and beer production."
+  },
+  "manufacturing": {
+    "method": "extraction from natural sources",
+    "description": "Extracted from plant materials such as oak galls, chestnut wood, or tea leaves using water or alcohol extraction."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Leather tanning, ink production, wood staining",
+    "pharmaceutical": "Astringent, used in treatments for diarrhea and burns",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E181",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as food colorant",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 184.1097",
+      "fda_url": null,
+      "notes": "Approved as flavoring agent and adjuvant"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "タンニン",
+      "notes": "Natural additive status"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "181",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted food colorant"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": "Approved as coloring agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1976,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=tannins+food+safety+polyphenol",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E181+tannins+food+additive",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1097",
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": 1976,
+      "event": "JECFA evaluates tannins and finds them acceptable for use"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine (natural component and clarifying agent)",
+    "Beer",
+    "Tea and coffee drinks",
+    "Fruit juices"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "No ADI specified as tannins are naturally present in many foods and beverages. These are the same compounds that give red wine its astringent taste and are considered beneficial antioxidants."
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "slug": "e635-disodium-5-ribonucleotides",
+  "names": {
+    "e_number": "E635",
+    "ins_number": "635",
+    "cas_number": "4691-65-0 / 5550-12-9",
+    "common_name": "Disodium 5'-Ribonucleotides",
+    "scientific_name": "Disodium 5'-ribonucleotides",
+    "japanese_name": "5'-リボヌクレオチド二ナトリウム",
+    "japanese_label_name": "5'-リボヌクレオチドNa",
+    "aliases": [
+      "I+G",
+      "Nucleotide blend",
+      "Disodium IMP+GMP"
+    ]
+  },
+  "classification": {
+    "functional_class": "flavor_enhancer",
+    "sub_class": "nucleotide_umami",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "nucleotide mixture"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Combination found naturally in meat and fish",
+      "Mushrooms",
+      "Aged and fermented foods"
+    ],
+    "description": "A mixture of disodium inosinate (E631) and disodium guanylate (E627), typically in equal proportions. This is the powerhouse umami enhancer found in instant ramen, creating synergistic effects with MSG that multiply umami taste up to 8-fold."
+  },
+  "manufacturing": {
+    "method": "mixing of purified nucleotides",
+    "description": "Produced by blending purified disodium inosinate (E631) and disodium guanylate (E627), each produced by enzymatic degradation of RNA or microbial fermentation."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E635",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2017,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1292 (IMP), 21 CFR 184.1323 (GMP)",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "5'-リボヌクレオチド二ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "635",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners and Flavor Enhancers",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=disodium+ribonucleotides+umami",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=disodium+5-ribonucleotides+E635",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4910",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1292",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=635"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates 5'-nucleotides and confirms safety"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates glutamates and nucleotides, confirming safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads and protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Instant ramen and noodles (with MSG for ultimate umami)",
+    "Potato chips and savory snacks",
+    "Seasoning mixes and spice blends",
+    "Bouillon cubes and stock powders",
+    "Canned soups and broths",
+    "Processed meats",
+    "Fast food seasonings",
+    "Flavored rice and pasta mixes"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - this is THE flavor enhancer combo in instant ramen! Works with MSG to create that irresistible savory taste. Check your ramen packet - you'll likely see E635 or 'disodium inosinate and guanylate' listed."
+  }
+}

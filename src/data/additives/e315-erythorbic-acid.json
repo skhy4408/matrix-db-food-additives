@@ -1,0 +1,140 @@
+{
+  "slug": "e315-erythorbic-acid",
+  "names": {
+    "e_number": "E315",
+    "ins_number": "315",
+    "cas_number": "89-65-6",
+    "common_name": "Erythorbic Acid",
+    "scientific_name": "D-Erythorbic acid",
+    "japanese_name": "エリソルビン酸",
+    "japanese_label_name": "エリソルビン酸",
+    "aliases": [
+      "Isoascorbic acid",
+      "D-Araboascorbic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "reducing_agent",
+    "source_type": "synthetic",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A stereoisomer of ascorbic acid (vitamin C) with similar antioxidant properties but no vitamin C activity. Used to prevent discoloration and extend shelf life in cured meats."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from sucrose through a multi-step process involving fermentation and chemical conversion."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant in cosmetic formulations",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E315",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": 2016,
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3041",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エリソルビン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "315",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=erythorbic+acid+antioxidant",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=erythorbic+acid+E315",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4144",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3041",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=315"
+  },
+  "regulatory_history": [
+    {
+      "year": 1973,
+      "event": "Affirmed as GRAS by FDA"
+    },
+    {
+      "year": 2016,
+      "event": "EFSA and JECFA re-evaluate and confirm safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "500"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cured meats (bacon, ham, hot dogs)",
+    "Processed meats",
+    "Frozen fish",
+    "Soft drinks",
+    "Pickled vegetables"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - similar structure to vitamin C but doesn't provide vitamin activity."
+  }
+}

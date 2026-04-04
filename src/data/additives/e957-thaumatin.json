@@ -1,0 +1,160 @@
+{
+  "slug": "e957-thaumatin",
+  "names": {
+    "e_number": "E957",
+    "ins_number": "957",
+    "cas_number": "53850-34-3",
+    "common_name": "Thaumatin",
+    "scientific_name": "Thaumatin proteins I and II",
+    "japanese_name": "ソーマチン",
+    "japanese_label_name": "ソーマチン",
+    "aliases": [
+      "Talin",
+      "Katemfe fruit protein"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "natural protein",
+    "source_type": "natural",
+    "chemical_group": "protein"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "katemfe fruit (Thaumatococcus daniellii)"
+    ],
+    "description": "A natural sweet protein extracted from the katemfe fruit of West Africa. About 2,000-3,000 times sweeter than sucrose. Has a slow onset but long-lasting sweetness with licorice-like aftertaste."
+  },
+  "manufacturing": {
+    "method": "extraction from fruit",
+    "description": "Extracted from the arils of katemfe fruit native to West African rainforests. Can also be produced through recombinant DNA technology using yeast or bacteria."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Flavor enhancer and modifier",
+    "pharmaceutical": "Taste-masking agent for bitter drugs",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E957",
+      "max_level_mg_kg": "varies by food category (0.5-50 mg/kg)",
+      "conditions": "Used as sweetener and flavor enhancer",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4290"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (as flavor enhancer)",
+      "cfr_reference": "21 CFR 184.1888",
+      "fda_url": null,
+      "notes": "Approved as GRAS flavor enhancer, not specifically as sweetener"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソーマチン",
+      "notes": "Natural additive status"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "957",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as sweetener and flavor enhancer"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": "Approved for use in specific food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use quantum satis)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4290"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=thaumatin+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=thaumatin+E957+sweet+protein",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4290",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1888",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=957"
+  },
+  "regulatory_history": [
+    {
+      "year": 1983,
+      "event": "Approved in UK"
+    },
+    {
+      "year": 1994,
+      "event": "EU approval granted"
+    },
+    {
+      "year": 1996,
+      "event": "FDA grants GRAS status as flavor enhancer"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavored drinks",
+      "max_level_mg_kg": "0.5"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "5"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum",
+    "Pet food",
+    "Pharmaceutical coatings",
+    "Flavored beverages",
+    "Confectionery",
+    "Tabletop sweeteners (in blends)",
+    "Dairy products",
+    "Health foods"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe at all consumption levels. As a protein, it is metabolized like other dietary proteins."
+  },
+  "fun_fact": "Thaumatin is so intensely sweet (2,000-3,000x sweeter than sugar) that it holds the Guinness World Record for the sweetest naturally occurring substance! West Africans have been using the katemfe fruit for centuries to sweeten palm wine and bread."
+}

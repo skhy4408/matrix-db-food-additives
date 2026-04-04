@@ -1,0 +1,135 @@
+{
+  "slug": "e182-orceins",
+  "names": {
+    "e_number": "E182",
+    "ins_number": "182",
+    "cas_number": "1400-62-0",
+    "common_name": "Orceins",
+    "scientific_name": "Orcein",
+    "japanese_name": "オルセイン",
+    "japanese_label_name": "オルセイン",
+    "aliases": [
+      "Orchil",
+      "Archil",
+      "Lichen purple"
+    ]
+  },
+  "classification": {
+    "functional_class": "color",
+    "sub_class": "natural dye",
+    "source_type": "natural",
+    "chemical_group": "phenoxazone derivative"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Lichens (Roccella species)",
+      "Various lichen species"
+    ],
+    "description": "An ancient natural purple-red dye extracted from lichens. Used historically to dye fabrics and now rarely used in foods. One of the oldest known dyes, dating back to ancient civilizations."
+  },
+  "manufacturing": {
+    "method": "extraction from lichens",
+    "description": "Extracted from various lichen species through fermentation and oxidation processes. Production is limited due to slow lichen growth."
+  },
+  "other_uses": {
+    "cosmetics": "Historical use in cosmetics",
+    "industrial": "Textile dyeing, histological staining in microscopy",
+    "pharmaceutical": "Used as biological stain in laboratories",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E182",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted but rarely used",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not permitted for food use"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not permitted"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Not permitted"
+    },
+    "canada": {
+      "status": "banned",
+      "classification": "Not approved",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not evaluated",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=orcein+lichen+dye",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E182+orceins+archil+lichen",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": "ancient",
+      "event": "Used by ancient Greeks, Romans, and Vikings to dye purple fabrics"
+    },
+    {
+      "year": 1960,
+      "event": "Approved in EU but almost never used in modern food production"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "Historical dyeing literature"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "partial",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Virtually no modern food applications",
+    "Historical use in beverages and confections"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "No ADI established. Fun fact: This is one of the oldest known dyes in history! Ancient civilizations extracted purple dye from slow-growing lichens. It's approved in the EU but essentially extinct in modern food use."
+  }
+}

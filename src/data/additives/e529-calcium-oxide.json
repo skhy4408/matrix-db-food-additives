@@ -1,0 +1,135 @@
+{
+  "slug": "e529-calcium-oxide",
+  "names": {
+    "e_number": "E529",
+    "ins_number": "529",
+    "cas_number": "1305-78-8",
+    "common_name": "Calcium Oxide",
+    "scientific_name": "Calcium oxide (CaO)",
+    "japanese_name": "酸化カルシウム",
+    "japanese_label_name": "酸化Ca",
+    "aliases": [
+      "Quicklime",
+      "Burnt lime",
+      "Unslaked lime",
+      "Calx"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "processing aid, pH adjuster",
+    "source_type": "mineral-derived",
+    "chemical_group": "inorganic oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Calcium oxide does not occur naturally in free form (it reacts with moisture). It is produced by heating limestone (calcium carbonate) in kilns."
+  },
+  "manufacturing": {
+    "method": "thermal decomposition of mineral",
+    "description": "Produced by heating limestone (calcium carbonate, CaCO3) to very high temperatures (above 825°C) in a lime kiln. This drives off carbon dioxide, leaving calcium oxide. When water is added, it becomes calcium hydroxide (slaked lime)."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Steel manufacturing, cement production, glass manufacturing, paper production, water treatment.",
+    "pharmaceutical": "Rarely used directly; converted to calcium hydroxide for pharmaceutical use.",
+    "household": "Historical use in lighting (limelight), hot packs (exothermic reaction with water)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E529",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Used as processing aid; typically hydrated to calcium hydroxide upon contact with moisture in food.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1210",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited use; typically converts to calcium hydroxide in food applications."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "346",
+      "japanese_regulation_name": "酸化カルシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "529",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use, converts to calcium hydroxide in food)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4077",
+    "efsa_adi": "not specified (no safety concern)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+oxide+food+processing",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=quicklime+food+additive",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4077",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=529"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.2",
+      "category_name": "Canned or bottled vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Corn processing (typically hydrated to calcium hydroxide first)",
+    "Sugar refining (processing aid)",
+    "Some Asian preserved foods",
+    "Water treatment in food manufacturing"
+  ],
+  "fun_facts": [
+    "Called 'QUICKLIME' because it reacts quickly and vigorously with water, generating intense heat",
+    "The reaction with water is so exothermic it can boil the water - never add water directly to quicklime!",
+    "Used historically for 'limelight' in theaters - heated quicklime glows with brilliant white light",
+    "Almost never used directly in food - immediately converts to calcium hydroxide (slaked lime) when it contacts moisture",
+    "Made by humans for over 5,000 years - one of the oldest chemical processes known",
+    "The same process and product used to make cement and mortar for construction",
+    "Extremely caustic and reactive - much less safe to handle than its hydrated form (calcium hydroxide)"
+  ]
+}

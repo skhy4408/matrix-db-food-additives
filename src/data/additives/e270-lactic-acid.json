@@ -1,0 +1,145 @@
+{
+  "slug": "e270-lactic-acid",
+  "names": {
+    "e_number": "E270",
+    "ins_number": "270",
+    "cas_number": "50-21-5 (L), 10326-41-7 (D), 598-82-3 (DL)",
+    "common_name": "Lactic Acid",
+    "scientific_name": "2-Hydroxypropanoic acid",
+    "japanese_name": "乳酸",
+    "japanese_label_name": "乳酸",
+    "aliases": [
+      "Milk acid",
+      "2-hydroxypropanoic acid",
+      "Lactate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity_regulator",
+    "sub_class": "acidulant",
+    "source_type": "natural_or_synthetic",
+    "chemical_group": "alpha-hydroxy acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Fermented dairy products (yogurt, cheese)",
+      "Sauerkraut and kimchi",
+      "Sourdough bread",
+      "Muscle tissue (produced during exercise)"
+    ],
+    "description": "A naturally occurring organic acid produced by bacterial fermentation or chemical synthesis. The L(+) form is the naturally occurring enantiomer in living organisms."
+  },
+  "manufacturing": {
+    "method": "bacterial fermentation or chemical synthesis",
+    "description": "Primarily produced by bacterial fermentation of carbohydrates (glucose, sucrose) using Lactobacillus bacteria. Can also be synthesized chemically, but fermentation is more common for food use."
+  },
+  "other_uses": {
+    "cosmetics": "Alpha-hydroxy acid in skincare products, pH adjuster",
+    "industrial": "Biodegradable plastics (polylactic acid/PLA), leather tanning, textile dyeing",
+    "pharmaceutical": "pH adjuster, ingredient in Ringer's lactate solution",
+    "household": "Descaling agent, natural cleaner"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E270",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "None",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1061",
+      "fda_url": null,
+      "notes": "Generally recognized as safe"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "乳酸",
+      "notes": "Natural food component"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "270",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (ADI not limited)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=lactic+acid+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=lactic+acid+E270",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1061",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=270"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "Affirmed as GRAS by FDA"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Yogurt and cultured dairy products",
+    "Sauerkraut and pickled vegetables",
+    "Sourdough bread",
+    "Soft drinks and fruit juices",
+    "Beer and wine",
+    "Processed meats",
+    "Salad dressings",
+    "Confectionery"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - naturally occurring in the body and many foods. Your muscles produce lactic acid during exercise!"
+  }
+}

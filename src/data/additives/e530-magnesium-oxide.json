@@ -1,0 +1,144 @@
+{
+  "slug": "e530-magnesium-oxide",
+  "names": {
+    "e_number": "E530",
+    "ins_number": "530",
+    "cas_number": "1309-48-4",
+    "common_name": "Magnesium Oxide",
+    "scientific_name": "Magnesium oxide (MgO)",
+    "japanese_name": "酸化マグネシウム",
+    "japanese_label_name": "酸化Mg",
+    "aliases": [
+      "Magnesia",
+      "Calcined magnesia",
+      "Periclase (mineral form)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "acidity regulator, color retention agent",
+    "source_type": "mineral or synthetic",
+    "chemical_group": "inorganic oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Periclase mineral (rare)",
+      "Sea water (as dissolved magnesium ions)"
+    ],
+    "description": "While magnesium oxide occurs naturally as the rare mineral periclase, commercial production is from heating magnesium carbonate or magnesium hydroxide."
+  },
+  "manufacturing": {
+    "method": "thermal decomposition",
+    "description": "Produced by heating magnesium carbonate (magnesite) or magnesium hydroxide to high temperatures, driving off carbon dioxide or water respectively, leaving magnesium oxide. Also produced from sea water by precipitation and calcination."
+  },
+  "other_uses": {
+    "cosmetics": "Bulking agent, absorbent in powders.",
+    "industrial": "Refractory materials, insulation, fertilizers, rubber production, animal feed supplements.",
+    "pharmaceutical": "Antacid, laxative, magnesium supplement.",
+    "household": "Milk of Magnesia (suspension in water for antacid/laxative use)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E530",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as anti-caking agent and acidity regulator in various food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1431",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used as anti-caking agent and dietary supplement."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "347",
+      "japanese_regulation_name": "酸化マグネシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "530",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1965,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4078",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+oxide+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=magnesium+oxide+anti-caking+agent",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4078",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=530"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.2",
+      "category_name": "Herbs, spices, seasonings",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cocoa powder (anti-caking, color retention)",
+    "Dried spice powders",
+    "Icing sugar and powdered sugar",
+    "Magnesium supplements and fortified foods",
+    "Some salt products (anti-caking)",
+    "Protein powders",
+    "Dry milk powder"
+  ],
+  "fun_facts": [
+    "Related to Milk of Magnesia - the liquid antacid is a suspension of magnesium hydroxide (which forms from magnesium oxide + water)",
+    "Used as an antacid and laxative for over a century - still sold as 'Phillips' Milk of Magnesia'",
+    "Has an extremely high melting point (2,852°C) - used in refractory materials for furnaces",
+    "Provides both anti-caking properties AND magnesium supplementation in foods",
+    "Tasteless and odorless, making it ideal for use in delicate foods",
+    "Can absorb moisture from air, slowly converting to magnesium hydroxide and then magnesium carbonate"
+  ]
+}

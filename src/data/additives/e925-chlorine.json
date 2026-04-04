@@ -1,0 +1,23 @@
+{
+  "slug": "e925-chlorine",
+  "names": {"e_number": "E925", "ins_number": "925", "cas_number": "7782-50-5", "common_name": "Chlorine", "scientific_name": "Chlorine gas", "japanese_name": "塩素", "japanese_label_name": "塩素", "aliases": []},
+  "classification": {"functional_class": "flour treatment agent", "sub_class": "bleaching agent", "source_type": "synthetic", "chemical_group": "various"},
+  "natural_occurrence": {"found_in_nature": false, "natural_sources": [], "description": "Chlorine gas used to bleach flour and treat water. Yes, swimming pool chemical in your flour!"},
+  "manufacturing": {"method": "chemical synthesis", "description": "Industrially produced."},
+  "other_uses": {"cosmetics": null, "industrial": null, "pharmaceutical": null, "household": null},
+  "regulations": {
+    "eu": {"status": "approved", "e_number": "E925", "max_level_mg_kg": "quantum satis", "conditions": "Permitted in specific categories", "legal_reference": "Regulation (EC) No 1333/2008", "efsa_last_evaluated": null, "efsa_opinion_url": null},
+    "usa": {"status": "approved", "classification": "Food additive", "cfr_reference": null, "fda_url": null, "notes": null},
+    "japan": {"status": "approved", "category": "指定添加物", "mhlw_list_number": null, "japanese_regulation_name": "塩素", "notes": null},
+    "australia_nz": {"status": "approved", "code": "925", "fsanz_reference": "Schedule 16", "notes": null},
+    "canada": {"status": "approved", "reference": "Lists of Permitted Additives", "health_canada_url": null, "notes": null}
+  },
+  "safety_evaluations": {"jecfa_adi": "Not specified", "jecfa_evaluation_year": null, "jecfa_url": null, "efsa_adi": "Not established", "efsa_evaluation_year": null, "efsa_opinion_url": null},
+  "research_links": {"pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Chlorine", "google_scholar_url": "https://scholar.google.com/scholar?q=e925+Chlorine", "controversy_level": "low", "efsa_opinion_url": null, "jecfa_url": null, "fda_cfr_url": null, "codex_url": null},
+  "regulatory_history": [],
+  "food_categories_eu": [],
+  "cross_references": {"cosmetics_db_slug": null},
+  "metadata": {"data_sources": ["EU Regulation (EC) No 1333/2008"], "last_updated": "2026-04-04", "data_completeness": {"eu": "partial", "usa": "partial", "japan": "partial", "australia_nz": "partial", "canada": "partial"}},
+  "commonly_found_in": [],
+  "adi_context": {"adi_value_mg_per_kg": 0, "body_weight_kg": 60, "daily_limit_mg": 0, "equivalents": [], "source_note": "Chlorine gas used to bleach flour and treat water. Yes, swimming pool chemical in your flour!"}
+}

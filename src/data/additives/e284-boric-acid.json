@@ -1,0 +1,131 @@
+{
+  "slug": "e284-boric-acid",
+  "names": {
+    "e_number": "E284",
+    "ins_number": "284",
+    "cas_number": "10043-35-3",
+    "common_name": "Boric Acid",
+    "scientific_name": "Orthoboric acid",
+    "japanese_name": "ホウ酸",
+    "japanese_label_name": "ホウ酸",
+    "aliases": [
+      "Boracic acid",
+      "Hydrogen borate"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "antimicrobial",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Volcanic regions",
+      "Hot springs",
+      "Seawater (trace amounts)"
+    ],
+    "description": "A weak acid with antimicrobial properties. Historically used as a preservative but now banned or restricted in most countries due to toxicity concerns."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting borax (sodium borate) with a mineral acid such as hydrochloric or sulfuric acid."
+  },
+  "other_uses": {
+    "cosmetics": "Historically used but now restricted in many regions",
+    "industrial": "Insecticide, flame retardant, antiseptic",
+    "pharmaceutical": "Eyewash solutions (low concentrations)",
+    "household": "Pest control, cleaning agent"
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E284",
+      "max_level_mg_kg": "0",
+      "conditions": "Not authorized for use in foods",
+      "legal_reference": "Regulation (EC) No 1333/2008",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved for food use",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not approved for use in food"
+    },
+    "japan": {
+      "status": "restricted",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ホウ酸",
+      "notes": "Only permitted in caviar at very low levels"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": "284",
+      "fsanz_reference": null,
+      "notes": "Not permitted"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not evaluated for food use",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not safe for food use",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=boric+acid+toxicity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=boric+acid+E284+food",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": 1980,
+      "event": "Banned in most countries due to toxicity concerns"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA",
+      "Scientific literature"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Historically used in caviar (now banned in most countries)",
+    "Not permitted in modern food production"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 0,
+    "equivalents": [],
+    "source_note": "BANNED in food in most countries due to toxicity. Do not consume."
+  }
+}

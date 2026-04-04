@@ -1,0 +1,155 @@
+{
+  "slug": "e551-silicon-dioxide",
+  "names": {
+    "e_number": "E551",
+    "ins_number": "551",
+    "cas_number": "7631-86-9 (amorphous), 14808-60-7 (crystalline)",
+    "common_name": "Silicon Dioxide",
+    "scientific_name": "Silicon dioxide (SiO2)",
+    "japanese_name": "二酸化ケイ素",
+    "japanese_label_name": "二酸化ケイ素",
+    "aliases": [
+      "Silica",
+      "Amorphous silica",
+      "Quartz (crystalline form, not used in food)",
+      "Sand (impure crystalline form)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "carrier, filter aid",
+    "source_type": "mineral or synthetic",
+    "chemical_group": "inorganic oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Quartz (crystalline silica)",
+      "Sand",
+      "Diatomaceous earth (fossil diatoms)",
+      "Most rocks and minerals"
+    ],
+    "description": "Silicon dioxide is one of the most abundant compounds on Earth, making up most sand and many rocks. Food-grade silica is amorphous (non-crystalline) form, not the crystalline quartz found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or mining",
+    "description": "Food-grade amorphous silica is produced by synthetic processes (precipitated silica, fumed silica, silica gel) or by purifying natural diatomaceous earth. The amorphous form is essential - crystalline silica (quartz) is not used in food due to health concerns."
+  },
+  "other_uses": {
+    "cosmetics": "Absorbent, abrasive, bulking agent, opacifier in cosmetics and toothpaste.",
+    "industrial": "Glass manufacturing, electronics, concrete, water filtration, insulation.",
+    "pharmaceutical": "Tablet and capsule diluent, glidant, anti-caking agent.",
+    "household": "Desiccant packets ('do not eat'), cat litter, toothpaste abrasive."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E551",
+      "max_level_mg_kg": "quantum satis (10000 mg/kg in many categories)",
+      "conditions": "Only amorphous silica permitted. Maximum levels specified for certain food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.480",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used as anti-caking agent. Maximum 2% by weight in food."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "232",
+      "japanese_regulation_name": "二酸化ケイ素",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "551",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use at levels used)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4083",
+    "efsa_adi": "not specified (no safety concern for amorphous silica at current use levels)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=silicon+dioxide+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=amorphous+silica+anti-caking+agent",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5088",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4083",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=551"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated silicon dioxide and expressed need for more data on nanoparticles in food-grade silica, but confirmed safety at current use levels for conventional (non-nano) forms."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "10000"
+    },
+    {
+      "category_code": "12.2.2",
+      "category_name": "Seasonings and condiments",
+      "max_level_mg_kg": "30000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "TABLE SALT (anti-caking - keeps salt free-flowing)",
+    "Powdered coffee creamers",
+    "Spice mixes and dried seasonings",
+    "Powdered soups and gravies",
+    "Powdered drink mixes",
+    "Icing sugar and powdered sugar",
+    "Dietary supplements (tablets and powders)",
+    "Dried egg powder",
+    "Instant coffee"
+  ],
+  "fun_facts": [
+    "Literally SAND - but food-grade amorphous silica, not beach sand (which is crystalline quartz)",
+    "The most common anti-caking agent in TABLE SALT - check your salt container ingredients!",
+    "Those 'DO NOT EAT' silica gel packets in shoe boxes? Same compound, but in desiccant form",
+    "Completely inert and passes through the digestive system unchanged - not absorbed by the body",
+    "The second most abundant compound in Earth's crust after oxygen itself",
+    "Different from crystalline silica (quartz) which can cause silicosis when inhaled - food-grade is amorphous and safe",
+    "Has been used in food for decades with excellent safety record"
+  ]
+}

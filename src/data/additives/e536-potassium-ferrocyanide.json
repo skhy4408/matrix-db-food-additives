@@ -1,0 +1,144 @@
+{
+  "slug": "e536-potassium-ferrocyanide",
+  "names": {
+    "e_number": "E536",
+    "ins_number": "536",
+    "cas_number": "13943-58-3 (anhydrous), 14459-95-1 (trihydrate)",
+    "common_name": "Potassium Ferrocyanide",
+    "scientific_name": "Potassium ferrocyanide trihydrate (K4[Fe(CN)6]·3H2O)",
+    "japanese_name": "フェロシアン化カリウム",
+    "japanese_label_name": "フェロシアン化K",
+    "aliases": [
+      "Yellow prussiate of potash",
+      "Tetrapotassium hexacyanoferrate",
+      "Potassium hexacyanoferrate(II)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "crystallization aid",
+    "source_type": "synthetic",
+    "chemical_group": "coordination compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Potassium ferrocyanide does not occur naturally. It is synthetically manufactured, primarily for use in wine making and salt products."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced similarly to sodium ferrocyanide, but using potassium compounds. The hexacyanoferrate complex is extremely stable with cyanide groups tightly coordinated to the iron center."
+  },
+  "other_uses": {
+    "cosmetics": "Not used.",
+    "industrial": "Wine fining, case hardening of steel, photography, pigment production.",
+    "pharmaceutical": "Not used.",
+    "household": "Present in some table salt products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E536",
+      "max_level_mg_kg": "20 (as anhydrous ferrocyanide)",
+      "conditions": "Restricted to use in salt and salt substitutes, and wine. Maximum levels strictly enforced.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (limited use)",
+      "cfr_reference": "21 CFR 172.490",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to 13 ppm in table salt."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "401",
+      "japanese_regulation_name": "フェロシアン化カリウム",
+      "notes": "Restricted use with maximum limits."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "536",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Limited to specific uses."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Limited use in salt products."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-0.025 mg/kg bw/day (as ferrocyanide ion, for all ferrocyanides)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4080",
+    "efsa_adi": "0.03 mg/kg bw/day (as ferrocyanide ion, group ADI for all ferrocyanides)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+ferrocyanide+wine+fining",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ferrocyanide+anti-caking+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5374",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4080",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=536"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated all ferrocyanides as a group and confirmed safety at current use levels."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "20 (as anhydrous)"
+    },
+    {
+      "category_code": "14.2.6",
+      "category_name": "Wine and other fermented beverages",
+      "max_level_mg_kg": "quantum satis (processing aid)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Table salt (anti-caking agent)",
+    "Wine (fining agent to remove excess iron and prevent cloudiness)",
+    "Low-sodium salt substitutes",
+    "Sea salt products"
+  ],
+  "fun_facts": [
+    "Like E535, contains CYANIDE but is completely SAFE - cyanide locked in stable iron complex",
+    "Widely used in winemaking to remove iron that could cause blue-black cloudiness (iron casse)",
+    "The potassium version is preferred in wine because it doesn't add sodium",
+    "Forms beautiful yellow crystals - hence the name 'yellow prussiate of potash'",
+    "Same safety profile as sodium ferrocyanide - the cyanide cannot be released under normal conditions",
+    "Has been used in wine fining for over a century with excellent safety record",
+    "Works by binding to iron ions and precipitating them out of wine or preventing crystal formation in salt"
+  ]
+}
