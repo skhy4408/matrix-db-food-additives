@@ -104,7 +104,9 @@
     }
   ],
   "cross_references": {
-    "cosmetics_db_slug": null
+    "cosmetics_db_slug": "sorbic-acid",
+    "cosmetics_db_url": "https://skincare.matrix-db.com/ingredient/sorbic-acid",
+    "cosmetics_context": "Sorbic acid serves as a preservative in both food and cosmetics, protecting against mold and yeast. In skincare products, it's often used in its potassium salt form (potassium sorbate) for better solubility. Same molecule, dual purpose — from your bread to your moisturizer."
   },
   "metadata": {
     "data_sources": [

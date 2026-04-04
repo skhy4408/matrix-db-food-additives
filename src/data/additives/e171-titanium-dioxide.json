@@ -109,7 +109,9 @@
   ],
   "food_categories_eu": [],
   "cross_references": {
-    "cosmetics_db_slug": null
+    "cosmetics_db_slug": "titanium-dioxide",
+    "cosmetics_db_url": "https://skincare.matrix-db.com/ingredient/titanium-dioxide",
+    "cosmetics_context": "While titanium dioxide is banned as a food additive in the EU (E171) since 2022 due to genotoxicity concerns, it remains one of the most widely used ingredients in cosmetics — it's the white base in most sunscreens and provides UV protection. This is a striking example of how the same substance can be treated very differently depending on its use."
   },
   "metadata": {
     "data_sources": [

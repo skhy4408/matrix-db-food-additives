@@ -104,7 +104,9 @@
     }
   ],
   "cross_references": {
-    "cosmetics_db_slug": null
+    "cosmetics_db_slug": "ascorbic-acid",
+    "cosmetics_db_url": "https://skincare.matrix-db.com/ingredient/ascorbic-acid",
+    "cosmetics_context": "Ascorbic acid (Vitamin C) is a powerhouse ingredient in skincare — it's one of the most studied antioxidants for brightening, anti-aging, and collagen synthesis. While it's safe enough to consume in food at high doses, topical formulations face stability challenges, leading to derivatives like ascorbyl glucoside and magnesium ascorbyl phosphate."
   },
   "metadata": {
     "data_sources": [

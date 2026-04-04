@@ -114,7 +114,9 @@
     }
   ],
   "cross_references": {
-    "cosmetics_db_slug": null
+    "cosmetics_db_slug": "citric-acid",
+    "cosmetics_db_url": "https://skincare.matrix-db.com/ingredient/citric-acid",
+    "cosmetics_context": "In skincare, citric acid is a multi-tasker: pH adjuster, chelating agent (binds metal ions), and alpha hydroxy acid (AHA) for gentle exfoliation. It's the same citric acid from lemons, but in cosmetics it helps products maintain the right pH for your skin barrier. Also found in bath bombs — it's the acid that reacts with baking soda to create that satisfying fizz."
   },
   "metadata": {
     "data_sources": [

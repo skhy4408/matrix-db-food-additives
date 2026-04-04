@@ -127,7 +127,9 @@
     }
   ],
   "cross_references": {
-    "cosmetics_db_slug": null
+    "cosmetics_db_slug": "benzoic-acid",
+    "cosmetics_db_url": "https://skincare.matrix-db.com/ingredient/benzoic-acid",
+    "cosmetics_context": "Benzoic acid and its salts (like sodium benzoate) are widely used as preservatives in cosmetics and personal care products. The same antimicrobial properties that keep your soft drinks fresh also protect your shampoo and lotion from microbial growth. Fun fact: it's naturally found in gum benzoin, a traditional resin used in perfumery for centuries."
   },
   "metadata": {
     "data_sources": [
