@@ -5,18 +5,23 @@ import Footer from '../../components/Footer.astro';
 import Disclaimer from '../../components/Disclaimer.astro';
 import BreadcrumbSchema from '../../components/BreadcrumbSchema.astro';
 
+// Load all additives
 const additiveFiles = import.meta.glob('../../data/additives/*.json', { eager: true });
 const allAdditives = Object.values(additiveFiles) as any[];
 
+// Compare USA vs Canada
 const comparison = {
   usaOnly: allAdditives.filter(a => a.regulations.usa.status === 'approved' && a.regulations.canada.status === 'banned'),
   canadaOnly: allAdditives.filter(a => a.regulations.canada.status === 'approved' && a.regulations.usa.status === 'banned'),
   bothApproved: allAdditives.filter(a => a.regulations.usa.status === 'approved' && a.regulations.canada.status === 'approved'),
+  bothBanned: allAdditives.filter(a => a.regulations.usa.status === 'banned' && a.regulations.canada.status === 'banned'),
   differences: allAdditives.filter(a => {
     const usaStatus = a.regulations.usa.status;
     const caStatus = a.regulations.canada.status;
     return (usaStatus === 'approved' && caStatus === 'banned') ||
-           (usaStatus === 'banned' && caStatus === 'approved');
+           (usaStatus === 'banned' && caStatus === 'approved') ||
+           (usaStatus === 'restricted' && caStatus === 'approved') ||
+           (usaStatus === 'approved' && caStatus === 'restricted');
   })
 };
 
@@ -33,123 +38,230 @@ const breadcrumbs = [
 <BaseLayout title={title} description={description}>
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-6xl mx-auto">
-      <Disclaimer />
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero & Breadcrumbs -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-4">
+        <nav class="flex text-xs font-semibold uppercase tracking-wider text-brand-400 mb-8">
+          <a href="/" class="hover:text-accent">Home</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand-900 uppercase">Comparisons</span>
+          <span class="mx-2">/</span>
+          <span class="text-accent uppercase">USA vs Canada</span>
+        </nav>
 
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        USA vs Canada: Food Additive Regulations
-      </h1>
-      <p class="text-xl text-gray-600 mb-8">
-        Comparing regulatory approaches between the United States and Canada
-      </p>
-
-      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
-          <div class="text-3xl font-bold text-primary-600">{comparison.differences.length}</div>
-          <div class="text-sm text-gray-600 mt-1">Different Status</div>
-        </div>
-        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
-          <div class="text-3xl font-bold text-green-600">{comparison.bothApproved.length}</div>
-          <div class="text-sm text-gray-600 mt-1">Both Approved</div>
-        </div>
-        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
-          <div class="text-3xl font-bold text-blue-600">{comparison.usaOnly.length}</div>
-          <div class="text-sm text-gray-600 mt-1">USA Only</div>
-        </div>
-        <div class="bg-white rounded-lg shadow-sm p-6 text-center">
-          <div class="text-3xl font-bold text-orange-600">{comparison.canadaOnly.length}</div>
-          <div class="text-sm text-gray-600 mt-1">Canada Only</div>
+        <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-12 pb-12">
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-6 leading-tight">
+              <span class="text-accent">USA vs Canada:</span> Food Additive Regulations
+            </h1>
+            <p class="text-lg text-brand-500 font-medium leading-relaxed italic">
+              Comparing North American standards: The American GRAS (Generally Recognized As Safe) system versus Health Canada's rigorous pre-market approval framework.
+            </p>
+          </div>
+          
+          <div class="flex items-center gap-4 bg-brand-50 p-6 rounded-3xl border border-brand-100 shadow-sm">
+            <div class="text-center">
+              <div class="text-4xl mb-2">🇺🇸</div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-brand-900">USA</div>
+            </div>
+            <div class="h-12 w-px bg-brand-200"></div>
+            <div class="text-center px-4">
+              <div class="text-xl font-black text-accent">VS</div>
+            </div>
+            <div class="h-12 w-px bg-brand-200"></div>
+            <div class="text-center">
+              <div class="text-4xl mb-2">🇨🇦</div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-brand-900">Canada</div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Regulatory Authorities</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇺🇸 United States</h3>
-            <dl class="space-y-2 text-sm">
-              <div>
-                <dt class="font-medium text-gray-700">Authority:</dt>
-                <dd class="text-gray-600">FDA (Food and Drug Administration)</dd>
-              </div>
-              <div>
-                <dt class="font-medium text-gray-700">Framework:</dt>
-                <dd class="text-gray-600">21 CFR - Code of Federal Regulations</dd>
-              </div>
-            </dl>
+    <div class="container space-y-12">
+      <!-- Quick Stats -->
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+        {[
+          { label: 'Regulatory Gaps', val: comparison.differences.length, color: 'text-accent', bg: 'bg-white' },
+          { label: 'Harmonized', val: comparison.bothApproved.length, color: 'text-approved', bg: 'bg-white' },
+          { label: 'USA Exclusive', val: comparison.usaOnly.length, color: 'text-orange-600', bg: 'bg-white' },
+          { label: 'Canada Exclusive', val: comparison.canadaOnly.length, color: 'text-red-600', bg: 'bg-white' },
+        ].map(stat => (
+          <div class={`${stat.bg} p-8 rounded-3xl border border-brand-100 shadow-sm text-center transform hover:-translate-y-1 transition-transform`}>
+            <div class={`text-4xl font-black mb-2 ${stat.color}`}>{stat.val}</div>
+            <div class="text-[10px] font-black uppercase tracking-widest text-brand-400">{stat.label}</div>
           </div>
-          <div>
-            <h3 class="font-semibold text-lg text-gray-900 mb-2">🇨🇦 Canada</h3>
-            <dl class="space-y-2 text-sm">
-              <div>
-                <dt class="font-medium text-gray-700">Authority:</dt>
-                <dd class="text-gray-600">Health Canada</dd>
-              </div>
-              <div>
-                <dt class="font-medium text-gray-700">Framework:</dt>
-                <dd class="text-gray-600">Food and Drug Regulations (FDR)</dd>
-              </div>
-            </dl>
+        ))}
+      </div>
+
+      <Disclaimer />
+
+      <!-- Authorities Side-by-Side -->
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <!-- USA -->
+        <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="text-3xl">🇺🇸</div>
+            <h2 class="text-xl font-bold text-brand-900 uppercase tracking-tight">United States Standards</h2>
+          </div>
+          <div class="space-y-6">
+            <div class="pb-6 border-b border-brand-50">
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Primary Authority</h3>
+              <p class="text-brand-900 font-bold">Food and Drug Administration (FDA)</p>
+            </div>
+            <div class="pb-6 border-b border-brand-50">
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Philosophical Approach</h3>
+              <p class="text-sm text-brand-600 leading-relaxed"><strong class="text-brand-900 italic">GRAS / Post-Market:</strong> Many substances are "Generally Recognized As Safe" based on history of use or self-affirmation by manufacturers. Heavy reliance on reporting.</p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">System</h3>
+              <p class="text-sm text-brand-900 font-bold uppercase tracking-tight">21 CFR (Code of Federal Regulations)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Canada -->
+        <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm">
+          <div class="flex items-center gap-4 mb-8">
+            <div class="text-3xl">🇨🇦</div>
+            <h2 class="text-xl font-bold text-brand-900 uppercase tracking-tight">Canadian Standards</h2>
+          </div>
+          <div class="space-y-6">
+            <div class="pb-6 border-b border-brand-50">
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Primary Authority</h3>
+              <p class="text-brand-900 font-bold">Health Canada (Food Directorate)</p>
+            </div>
+            <div class="pb-6 border-b border-brand-50">
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Philosophical Approach</h3>
+              <p class="text-sm text-brand-600 leading-relaxed"><strong class="text-brand-900 italic">Pre-Market Approval:</strong> Additives must be safe for use, have a proven technological purpose, and be listed on Health Canada's specific "Lists of Permitted Food Additives."</p>
+            </div>
+            <div>
+              <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">System</h3>
+              <p class="text-sm text-brand-900 font-bold uppercase tracking-tight">Food and Drug Regulations (FDR)</p>
+            </div>
           </div>
         </div>
       </section>
 
-      {comparison.differences.length > 0 && (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Different Regulatory Status</h2>
-          <div class="overflow-x-auto">
-            <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
-                <tr>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Additive</th>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Class</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇺🇸 USA</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇨🇦 Canada</th>
+      <!-- Comparison Table -->
+      <section class="bg-white rounded-3xl overflow-hidden border border-brand-100 shadow-sm">
+        <div class="p-8 border-b border-brand-50">
+          <h2 class="text-xl font-bold text-brand-900 flex items-center gap-3">
+            <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+            Additives with Different Regulatory Status
+          </h2>
+        </div>
+        
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse">
+            <thead>
+              <tr class="bg-brand-50/50">
+                <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Chemical / E-Number</th>
+                <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Function</th>
+                <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇺🇸 USA Status</th>
+                <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇨🇦 Canada Status</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-brand-50">
+              {comparison.differences.map((additive: any) => (
+                <tr class="group hover:bg-brand-50/30 transition-colors">
+                  <td class="px-8 py-5">
+                    <a href={`/additive/${additive.slug}/`} class="text-brand-900 font-bold hover:text-accent transition-colors underline decoration-brand-200 decoration-2 underline-offset-4">
+                      {additive.names.common_name}
+                    </a>
+                    <div class="text-[10px] font-bold text-brand-400 mt-1 uppercase tracking-tighter">{additive.names.e_number}</div>
+                  </td>
+                  <td class="px-8 py-5 text-xs font-bold text-brand-500 uppercase tracking-tight">{additive.classification.functional_class}</td>
+                  <td class="px-8 py-5 text-center">
+                    <span class={`inline-block px-3 py-1 text-[10px] font-black uppercase tracking-widest rounded-lg border shadow-sm ${
+                      additive.regulations.usa.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                      additive.regulations.usa.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                      'bg-restricted-bg text-restricted-text border-restricted-border'
+                    }`}>
+                      {additive.regulations.usa.status}
+                    </span>
+                  </td>
+                  <td class="px-8 py-5 text-center">
+                    <span class={`inline-block px-3 py-1 text-[10px] font-black uppercase tracking-widest rounded-lg border shadow-sm ${
+                      additive.regulations.canada.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                      additive.regulations.canada.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                      'bg-restricted-bg text-restricted-text border-restricted-border'
+                    }`}>
+                      {additive.regulations.canada.status}
+                    </span>
+                  </td>
                 </tr>
-              </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
-                {comparison.differences.map((additive: any) => (
-                  <tr class="hover:bg-gray-50">
-                    <td class="px-4 py-3">
-                      <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline font-medium">
-                        {additive.names.common_name}
-                      </a>
-                      <div class="text-xs text-gray-500">{additive.names.e_number}</div>
-                    </td>
-                    <td class="px-4 py-3 text-sm text-gray-700">{additive.classification.functional_class}</td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.usa.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        'bg-red-100 text-red-800'
-                      }`}>
-                        {additive.regulations.usa.status}
-                      </span>
-                    </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.canada.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        'bg-red-100 text-red-800'
-                      }`}>
-                        {additive.regulations.canada.status}
-                      </span>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
-      )}
-
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Data Sources</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>• <strong>USA:</strong> 21 CFR, FDA Database</li>
-          <li>• <strong>Canada:</strong> Health Canada Lists of Permitted Food Additives</li>
-          <li>• Data as of April 2026</li>
-        </ul>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
+
+      <!-- Notable Examples Highlighting -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        {comparison.usaOnly.length > 0 && (
+          <div class="bg-white rounded-3xl p-8 border-t-4 border-orange-600 shadow-sm">
+            <h3 class="text-lg font-bold text-brand-900 mb-6 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-orange-600"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              USA Approved, Canada Banned
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {comparison.usaOnly.map((additive: any) => (
+                <a href={`/additive/${additive.slug}/`} class="px-3 py-2 bg-orange-50 text-orange-800 rounded-xl hover:bg-orange-100 text-xs font-bold border border-orange-100 transition-colors">
+                  {additive.names.common_name} <span class="opacity-50 ml-1">{additive.names.e_number}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+
+        {comparison.canadaOnly.length > 0 && (
+          <div class="bg-white rounded-3xl p-8 border-t-4 border-red-600 shadow-sm">
+            <h3 class="text-lg font-bold text-brand-900 mb-6 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-red-600"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              Canada Approved, USA Banned
+            </h3>
+            <div class="flex flex-wrap gap-2">
+              {comparison.canadaOnly.map((additive: any) => (
+                <a href={`/additive/${additive.slug}/`} class="px-3 py-2 bg-red-50 text-red-800 rounded-xl hover:bg-red-100 text-xs font-bold border border-red-100 transition-colors">
+                  {additive.names.common_name} <span class="opacity-50 ml-1">{additive.names.e_number}</span>
+                </a>
+              ))}
+            </div>
+          </div>
+        )}
+      </section>
+
+      <!-- Sources -->
+      <section class="bg-brand-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-accent/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Data Verification & Methodology
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">USA Data</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Verified against 21 CFR (Code of Federal Regulations) and the FDA GRAS Database.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Canada Data</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Verified against Health Canada's Lists of Permitted Food Additives and Food and Drug Regulations (FDR).</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Timeline</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Status current as of April 2026. Global regulations are subject to frequent updates.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Scope</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium italic">Informational only. This database is not a legal document or health advice.</p>
+          </div>
+        </div>
+      </section>
+
     </div>
   </main>
 

@@ -10,112 +10,174 @@ import Footer from '../components/Footer.astro';
 >
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-3xl mx-auto prose prose-lg">
-      <h1>Terms of Use</h1>
-      <p class="text-sm text-gray-600">Last updated: April 3, 2026</p>
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero Section -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-16 text-center max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-4 leading-tight">
+          Terms of <span class="text-accent">Use</span>
+        </h1>
+        <p class="text-sm text-brand-400 font-bold uppercase tracking-widest">
+          Last updated: April 3, 2026
+        </p>
+      </div>
+    </div>
 
-      <h2>Acceptance of Terms</h2>
-      <p>
-        By accessing and using food.matrix-db.com (the "Site"), you accept and agree to be bound by these Terms of Use.
-      </p>
+    <div class="container max-w-4xl space-y-12">
+      <section class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-brand-100 prose prose-brand max-w-none">
+        <h2 class="text-2xl font-bold text-brand-900 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Acceptance of Terms
+        </h2>
+        <p class="text-brand-600 leading-relaxed">
+          By accessing and using <span class="font-bold text-brand-900">food.matrix-db.com</span> (the "Site"), you accept and agree to be bound by these Terms of Use.
+        </p>
 
-      <h2>Nature of Information</h2>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Nature of Information
+        </h2>
 
-      <h3>Informational Purpose Only</h3>
-      <p>
-        The Food Additive Regulation Database provides factual regulatory information compiled from official government sources. <strong>This information is for informational purposes only and does NOT constitute:</strong>
-      </p>
-      <ul>
-        <li>Medical advice</li>
-        <li>Nutritional advice</li>
-        <li>Safety recommendations</li>
-        <li>Professional guidance of any kind</li>
-      </ul>
+        <h3 class="text-xl font-bold text-brand-800">Informational Purpose Only</h3>
+        <p class="text-brand-600">
+          The Food Additive Regulation Database provides factual regulatory information compiled from official government sources. <span class="font-bold text-brand-900">This information is for informational purposes only and does NOT constitute:</span>
+        </p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-brand-600 font-medium">
+          <li class="flex items-center gap-2 text-red-600">✕ Medical advice</li>
+          <li class="flex items-center gap-2 text-red-600">✕ Nutritional advice</li>
+          <li class="flex items-center gap-2 text-red-600">✕ Safety recommendations</li>
+          <li class="flex items-center gap-2 text-red-600">✕ Professional guidance</li>
+        </ul>
 
-      <h3>Not a Substitute for Official Sources</h3>
-      <p>
-        <strong>Always verify information with official regulatory authorities.</strong> Regulatory status can change, and you should refer to:
-      </p>
-      <ul>
-        <li>Your local food regulatory authority</li>
-        <li>Official government publications</li>
-        <li>Qualified professionals (dietitians, food scientists, etc.)</li>
-      </ul>
+        <div class="mt-8 p-6 bg-brand-50 border border-brand-100 rounded-2xl">
+          <h3 class="text-lg font-bold text-brand-900 mb-2">Not a Substitute for Official Sources</h3>
+          <p class="text-brand-600 text-sm leading-relaxed mb-4">
+            <span class="font-bold">Always verify information with official regulatory authorities.</span> Regulatory status can change, and you should refer to:
+          </p>
+          <ul class="space-y-2 text-sm font-bold text-brand-800">
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent rounded-full"></span> Your local food regulatory authority</li>
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent rounded-full"></span> Official government publications</li>
+            <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-accent rounded-full"></span> Qualified professionals (dietitians, food scientists, etc.)</li>
+          </ul>
+        </div>
 
-      <h2>Accuracy and Completeness</h2>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Accuracy and Completeness
+        </h2>
 
-      <h3>Best Efforts</h3>
-      <p>
-        While we strive for accuracy, we make no warranties or representations about:
-      </p>
-      <ul>
-        <li>The accuracy or completeness of information on this site</li>
-        <li>The currentness of regulatory information</li>
-        <li>The suitability of information for any particular purpose</li>
-      </ul>
+        <h3 class="text-xl font-bold text-brand-800">Best Efforts</h3>
+        <p class="text-brand-600">
+          While we strive for accuracy, we make no warranties or representations about:
+        </p>
+        <ul class="space-y-1 text-brand-600 font-medium">
+          <li>• The accuracy or completeness of information on this site</li>
+          <li>• The currentness of regulatory information</li>
+          <li>• The suitability of information for any particular purpose</li>
+        </ul>
 
-      <h3>Information May Change</h3>
-      <p>
-        Food additive regulations change over time. Information on this site may become outdated. We are not responsible for keeping all information current in real-time.
-      </p>
+        <h3 class="text-xl font-bold text-brand-800 mt-6">Information May Change</h3>
+        <p class="text-brand-600">
+          Food additive regulations change over time. Information on this site may become outdated. We are not responsible for keeping all information current in real-time.
+        </p>
 
-      <h2>Disclaimer of Warranties</h2>
-      <p>
-        THE SITE AND ALL INFORMATION PROVIDED ARE ON AN "AS IS" AND "AS AVAILABLE" BASIS. WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
-      </p>
-      <ul>
-        <li>Warranties of merchantability</li>
-        <li>Fitness for a particular purpose</li>
-        <li>Non-infringement</li>
-        <li>Accuracy or reliability of information</li>
-      </ul>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Disclaimer of Warranties
+        </h2>
+        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-200">
+          <p class="text-brand-500 text-xs font-black uppercase tracking-widest mb-4">Legal Disclaimer</p>
+          <p class="text-brand-800 text-sm font-medium leading-relaxed italic">
+            THE SITE AND ALL INFORMATION PROVIDED ARE ON AN "AS IS" AND "AS AVAILABLE" BASIS. WE MAKE NO WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO: WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ACCURACY OF INFORMATION.
+          </p>
+        </div>
 
-      <h2>Limitation of Liability</h2>
-      <p>
-        TO THE FULLEST EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY:
-      </p>
-      <ul>
-        <li>Direct, indirect, incidental, or consequential damages</li>
-        <li>Loss of profits or revenue</li>
-        <li>Health consequences arising from use of information on this site</li>
-        <li>Damages resulting from reliance on information provided</li>
-      </ul>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Limitation of Liability
+        </h2>
+        <p class="text-brand-600">
+          TO THE FULLEST EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY:
+        </p>
+        <ul class="space-y-1 text-brand-600 font-medium">
+          <li>• Direct, indirect, incidental, or consequential damages</li>
+          <li>• Loss of profits or revenue</li>
+          <li>• Health consequences arising from use of information</li>
+          <li>• Damages resulting from reliance on information provided</li>
+        </ul>
 
-      <h2>Use at Your Own Risk</h2>
-      <p>
-        <strong>You use this site and its information entirely at your own risk.</strong> If you have health concerns, food allergies, or are making decisions that could affect health or safety, consult qualified professionals and official regulatory sources.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3 text-red-700">
+          <span class="w-1.5 h-6 bg-red-500 rounded-full"></span>
+          Use at Your Own Risk
+        </h2>
+        <p class="text-brand-600 font-bold">
+          You use this site and its information entirely at your own risk.
+        </p>
+        <p class="text-brand-600 mt-2">
+          If you have health concerns, food allergies, or are making decisions that could affect health or safety, consult qualified professionals and official regulatory sources.
+        </p>
 
-      <h2>External Links</h2>
-      <p>
-        Our site contains links to external websites (regulatory agencies, scientific publications, etc.). We are not responsible for the content, accuracy, or practices of external sites.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          External Links
+        </h2>
+        <p class="text-brand-600">
+          Our site contains links to external websites (regulatory agencies, scientific publications, etc.). We are not responsible for the content, accuracy, or practices of external sites.
+        </p>
 
-      <h2>Intellectual Property</h2>
-      <p>
-        The compilation and presentation of data on this site is our intellectual property. The underlying regulatory data is public information from government sources.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Intellectual Property
+        </h2>
+        <p class="text-brand-600">
+          The compilation and presentation of data on this site is our intellectual property. The underlying regulatory data is public information from government sources.
+        </p>
 
-      <h2>Changes to Terms</h2>
-      <p>
-        We may update these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Changes to Terms
+        </h2>
+        <p class="text-brand-600">
+          We may update these terms at any time. Continued use of the site after changes constitutes acceptance of the new terms.
+        </p>
 
-      <h2>Governing Law</h2>
-      <p>
-        These terms are governed by the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the courts of Fukuoka, Japan.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Governing Law
+        </h2>
+        <p class="text-brand-600">
+          These terms are governed by the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the courts of Fukuoka, Japan.
+        </p>
+      </section>
 
-      <h2>Contact</h2>
-      <p>
-        For questions about these terms, contact us at <a href="mailto:contact@matrix-db.com">contact@matrix-db.com</a>.
-      </p>
-
-      <p>
-        <strong>Operator:</strong> SHOYA KIHARA<br/>
-        <strong>Address:</strong> 7F, Tenjin First Building, 4-6-28 Tenjin, Chuo-ku, Fukuoka-shi, Fukuoka 810-0001, Japan
-      </p>
+      <div class="bg-brand-900 rounded-3xl p-8 md:p-12 text-white shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-accent/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Contact & Operator
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+          <div class="space-y-4">
+            <div class="text-[10px] font-black uppercase tracking-widest text-brand-500 mb-2">Operator</div>
+            <p class="text-brand-100 font-bold">SHOYA KIHARA</p>
+            <div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-brand-500 mb-2">Address</div>
+              <p class="text-brand-100 font-bold text-sm leading-relaxed">
+                7F, Tenjin First Building, 4-6-28 Tenjin,<br/>
+                Chuo-ku, Fukuoka-shi, Fukuoka 810-0001, Japan
+              </p>
+            </div>
+          </div>
+          
+          <div class="bg-white/5 border border-white/10 p-6 rounded-2xl">
+            <div class="text-[10px] font-black uppercase tracking-widest text-accent mb-4">Questions?</div>
+            <p class="text-xl font-bold mb-4">contact@matrix-db.com</p>
+            <p class="text-xs text-brand-400 italic">For questions about these terms or our data practices.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 

@@ -129,473 +129,349 @@ if (names.aliases && names.aliases.length >= 2) {
 <BaseLayout title={title} description={description}>
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-4xl mx-auto">
-      <Disclaimer />
+  <main class="bg-brand-50 pb-20">
+    <!-- Breadcrumbs & Hero -->
+    <div class="bg-white border-b border-brand-100 mb-8">
+      <div class="container py-4">
+        <nav class="flex text-xs font-semibold uppercase tracking-wider text-brand-400 mb-6">
+          <a href="/" class="hover:text-accent">Home</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand-900">{names.e_number}</span>
+        </nav>
 
-      <!-- Title -->
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        {names.common_name}
-      </h1>
-      <p class="text-xl text-gray-600 mb-6">
-        {names.e_number} {names.ins_number && `| INS ${names.ins_number}`}
-      </p>
-
-      <!-- Names & Identifiers -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Names & Identifiers</h2>
-        <dl class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 pb-8">
           <div>
-            <dt class="text-sm font-medium text-gray-500">E Number</dt>
-            <dd class="mt-1 text-base text-gray-900">{names.e_number}</dd>
-          </div>
-          {names.ins_number && (
-            <div>
-              <dt class="text-sm font-medium text-gray-500">INS Number</dt>
-              <dd class="mt-1 text-base text-gray-900">{names.ins_number}</dd>
+            <div class="flex items-center gap-3 mb-4">
+              <span class="px-3 py-1 bg-brand-900 text-white text-xs font-bold rounded-lg uppercase tracking-widest">{classification.functional_class}</span>
+              <span class="text-brand-400 font-bold text-sm tracking-tighter">INS {names.ins_number || 'N/A'}</span>
             </div>
-          )}
-          {names.cas_number && (
-            <div>
-              <dt class="text-sm font-medium text-gray-500">CAS Number</dt>
-              <dd class="mt-1 text-base text-gray-900">{names.cas_number}</dd>
-            </div>
-          )}
-          {names.scientific_name && (
-            <div>
-              <dt class="text-sm font-medium text-gray-500">Scientific Name</dt>
-              <dd class="mt-1 text-base text-gray-900">{names.scientific_name}</dd>
-            </div>
-          )}
-          {names.japanese_name && (
-            <div>
-              <dt class="text-sm font-medium text-gray-500">Japanese Name</dt>
-              <dd class="mt-1 text-base text-gray-900">{names.japanese_name}</dd>
-            </div>
-          )}
-          {names.aliases && names.aliases.length > 0 && (
-            <div class="md:col-span-2">
-              <dt class="text-sm font-medium text-gray-500">Also Known As</dt>
-              <dd class="mt-1 text-base text-gray-900">{names.aliases.join(', ')}</dd>
-            </div>
-          )}
-        </dl>
-      </section>
-
-      <!-- Regulation Status -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Regulation Status by Country</h2>
-
-        <div class="flex flex-wrap gap-3 mb-6">
-          <RegulationStatusBadge status={regulations.eu.status} country="🇪🇺 EU" />
-          <RegulationStatusBadge status={regulations.usa.status} country="🇺🇸 USA" />
-          <RegulationStatusBadge status={regulations.japan.status} country="🇯🇵 Japan" />
-          <RegulationStatusBadge status={regulations.australia_nz.status} country="🇦🇺 AU/NZ" />
-          <RegulationStatusBadge status={regulations.canada.status} country="🇨🇦 Canada" />
-        </div>
-
-        <div class="space-y-4">
-          <!-- EU -->
-          <div class="border-l-4 border-primary-400 pl-4">
-            <h3 class="font-semibold text-gray-900">European Union</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              <strong>Status:</strong> {regulations.eu.status}
-              {regulations.eu.max_level_mg_kg && ` | Max level: ${regulations.eu.max_level_mg_kg} mg/kg`}
+            <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-2 leading-tight">
+              {names.common_name}
+              <span class="text-accent ml-2">{names.e_number}</span>
+            </h1>
+            <p class="text-lg text-brand-500 font-medium italic max-w-2xl leading-relaxed">
+              {classification.sub_class} — Primarily {classification.source_type}.
             </p>
-            {regulations.eu.conditions && (
-              <p class="text-sm text-gray-600 mt-1">{regulations.eu.conditions}</p>
-            )}
-            {regulations.eu.efsa_opinion_url && (
-              <a href={regulations.eu.efsa_opinion_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-1 inline-block">
-                View EFSA Opinion →
-              </a>
-            )}
           </div>
-
-          <!-- USA -->
-          <div class="border-l-4 border-primary-400 pl-4">
-            <h3 class="font-semibold text-gray-900">United States</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              <strong>Status:</strong> {regulations.usa.status}
-              {regulations.usa.classification && ` | ${regulations.usa.classification}`}
-            </p>
-            {regulations.usa.notes && (
-              <p class="text-sm text-gray-600 mt-1">{regulations.usa.notes}</p>
-            )}
-          </div>
-
-          <!-- Japan -->
-          <div class="border-l-4 border-primary-400 pl-4">
-            <h3 class="font-semibold text-gray-900">Japan</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              <strong>Status:</strong> {regulations.japan.status}
-              {regulations.japan.category && ` | Category: ${regulations.japan.category}`}
-            </p>
-            {regulations.japan.notes && (
-              <p class="text-sm text-gray-600 mt-1">{regulations.japan.notes}</p>
-            )}
-          </div>
-
-          <!-- Australia/NZ -->
-          <div class="border-l-4 border-primary-400 pl-4">
-            <h3 class="font-semibold text-gray-900">Australia / New Zealand</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              <strong>Status:</strong> {regulations.australia_nz.status}
-              {regulations.australia_nz.code && ` | Code: ${regulations.australia_nz.code}`}
-            </p>
-            {regulations.australia_nz.notes && (
-              <p class="text-sm text-gray-600 mt-1">{regulations.australia_nz.notes}</p>
-            )}
-          </div>
-
-          <!-- Canada -->
-          <div class="border-l-4 border-primary-400 pl-4">
-            <h3 class="font-semibold text-gray-900">Canada</h3>
-            <p class="text-sm text-gray-600 mt-1">
-              <strong>Status:</strong> {regulations.canada.status}
-            </p>
-            {regulations.canada.notes && (
-              <p class="text-sm text-gray-600 mt-1">{regulations.canada.notes}</p>
-            )}
+          
+          <div class="flex flex-col gap-2 min-w-[200px]">
+            <span class="text-[10px] uppercase tracking-widest font-bold text-brand-400">Scientific Name</span>
+            <div class="bg-brand-100 rounded-xl p-3 border border-brand-200">
+              <p class="text-xs font-bold text-brand-900 leading-tight">{names.scientific_name || 'No scientific name available'}</p>
+              {names.cas_number && <p class="text-[10px] text-brand-500 mt-1 font-mono uppercase">CAS: {names.cas_number}</p>}
+            </div>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
 
-      <!-- What is it? -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">What is {names.common_name}?</h2>
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <!-- Sidebar: Quick Identifiers & Status Summary -->
+        <aside class="lg:col-span-4 space-y-6">
+          <div class="bg-white rounded-3xl p-6 shadow-sm border border-brand-100">
+            <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-6 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10"/></svg>
+              Global Status
+            </h2>
+            <div class="grid grid-cols-1 gap-3">
+              <RegulationStatusBadge status={regulations.eu.status} country="European Union" />
+              <RegulationStatusBadge status={regulations.usa.status} country="United States" />
+              <RegulationStatusBadge status={regulations.japan.status} country="Japan" />
+              <RegulationStatusBadge status={regulations.canada.status} country="Canada" />
+              <RegulationStatusBadge status={regulations.australia_nz.status} country="AU / NZ" />
+            </div>
 
-        <div class="prose max-w-none">
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">Classification</h3>
-          <p class="text-gray-700 mb-4">
-            <strong>Function:</strong> {classification.functional_class}<br/>
-            <strong>Type:</strong> {classification.sub_class}<br/>
-            <strong>Source:</strong> {classification.source_type}
-          </p>
-
-          {natural_occurrence.found_in_nature && (
-            <>
-              <h3 class="text-lg font-semibold text-gray-900 mb-2">Natural Occurrence</h3>
-              <p class="text-gray-700 mb-2">{natural_occurrence.description}</p>
-              {natural_occurrence.natural_sources && natural_occurrence.natural_sources.length > 0 && (
-                <p class="text-gray-700 mb-4">
-                  <strong>Found in:</strong> {natural_occurrence.natural_sources.join(', ')}
-                </p>
-              )}
-            </>
-          )}
-
-          <h3 class="text-lg font-semibold text-gray-900 mb-2">How It's Made</h3>
-          <p class="text-gray-700 mb-4">
-            <strong>Method:</strong> {manufacturing.method}<br/>
-            {manufacturing.description}
-          </p>
-
-          {(other_uses.cosmetics || other_uses.industrial || other_uses.pharmaceutical || other_uses.household) && (
-            <>
-              <h3 class="text-lg font-semibold text-gray-900 mb-2">Uses Beyond Food</h3>
-              <ul class="list-disc pl-5 text-gray-700">
-                {other_uses.cosmetics && <li><strong>Cosmetics:</strong> {other_uses.cosmetics}</li>}
-                {other_uses.pharmaceutical && <li><strong>Pharmaceutical:</strong> {other_uses.pharmaceutical}</li>}
-                {other_uses.industrial && <li><strong>Industrial:</strong> {other_uses.industrial}</li>}
-                {other_uses.household && <li><strong>Household:</strong> {other_uses.household}</li>}
-              </ul>
-            </>
-          )}
-        </div>
-      </section>
-
-      <!-- Commonly Found In -->
-      {commonly_found_in && commonly_found_in.length > 0 && (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Commonly Found In</h2>
-          <p class="text-sm text-gray-600 mb-4">
-            {names.common_name} is typically used in:
-          </p>
-          <div class="flex flex-wrap gap-2">
-            {commonly_found_in.map((product: string) => (
-              <span class="inline-flex items-center px-3 py-2 bg-gray-100 text-gray-800 rounded-lg text-sm">
-                <svg class="w-4 h-4 mr-2 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                </svg>
-                {product}
-              </span>
-            ))}
-          </div>
-          <p class="text-xs text-gray-500 mt-4">
-            Note: This list shows typical product categories and may vary by brand and region. Always check product labels for actual ingredients.
-          </p>
-        </section>
-      )}
-
-      <!-- Safety Evaluations -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Safety Evaluations (Official)</h2>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div>
-            <h3 class="font-semibold text-gray-900 mb-2">JECFA (WHO/FAO)</h3>
-            <p class="text-sm text-gray-700">
-              <strong>ADI:</strong> {safety_evaluations.jecfa_adi || 'Not specified'}<br/>
-              {safety_evaluations.jecfa_evaluation_year && (
-                <>Evaluated: {safety_evaluations.jecfa_evaluation_year}</>
-              )}
-            </p>
-            {safety_evaluations.jecfa_url && (
-              <a href={safety_evaluations.jecfa_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-2 inline-block">
-                View JECFA Database →
-              </a>
-            )}
-          </div>
-
-          <div>
-            <h3 class="font-semibold text-gray-900 mb-2">EFSA (EU)</h3>
-            <p class="text-sm text-gray-700">
-              <strong>ADI:</strong> {safety_evaluations.efsa_adi || 'Not specified'}<br/>
-              {safety_evaluations.efsa_evaluation_year && (
-                <>Evaluated: {safety_evaluations.efsa_evaluation_year}</>
-              )}
-            </p>
-            {safety_evaluations.efsa_opinion_url && (
-              <a href={safety_evaluations.efsa_opinion_url} target="_blank" rel="noopener" class="text-sm text-blue-600 hover:underline mt-2 inline-block">
-                View EFSA Opinion →
-              </a>
-            )}
-          </div>
-        </div>
-
-        <p class="text-xs text-gray-500 mt-4">
-          ADI = Acceptable Daily Intake (mg per kg of body weight per day)
-        </p>
-      </section>
-
-      <!-- ADI in Everyday Terms -->
-      {adi_context && (
-        <section class="bg-blue-50 border-l-4 border-blue-400 p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">ADI in Everyday Terms</h2>
-
-          <p class="text-gray-700 mb-4">
-            For a <strong>{adi_context.body_weight_kg} kg adult</strong>, the JECFA ADI of <strong>{adi_context.adi_value_mg_per_kg} mg/kg bw/day</strong> equals approximately <strong>{adi_context.daily_limit_mg} mg per day</strong>.
-          </p>
-
-          <p class="text-sm font-medium text-gray-700 mb-3">
-            This is roughly equivalent to:
-          </p>
-
-          <ul class="list-disc list-inside space-y-2 mb-4 text-gray-700">
-            {adi_context.equivalents.map((equiv: any) => (
-              <li>
-                <strong>{equiv.quantity}</strong> {equiv.product}
-                <span class="text-sm text-gray-600 ml-1">
-                  (typical: ~{equiv.typical_content_mg} mg per serving)
-                </span>
-              </li>
-            ))}
-          </ul>
-
-          <div class="bg-white border border-blue-200 rounded-lg p-4 mt-4">
-            <div class="flex">
-              <svg class="w-5 h-5 text-blue-600 mr-2 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-              </svg>
-              <div class="text-sm text-gray-700">
-                <strong>Important:</strong> This is a mathematical calculation based on the official ADI and typical product concentrations. It is <strong>not</strong> a safety recommendation or consumption guideline. Actual content varies by product and brand. {adi_context.source_note}
+            <div class="mt-8 pt-6 border-t border-brand-50">
+              <h3 class="text-[10px] uppercase tracking-widest font-bold text-brand-400 mb-4">Also Known As</h3>
+              <div class="flex flex-wrap gap-2">
+                {names.aliases && names.aliases.length > 0 ? names.aliases.map(alias => (
+                  <span class="text-xs font-bold px-2 py-1 bg-brand-50 text-brand-600 rounded-md border border-brand-100">{alias}</span>
+                )) : <span class="text-xs italic text-brand-400">No common aliases</span>}
               </div>
             </div>
           </div>
-        </section>
-      )}
 
-      <!-- Research & Official Documents -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Research & Official Documents</h2>
-
-        <div class="space-y-3">
-          <p class="text-sm text-gray-700 mb-4">
-            Official evaluations and scientific research:
-          </p>
-
-          <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {research_links.efsa_opinion_url && (
-              <a
-                href={research_links.efsa_opinion_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
-              >
-                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-                <div>
-                  <div class="font-medium text-gray-900">EFSA Scientific Opinion</div>
-                  <div class="text-xs text-gray-600">European Food Safety Authority</div>
-                </div>
-              </a>
-            )}
-
-            {research_links.jecfa_url && (
-              <a
-                href={research_links.jecfa_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
-              >
-                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-                <div>
-                  <div class="font-medium text-gray-900">JECFA Evaluation</div>
-                  <div class="text-xs text-gray-600">WHO/FAO Expert Committee</div>
-                </div>
-              </a>
-            )}
-
-            {research_links.fda_cfr_url && (
-              <a
-                href={research_links.fda_cfr_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
-              >
-                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-                <div>
-                  <div class="font-medium text-gray-900">FDA CFR Reference</div>
-                  <div class="text-xs text-gray-600">Code of Federal Regulations</div>
-                </div>
-              </a>
-            )}
-
-            {research_links.codex_url && (
-              <a
-                href={research_links.codex_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center p-3 border border-gray-200 rounded-lg hover:border-primary-400 hover:bg-primary-50 transition-colors"
-              >
-                <svg class="w-5 h-5 mr-2 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-                <div>
-                  <div class="font-medium text-gray-900">Codex Alimentarius</div>
-                  <div class="text-xs text-gray-600">International Food Standards</div>
-                </div>
-              </a>
-            )}
-          </div>
-
-          <div class="mt-6 pt-6 border-t border-gray-200">
-            <p class="text-sm font-medium text-gray-700 mb-3">Search research databases:</p>
-            <div class="flex flex-wrap gap-3">
-              {research_links.pubmed_search_url && (
-                <a
-                  href={research_links.pubmed_search_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
-                >
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                  Search PubMed
-                </a>
-              )}
-              {research_links.google_scholar_url && (
-                <a
-                  href={research_links.google_scholar_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  class="inline-flex items-center px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-primary-100 hover:text-primary-700 transition-colors text-sm"
-                >
-                  <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                  </svg>
-                  Search Google Scholar
-                </a>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Regulatory History Timeline -->
-      {regulatoryHistory && regulatoryHistory.events && regulatoryHistory.events.length > 0 && (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <div class="flex items-center justify-between mb-4">
-            <h2 class="text-2xl font-semibold text-gray-900">Regulatory History</h2>
-            <a
-              href={`/timeline/${additive.slug}/`}
-              class="text-sm text-blue-600 hover:text-blue-800 font-medium"
-            >
-              View Full Timeline →
-            </a>
-          </div>
-
-          <p class="text-sm text-gray-600 mb-6">
-            Key regulatory events and safety evaluations over time.
-          </p>
-
-          <TimelineView events={regulatoryHistory.events} compact={true} />
-        </section>
-      )}
-
-      <!-- FAQ Section -->
-      {faqs.length > 0 && (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Frequently Asked Questions</h2>
-
-          <div class="space-y-6">
-            {faqs.map((faq, index) => (
-              <div key={index}>
-                <h3 class="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
-                <p class="text-gray-700">{faq.answer}</p>
+          <!-- Commonly Found In -->
+          {commonly_found_in && commonly_found_in.length > 0 && (
+            <div class="bg-white rounded-3xl p-6 shadow-sm border border-brand-100">
+              <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-6 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                Commonly Found In
+              </h2>
+              <div class="flex flex-wrap gap-2">
+                {commonly_found_in.map((product: string) => (
+                  <span class="px-3 py-1.5 bg-brand-50 text-brand-700 rounded-xl text-xs font-bold border border-brand-100 flex items-center gap-2">
+                    <span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span>
+                    {product}
+                  </span>
+                ))}
               </div>
-            ))}
-          </div>
-        </section>
-      )}
+              <p class="text-[10px] text-brand-400 font-medium italic mt-6 leading-tight">
+                Typical product categories; may vary by brand. Always check the physical label.
+              </p>
+            </div>
+          )}
 
-      <!-- Related Additives -->
-      {relatedAdditives && relatedAdditives.length > 0 && (
-        <section class="bg-gray-50 rounded-lg p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Related Additives</h2>
-          <p class="text-sm text-gray-600 mb-4">
-            Other {classification.functional_class}s in our database:
-          </p>
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {relatedAdditives.map((related: any) => {
-              const hasBan = related.regulations?.eu?.status === 'banned' ||
-                            related.regulations?.usa?.status === 'banned' ||
-                            related.regulations?.japan?.status === 'banned';
-
-              return (
-                <a
-                  href={`/additive/${related.slug}/`}
-                  class="block p-4 bg-white border border-gray-200 rounded-lg hover:border-primary-400 hover:shadow-md transition-all"
-                >
-                  <div class="flex items-start justify-between mb-2">
-                    <div class="flex-1">
-                      <div class="font-semibold text-gray-900">{related.names?.common_name}</div>
-                      <div class="text-sm text-gray-600">{related.names?.e_number}</div>
+          <!-- Related Additives -->
+          {relatedAdditives && relatedAdditives.length > 0 && (
+            <div class="bg-brand-900 rounded-3xl p-6 shadow-lg shadow-brand-900/10 text-white">
+              <h2 class="text-xs font-bold uppercase tracking-widest text-brand-400 mb-6">Similar Additives</h2>
+              <div class="space-y-4">
+                {relatedAdditives.map((related: any) => (
+                  <a href={`/additive/${related.slug}/`} class="block group">
+                    <div class="flex items-center justify-between gap-3">
+                      <div>
+                        <div class="text-xs font-bold text-brand-300 mb-1">{related.names?.e_number}</div>
+                        <div class="text-sm font-bold group-hover:text-accent transition-colors truncate max-w-[180px]">{related.names?.common_name}</div>
+                      </div>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-brand-600 group-hover:text-accent transition-colors"><path d="m9 18 6-6-6-6"/></svg>
                     </div>
-                    {hasBan && (
-                      <span class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-danger-100 text-danger-800 ml-2">
-                        Banned
-                      </span>
-                    )}
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+        </aside>
+
+        <!-- Main Content -->
+        <div class="lg:col-span-8 space-y-8">
+          
+          <Disclaimer />
+
+          <!-- Regulatory Details Grid -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-2">
+              <h2 class="text-xl font-bold text-brand-900 mb-8 flex items-center gap-3">
+                <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+                Detailed Regulatory Assessment
+              </h2>
+              
+              <div class="space-y-8">
+                <!-- EU -->
+                <div class="flex gap-6 group">
+                  <div class="text-2xl font-bold text-brand-200 group-hover:text-brand-900 transition-colors">🇪🇺</div>
+                  <div class="flex-1">
+                    <h3 class="font-bold text-brand-900 mb-1">European Union (EFSA)</h3>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                      <span class={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${regulations.eu.status === 'approved' ? 'bg-approved-bg text-approved-text' : 'bg-banned-bg text-banned-text'}`}>{regulations.eu.status}</span>
+                      {regulations.eu.max_level_mg_kg && <span class="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-brand-100 text-brand-600">Max: {regulations.eu.max_level_mg_kg} mg/kg</span>}
+                    </div>
+                    <p class="text-sm text-brand-600 leading-relaxed mb-3">{regulations.eu.conditions || 'Standard regulatory conditions apply.'}</p>
+                    {regulations.eu.efsa_opinion_url && <a href={regulations.eu.efsa_opinion_url} class="text-xs font-bold text-accent hover:underline flex items-center gap-1">Official EFSA Link <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg></a>}
                   </div>
-                  {related.names?.aliases && related.names.aliases.length > 0 && (
-                    <div class="text-xs text-gray-500 mt-1">
-                      {related.names.aliases[0]}
+                </div>
+
+                <!-- USA -->
+                <div class="flex gap-6 group border-t border-brand-50 pt-8">
+                  <div class="text-2xl font-bold text-brand-200 group-hover:text-brand-900 transition-colors">🇺🇸</div>
+                  <div class="flex-1">
+                    <h3 class="font-bold text-brand-900 mb-1">United States (FDA)</h3>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                      <span class={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${regulations.usa.status === 'approved' ? 'bg-approved-bg text-approved-text' : 'bg-banned-bg text-banned-text'}`}>{regulations.usa.status}</span>
+                      {regulations.usa.classification && <span class="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-brand-100 text-brand-600">{regulations.usa.classification}</span>}
+                    </div>
+                    <p class="text-sm text-brand-600 leading-relaxed">{regulations.usa.notes || 'Regulated as a direct food additive under FDA CFR titles.'}</p>
+                  </div>
+                </div>
+
+                <!-- Japan -->
+                <div class="flex gap-6 group border-t border-brand-50 pt-8">
+                  <div class="text-2xl font-bold text-brand-200 group-hover:text-brand-900 transition-colors">🇯🇵</div>
+                  <div class="flex-1">
+                    <h3 class="font-bold text-brand-900 mb-1">Japan (MHLW)</h3>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                      <span class={`text-[10px] font-black uppercase px-2 py-0.5 rounded ${regulations.japan.status === 'approved' ? 'bg-approved-bg text-approved-text' : 'bg-banned-bg text-banned-text'}`}>{regulations.japan.status}</span>
+                      {regulations.japan.category && <span class="text-[10px] font-black uppercase px-2 py-0.5 rounded bg-brand-100 text-brand-600">Cat: {regulations.japan.category}</span>}
+                    </div>
+                    <p class="text-sm text-brand-600 leading-relaxed">{regulations.japan.notes || 'Compliant with Japanese food sanitation law.'}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ADI Visual Section -->
+            <div class={`rounded-3xl p-8 border ${adi_context ? 'bg-brand-900 text-white border-brand-900 md:col-span-2' : 'bg-white text-brand-900 border-brand-100'}`}>
+              <h2 class="text-xl font-bold mb-6 flex items-center gap-3">
+                <span class={`w-1.5 h-6 rounded-full ${adi_context ? 'bg-accent' : 'bg-accent'}`}></span>
+                Acceptable Daily Intake (ADI)
+              </h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <div class="space-y-6">
+                  <div>
+                    <h3 class={`text-xs font-bold uppercase tracking-widest mb-2 ${adi_context ? 'text-brand-400' : 'text-brand-500'}`}>International Standard (JECFA)</h3>
+                    <div class="text-3xl font-black">{safety_evaluations.jecfa_adi || 'N/A'}</div>
+                    <p class={`text-[10px] mt-1 font-bold ${adi_context ? 'text-brand-500' : 'text-brand-400'}`}> mg/kg body weight per day</p>
+                  </div>
+                  <div class="pt-6 border-t border-white/10">
+                    <h3 class={`text-xs font-bold uppercase tracking-widest mb-2 ${adi_context ? 'text-brand-400' : 'text-brand-500'}`}>European Standard (EFSA)</h3>
+                    <div class="text-3xl font-black">{safety_evaluations.efsa_adi || 'N/A'}</div>
+                  </div>
+                </div>
+
+                {adi_context && (
+                  <div class="bg-white/5 rounded-2xl p-6 border border-white/10">
+                    <h3 class="text-xs font-bold uppercase tracking-widest text-accent mb-4">Everyday Perspective</h3>
+                    <p class="text-sm font-medium leading-relaxed text-brand-200 mb-6">
+                      For a <span class="text-white font-bold">{adi_context.body_weight_kg}kg adult</span>, this limit is roughly equivalent to consuming:
+                    </p>
+                    <div class="space-y-4">
+                      {adi_context.equivalents.map((equiv: any) => (
+                        <div class="flex items-center gap-3">
+                          <div class="w-8 h-8 rounded-full bg-accent/20 flex items-center justify-center text-xs font-bold text-accent">!</div>
+                          <div>
+                            <div class="text-sm font-bold text-white leading-tight">{equiv.quantity} <span class="text-brand-400 font-medium">of {equiv.product}</span></div>
+                            <div class="text-[10px] text-brand-500 uppercase tracking-tighter">~{equiv.typical_content_mg}mg per serving</div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+
+            <!-- Origin & Manufacturing -->
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-1">
+              <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-6 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8a8 8 0 0 1-8 8Z"/><path d="M12 21a9 9 0 0 0 0-18"/><path d="m5 22 5-5"/><path d="m2 17 5-5"/><path d="m2 22 5-5"/></svg>
+                Natural Occurrence
+              </h2>
+              {natural_occurrence.found_in_nature ? (
+                <div class="space-y-4">
+                  <p class="text-sm text-brand-600 leading-relaxed font-medium italic">{natural_occurrence.description}</p>
+                  <div class="flex flex-wrap gap-1.5">
+                    {natural_occurrence.natural_sources?.map(source => (
+                      <span class="text-[10px] font-bold px-2 py-1 bg-green-50 text-green-700 rounded border border-green-100 uppercase">{source}</span>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <p class="text-sm text-brand-400 italic font-medium">This additive is not known to occur naturally in significant quantities.</p>
+              )}
+            </div>
+
+            <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-1">
+              <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-6 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M2 20a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8l-7 5V8l-7 5V4a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M17 18h1"/><path d="M12 18h1"/><path d="M7 18h1"/></svg>
+                Manufacturing
+              </h2>
+              <div class="space-y-4">
+                <div class="text-[10px] font-black uppercase text-brand-400 tracking-tighter">Method: {manufacturing.method}</div>
+                <p class="text-sm text-brand-600 leading-relaxed">{manufacturing.description}</p>
+              </div>
+            </div>
+
+            <!-- Other Uses -->
+            {(other_uses.cosmetics || other_uses.industrial || other_uses.pharmaceutical || other_uses.household) && (
+              <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-2">
+                <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-8 flex items-center gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>
+                  Applications Beyond Food
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                  {other_uses.cosmetics && (
+                    <div class="p-4 bg-brand-50 rounded-2xl border border-brand-100">
+                      <div class="text-[10px] font-black uppercase text-brand-400 mb-2">Cosmetics</div>
+                      <p class="text-xs font-bold text-brand-700 leading-tight">{other_uses.cosmetics}</p>
                     </div>
                   )}
-                </a>
-              );
-            })}
+                  {other_uses.pharmaceutical && (
+                    <div class="p-4 bg-brand-50 rounded-2xl border border-brand-100">
+                      <div class="text-[10px] font-black uppercase text-brand-400 mb-2">Medical</div>
+                      <p class="text-xs font-bold text-brand-700 leading-tight">{other_uses.pharmaceutical}</p>
+                    </div>
+                  )}
+                  {other_uses.industrial && (
+                    <div class="p-4 bg-brand-50 rounded-2xl border border-brand-100">
+                      <div class="text-[10px] font-black uppercase text-brand-400 mb-2">Industrial</div>
+                      <p class="text-xs font-bold text-brand-700 leading-tight">{other_uses.industrial}</p>
+                    </div>
+                  )}
+                  {other_uses.household && (
+                    <div class="p-4 bg-brand-50 rounded-2xl border border-brand-100">
+                      <div class="text-[10px] font-black uppercase text-brand-400 mb-2">Household</div>
+                      <p class="text-xs font-bold text-brand-700 leading-tight">{other_uses.household}</p>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
+
+            <!-- Regulatory History Timeline -->
+            {regulatoryHistory && regulatoryHistory.events && regulatoryHistory.events.length > 0 && (
+              <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-2">
+                <div class="flex items-center justify-between mb-8">
+                  <h2 class="text-xl font-bold text-brand-900 flex items-center gap-3">
+                    <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+                    Safety & Regulatory History
+                  </h2>
+                  <a href={`/timeline/${additive.slug}/`} class="text-xs font-bold text-accent uppercase tracking-widest hover:underline">Full Timeline →</a>
+                </div>
+                <TimelineView events={regulatoryHistory.events} compact={true} />
+              </div>
+            )}
+
+            <!-- FAQ Section (Accordion Style) -->
+            {faqs.length > 0 && (
+              <div class="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 md:col-span-2">
+                <h2 class="text-xl font-bold text-brand-900 mb-8 flex items-center gap-3">
+                  <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+                  Frequently Asked Questions
+                </h2>
+                <div class="space-y-4">
+                  {faqs.map((faq, index) => (
+                    <details class="group border-b border-brand-50 last:border-0 pb-4">
+                      <summary class="flex items-center justify-between font-bold text-brand-900 cursor-pointer list-none py-2 group-hover:text-accent transition-colors">
+                        <span class="pr-8 leading-tight">{faq.question}</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="text-brand-300 group-open:rotate-180 transition-transform"><path d="m6 9 6 6 6-6"/></svg>
+                      </summary>
+                      <div class="pt-4 text-sm text-brand-600 leading-relaxed max-w-3xl">
+                        {faq.answer}
+                      </div>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <!-- Research Links -->
+            <div class="bg-brand-100 rounded-3xl p-8 border border-brand-200 md:col-span-2">
+               <h2 class="text-sm font-bold uppercase tracking-widest text-brand-900 mb-8 flex items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"/><path d="M8 7h6"/><path d="M8 11h8"/></svg>
+                Primary Research & Evidence
+              </h2>
+              <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {[
+                  { id: 'efsa', label: 'EFSA Opinion', sub: 'Europe', url: research_links.efsa_opinion_url },
+                  { id: 'jecfa', label: 'JECFA Evaluation', sub: 'WHO/FAO', url: research_links.jecfa_url },
+                  { id: 'fda', label: 'FDA CFR', sub: 'USA', url: research_links.fda_cfr_url },
+                  { id: 'codex', label: 'Codex Stan', sub: 'International', url: research_links.codex_url },
+                  { id: 'pubmed', label: 'Search PubMed', sub: 'Academic', url: research_links.pubmed_search_url, icon: true },
+                  { id: 'scholar', label: 'Google Scholar', sub: 'Research', url: research_links.google_scholar_url, icon: true },
+                ].filter(l => l.url).map(link => (
+                  <a href={link.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-3 p-4 bg-white rounded-2xl border border-brand-200 hover:border-accent hover:shadow-md transition-all group">
+                    <div class="w-10 h-10 rounded-xl bg-brand-50 flex items-center justify-center text-accent">
+                      {link.icon ? (
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                      ) : (
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/></svg>
+                      )}
+                    </div>
+                    <div>
+                      <div class="text-xs font-bold text-brand-900 group-hover:text-accent transition-colors">{link.label}</div>
+                      <div class="text-[10px] font-bold text-brand-400 uppercase tracking-tighter">{link.sub}</div>
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </div>
+
           </div>
-        </section>
-      )}
+        </div>
+      </div>
     </div>
   </main>
 

@@ -23,120 +23,141 @@ const breadcrumbs = [
 <BaseLayout title={title} description={description}>
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-6xl mx-auto">
-      <Disclaimer />
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero & Breadcrumbs -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-4">
+        <nav class="flex text-xs font-semibold uppercase tracking-wider text-brand-400 mb-8">
+          <a href="/" class="hover:text-accent">Home</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand-900 uppercase">Banned Lists</span>
+          <span class="mx-2">/</span>
+          <span class="text-banned uppercase font-black tracking-widest">Banned in Japan</span>
+        </nav>
 
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        Food Additives Banned in Japan
-      </h1>
-      <p class="text-xl text-gray-600 mb-8">
-        Additives that are not permitted for use in food products in Japan
-      </p>
-
-      <div class="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
-        <div class="flex items-center justify-between mb-4">
-          <div>
-            <div class="text-3xl font-bold text-red-900">{bannedInJapan.length}</div>
-            <div class="text-sm text-red-700">Additives Banned in Japan</div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-8 pb-12">
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-6 leading-tight">
+              Food Additives <span class="text-banned">Banned</span> in Japan
+            </h1>
+            <p class="text-lg text-brand-500 font-medium leading-relaxed italic">
+              A comprehensive list of substances prohibited or not authorized for food use within Japan.
+            </p>
           </div>
-          <div class="text-right">
-            <div class="text-sm text-red-700">As of April 2026</div>
-            <div class="text-xs text-red-600">Based on MHLW Food Additive Lists</div>
+          
+          <div class="flex items-center gap-6 bg-banned-bg p-8 rounded-3xl border border-banned-border shadow-sm">
+            <div class="text-center">
+              <div class="text-5xl font-black text-banned mb-1">{bannedInJapan.length}</div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-banned-text">Prohibited Additives</div>
+            </div>
+            <div class="h-12 w-px bg-banned-border"></div>
+            <div class="text-4xl">🇯🇵</div>
           </div>
         </div>
-        <p class="text-sm text-red-800">
-          Japan operates a positive list system where only designated additives (指定添加物) and existing additives (既存添加物) are permitted.
-          Additives not on these lists cannot be used in food products.
-        </p>
       </div>
+    </div>
 
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">Japan Regulatory Framework</h2>
-        <dl class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+    <div class="container space-y-12">
+      <Disclaimer />
+
+      <!-- Japan Regulatory Framework Card -->
+      <section class="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm overflow-hidden relative">
+        <div class="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-brand-50 rounded-full blur-2xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold text-brand-900 mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Japan Regulatory Framework
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
           <div>
-            <dt class="font-medium text-gray-700">Primary Authority:</dt>
-            <dd class="text-gray-600">Ministry of Health, Labour and Welfare (MHLW / 厚生労働省)</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Authority</h4>
+            <p class="text-sm text-brand-900 font-bold">Ministry of Health, Labour and Welfare (MHLW)</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">System:</dt>
-            <dd class="text-gray-600">Positive list system (ポジティブリスト制度)</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Primary Legislation</h4>
+            <p class="text-sm text-brand-900 font-bold">Food Sanitation Act</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">Categories:</dt>
-            <dd class="text-gray-600">指定添加物 (Designated) and 既存添加物 (Existing Additives)</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Philosophy</h4>
+            <p class="text-sm text-brand-900 font-bold">Designated Additives System</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">Approach:</dt>
-            <dd class="text-gray-600">Only listed additives permitted; all others prohibited by default</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Review Process</h4>
+            <p class="text-sm text-brand-900 font-bold">FSC Scientific Assessment</p>
           </div>
-        </dl>
+        </div>
+        
+        <div class="mt-8 pt-8 border-t border-brand-50 text-sm text-brand-600 leading-relaxed max-w-4xl">
+           Japan's <strong class="text-brand-900 italic">Food Sanitation Act</strong> prohibits the use of any food additive except those designated by the Minister of Health, Labour and Welfare as safe. The system distinguishes between "Designated Additives," "Existing Additives," and "Natural Flavoring Agents."
+        </div>
       </section>
 
+      <!-- Banned Additives Table -->
       {bannedInJapan.length > 0 ? (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Banned Additives List</h2>
-          <p class="text-sm text-gray-600 mb-4">
-            The following additives are banned in Japan but may be approved in other countries:
-          </p>
-
+        <section class="bg-white rounded-3xl overflow-hidden border border-brand-100 shadow-sm">
+          <div class="p-8 border-b border-brand-50 bg-white">
+            <h2 class="text-xl font-bold text-brand-900 flex items-center gap-3">
+              <span class="w-1.5 h-6 bg-banned rounded-full"></span>
+              Prohibited Substances List
+            </h2>
+          </div>
+          
           <div class="overflow-x-auto">
-            <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
-                <tr>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Additive</th>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Functional Class</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇪🇺 EU</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇺🇸 USA</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇨🇦 Canada</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇦🇺 AU/NZ</th>
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-brand-50/50">
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Additive Name / E-Number</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Functional Class</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇪🇺 EU</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇺🇸 USA</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇨🇦 CAN</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇦🇺 AU/NZ</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class="divide-y divide-brand-50">
                 {bannedInJapan.map((additive: any) => (
-                  <tr class="hover:bg-gray-50">
-                    <td class="px-4 py-3">
-                      <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline font-medium">
+                  <tr class="group hover:bg-brand-50/30 transition-colors">
+                    <td class="px-8 py-5">
+                      <a href={`/additive/${additive.slug}/`} class="text-brand-900 font-bold hover:text-accent transition-colors underline decoration-brand-200 decoration-2 underline-offset-4">
                         {additive.names.common_name}
                       </a>
-                      <div class="text-xs text-gray-500">{additive.names.e_number}</div>
-                      {additive.names.japanese_name && (
-                        <div class="text-xs text-gray-600 mt-1">{additive.names.japanese_name}</div>
-                      )}
+                      <div class="text-[10px] font-bold text-brand-400 mt-1 uppercase tracking-tighter">{additive.names.e_number}</div>
                     </td>
-                    <td class="px-4 py-3 text-sm text-gray-700">{additive.classification.functional_class}</td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.eu.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.eu.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-8 py-5 text-xs font-bold text-brand-500 uppercase tracking-tight">{additive.classification.functional_class}</td>
+                    
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.eu.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.eu.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.eu.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.usa.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.usa.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.usa.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.usa.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.usa.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.canada.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.canada.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.canada.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.canada.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.canada.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.australia_nz.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.australia_nz.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.australia_nz.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.australia_nz.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.australia_nz.status}
                       </span>
@@ -148,31 +169,38 @@ const breadcrumbs = [
           </div>
         </section>
       ) : (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <p class="text-gray-600">
-            Based on our current database, there are no additives in this list that are specifically banned in Japan while being approved elsewhere.
+        <section class="bg-white rounded-3xl p-12 border border-brand-100 shadow-sm text-center">
+          <p class="text-brand-500 font-medium italic">
+            No additives in our database are currently flagged as "Banned" in Japan while being permitted elsewhere.
           </p>
         </section>
       )}
 
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Important Information</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>• <strong>Positive List System:</strong> Only additives on designated or existing additive lists are permitted</li>
-          <li>• <strong>Natural vs Synthetic:</strong> Japan distinguishes between natural food additives and synthetic additives</li>
-          <li>• <strong>既存添加物:</strong> Existing additives used traditionally in Japan before modern regulations</li>
-          <li>• <strong>Not Safety Advice:</strong> This page is informational only. Consult MHLW sources for current regulations.</li>
-        </ul>
+      <!-- Data Methodology Section -->
+      <section class="bg-brand-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-banned/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-banned rounded-full"></span>
+          Methodology & Data Sources
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Official Sources</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Primary data derived from the MHLW Food Additive Information and Japan Food Safety Commission (FSC) reports.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Comparative Context</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">EU (Regulation 1333/2008), USA (FDA 21 CFR), Canada (Health Canada), and AU/NZ (FSANZ) regulations mapped for cross-reference.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Update Frequency</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Database snapshot current as of April 2026. This is not an exhaustive list of all substances.</p>
+          </div>
+        </div>
       </section>
 
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Data Sources</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>• <strong>Japan:</strong> MHLW (厚生労働省) Food Additive Lists</li>
-          <li>• <strong>Comparative Data:</strong> EU (Regulation 1333/2008), USA (21 CFR), Canada (Health Canada), AU/NZ (FSANZ)</li>
-          <li>• Data current as of April 2026</li>
-        </ul>
-      </section>
     </div>
   </main>
 

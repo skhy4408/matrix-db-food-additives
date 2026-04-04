@@ -1,22 +1,32 @@
 ---
 ---
 
-<header class="bg-white shadow-sm">
-  <div class="container mx-auto px-4 py-4">
+<header class="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-brand-100 shadow-sm">
+  <div class="container py-3">
     <div class="flex items-center justify-between">
-      <div>
-        <a href="/" class="text-2xl font-bold text-gray-900">
-          Food Additive DB
+      <div class="flex items-center gap-2">
+        <a href="/" class="flex flex-col">
+          <span class="text-xl font-bold text-brand-900 leading-tight">Food Additive <span class="text-accent">DB</span></span>
+          <span class="text-[10px] uppercase tracking-wider font-semibold text-brand-500">Cross-Country Regulation Comparison</span>
         </a>
-        <p class="text-sm text-gray-600 mt-1">
-          Cross-Country Regulation Comparison
-        </p>
       </div>
-      <nav class="hidden md:flex items-center space-x-6">
-        <a href="/" class="text-gray-700 hover:text-gray-900">Home</a>
-        <a href="/search" class="text-gray-700 hover:text-gray-900">Search</a>
-        <a href="/about" class="text-gray-700 hover:text-gray-900">About</a>
+      
+      <nav class="hidden md:flex items-center space-x-8">
+        <a href="/" class="text-sm font-medium text-brand-600 hover:text-accent transition-colors">Home</a>
+        <a href="/search" class="text-sm font-medium text-brand-600 hover:text-accent transition-colors flex items-center gap-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          Search
+        </a>
+        <div class="h-4 w-px bg-brand-200"></div>
+        <a href="/about" class="text-sm font-medium text-brand-600 hover:text-accent transition-colors">About</a>
       </nav>
+
+      <div class="md:hidden">
+        <!-- Mobile menu button (could be added if needed, for now just keeping it simple) -->
+        <a href="/search" class="p-2 text-brand-600">
+           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </a>
+      </div>
     </div>
   </div>
 </header>

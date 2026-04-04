@@ -10,103 +10,150 @@ import Footer from '../components/Footer.astro';
 >
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-3xl mx-auto prose prose-lg">
-      <h1>Privacy Policy</h1>
-      <p class="text-sm text-gray-600">Last updated: April 3, 2026</p>
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero Section -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-16 text-center max-w-4xl mx-auto">
+        <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-4 leading-tight">
+          Privacy <span class="text-accent">Policy</span>
+        </h1>
+        <p class="text-sm text-brand-400 font-bold uppercase tracking-widest">
+          Last updated: April 3, 2026
+        </p>
+      </div>
+    </div>
 
-      <h2>Introduction</h2>
-      <p>
-        This privacy policy explains how the Food Additive Regulation Database ("we", "our", or "the site") collects, uses, and protects information about visitors to food.matrix-db.com.
-      </p>
+    <div class="container max-w-4xl space-y-12">
+      <section class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-brand-100 prose prose-brand max-w-none">
+        <h2 class="text-2xl font-bold text-brand-900 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Introduction
+        </h2>
+        <p class="text-brand-600 leading-relaxed">
+          This privacy policy explains how the Food Additive Regulation Database ("we", "our", or "the site") collects, uses, and protects information about visitors to <span class="font-bold text-brand-900">food.matrix-db.com</span>.
+        </p>
 
-      <h2>Information We Collect</h2>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Information We Collect
+        </h2>
 
-      <h3>Analytics Data</h3>
-      <p>
-        We use Google Analytics 4 (GA4) to understand how visitors use our site. This includes:
-      </p>
-      <ul>
-        <li>Pages visited</li>
-        <li>Time spent on pages</li>
-        <li>Browser type and version</li>
-        <li>Device type</li>
-        <li>Approximate geographic location (country/city level)</li>
-        <li>Referring website</li>
-      </ul>
+        <h3 class="text-xl font-bold text-brand-800">Analytics Data</h3>
+        <p class="text-brand-600">
+          We use Google Analytics 4 (GA4) to understand how visitors use our site. This includes:
+        </p>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-2 text-brand-600 font-medium">
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Pages visited</li>
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Time spent on pages</li>
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Browser type and version</li>
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Device type</li>
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Approx. geographic location</li>
+          <li class="flex items-center gap-2"><span class="w-1.5 h-1.5 bg-brand-300 rounded-full"></span> Referring website</li>
+        </ul>
 
-      <p>
-        Google Analytics uses cookies to collect this information. You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.
-      </p>
+        <p class="text-brand-600 mt-4">
+          Google Analytics uses cookies to collect this information. You can opt out of Google Analytics by installing the <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener" class="text-accent hover:underline font-bold">Google Analytics Opt-out Browser Add-on</a>.
+        </p>
 
-      <h3>No Personal Information Collected</h3>
-      <p>
-        We do NOT collect:
-      </p>
-      <ul>
-        <li>Names or contact information</li>
-        <li>Email addresses (we have no forms or newsletter)</li>
-        <li>IP addresses (beyond what GA4 collects for analytics)</li>
-        <li>Any personally identifiable information</li>
-      </ul>
+        <div class="mt-8 p-6 bg-brand-50 border border-brand-100 rounded-2xl">
+          <h3 class="text-lg font-bold text-brand-900 mb-2">No Personal Information Collected</h3>
+          <p class="text-brand-600 text-sm leading-relaxed mb-4">
+            We prioritize your privacy and do NOT collect:
+          </p>
+          <ul class="space-y-2 text-sm font-bold text-brand-800">
+            <li class="flex items-center gap-2 text-red-600">✕ Names or contact information</li>
+            <li class="flex items-center gap-2 text-red-600">✕ Email addresses</li>
+            <li class="flex items-center gap-2 text-red-600">✕ IP addresses (beyond GA4 basics)</li>
+            <li class="flex items-center gap-2 text-red-600">✕ Any personally identifiable information</li>
+          </ul>
+        </div>
 
-      <h2>Cookies</h2>
-      <p>
-        Our site uses cookies only for analytics purposes via Google Analytics. These cookies help us understand how visitors use our site so we can improve it.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Cookies & Tracking
+        </h2>
+        <p class="text-brand-600">
+          Our site uses cookies only for analytics purposes via Google Analytics. These cookies help us understand how visitors use our site so we can improve it.
+        </p>
 
-      <h3>Cookie Consent (EEA/UK)</h3>
-      <p>
-        For visitors from the European Economic Area (EEA) or United Kingdom, we use Google Consent Mode v2 to respect your privacy choices. Analytics cookies will only be set if you consent.
-      </p>
+        <h3 class="text-xl font-bold text-brand-800">Cookie Consent (EEA/UK)</h3>
+        <p class="text-brand-600">
+          For visitors from the European Economic Area (EEA) or United Kingdom, we use Google Consent Mode v2 to respect your privacy choices. Analytics cookies will only be set if you consent.
+        </p>
 
-      <h2>Third-Party Services</h2>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Third-Party Services
+        </h2>
+        <p class="text-brand-600">
+          We use Google Analytics 4 for website analytics. Google's use of analytics cookies is governed by their privacy policy:
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="text-accent hover:underline font-bold">https://policies.google.com/privacy</a>
+        </p>
 
-      <h3>Google Analytics 4</h3>
-      <p>
-        We use Google Analytics 4 for website analytics. Google's use of analytics cookies is governed by their privacy policy:
-        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Data Retention
+        </h2>
+        <p class="text-brand-600">
+          Google Analytics data is retained for 14 months, after which it is automatically deleted.
+        </p>
 
-      <h2>Data Retention</h2>
-      <p>
-        Google Analytics data is retained for 14 months, after which it is automatically deleted.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Your Rights (GDPR/EEA)
+        </h2>
+        <p class="text-brand-600">
+          If you are in the EEA, you have the right to access the data we have about you (though we collect very little), request deletion, object to processing, or opt out of tracking.
+        </p>
+        <p class="text-brand-600 mt-4">
+          To exercise these rights, contact us at <a href="mailto:contact@matrix-db.com" class="text-accent hover:underline font-bold">contact@matrix-db.com</a>.
+        </p>
 
-      <h2>Your Rights (GDPR/EEA)</h2>
-      <p>
-        If you are in the EEA, you have the right to:
-      </p>
-      <ul>
-        <li>Access the data we have about you (though we collect very little)</li>
-        <li>Request deletion of your data</li>
-        <li>Object to data processing</li>
-        <li>Opt out of analytics tracking</li>
-      </ul>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Children's Privacy
+        </h2>
+        <p class="text-brand-600">
+          Our site is not directed at children under 13. We do not knowingly collect information from children.
+        </p>
 
-      <p>
-        To exercise these rights, contact us at <a href="mailto:contact@matrix-db.com">contact@matrix-db.com</a>.
-      </p>
+        <h2 class="text-2xl font-bold text-brand-900 mt-12 mb-6 flex items-center gap-3">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Changes to This Policy
+        </h2>
+        <p class="text-brand-600">
+          We may update this privacy policy from time to time. The "Last updated" date at the top of this page indicates when it was last revised.
+        </p>
+      </section>
 
-      <h2>Children's Privacy</h2>
-      <p>
-        Our site is not directed at children under 13. We do not knowingly collect information from children.
-      </p>
-
-      <h2>Changes to This Policy</h2>
-      <p>
-        We may update this privacy policy from time to time. The "Last updated" date at the top of this page indicates when it was last revised.
-      </p>
-
-      <h2>Contact</h2>
-      <p>
-        For privacy questions, contact us at <a href="mailto:contact@matrix-db.com">contact@matrix-db.com</a>.
-      </p>
-
-      <p>
-        <strong>Operator:</strong> SHOYA KIHARA<br/>
-        <strong>Address:</strong> 7F, Tenjin First Building, 4-6-28 Tenjin, Chuo-ku, Fukuoka-shi, Fukuoka 810-0001, Japan
-      </p>
+      <div class="bg-brand-900 rounded-3xl p-8 md:p-12 text-white shadow-xl relative overflow-hidden">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-accent/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          Contact & Operator
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+          <div class="space-y-4">
+            <div class="text-[10px] font-black uppercase tracking-widest text-brand-500 mb-2">Operator</div>
+            <p class="text-brand-100 font-bold">SHOYA KIHARA</p>
+            <div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-brand-500 mb-2">Address</div>
+              <p class="text-brand-100 font-bold text-sm leading-relaxed">
+                7F, Tenjin First Building, 4-6-28 Tenjin,<br/>
+                Chuo-ku, Fukuoka-shi, Fukuoka 810-0001, Japan
+              </p>
+            </div>
+          </div>
+          
+          <div class="bg-white/5 border border-white/10 p-6 rounded-2xl">
+            <div class="text-[10px] font-black uppercase tracking-widest text-accent mb-4">Privacy Inquiries</div>
+            <p class="text-xl font-bold mb-4">contact@matrix-db.com</p>
+            <p class="text-xs text-brand-400 italic">For questions regarding your data or our privacy practices.</p>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 

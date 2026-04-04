@@ -48,94 +48,110 @@ const breadcrumbs = [
 <BaseLayout title={title} description={description}>
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-4xl mx-auto">
-      <Disclaimer />
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero & Breadcrumbs -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-4">
+        <nav class="flex text-xs font-semibold uppercase tracking-wider text-brand-400 mb-8">
+          <a href="/" class="hover:text-accent transition-colors">Home</a>
+          <span class="mx-2">/</span>
+          <a href={`/additive/${additive.slug}/`} class="hover:text-accent transition-colors">{additive.names.e_number}</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand-900 uppercase">Regulatory Timeline</span>
+        </nav>
 
-      <!-- Breadcrumb -->
-      <nav class="mb-4 text-sm">
-        <a href="/" class="text-blue-600 hover:underline">Home</a>
-        <span class="mx-2 text-gray-400">/</span>
-        <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline">
-          {additive.names.common_name}
-        </a>
-        <span class="mx-2 text-gray-400">/</span>
-        <span class="text-gray-600">Regulatory Timeline</span>
-      </nav>
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-8 pb-12">
+          <div class="max-w-3xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-accent/10 border border-accent/20 text-accent text-[10px] font-black uppercase tracking-widest mb-6">
+              Chronological Evidence
+            </div>
+            <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-4 leading-tight">
+              Regulatory History: <span class="text-accent">{additive.names.common_name}</span>
+            </h1>
+            <p class="text-lg text-brand-500 font-medium leading-relaxed italic">
+              Tracking global safety evaluations, classification changes, and regional status updates for {additive.names.e_number}.
+            </p>
+          </div>
+          
+          <div class="flex flex-col gap-2 min-w-[160px]">
+            <span class="text-[10px] uppercase tracking-widest font-bold text-brand-400">Total Events</span>
+            <div class="bg-brand-900 text-white rounded-2xl p-4 shadow-lg shadow-brand-900/20 text-center">
+              <div class="text-3xl font-black leading-none">{history.events.length}</div>
+              <div class="text-[10px] uppercase tracking-widest font-bold text-brand-400 mt-1">Documented</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <!-- Title -->
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        Regulatory History: {additive.names.common_name}
-      </h1>
-      <p class="text-xl text-gray-600 mb-6">
-        {additive.names.e_number} — Complete timeline of regulatory events
-      </p>
+    <div class="container max-w-5xl">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+        
+        <!-- Main Timeline -->
+        <div class="lg:col-span-8 space-y-12">
+          <Disclaimer />
 
-      <!-- Overview -->
-      <section class="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-6">
-        <h2 class="text-lg font-semibold text-blue-900 mb-2">About This Timeline</h2>
-        <p class="text-sm text-blue-800 mb-3">
-          This page documents the regulatory history of {additive.names.common_name} ({additive.names.e_number}),
-          including approvals, bans, safety evaluations, and classification changes by regulatory agencies worldwide.
-        </p>
-        <p class="text-xs text-blue-700">
-          <strong>Data source:</strong> Official regulatory documents, scientific publications, and agency announcements.
-          All events are documented with source agencies and dates.
-        </p>
-      </section>
+          <section class="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-brand-100">
+            <h2 class="text-xl font-bold text-brand-900 mb-12 flex items-center gap-3">
+              <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+              Comprehensive Timeline
+            </h2>
+            
+            <TimelineView events={history.events} compact={false} />
+          </section>
 
-      <!-- Timeline -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <div class="flex items-center justify-between mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900">Complete Timeline</h2>
-          <span class="text-sm text-gray-600">{history.events.length} events</span>
+          <!-- Navigation Back -->
+          <div class="pt-8 border-t border-brand-100 flex justify-center">
+            <a href={`/additive/${additive.slug}/`} class="inline-flex items-center gap-3 px-8 py-4 bg-brand-900 hover:bg-black text-white rounded-2xl font-bold transition-all shadow-xl shadow-brand-900/20 group">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="group-hover:-translate-x-1 transition-transform"><path d="m15 18-6-6 6-6"/></svg>
+              Back to {additive.names.common_name} Profile
+            </a>
+          </div>
         </div>
 
-        <TimelineView events={history.events} compact={false} />
-      </section>
+        <!-- Sidebar Info -->
+        <aside class="lg:col-span-4 space-y-6 lg:sticky lg:top-24">
+          <div class="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm">
+            <h3 class="text-sm font-black uppercase tracking-widest text-brand-900 mb-6 flex items-center gap-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+              About This Log
+            </h3>
+            <div class="space-y-6">
+              <p class="text-sm text-brand-600 leading-relaxed font-medium">
+                This chronological record captures major regulatory shifts including approvals, bans, and safety re-assessments by agencies like EFSA, FDA, and JECFA.
+              </p>
+              <div class="pt-6 border-t border-brand-50 space-y-4">
+                <div class="flex items-start gap-3">
+                  <div class="w-1.5 h-1.5 rounded-full bg-brand-300 mt-1.5"></div>
+                  <p class="text-xs text-brand-500 leading-relaxed italic">Regulatory decisions reflect scientific knowledge at the time of publication.</p>
+                </div>
+                <div class="flex items-start gap-3">
+                  <div class="w-1.5 h-1.5 rounded-full bg-brand-300 mt-1.5"></div>
+                  <p class="text-xs text-brand-500 leading-relaxed italic">Historical data may not reflect current national laws.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-      <!-- Disclaimer -->
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Important Notes</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span>This timeline is for informational purposes only and does not constitute safety advice.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span>Regulatory decisions reflect the state of scientific knowledge at the time they were made.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span>Current regulations may differ from historical events shown. Always consult official sources for up-to-date information.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span>An approval in one country does not imply approval in others. Regulatory standards vary by jurisdiction.</span>
-          </li>
-        </ul>
-      </section>
+          <div class="bg-brand-100 rounded-3xl p-8 border border-brand-200">
+            <h3 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Official Sources</h3>
+            <div class="space-y-3">
+              <div class="p-3 bg-white rounded-xl border border-brand-200 flex items-center gap-3">
+                <div class="text-lg">🇪🇺</div>
+                <div class="text-xs font-bold text-brand-900">EFSA Opinions</div>
+              </div>
+              <div class="p-3 bg-white rounded-xl border border-brand-200 flex items-center gap-3">
+                <div class="text-lg">🇺🇸</div>
+                <div class="text-xs font-bold text-brand-900">FDA GRAS Notices</div>
+              </div>
+              <div class="p-3 bg-white rounded-xl border border-brand-200 flex items-center gap-3">
+                <div class="text-lg">🌐</div>
+                <div class="text-xs font-bold text-brand-900">JECFA Monographs</div>
+              </div>
+            </div>
+          </div>
+        </aside>
 
-      <!-- Back link -->
-      <div class="text-center">
-        <a
-          href={`/additive/${additive.slug}/`}
-          class="inline-flex items-center px-6 py-3 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors font-medium"
-        >
-          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-          </svg>
-          Back to {additive.names.common_name} Details
-        </a>
       </div>
     </div>
   </main>

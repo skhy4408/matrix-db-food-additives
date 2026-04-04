@@ -2,34 +2,61 @@
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="bg-gray-100 mt-12">
-  <div class="container mx-auto px-4 py-8">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div>
-        <h3 class="font-semibold text-gray-900 mb-3">Food Additive DB</h3>
-        <p class="text-sm text-gray-600">
-          Cross-country food additive regulation database powered by Matrix DB.
+<footer class="bg-brand-900 text-brand-100 mt-20">
+  <div class="container py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <!-- Brand Section -->
+      <div class="space-y-4">
+        <a href="/" class="flex flex-col">
+          <span class="text-xl font-bold text-white leading-tight">Food Additive <span class="text-accent">DB</span></span>
+          <span class="text-[10px] uppercase tracking-wider font-semibold text-brand-400">Regulation Comparison</span>
+        </a>
+        <p class="text-sm text-brand-300 leading-relaxed max-w-xs">
+          Comprehensive database comparing food additive regulations across major regions. Empowering consumers with clear, scientific data.
         </p>
       </div>
+
+      <!-- Quick Links -->
       <div>
-        <h3 class="font-semibold text-gray-900 mb-3">Resources</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="/search" class="text-gray-600 hover:text-gray-900">Search Additives</a></li>
-          <li><a href="/about" class="text-gray-600 hover:text-gray-900">About</a></li>
+        <h3 class="font-semibold text-white mb-6 text-sm uppercase tracking-wider">Resources</h3>
+        <ul class="space-y-4 text-sm text-brand-300">
+          <li><a href="/" class="hover:text-accent transition-colors">Home</a></li>
+          <li><a href="/search" class="hover:text-accent transition-colors">Search Additives</a></li>
+          <li><a href="/about" class="hover:text-accent transition-colors">About the Project</a></li>
         </ul>
       </div>
+
+      <!-- Educational Guides -->
       <div>
-        <h3 class="font-semibold text-gray-900 mb-3">Legal</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="/privacy-policy" class="text-gray-600 hover:text-gray-900">Privacy Policy</a></li>
-          <li><a href="/terms" class="text-gray-600 hover:text-gray-900">Terms of Use</a></li>
+        <h3 class="font-semibold text-white mb-6 text-sm uppercase tracking-wider">Guides</h3>
+        <ul class="space-y-4 text-sm text-brand-300">
+          <li><a href="/guides/what-are-e-numbers/" class="hover:text-accent transition-colors">What are E Numbers?</a></li>
+          <li><a href="/guides/reading-food-labels/" class="hover:text-accent transition-colors">Reading Food Labels</a></li>
+          <li><a href="/guides/natural-vs-synthetic/" class="hover:text-accent transition-colors">Natural vs Synthetic</a></li>
+          <li><a href="/guides/artificial-colors/" class="hover:text-accent transition-colors">Artificial Colors</a></li>
+        </ul>
+      </div>
+
+      <!-- Legal & Social -->
+      <div>
+        <h3 class="font-semibold text-white mb-6 text-sm uppercase tracking-wider">Legal</h3>
+        <ul class="space-y-4 text-sm text-brand-300">
+          <li><a href="/privacy-policy" class="hover:text-accent transition-colors">Privacy Policy</a></li>
+          <li><a href="/terms" class="hover:text-accent transition-colors">Terms of Use</a></li>
         </ul>
       </div>
     </div>
-    <div class="mt-8 pt-8 border-t border-gray-200">
-      <p class="text-sm text-gray-600 text-center">
-        © {currentYear} Matrix DB. Data compiled from official regulatory sources.
-      </p>
+
+    <!-- Copyright & Disclaimer Section -->
+    <div class="mt-16 pt-8 border-t border-brand-800 flex flex-col items-center gap-6">
+      <div class="text-center space-y-2">
+        <p class="text-xs text-brand-400 max-w-2xl mx-auto leading-relaxed italic">
+          Disclaimer: This database is for informational purposes only. While we strive for accuracy, regulations change. Always refer to official government sources for the most current information.
+        </p>
+        <p class="text-xs text-brand-500 mt-4">
+          © {currentYear} Matrix DB. All rights reserved.
+        </p>
+      </div>
     </div>
   </div>
 </footer>

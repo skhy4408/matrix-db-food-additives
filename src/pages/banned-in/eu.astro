@@ -23,120 +23,141 @@ const breadcrumbs = [
 <BaseLayout title={title} description={description}>
   <Header />
 
-  <main class="container mx-auto px-4 py-8">
-    <div class="max-w-6xl mx-auto">
-      <Disclaimer />
+  <main class="bg-brand-50 pb-20">
+    <!-- Hero & Breadcrumbs -->
+    <div class="bg-white border-b border-brand-100 mb-12">
+      <div class="container py-4">
+        <nav class="flex text-xs font-semibold uppercase tracking-wider text-brand-400 mb-8">
+          <a href="/" class="hover:text-accent">Home</a>
+          <span class="mx-2">/</span>
+          <span class="text-brand-900 uppercase">Banned Lists</span>
+          <span class="mx-2">/</span>
+          <span class="text-banned uppercase font-black tracking-widest">Banned in EU</span>
+        </nav>
 
-      <h1 class="text-4xl font-bold text-gray-900 mb-2">
-        Food Additives Banned in the EU
-      </h1>
-      <p class="text-xl text-gray-600 mb-8">
-        Additives that are not permitted for use in food products in the European Union
-      </p>
-
-      <!-- Summary Stats -->
-      <div class="bg-red-50 border border-red-200 rounded-lg p-6 mb-8">
-        <div class="flex items-center justify-between mb-4">
-          <div>
-            <div class="text-3xl font-bold text-red-900">{bannedInEU.length}</div>
-            <div class="text-sm text-red-700">Additives Banned in EU</div>
+        <div class="flex flex-col md:flex-row md:items-center justify-between gap-8 pb-12">
+          <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-black text-brand-900 mb-6 leading-tight">
+              Food Additives <span class="text-banned">Banned</span> in the European Union
+            </h1>
+            <p class="text-lg text-brand-500 font-medium leading-relaxed italic">
+              A comprehensive list of substances prohibited or not authorized for food use within the EU member states.
+            </p>
           </div>
-          <div class="text-right">
-            <div class="text-sm text-red-700">As of April 2026</div>
-            <div class="text-xs text-red-600">Based on Regulation (EC) No 1333/2008</div>
+          
+          <div class="flex items-center gap-6 bg-banned-bg p-8 rounded-3xl border border-banned-border shadow-sm">
+            <div class="text-center">
+              <div class="text-5xl font-black text-banned mb-1">{bannedInEU.length}</div>
+              <div class="text-[10px] font-black uppercase tracking-widest text-banned-text">Prohibited Additives</div>
+            </div>
+            <div class="h-12 w-px bg-banned-border"></div>
+            <div class="text-4xl">🇪🇺</div>
           </div>
         </div>
-        <p class="text-sm text-red-800">
-          The European Union maintains a strict precautionary approach to food additives.
-          Additives must be proven safe before approval and can be removed from the permitted list if new evidence emerges.
-        </p>
       </div>
+    </div>
 
-      <!-- Regulatory Authority Info -->
-      <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-        <h2 class="text-2xl font-semibold text-gray-900 mb-4">EU Regulatory Framework</h2>
-        <dl class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+    <div class="container space-y-12">
+      <Disclaimer />
+
+      <!-- EU Regulatory Framework Card -->
+      <section class="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm overflow-hidden relative">
+        <div class="absolute top-0 right-0 -mr-8 -mt-8 w-32 h-32 bg-brand-50 rounded-full blur-2xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold text-brand-900 mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-accent rounded-full"></span>
+          EU Regulatory Framework
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
           <div>
-            <dt class="font-medium text-gray-700">Primary Authority:</dt>
-            <dd class="text-gray-600">European Food Safety Authority (EFSA)</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Authority</h4>
+            <p class="text-sm text-brand-900 font-bold">European Food Safety Authority (EFSA)</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">Regulatory Framework:</dt>
-            <dd class="text-gray-600">Regulation (EC) No 1333/2008</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Primary Legislation</h4>
+            <p class="text-sm text-brand-900 font-bold">Regulation (EC) No 1333/2008</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">Approach:</dt>
-            <dd class="text-gray-600">Precautionary principle - additives must be proven safe before approval</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Philosophy</h4>
+            <p class="text-sm text-brand-900 font-bold">Precautionary Principle</p>
           </div>
           <div>
-            <dt class="font-medium text-gray-700">Re-evaluation:</dt>
-            <dd class="text-gray-600">All approved additives undergo periodic re-evaluation</dd>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-2">Review Process</h4>
+            <p class="text-sm text-brand-900 font-bold">Periodic Re-evaluation</p>
           </div>
-        </dl>
+        </div>
+        
+        <div class="mt-8 pt-8 border-t border-brand-50 text-sm text-brand-600 leading-relaxed max-w-4xl">
+           The EU maintains one of the world's most rigorous approval processes. Additives must demonstrate a <strong class="text-brand-900 italic">technological need</strong>, must not mislead consumers, and must present no safety risk based on available scientific evidence.
+        </div>
       </section>
 
       <!-- Banned Additives Table -->
       {bannedInEU.length > 0 ? (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <h2 class="text-2xl font-semibold text-gray-900 mb-4">Banned Additives List</h2>
-          <p class="text-sm text-gray-600 mb-4">
-            The following additives are banned in the EU but may be approved in other countries:
-          </p>
-
+        <section class="bg-white rounded-3xl overflow-hidden border border-brand-100 shadow-sm">
+          <div class="p-8 border-b border-brand-50 bg-white">
+            <h2 class="text-xl font-bold text-brand-900 flex items-center gap-3">
+              <span class="w-1.5 h-6 bg-banned rounded-full"></span>
+              Prohibited Substances List
+            </h2>
+          </div>
+          
           <div class="overflow-x-auto">
-            <table class="min-w-full divide-y divide-gray-200">
-              <thead class="bg-gray-50">
-                <tr>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Additive</th>
-                  <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Functional Class</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇺🇸 USA</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇯🇵 Japan</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇨🇦 Canada</th>
-                  <th class="px-4 py-3 text-center text-xs font-medium text-gray-500 uppercase">🇦🇺 AU/NZ</th>
+            <table class="w-full text-left border-collapse">
+              <thead>
+                <tr class="bg-brand-50/50">
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Additive Name / E-Number</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400">Functional Class</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇺🇸 USA</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇯🇵 JP</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇨🇦 CAN</th>
+                  <th class="px-8 py-5 text-[10px] font-black uppercase tracking-widest text-brand-400 text-center">🇦🇺 AU</th>
                 </tr>
               </thead>
-              <tbody class="bg-white divide-y divide-gray-200">
+              <tbody class="divide-y divide-brand-50">
                 {bannedInEU.map((additive: any) => (
-                  <tr class="hover:bg-gray-50">
-                    <td class="px-4 py-3">
-                      <a href={`/additive/${additive.slug}/`} class="text-blue-600 hover:underline font-medium">
+                  <tr class="group hover:bg-brand-50/30 transition-colors">
+                    <td class="px-8 py-5">
+                      <a href={`/additive/${additive.slug}/`} class="text-brand-900 font-bold hover:text-accent transition-colors underline decoration-brand-200 decoration-2 underline-offset-4">
                         {additive.names.common_name}
                       </a>
-                      <div class="text-xs text-gray-500">{additive.names.e_number}</div>
+                      <div class="text-[10px] font-bold text-brand-400 mt-1 uppercase tracking-tighter">{additive.names.e_number}</div>
                     </td>
-                    <td class="px-4 py-3 text-sm text-gray-700">{additive.classification.functional_class}</td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.usa.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.usa.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-8 py-5 text-xs font-bold text-brand-500 uppercase tracking-tight">{additive.classification.functional_class}</td>
+                    
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.usa.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.usa.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.usa.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.japan.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.japan.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.japan.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.japan.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.japan.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.canada.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.canada.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.canada.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.canada.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.canada.status}
                       </span>
                     </td>
-                    <td class="px-4 py-3 text-center">
-                      <span class={`inline-block px-2 py-1 text-xs font-medium rounded ${
-                        additive.regulations.australia_nz.status === 'approved' ? 'bg-green-100 text-green-800' :
-                        additive.regulations.australia_nz.status === 'banned' ? 'bg-red-100 text-red-800' :
-                        'bg-gray-100 text-gray-800'
+                    <td class="px-4 py-5 text-center">
+                      <span class={`inline-block px-2 py-0.5 text-[10px] font-black uppercase tracking-tighter rounded border ${
+                        additive.regulations.australia_nz.status === 'approved' ? 'bg-approved-bg text-approved-text border-approved-border' :
+                        additive.regulations.australia_nz.status === 'banned' ? 'bg-banned-bg text-banned-text border-banned-border' :
+                        'bg-brand-100 text-brand-400 border-brand-200'
                       }`}>
                         {additive.regulations.australia_nz.status}
                       </span>
@@ -148,54 +169,38 @@ const breadcrumbs = [
           </div>
         </section>
       ) : (
-        <section class="bg-white rounded-lg shadow-sm p-6 mb-6">
-          <p class="text-gray-600">
-            Based on our current database, there are no additives specifically banned in the EU while being approved elsewhere.
-            The EU approval process requires comprehensive safety evaluation before any additive can be used.
+        <section class="bg-white rounded-3xl p-12 border border-brand-100 shadow-sm text-center">
+          <p class="text-brand-500 font-medium italic">
+            No additives in our database are currently flagged as "Banned" in the EU while being permitted elsewhere.
           </p>
         </section>
       )}
 
-      <!-- Important Notes -->
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Important Information</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span><strong>Ban vs Not Approved:</strong> "Banned" may mean either actively prohibited or simply not on the approved list.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span><strong>Reasons for Ban:</strong> Bans may be based on safety concerns, lack of technological need, or insufficient evidence of safety.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1 a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span><strong>Other Countries:</strong> Approval in other countries does not indicate EU approval is unjustified. Each regulatory authority evaluates based on their own standards and available evidence.</span>
-          </li>
-          <li class="flex items-start">
-            <svg class="w-5 h-5 text-gray-400 mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-              <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
-            </svg>
-            <span><strong>This is not safety advice:</strong> This page is for informational purposes only. Consult official EU sources for current regulations.</span>
-          </li>
-        </ul>
+      <!-- Data Methodology Section -->
+      <section class="bg-brand-900 rounded-3xl p-8 md:p-12 text-white overflow-hidden relative">
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-banned/20 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <h2 class="text-xl font-bold mb-8 flex items-center gap-3 relative z-10">
+          <span class="w-1.5 h-6 bg-banned rounded-full"></span>
+          Methodology & Data Sources
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 relative z-10">
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Official Sources</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Primary data derived from the EU Food Additive Database and EFSA scientific advisory documents.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Comparative Context</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">USA (FDA 21 CFR), Japan (MHLW), Canada (Health Canada), and AU/NZ (FSANZ) regulations mapped for cross-reference.</p>
+          </div>
+          <div>
+            <h4 class="text-[10px] font-black uppercase tracking-widest text-brand-400 mb-4">Update Frequency</h4>
+            <p class="text-xs text-brand-300 leading-relaxed font-medium">Database snapshot current as of April 2026. This is not an exhaustive list of all substances.</p>
+          </div>
+        </div>
       </section>
 
-      <!-- Data Sources -->
-      <section class="bg-gray-50 border border-gray-200 rounded-lg p-6">
-        <h3 class="text-lg font-semibold text-gray-900 mb-3">Data Sources</h3>
-        <ul class="space-y-2 text-sm text-gray-700">
-          <li>• <strong>EU:</strong> Regulation (EC) No 1333/2008, EFSA Scientific Opinions</li>
-          <li>• <strong>Comparative Data:</strong> USA (21 CFR), Japan (MHLW), Canada (Health Canada), AU/NZ (FSANZ)</li>
-          <li>• Data current as of April 2026</li>
-        </ul>
-      </section>
     </div>
   </main>
 

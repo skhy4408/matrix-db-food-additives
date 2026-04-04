@@ -8,35 +8,38 @@ const { status, country } = Astro.props;
 
 const statusConfig = {
   approved: {
-    bg: 'bg-primary-100',
-    text: 'text-primary-800',
-    border: 'border-primary-300',
-    label: 'Approved'
+    bg: 'bg-approved-bg',
+    text: 'text-approved-text',
+    border: 'border-approved-border',
+    dot: 'bg-approved'
   },
   banned: {
-    bg: 'bg-danger-100',
-    text: 'text-danger-800',
-    border: 'border-danger-300',
-    label: 'Banned'
+    bg: 'bg-banned-bg',
+    text: 'text-banned-text',
+    border: 'border-banned-border',
+    dot: 'bg-banned'
   },
   restricted: {
-    bg: 'bg-warning-100',
-    text: 'text-warning-800',
-    border: 'border-warning-300',
-    label: 'Restricted'
+    bg: 'bg-restricted-bg',
+    text: 'text-restricted-text',
+    border: 'border-restricted-border',
+    dot: 'bg-restricted'
   },
   unverified: {
-    bg: 'bg-gray-100',
-    text: 'text-gray-800',
-    border: 'border-gray-300',
-    label: 'Unverified'
+    bg: 'bg-unverified-bg',
+    text: 'text-unverified-text',
+    border: 'border-unverified-border',
+    dot: 'bg-unverified'
   }
 };
 
 const config = statusConfig[status];
 ---
 
-<span class={`inline-flex items-center px-3 py-1 rounded-full text-sm font-medium border ${config.bg} ${config.text} ${config.border}`}>
-  <span class="mr-1.5">{country}</span>
-  <span class="font-semibold">{config.label}</span>
-</span>
+<div class={`inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border ${config.bg} ${config.text} ${config.border} shadow-sm transition-all hover:shadow-md`}>
+  <span class="text-xs font-bold uppercase tracking-wider border-r border-current/20 pr-2 mr-0.5">{country}</span>
+  <span class="flex items-center gap-1.5 text-xs font-bold uppercase tracking-tight">
+    <span class={`w-1.5 h-1.5 rounded-full ${config.dot}`}></span>
+    {status}
+  </span>
+</div>
