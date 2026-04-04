@@ -1,0 +1,162 @@
+{
+  "slug": "e212-potassium-benzoate",
+  "names": {
+    "e_number": "E212",
+    "ins_number": "212",
+    "cas_number": "582-25-2",
+    "common_name": "Potassium Benzoate",
+    "scientific_name": "Potassium benzenecarboxylate",
+    "japanese_name": "安息香酸カリウム",
+    "japanese_label_name": "安息香酸K",
+    "aliases": [
+      "Benzoic acid potassium salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic acid salt",
+    "source_type": "synthetic",
+    "chemical_group": "benzoate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Naturally derived from benzoic acid found in cranberries",
+      "Prunes",
+      "Cinnamon",
+      "Cloves"
+    ],
+    "description": "The potassium salt of benzoic acid. While benzoic acid occurs naturally in various fruits and spices, potassium benzoate is produced synthetically for commercial use. Most effective as a preservative in acidic conditions (pH below 4.5)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing benzoic acid with potassium hydroxide or potassium carbonate. Benzoic acid is synthesized from toluene through partial oxidation."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a preservative in cosmetics and personal care products",
+    "industrial": "Used as a corrosion inhibitor",
+    "pharmaceutical": "Used in liquid pharmaceutical preparations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E212",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically 150-6000 mg/kg depending on food type; concern about benzene formation when combined with ascorbic acid",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (indirect food additive)",
+      "cfr_reference": "21 CFR 182.3640",
+      "fda_url": null,
+      "notes": "Listed as indirect food additive for polymers in food contact surfaces; FDA has not defined intake recommendations for direct use"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "安息香酸カリウム",
+      "notes": "Part of benzoate group with usage standards"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "212",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day (group ADI for benzoic acid and benzoates)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day (group ADI for benzoic acid and benzoates)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+benzoate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+benzoate+E212+benzene",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3640",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=212"
+  },
+  "regulatory_history": [
+    {
+      "year": 2006,
+      "event": "FDA issues guidance on benzene formation in beverages containing benzoates and ascorbic acid"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA and EFSA confirm group ADI of 5 mg/kg bw/day for benzoic acid and benzoates"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "150"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "1500"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA evaluations 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Fruit juices and sparkling drinks",
+    "Soft drinks and acidic beverages",
+    "Pickles and pickled vegetables",
+    "Yogurt toppings",
+    "Acidic sauces and condiments",
+    "Low-pH processed foods"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "cans of soft drink (355ml at typical levels)",
+        "typical_content_mg": 50,
+        "quantity": "~6"
+      },
+      {
+        "product": "servings of pickles (50g at 150mg/kg)",
+        "typical_content_mg": 7.5,
+        "quantity": "~40"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA group ADI for benzoic acid and benzoates. Key concern is benzene formation when combined with ascorbic acid (vitamin C) in the presence of heat or light, though levels in regulated beverages are typically well below safety thresholds (< 5 ppb)."
+  }
+}

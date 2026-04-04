@@ -1,0 +1,178 @@
+{
+  "slug": "e250-sodium-nitrite",
+  "names": {
+    "e_number": "E250",
+    "ins_number": "250",
+    "cas_number": "7632-00-0",
+    "common_name": "Sodium Nitrite",
+    "scientific_name": "Sodium nitrite",
+    "japanese_name": "亜硝酸ナトリウム",
+    "japanese_label_name": "亜硝酸Na",
+    "aliases": [
+      "Pink Salt",
+      "Curing Salt",
+      "Prague Powder #1"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative, color fixative",
+    "sub_class": "inorganic",
+    "source_type": "synthetic",
+    "chemical_group": "nitrite"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "THIS is what makes bacon PINK! Without it, bacon would be gray/brown. Prevents deadly botulism (Clostridium botulinum) - one of the most potent toxins known. Called 'pink salt' or 'curing salt' (Prague Powder #1) when mixed with regular salt. Has been used for meat preservation for thousands of years (before chemistry was understood). The pink color is from nitric oxide combining with myoglobin in meat. Also adds characteristic 'cured meat' flavor. Represents the classic food additive dilemma: known risks vs. known benefits - prevents acute botulism BUT linked to long-term cancer risk when forming nitrosamines."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced industrially by reacting nitric acid with sodium hydroxide or sodium carbonate, followed by neutralization and crystallization."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in metal treatment, dye production, and as corrosion inhibitor",
+    "pharmaceutical": "Vasodilator in some medical applications; antidote for cyanide poisoning",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E250",
+      "max_level_mg_kg": "50-150 mg/kg residual (varies by product)",
+      "conditions": "STRICTLY REGULATED; maximum residual levels enforced; often combined with ascorbic acid/erythorbate to reduce nitrosamine formation",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved, regulated by USDA and FDA",
+      "cfr_reference": "21 CFR 172.175, 9 CFR 424.21",
+      "fda_url": null,
+      "notes": "Ingoing amount: typically 120-200 ppm; must be used with sodium/potassium erythorbate or ascorbate to inhibit nitrosamine formation"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜硝酸ナトリウム",
+      "notes": "Strict limits enforced; residual limits similar to EU standards"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "250",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved with strict maximum residue limits"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Regulated with specific maximum levels for different meat products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.07 mg/kg bw/day (nitrite ion - group ADI with E249)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.07 mg/kg bw/day (nitrite ion)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+nitrite+E250+nitrosamine+cancer+botulism",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+nitrite+bacon+processed+meat+carcinogen+IARC",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4786",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.175",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=250"
+  },
+  "regulatory_history": [
+    {
+      "year": "ancient times",
+      "event": "Nitrites/nitrates used for thousands of years in meat preservation (before chemistry understood)"
+    },
+    {
+      "year": 1970,
+      "event": "Research identifies nitrosamine formation from nitrites during high-heat cooking"
+    },
+    {
+      "year": 1978,
+      "event": "USA mandates addition of ascorbic acid/erythorbate to nitrite-cured meats to reduce nitrosamine formation"
+    },
+    {
+      "year": 2015,
+      "event": "IARC classifies processed meat as Group 1 carcinogen; nitrites identified as contributing factor"
+    },
+    {
+      "year": 2017,
+      "event": "JECFA and EFSA re-evaluate nitrites; maintain ADI but emphasize consumption moderation and nitrosamine mitigation"
+    },
+    {
+      "year": "ongoing",
+      "event": "Research continues on safer alternatives; 'nitrite-free' products often contain higher levels from celery powder/natural sources"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "150 residual"
+    },
+    {
+      "category_code": "08.3",
+      "category_name": "Meat products",
+      "max_level_mg_kg": "50-150 residual (varies by product)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR and USDA 9 CFR",
+      "JECFA Evaluations Database 2017",
+      "EFSA Scientific Opinion 2017",
+      "IARC Monographs 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Bacon (all types)",
+    "Ham and deli meats",
+    "Hot dogs and frankfurters",
+    "Sausages (salami, pepperoni, chorizo)",
+    "Corned beef and pastrami",
+    "Cured cold cuts",
+    "Smoked salmon and fish",
+    "Beef jerky"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.07,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 4.2,
+    "equivalents": [
+      {
+        "product": "slices of bacon (15g each)",
+        "typical_content_mg": 0.75,
+        "quantity": "~5-6"
+      },
+      {
+        "product": "hot dogs (50g each)",
+        "typical_content_mg": 2.5,
+        "quantity": "~1-2"
+      }
+    ],
+    "source_note": "CRITICAL CONTROVERSY - Risk vs. Benefit Balance: THE BAD: Forms carcinogenic nitrosamines when cooked at high heat; IARC classified processed meat as Group 1 carcinogen (2015); linked to colorectal and stomach cancer. THE GOOD: Prevents deadly botulism (Clostridium botulinum - fatality rate up to 10%); critical food safety function. THE DILEMMA: 'Nitrite-free' bacon often contains HIGHER levels from celery powder. CURRENT CONSENSUS: Benefits outweigh risks when used properly; limit consumption; vitamin C/E added to block nitrosamine formation. Unlike many additives, nitrites serve CRITICAL safety function, not just cosmetic."
+  }
+}

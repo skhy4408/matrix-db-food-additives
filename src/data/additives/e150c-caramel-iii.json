@@ -1,0 +1,147 @@
+{
+  "slug": "e150c-caramel-iii",
+  "names": {
+    "e_number": "E150c",
+    "ins_number": "150c",
+    "cas_number": "8028-89-5",
+    "common_name": "Caramel III - Ammonia Caramel",
+    "scientific_name": "Ammonia caramel",
+    "japanese_name": "カラメルIII",
+    "japanese_label_name": "カラメル色素",
+    "aliases": [
+      "Ammonia caramel",
+      "Class III caramel",
+      "Beer caramel"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural-derived",
+    "source_type": "heat-treated carbohydrate",
+    "chemical_group": "caramelized sugar"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Produced by controlled heat treatment of carbohydrates in the presence of ammonia compounds. This process results in a positively charged caramel color suitable for high-protein applications like soy sauce and beer."
+  },
+  "manufacturing": {
+    "method": "heat treatment with ammonia compounds",
+    "description": "Made by controlled heating of food-grade carbohydrates (sugars) at temperatures of 120-150°C in the presence of ammonium compounds such as ammonium hydroxide, ammonium carbonate, or ammonium bicarbonate. No sulfite compounds are used in this class. The ammonia incorporation gives the caramel a positive charge. This process can produce trace amounts of 4-methylimidazole (4-MEI) as a byproduct through Maillard-type reactions."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E150c",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted; 4-MEI levels are monitored",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS, Exempt from certification",
+      "cfr_reference": "21 CFR 73.85",
+      "fda_url": null,
+      "notes": "FDA monitors 4-MEI levels; California Prop 65 concerns about 4-MEI content"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カラメル色素",
+      "notes": "4-MEI limited to 0.30 mg/g or less (on solid basis) per Japanese Food Additives Compendium"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "150c",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–100 mg/kg bw/day",
+    "jecfa_evaluation_year": 2011,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "100 mg/kg bw/day",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=caramel+III+4-methylimidazole",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E150c+ammonia+caramel+4-MEI",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.85",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=150c"
+  },
+  "regulatory_history": [
+    {
+      "year": 2011,
+      "event": "IARC classifies 4-methylimidazole (4-MEI) as Group 2B (possible human carcinogen)"
+    },
+    {
+      "year": 2011,
+      "event": "EFSA establishes more restrictive ADI of 100 mg/kg bw/day for E150c due to immunotoxicity concerns"
+    },
+    {
+      "year": 2011,
+      "event": "JECFA establishes maximum level of 200-250 mg/kg for 4-MEI in ammonia caramel colorants"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "12.0",
+      "category_name": "Condiments and seasonings",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.2",
+      "category_name": "Alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database (74th meeting, 2011)",
+      "EFSA Scientific Opinion 2011",
+      "Japanese Food Additives Compendium"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soy sauce and tamari",
+    "Beer and malt beverages",
+    "Gravy mixes and browning agents",
+    "Brown sauces and BBQ sauce",
+    "Fish sauce",
+    "Stock cubes and bouillon",
+    "Bakery products and coffee"
+  ]
+}

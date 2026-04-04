@@ -1,0 +1,167 @@
+{
+  "slug": "e302-calcium-ascorbate",
+  "names": {
+    "e_number": "E302",
+    "ins_number": "302",
+    "cas_number": "5743-27-1",
+    "common_name": "Calcium Ascorbate",
+    "scientific_name": "Calcium L-ascorbate",
+    "japanese_name": "L-アスコルビン酸カルシウム",
+    "japanese_label_name": "ビタミンCカルシウム",
+    "aliases": [
+      "Calcium salt of ascorbic acid",
+      "Calcium vitamin C"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin derivative",
+    "source_type": "synthetic",
+    "chemical_group": "organic acid salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetically produced calcium salt of L-ascorbic acid (Vitamin C). Non-acidic, gentle form of vitamin C. The ascorbic acid portion is identical to naturally occurring vitamin C found in many fruits and vegetables."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting ascorbic acid with calcium carbonate or calcium hydroxide to form the calcium salt. The resulting compound is a white to slightly yellow powder."
+  },
+  "other_uses": {
+    "cosmetics": "Stabilizer and antioxidant",
+    "industrial": null,
+    "pharmaceutical": "Calcium and vitamin C dietary supplement",
+    "household": "Nutritional supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E302",
+      "max_level_mg_kg": "quantum satis (varies by food category)",
+      "conditions": "Re-evaluated together with E300 and E301 in 2015 EFSA opinion",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3189",
+      "fda_url": null,
+      "notes": "Approved for use in food as antioxidant and nutrient"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-アスコルビン酸カルシウム",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "302",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant and acidity regulator"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+ascorbate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+ascorbate+E302",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3189",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=302"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms no adverse effects; JECFA confirms no carcinogenic or mutagenic properties"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "04.2",
+      "category_name": "Fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cured or cooked meat products",
+    "Ground meat (prevents discoloration)",
+    "Cold cuts and uncured sausages",
+    "Fruit preserves, jellies, jams, compotes",
+    "Fruit juices and fruit-flavored candies",
+    "Fresh-cut fruit (dipping solution to prevent browning)",
+    "Calcium-fortified beverages",
+    "Fortified breakfast cereals"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI necessary - EFSA concluded no safety concerns at typical intake levels. Calcium ascorbate is a form of Vitamin C combined with calcium, both essential nutrients."
+  },
+  "fun_facts": [
+    {
+      "title": "Double Nutrient Power",
+      "description": "Provides both vitamin C AND calcium in one compound, making it a dual-purpose nutritional fortification agent."
+    },
+    {
+      "title": "Color Intensifier",
+      "description": "Intensifies and maintains the vibrant color of cured meats, making products more visually appealing."
+    },
+    {
+      "title": "Gentle Giant",
+      "description": "Non-acidic form of vitamin C that's easier on the stomach than regular ascorbic acid, ideal for sensitive individuals."
+    },
+    {
+      "title": "Browning Blocker",
+      "description": "Used as a dipping solution for freshly cut fruits to prevent enzymatic browning, keeping fruit looking fresh and appetizing."
+    },
+    {
+      "title": "Flavor Enhancer",
+      "description": "Despite being less acidic than ascorbic acid, it can still enhance tart flavor and fresh taste in fruit products like jellies and jams."
+    }
+  ]
+}

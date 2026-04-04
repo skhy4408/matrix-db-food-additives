@@ -1,0 +1,146 @@
+{
+  "slug": "e338-phosphoric-acid",
+  "names": {
+    "e_number": "E338",
+    "ins_number": "338",
+    "cas_number": "7664-38-2",
+    "common_name": "Phosphoric Acid",
+    "scientific_name": "Orthophosphoric acid",
+    "japanese_name": "リン酸",
+    "japanese_label_name": "リン酸",
+    "aliases": [
+      "Orthophosphoric acid",
+      "Phosphoric(V) acid",
+      "O-Phosphoric acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "acidulant, sequestrant",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Phosphoric acid does not occur naturally in free form. Phosphates (salts of phosphoric acid) are abundant in nature, found in rocks, bones, and as essential components of all living cells (DNA, ATP, cell membranes)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Commercially produced by two main methods: (1) Wet process - treating phosphate rock (calcium phosphate) with sulfuric acid, or (2) Thermal process - burning elemental phosphorus in air to form phosphorus pentoxide, then hydrating it. Food-grade phosphoric acid uses the thermal process for higher purity. Global production exceeds 40 million tonnes annually, primarily for fertilizers."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster in skincare and dental products.",
+    "industrial": "Rust removal, metal treatment, fertilizer production (85% of production), detergents, water treatment.",
+    "pharmaceutical": "pH adjuster, dental etchant, pharmaceutical intermediate.",
+    "household": "Rust removers, cleaning products, descalers."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E338",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits in others due to phosphate intake concerns",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1005",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1005",
+      "notes": "Widely used in cola beverages"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "116",
+      "japanese_regulation_name": "リン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "338",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=phosphoric+acid+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=phosphoric+acid+dietary+phosphate",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1005",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=338"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA expressed concern about high dietary phosphate intake in Western diets, particularly from food additives. Recommended monitoring and potential reduction of phosphate use in processed foods."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks (cola beverages)",
+      "max_level_mg_kg": "700 (as P2O5)"
+    },
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1005",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cola beverages (Coca-Cola, Pepsi - gives characteristic tangy taste)",
+    "Soft drinks and carbonated beverages",
+    "Processed cheese and cheese spreads",
+    "Jams and jellies",
+    "Breakfast cereals",
+    "Baked goods and cake mixes",
+    "Meat products (as pH adjuster)",
+    "Energy drinks and sports drinks"
+  ],
+  "fun_facts": [
+    "Phosphoric acid is the secret ingredient that gives Coca-Cola and other colas their distinctive tangy, slightly sharp taste",
+    "Strong enough to dissolve rust, which is why it's used in metal cleaning products",
+    "Despite concerns about dietary phosphate overload in Western diets, phosphoric acid itself is safe when used in regulated amounts",
+    "Your body needs phosphorus (from phosphates) for bone health, DNA, and energy production (ATP)",
+    "One can of cola contains about 40-70 mg of phosphoric acid"
+  ]
+}

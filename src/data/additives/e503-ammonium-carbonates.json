@@ -1,0 +1,145 @@
+{
+  "slug": "e503-ammonium-carbonates",
+  "names": {
+    "e_number": "E503",
+    "ins_number": "503",
+    "cas_number": "506-87-6 (i), 1066-33-7 (ii)",
+    "common_name": "Ammonium Carbonates",
+    "scientific_name": "Ammonium carbonate (E503i), Ammonium hydrogen carbonate/bicarbonate (E503ii)",
+    "japanese_name": "炭酸アンモニウム",
+    "japanese_label_name": "炭酸アンモニウム",
+    "aliases": [
+      "Baker's ammonia",
+      "Hartshorn salt",
+      "Sal volatile (E503i)",
+      "Smelling salts (E503i)",
+      "ABC (ammonium bicarbonate, E503ii)"
+    ]
+  },
+  "classification": {
+    "functional_class": "raising agent",
+    "sub_class": "acidity regulator, leavening agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Ammonium carbonates do not occur naturally in significant amounts. Historically, ammonium carbonate was obtained by dry distillation of animal horns and hooves (hence 'hartshorn'), but modern production is entirely synthetic."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting ammonia gas with carbon dioxide and water vapor. E503i (ammonium carbonate) is actually a mixture of ammonium bicarbonate and ammonium carbamate. E503ii (ammonium bicarbonate) is made by passing CO2 through aqueous ammonia solution."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used; primarily in hair dye products as alkalizing agent.",
+    "industrial": "Dyeing, tanning, fertilizer production, pharmaceuticals.",
+    "pharmaceutical": "Expectorant, smelling salts (aromatic spirits of ammonia).",
+    "household": "Traditional smelling salts for fainting."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E503(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Restricted to use in certain food categories, primarily baked goods. Decomposes completely during baking, leaving no residue.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1135",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to baked goods where it fully decomposes during baking."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "191",
+      "japanese_regulation_name": "炭酸アンモニウム",
+      "notes": "Primarily used in traditional confections and crackers."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "503",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use in baked goods)",
+    "jecfa_evaluation_year": 1965,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4061",
+    "efsa_adi": "not specified (no residue remains in finished product)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ammonium+carbonate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ammonium+bicarbonate+baking+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4061",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=503"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.4",
+      "category_name": "Cocoa products and chocolate",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Traditional European cookies and crackers (especially Scandinavian)",
+    "Flat, crispy baked goods (like biscotti and gingersnaps)",
+    "German Lebkuchen (gingerbread)",
+    "Chinese moon cakes",
+    "Cream puff pastries",
+    "Traditional Swedish pepparkakor",
+    "Smelling salts (pharmaceutical use)",
+    "Some crispy wafer cookies"
+  ],
+  "fun_facts": [
+    "Known as 'baker's ammonia' - used in baking long before baking soda became common (since the Middle Ages)",
+    "E503i is the active ingredient in old-fashioned SMELLING SALTS used to revive people who have fainted",
+    "Completely decomposes into ammonia, CO2, and water vapor during baking - leaving zero residue in the final product",
+    "The ammonia smell disappears entirely during baking; if you can still smell it, the product wasn't baked long enough",
+    "Produces exceptionally crispy, airy textures that baking soda or baking powder cannot replicate",
+    "Historically called 'hartshorn' because it was originally made by heating deer antlers",
+    "Still preferred by professional bakers for certain traditional recipes despite the initial ammonia smell"
+  ]
+}

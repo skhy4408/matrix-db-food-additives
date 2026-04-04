@@ -1,0 +1,133 @@
+{
+  "slug": "e150b-caramel-ii",
+  "names": {
+    "e_number": "E150b",
+    "ins_number": "150b",
+    "cas_number": "8028-89-5",
+    "common_name": "Caramel II - Caustic Sulfite Caramel",
+    "scientific_name": "Caustic sulfite caramel",
+    "japanese_name": "カラメルII",
+    "japanese_label_name": "カラメル色素",
+    "aliases": [
+      "Sulfite caramel",
+      "Class II caramel",
+      "Caustic sulphite caramel"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural-derived",
+    "source_type": "heat-treated carbohydrate",
+    "chemical_group": "caramelized sugar"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Produced by controlled heat treatment of carbohydrates in the presence of sulfite compounds. Though made from natural sugars, the product is manufactured and not found in nature."
+  },
+  "manufacturing": {
+    "method": "heat treatment with sulfite compounds",
+    "description": "Made by controlled heating of food-grade carbohydrates (sugars) with or without acids or alkalis in the presence of sulfite compounds. No ammonium compounds are used in this class. The sulfite incorporation gives the caramel a negative charge, making it suitable for specific beverage applications."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in industrial liquor coloring applications",
+    "pharmaceutical": "May be used as a colorant in some pharmaceutical preparations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E150b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in more than 55 food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS, Exempt from certification",
+      "cfr_reference": "21 CFR 73.85",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カラメル色素",
+      "notes": "Classified as Caramel II in Japanese regulations"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "150b",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–160 mg/kg bw/day",
+    "jecfa_evaluation_year": 2000,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=caramel+color+E150b+sulfite",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E150b+sulfite+caramel+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2004",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.85",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=150b"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "14.0",
+      "category_name": "Beverages",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "15.0",
+      "category_name": "Savoury snacks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database (55th meeting, 2000)",
+      "EFSA Scientific Opinion 2011"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Beer and malt beverages",
+    "Dark ales and stouts",
+    "Vinegar and pickling liquids",
+    "Brandy and spirits",
+    "Sauces and dressings",
+    "Pickled vegetables",
+    "Soft drinks (particularly cola beverages)"
+  ]
+}

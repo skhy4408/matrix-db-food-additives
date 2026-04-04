@@ -1,0 +1,147 @@
+{
+  "slug": "e334-tartaric-acid",
+  "names": {
+    "e_number": "E334",
+    "ins_number": "334",
+    "cas_number": "87-69-4",
+    "common_name": "Tartaric Acid (L+)",
+    "scientific_name": "L-(+)-2,3-dihydroxybutanedioic acid",
+    "japanese_name": "L-酒石酸",
+    "japanese_label_name": "L-酒石酸",
+    "aliases": [
+      "L-tartaric acid",
+      "2,3-dihydroxysuccinic acid",
+      "Threaric acid",
+      "Uvic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "acidulant, sequestrant",
+    "source_type": "natural (from grapes/wine)",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "grapes (especially in grape skins and seeds)",
+      "tamarind",
+      "bananas",
+      "wine (as a byproduct of fermentation)",
+      "citrus fruits (small amounts)"
+    ],
+    "description": "Naturally occurring organic acid abundant in grapes and tamarind. It is the main acid in wine, contributing to its tartness. The L-(+) form is the naturally occurring stereoisomer."
+  },
+  "manufacturing": {
+    "method": "extraction from wine industry byproducts",
+    "description": "Commercially produced primarily as a byproduct of wine making. During fermentation and aging, tartaric acid precipitates as argol (crude potassium hydrogen tartrate) on the inside of wine casks. This is collected, purified, and converted to tartaric acid. Can also be synthesized chemically from maleic anhydride, but natural extraction is more common."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster and chelating agent in skincare products, particularly in anti-aging formulations.",
+    "industrial": "Metal cleaning, tanning leather, silvering mirrors, electroplating.",
+    "pharmaceutical": "Excipient in effervescent tablets, laxative (in combination with other ingredients).",
+    "household": "Baking powder component (as cream of tartar)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E334",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories without specific limits",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1099",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1099",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": "112",
+      "japanese_regulation_name": "L-酒石酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "334",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=tartaric+acid+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=tartaric+acid+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1099",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=334"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2",
+      "category_name": "Alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1099",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine and grape-based beverages (naturally present)",
+    "Sour candies and chewy sweets",
+    "Baking powder (as cream of tartar - E336)",
+    "Fruit-flavored soft drinks",
+    "Jams and jellies (especially grape products)",
+    "Gelatin desserts",
+    "Powdered drink mixes",
+    "Effervescent tablets and fizzy candies"
+  ],
+  "fun_facts": [
+    "Derived from wine barrels where it crystallizes as 'wine diamonds' or 'wine crystals' during aging",
+    "The main acid responsible for the characteristic tartness of grapes and wine",
+    "Its name comes from the Medieval Latin 'tartarum' meaning 'wine cask sediment'",
+    "Used by Louis Pasteur in 1847 to demonstrate molecular chirality (handedness), a landmark discovery in chemistry"
+  ]
+}

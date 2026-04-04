@@ -1,0 +1,158 @@
+{
+  "slug": "e131-patent-blue-v",
+  "names": {
+    "e_number": "E131",
+    "ins_number": "131",
+    "cas_number": "3536-49-0",
+    "common_name": "Patent Blue V",
+    "scientific_name": "Sodium or calcium salt of [4-(α-(4-diethylaminophenyl)-5-hydroxy-2,4-disulfophenylmethylidene)-2,5-cyclohexadien-1-ylidene] diethylammonium hydroxide inner salt",
+    "japanese_name": "パテントブルーV",
+    "japanese_label_name": null,
+    "aliases": [
+      "Food Blue 5",
+      "Sulphan Blue",
+      "Acid Blue 3",
+      "Sky Blue",
+      "CI 42051",
+      "Patentblau V"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "triarylmethane dye"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A fully synthetic triarylmethane dye derived from petroleum-based benzene and naphthalene derivatives. Not found in nature. Produces sky-blue colour but has poor light stability (fades quickly when exposed to light)."
+  },
+  "manufacturing": {
+    "method": "condensation and sulfonation",
+    "description": "Synthesized from benzene and naphthalene derivatives through condensation reactions with sulfonic acids. Additional reagents are added to form the triphenylmethane structure. The product is stabilized with calcium or sodium salts to achieve water solubility, yielding a dark blue powder or granules."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Limited textile applications",
+    "pharmaceutical": "Lymphangiography (medical imaging); sentinel lymph node biopsy during cancer surgery",
+    "household": "Dental disclosing tablets (plaque visualization)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E131",
+      "max_level_mg_kg": "varies by food category (quantum satis)",
+      "conditions": "Permitted in limited food categories; rarely used in practice due to poor stability and allergy concerns",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2818"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": "Not listed",
+      "fda_url": null,
+      "notes": "Never authorized for food, drugs, or cosmetics. Insufficient safety evidence."
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not approved for food use in Japan"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Not permitted in Australia or New Zealand"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": "Not permitted",
+      "health_canada_url": null,
+      "notes": "Prohibited in Canadian foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "withdrawn (temporary ADI of 0–1 mg/kg was withdrawn in 1975; no current ADI)",
+    "jecfa_evaluation_year": 1975,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2818"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=patent+blue+V+E131+anaphylaxis",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=patent+blue+V+allergic+reactions",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2818",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=131"
+  },
+  "regulatory_history": [
+    {
+      "year": 1975,
+      "event": "JECFA withdrew temporary ADI of 0-1 mg/kg - never finalized a permanent ADI"
+    },
+    {
+      "year": 2013,
+      "event": "EFSA re-evaluation established ADI of 5 mg/kg bw/day based on chronic animal toxicity studies, despite JECFA never finalizing ADI"
+    },
+    {
+      "year": 2020,
+      "event": "Medical literature increasingly favours methylene blue over Patent Blue V for lymph node procedures due to 2.7% anaphylaxis risk"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2.8",
+      "category_name": "Alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2013",
+      "JECFA Monograph 1975",
+      "PubMed anaphylaxis research",
+      "International Association of Color Manufacturers"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Blue Curaçao liqueur (EU only)",
+    "Scotch eggs (EU only, rare)",
+    "Certain jelly sweets (EU only, rare)",
+    "Gelatin desserts (EU only, very limited)",
+    "Dental disclosing tablets (non-food use)",
+    "Medical: Lymphangiography procedures",
+    "Medical: Sentinel lymph node biopsy during cancer surgery"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "shots of blue liqueur (30ml)",
+        "typical_content_mg": 3,
+        "quantity": "~100"
+      }
+    ],
+    "source_note": "Based on EFSA ADI of 5 mg/kg bw/day (2013). Note: JECFA withdrew its temporary ADI in 1975 and never finalized a permanent value. Despite EU approval, extremely rare in food due to poor stability and allergy concerns. Primary use is medical (lymph node procedures), not food."
+  }
+}

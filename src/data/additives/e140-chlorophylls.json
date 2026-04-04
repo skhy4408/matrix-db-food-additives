@@ -1,0 +1,152 @@
+{
+  "slug": "e140-chlorophylls",
+  "names": {
+    "e_number": "E140",
+    "ins_number": "140",
+    "cas_number": "1406-65-1",
+    "common_name": "Chlorophylls",
+    "scientific_name": "Chlorophyll a and chlorophyll b (mixture of chlorophyll compounds)",
+    "japanese_name": "クロロフィル",
+    "japanese_label_name": "クロロフィル色素",
+    "aliases": [
+      "Natural Green 3",
+      "Chlorophyll colorant"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "magnesium-containing porphyrin"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "spinach",
+      "alfalfa",
+      "nettles",
+      "grass",
+      "parsley",
+      "all green leafy vegetables and plants"
+    ],
+    "description": "The actual pigment that makes plants green and enables photosynthesis. Chlorophyll is present in chloroplasts of all green plants. Structurally similar to hemoglobin (oxygen-carrying pigment in blood) - chlorophyll has magnesium where hemoglobin has iron. Produces one-third to one-half of Earth's atmospheric oxygen through photosynthesis."
+  },
+  "manufacturing": {
+    "method": "solvent extraction from plant materials",
+    "description": "Extracted from chloroplasts of green plant materials (spinach, alfalfa, nettles) using food-grade solvents such as ethanol or acetone. The chlorophyll retains its natural magnesium ion in the porphyrin ring structure. The extracted chlorophyll is purified and standardized."
+  },
+  "other_uses": {
+    "cosmetics": "Natural green colorant in cosmetic products",
+    "industrial": "Food supplement; natural health products",
+    "pharmaceutical": "Dietary supplements (chlorophyll pills, liquid chlorophyll)",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E140",
+      "max_level_mg_kg": "quantum satis in most food categories",
+      "conditions": "Generally permitted with quantum satis; no specific restrictions",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4089"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not authorized",
+      "cfr_reference": "Not listed",
+      "fda_url": null,
+      "notes": "Despite being completely natural, USA does not permit chlorophyll as a colour additive in food, drugs, or cosmetics"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "クロロフィル色素",
+      "notes": "Approved as existing food additive (natural origin)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "140",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted as natural colour"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Permitted in food",
+      "health_canada_url": null,
+      "notes": "Approved as natural colour additive"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not limited (established 1969 at 13th JECFA meeting)",
+    "jecfa_evaluation_year": 1969,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "unable to establish (2015 - insufficient toxicological data)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4089"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=chlorophyll+E140+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=chlorophyll+food+colorant",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4089",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=140"
+  },
+  "regulatory_history": [
+    {
+      "year": 1969,
+      "event": "JECFA established 'not limited' ADI at 13th meeting (generally recognized as safe at reported use levels)"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation found impossible to establish specific ADI due to limited toxicological data, but concluded 'not of safety concern at reported use levels'"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "Various",
+      "category_name": "Multiple categories",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2015",
+      "JECFA 13th Meeting 1969",
+      "International Association of Color Manufacturers",
+      "Scientific literature on chlorophyll"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Spinach pasta and green pasta varieties",
+    "Mint-flavoured ice cream",
+    "Mint candies and chewing gum",
+    "Green-coloured desserts and jellies",
+    "Preserved vegetables",
+    "Absinthe and herbal liqueurs",
+    "Green cheeses (Sage Derby, herb cheeses)",
+    "Natural health supplements (liquid chlorophyll, chlorophyll pills)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "JECFA established 'not limited' ADI in 1969. EFSA was unable to establish a numerical ADI in 2015 due to insufficient toxicological data, but concluded that chlorophyll is 'not of safety concern at reported use levels' based on its natural occurrence and widespread consumption in vegetables. No daily limit established."
+  }
+}

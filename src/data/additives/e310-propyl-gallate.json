@@ -1,0 +1,180 @@
+{
+  "slug": "e310-propyl-gallate",
+  "names": {
+    "e_number": "E310",
+    "ins_number": "310",
+    "cas_number": "121-79-9",
+    "common_name": "Propyl Gallate",
+    "scientific_name": "Propyl 3,4,5-trihydroxybenzoate",
+    "japanese_name": "没食子酸プロピル",
+    "japanese_label_name": "没食子酸プロピル",
+    "aliases": [
+      "Gallic acid propyl ester",
+      "n-Propyl gallate"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "synthetic phenolic antioxidant",
+    "source_type": "synthetic",
+    "chemical_group": "phenolic ester (gallate)"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic antioxidant created by esterifying gallic acid (which occurs naturally in tea, oak bark, witch hazel) with propyl alcohol. Used in food industry since 1948."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis (esterification)",
+    "description": "Produced by esterifying gallic acid (3,4,5-trihydroxybenzoic acid) with propanol (propyl alcohol). The resulting compound is a white to creamy-white crystalline powder. Linear formula: 3,4,5-(HO)₃C₆H₂CO₂CH₂CH₂CH₃, Molecular weight: 212.20."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant preservative in cosmetic formulations",
+    "industrial": "Lubricants, biodiesel, adhesives",
+    "pharmaceutical": "Antioxidant in drug formulations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E310",
+      "max_level_mg_kg": "varies by food category (restricted)",
+      "conditions": "E311 (octyl gallate) and E312 (dodecyl gallate) removed from EU list in 2018; E310 remains with restrictions",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2014",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3642"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS with limits",
+      "cfr_reference": "21 CFR 184.1660",
+      "fda_url": null,
+      "notes": "FDA allows <0.02% of fat/oil content (individually or combined with octyl/dodecyl gallate, BHT, BHA, ascorbyl palmitate)"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "390",
+      "japanese_regulation_name": "没食子酸プロピル",
+      "notes": "Used particularly in butter and oil products with defined limits"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "310",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Approved with restrictions"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–1.4 mg/kg bw/day",
+    "jecfa_evaluation_year": 1996,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3642"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=propyl+gallate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=propyl+gallate+E310",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3642",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1660",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=310"
+  },
+  "regulatory_history": [
+    {
+      "year": 1976,
+      "event": "SCF establishes group ADI of 0-0.2 mg/kg bw for three gallates (E310, E311, E312)"
+    },
+    {
+      "year": 1996,
+      "event": "JECFA allocates ADI only to propyl gallate; does not establish ADIs for octyl and dodecyl gallate"
+    },
+    {
+      "year": 2014,
+      "event": "EFSA re-evaluation establishes ADI of 0.5 mg/kg bw/day for propyl gallate"
+    },
+    {
+      "year": 2018,
+      "event": "EU removes E311 (octyl gallate) and E312 (dodecyl gallate) from approved list; E310 remains approved"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "02.1",
+      "category_name": "Fats and oils",
+      "max_level_mg_kg": "200"
+    },
+    {
+      "category_code": "05.4",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "400"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2014"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Vegetable oils and fats",
+    "Margarine (stabilizer)",
+    "Lard and shortening",
+    "Chewing gum",
+    "Dried meats and meat products",
+    "Mayonnaise and emulsions",
+    "Baked goods and snack foods",
+    "Candy",
+    "Dried milk products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 30,
+    "equivalents": [],
+    "source_note": "Based on EFSA ADI of 0.5 mg/kg bw/day established in 2014. JECFA set a higher ADI of 0-1.4 mg/kg bw/day in 1996."
+  },
+  "fun_facts": [
+    {
+      "title": "Vintage Antioxidant",
+      "description": "One of the longest-established synthetic antioxidants in food use, protecting our fats and oils since 1948 - over 75 years of service!"
+    },
+    {
+      "title": "Synergy Superstar",
+      "description": "Works synergistically when combined with citric acid, BHA, or BHT, creating antioxidant combinations more powerful than any single ingredient alone."
+    },
+    {
+      "title": "Free Radical Terminator",
+      "description": "Donates hydrogen atoms or electrons to neutralize free radicals before they can attack fatty acid chains and trigger the oxidation cascade - stopping rancidity at its source."
+    },
+    {
+      "title": "The Survivor",
+      "description": "While its cousins octyl gallate (E311) and dodecyl gallate (E312) were removed from EU's approved list in 2018 due to safety concerns, propyl gallate continues to be approved and used."
+    },
+    {
+      "title": "Gallic Acid Origins",
+      "description": "Derived from gallic acid, a compound naturally found in tea leaves, oak bark, and witch hazel - the synthetic propyl ester extends the natural compound's usefulness."
+    }
+  ]
+}

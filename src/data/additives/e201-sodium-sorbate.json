@@ -1,0 +1,154 @@
+{
+  "slug": "e201-sodium-sorbate",
+  "names": {
+    "e_number": "E201",
+    "ins_number": "201",
+    "cas_number": "7757-81-5",
+    "common_name": "Sodium Sorbate",
+    "scientific_name": "Sodium (2E,4E)-hexa-2,4-dienoate",
+    "japanese_name": "ソルビン酸ナトリウム",
+    "japanese_label_name": "ソルビン酸Na",
+    "aliases": [
+      "Sodium 2,4-hexadienoate"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic acid salt",
+    "source_type": "synthetic",
+    "chemical_group": "sorbate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Rowan berries (Sorbus aucuparia)",
+      "Sea buckthorn berries"
+    ],
+    "description": "The sodium salt of sorbic acid. Sorbic acid was first isolated in 1859 from rowan berries, though today all commercial production is synthetic. Unlike potassium and calcium sorbates, sodium sorbate is banned in the EU due to genotoxicity concerns."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing synthetically manufactured sorbic acid with sodium hydroxide or sodium carbonate. Sorbic acid is synthesized through the condensation of crotonaldehyde with ketene."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use due to safety concerns",
+    "industrial": null,
+    "pharmaceutical": "Not commonly used due to EU ban",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E201",
+      "max_level_mg_kg": null,
+      "conditions": "BANNED in EU since 1998 due to genotoxic concerns. Previously approved in Germany until 1998.",
+      "legal_reference": "Removed from Regulation (EC) No 1333/2008",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3640",
+      "fda_url": null,
+      "notes": "Permitted for use in cheese, fruit butter, fruit jelly, fruit preserves and jams, margarine"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビン酸ナトリウム",
+      "notes": "Part of sorbic acid group with usage standards"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "201",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Permitted for use in cheese and other specified foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–25 mg/kg bw/day (group ADI for sorbic acid and sorbates, expressed as sorbic acid)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4755",
+    "efsa_adi": "Not established (banned in EU)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+sorbate+genotoxic",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+sorbate+E201+genotoxicity",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4755",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3640",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=201"
+  },
+  "regulatory_history": [
+    {
+      "year": 1859,
+      "event": "Sorbic acid first isolated from rowan berries by A.W. von Hofmann"
+    },
+    {
+      "year": 1930,
+      "event": "Antimicrobial properties of sorbic acid discovered"
+    },
+    {
+      "year": 1974,
+      "event": "JECFA establishes group ADI of 25 mg/kg bw/day for sorbic acid and sorbates"
+    },
+    {
+      "year": 1998,
+      "event": "Banned in EU due to genotoxicity concerns; previously approved in Germany"
+    },
+    {
+      "year": 2012,
+      "event": "Study confirms genotoxicity to human peripheral blood lymphocytes in vitro at high concentrations"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015",
+      "FDA 21 CFR",
+      "Genotoxicity studies 2012"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cheese (USA, Canada only - banned in EU)",
+    "Fruit preserves and jams (non-EU markets)",
+    "Margarine (non-EU markets)",
+    "Fruit butter (USA, Canada)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 25,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 1500,
+    "equivalents": [
+      {
+        "product": "servings of preserved fruit (100g at typical levels)",
+        "typical_content_mg": 100,
+        "quantity": "~15"
+      }
+    ],
+    "source_note": "Based on JECFA group ADI for sorbic acid and sorbates. NOTE: Banned in EU due to genotoxicity concerns despite JECFA approval. Other sorbates (E202, E203) remain approved globally."
+  }
+}

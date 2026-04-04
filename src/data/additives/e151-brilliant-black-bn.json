@@ -1,0 +1,157 @@
+{
+  "slug": "e151-brilliant-black-bn",
+  "names": {
+    "e_number": "E151",
+    "ins_number": "151",
+    "cas_number": "2519-30-4",
+    "common_name": "Brilliant Black BN",
+    "scientific_name": "Tetrasodium 4-acetamido-5-hydroxy-6-[[7-sulfonato-4-[(4-sulfonatophenyl)azo]-1-naphthyl]azo]naphthalene-1,7-disulfonate",
+    "japanese_name": "ブリリアントブラックBN",
+    "japanese_label_name": "黒色1号",
+    "aliases": [
+      "Brilliant Black PN",
+      "Brilliant Black A",
+      "Black PN",
+      "Food Black 1",
+      "Naphthol Black",
+      "CI 28440"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "azo dye",
+    "chemical_group": "bis-azo compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic black diazo dye produced through chemical synthesis, not found in nature."
+  },
+  "manufacturing": {
+    "method": "azo coupling synthesis",
+    "description": "Synthesized through diazotization and azo coupling reactions. As a bis-azo dye, it contains two azo bonds (N=N functional groups), created through coupling reactions between diazonium salts and aromatic compounds. The resulting tetrasodium salt is water-soluble and provides an intense black color."
+  },
+  "other_uses": {
+    "cosmetics": "Used in some cosmetic products in regions where approved",
+    "industrial": "Used in textile dyeing and industrial applications",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E151",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Permitted in specific food categories with maximum levels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Never authorized for use in food, drugs or cosmetics due to safety concerns"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Prohibited in Japan"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Not permitted in Australia or New Zealand"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted in Canada"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–1 mg/kg bw/day",
+    "jecfa_evaluation_year": 2019,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "1 mg/kg bw/day",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Brilliant+Black+BN+E151",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=Brilliant+Black+BN+food+dye+safety",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=151"
+  },
+  "regulatory_history": [
+    {
+      "year": 2001,
+      "event": "Norway unbans E151 due to EU trade relationships (previously banned)"
+    },
+    {
+      "year": 2010,
+      "event": "EFSA re-evaluates E151 and confirms ADI of 1 mg/kg bw/day"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "varies"
+    },
+    {
+      "category_code": "09.0",
+      "category_name": "Fish and fishery products",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA Evaluations Database (87th meeting, 2019)",
+      "EFSA Re-evaluation 2010"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Black caviar substitute and lumpfish roe",
+    "Black licorice and confectionery",
+    "Food decorations and coatings",
+    "Ice cream and desserts",
+    "Mustard and condiments",
+    "Soft drinks (black/purple colored)",
+    "Fish paste products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 1,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 60,
+    "equivalents": [
+      {
+        "product": "servings of black-colored confectionery (50g)",
+        "typical_content_mg": 10,
+        "quantity": "~6"
+      }
+    ],
+    "source_note": "Based on EFSA 2010 ADI. Note: E151 is banned in many countries including USA, Japan, Canada, and Australia. Rarely used even where approved."
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "slug": "e210-benzoic-acid",
+  "names": {
+    "e_number": "E210",
+    "ins_number": "210",
+    "cas_number": "65-85-0",
+    "common_name": "Benzoic Acid",
+    "scientific_name": "Benzenecarboxylic acid",
+    "japanese_name": "安息香酸",
+    "japanese_label_name": "安息香酸",
+    "aliases": [
+      "Phenylformic acid",
+      "Carboxybenzene"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic acid",
+    "source_type": "synthetic",
+    "chemical_group": "benzoate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Gum benzoin (natural resin)",
+      "Cranberries",
+      "Prunes",
+      "Plums",
+      "Cinnamon",
+      "Cloves",
+      "Apples"
+    ],
+    "description": "An aromatic carboxylic acid that occurs naturally in many plants. First isolated from gum benzoin resin in the 16th century, hence its name. While naturally present in many fruits and spices, commercial benzoic acid is produced synthetically."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Industrially produced by partial oxidation of toluene with oxygen in the presence of metal catalysts (typically cobalt or manganese compounds). Can also be produced by hydrolysis of benzotrichloride or through the decarboxylation of phthalic acid."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a preservative in cosmetics and personal care products",
+    "industrial": "Used in the production of phenol, caprolactam, benzoyl chloride, and plasticizers",
+    "pharmaceutical": "Used as a preservative in liquid medicines; intermediate in drug synthesis",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E210",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically 150-500 mg/kg; concern about benzene formation when combined with ascorbic acid",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1733",
+      "fda_url": null,
+      "notes": "Maximum usage 0.1%; FDA issued guidance on benzene formation in beverages in 2006"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "安息香酸",
+      "notes": "Use limited to caviar, margarine, soft drinks, syrup, soy sauce, and fruit paste in confectionery"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "210",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day (group ADI for benzoic acid and benzoates)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4530",
+    "efsa_adi": "5 mg/kg bw/day (group ADI for benzoic acid and benzoates)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=benzoic+acid+preservative+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=benzoic+acid+E210+benzene+formation",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/4530",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1733",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=210"
+  },
+  "regulatory_history": [
+    {
+      "year": 1556,
+      "event": "Benzoic acid first described by Nostradamus, distilled from gum benzoin"
+    },
+    {
+      "year": 1875,
+      "event": "First synthesized from toluene by Friedrich Wöhler"
+    },
+    {
+      "year": 2006,
+      "event": "FDA issues guidance on benzene formation in beverages containing both benzoic acid/benzoates and ascorbic acid"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA and EFSA confirm group ADI of 5 mg/kg bw/day for benzoic acid and benzoates"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "150"
+    },
+    {
+      "category_code": "04.2.5.3",
+      "category_name": "Semi-preserved fish products",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "FDA Guidance 2006"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soft drinks and carbonated beverages",
+    "Fruit juices and concentrates",
+    "Pickles and pickled vegetables",
+    "Salad dressings and sauces",
+    "Jams and preserves",
+    "Caviar",
+    "Margarine",
+    "Soy sauce"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "cans of soft drink (355ml at 150mg/L)",
+        "typical_content_mg": 53,
+        "quantity": "~6"
+      },
+      {
+        "product": "servings of pickles (50g at 200mg/kg)",
+        "typical_content_mg": 10,
+        "quantity": "~30"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA group ADI for benzoic acid and benzoates. Benzoic acid is less commonly used than its sodium salt (E211) due to lower water solubility. Concern exists about benzene formation when combined with vitamin C in acidic beverages."
+  }
+}

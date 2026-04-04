@@ -1,0 +1,142 @@
+{
+  "slug": "e422-glycerol",
+  "names": {
+    "e_number": "E422",
+    "ins_number": "422",
+    "cas_number": "56-81-5",
+    "common_name": "Glycerol",
+    "scientific_name": "1,2,3-Propanetriol",
+    "japanese_name": "グリセリン",
+    "japanese_label_name": "グリセリン",
+    "aliases": [
+      "Glycerin",
+      "Glycerine",
+      "Glycyl alcohol",
+      "Propanetriol",
+      "Vegetable glycerin"
+    ]
+  },
+  "classification": {
+    "functional_class": "humectant",
+    "sub_class": "polyol",
+    "source_type": "natural/synthetic",
+    "chemical_group": "trihydric alcohol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "all fats and oils (as triglyceride backbone)",
+      "all living cells"
+    ],
+    "description": "Glycerol forms the backbone of all fats and oils (triglycerides) in nature. It is found in every living cell and is released naturally during the saponification process in soap-making."
+  },
+  "manufacturing": {
+    "method": "multiple methods",
+    "description": "Modern glycerol is primarily produced as a byproduct of biodiesel and soap production from vegetable oils (soy, palm, coconut). Can also be synthesized from petrochemical propylene, or derived from animal fats (less common today). Most commercial glycerol is now plant-based."
+  },
+  "other_uses": {
+    "cosmetics": "Extensively used in skincare, lotions, creams, toothpaste, and mouthwash as a moisturizer and humectant.",
+    "industrial": "Used in antifreeze, de-icing fluids, and as a precursor for explosives (nitroglycerin/dynamite).",
+    "pharmaceutical": "Common in suppositories, cough syrups, ear drops, and as a vehicle for medications.",
+    "household": "Found in e-cigarette liquid, personal lubricants, and food preservation."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E422",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories with no upper limit",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1320",
+      "fda_url": null,
+      "notes": "Generally recognized as one of the safest food additives"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "グリセリン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "422",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=glycerol+E422+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=glycerol+food+additive",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.1320",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=422"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baked goods (moisture retention)",
+    "Sugar-free gum and candies",
+    "Frosting and icing",
+    "Low-fat foods",
+    "Beverages",
+    "Cosmetics and toothpaste",
+    "Pharmaceutical products"
+  ]
+}

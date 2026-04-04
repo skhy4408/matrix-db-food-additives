@@ -1,0 +1,162 @@
+{
+  "slug": "e228-potassium-hydrogen-sulfite",
+  "names": {
+    "e_number": "E228",
+    "ins_number": "228",
+    "cas_number": "7773-03-7",
+    "common_name": "Potassium Hydrogen Sulfite",
+    "scientific_name": "Potassium hydrogen sulfite",
+    "japanese_name": "亜硫酸水素カリウム",
+    "japanese_label_name": "亜硫酸水素K",
+    "aliases": [
+      "Potassium Bisulfite"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative, antioxidant",
+    "sub_class": "inorganic",
+    "source_type": "synthetic",
+    "chemical_group": "sulfite"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic sulfite preservative that releases sulfur dioxide (SO2) when dissolved in water. Commonly used in winemaking to prevent oxidation and microbial growth. Can cause asthma attacks in sensitive individuals and destroys vitamin B1 (thiamine) in foods."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by passing sulfur dioxide gas through a solution of potassium carbonate or potassium hydroxide."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in water treatment and as a reducing agent in chemical processes",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E228",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must be labeled when present above 10 ppm; allergen declaration required",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3616",
+      "fda_url": null,
+      "notes": "Must be declared on labels; sulfites ≥10 ppm require disclosure"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜硫酸水素カリウム",
+      "notes": "Approved as designated food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "228",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Allergen declaration required"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Must be declared; subject to maximum use levels"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.7 mg/kg bw/day (as SO2, group ADI with all sulfites)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg/kg bw/day (as SO2)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+bisulfite+E228+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+hydrogen+sulfite+preservative",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3616",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=228"
+  },
+  "regulatory_history": [
+    {
+      "year": "historical",
+      "event": "Long history of use in winemaking and food preservation"
+    },
+    {
+      "year": 1980,
+      "event": "FDA requires sulfite labeling due to asthma and allergy concerns"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA and EFSA re-evaluate all sulfites; confirm ADI of 0.7 mg/kg bw/day as SO2"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2.1",
+      "category_name": "Beer and beer-like beverages",
+      "max_level_mg_kg": "varies"
+    },
+    {
+      "category_code": "04.2.5.2",
+      "category_name": "Dried fruit and vegetables",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine (especially white wine)",
+    "Beer and craft beer",
+    "Dried shrimp and seafood",
+    "Dried apricots and peaches",
+    "Fruit juice concentrates",
+    "Dehydrated vegetables",
+    "Pickled onions"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [
+      {
+        "product": "glasses of wine (150ml)",
+        "typical_content_mg": 10,
+        "quantity": "~4"
+      },
+      {
+        "product": "servings of dried shrimp (30g)",
+        "typical_content_mg": 30,
+        "quantity": "~1.4"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA ADI (as SO2) and typical sulfite content. Note: Destroys vitamin B1 (thiamine) in foods."
+  }
+}

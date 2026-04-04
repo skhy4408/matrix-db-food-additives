@@ -1,0 +1,171 @@
+{
+  "slug": "e222-sodium-bisulfite",
+  "names": {
+    "e_number": "E222",
+    "ins_number": "222",
+    "cas_number": "7631-90-5",
+    "common_name": "Sodium Bisulfite",
+    "scientific_name": "Sodium hydrogen sulfite",
+    "japanese_name": "亜硫酸水素ナトリウム",
+    "japanese_label_name": "亜硫酸水素Na",
+    "aliases": [
+      "Sodium hydrogen sulphite",
+      "Sodium bisulphite",
+      "Monosodium sulfite"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "sulfite",
+    "source_type": "synthetic",
+    "chemical_group": "sulfite compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic inorganic salt that functions as a preservative, antioxidant, and anti-browning agent. Part of the sulfite family (E220-E228) which release sulfur dioxide (SO₂) in food and beverages. Known allergen that can cause severe reactions in sensitive individuals, particularly asthmatics."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by passing sulfur dioxide (SO₂) gas through an aqueous solution of sodium carbonate or sodium hydroxide. The resulting solution contains a mixture of sodium bisulfite and sodium metabisulfite in equilibrium. Can also be made by treating sodium sulfite solution with additional sulfur dioxide."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in cosmetic products",
+    "industrial": "Used in water treatment, textile processing, paper manufacturing, and as a reducing agent in chemical synthesis",
+    "pharmaceutical": "Used in some pharmaceutical formulations as an antioxidant and stabilizer",
+    "household": "Used in home brewing and wine-making"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E222",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "MANDATORY allergen labeling required when total SO₂ ≥ 10 mg/kg or 10 mg/L. Maximum levels vary widely by food type. Temporary group ADI for E220-E228.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II; EU Directive 2003/89/EC (allergen labeling)",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3739",
+      "fda_url": null,
+      "notes": "MANDATORY allergen declaration 'contains sulfites' required when ≥10 ppm SO₂. Banned from fresh fruits and vegetables intended to be eaten raw (since 1986)."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜硫酸水素ナトリウム",
+      "notes": "Part of sulfite group; allergen labeling required"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "222",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Allergen declaration required"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Allergen labeling required; sulfites are priority allergens in Canada"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.7 mg/kg bw/day (temporary group ADI for E220-E228, expressed as SO₂)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg SO₂ equivalents/kg bw/day (temporary group ADI for E220-E228)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+bisulfite+asthma+allergy",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sulfite+allergy+E222+asthma",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3739",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=222"
+  },
+  "regulatory_history": [
+    {
+      "year": 1986,
+      "event": "FDA bans sulfites from fresh fruits and vegetables after several deaths from severe allergic reactions"
+    },
+    {
+      "year": 2003,
+      "event": "EU Directive 2003/89/EC makes sulfite allergen labeling mandatory when ≥10 mg/kg or mg/L"
+    },
+    {
+      "year": 2016,
+      "event": "EFSA and JECFA re-evaluate sulfites; establish temporary group ADI of 0.7 mg SO₂/kg bw/day with concerns for high consumers"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2.3",
+      "category_name": "Grape wines",
+      "max_level_mg_kg": "varies (150-200 mg/L total SO₂)"
+    },
+    {
+      "category_code": "04.2.1",
+      "category_name": "Dried fruits and vegetables",
+      "max_level_mg_kg": "varies (up to 2000 mg/kg)"
+    },
+    {
+      "category_code": "01.6.3",
+      "category_name": "Potato products",
+      "max_level_mg_kg": "varies (50-400 mg/kg)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "EFSA re-evaluation 2016",
+      "EU Directive 2003/89/EC"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine and beer (most common use)",
+    "Dried fruits (apricots, raisins, prunes)",
+    "Dried vegetables",
+    "Frozen potato products",
+    "Canned fruits and vegetables",
+    "Fruit juices and concentrates",
+    "Pickled products",
+    "Baking powder (anti-caking agent)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [
+      {
+        "product": "glasses of wine (150ml at 150mg/L SO₂)",
+        "typical_content_mg": 22.5,
+        "quantity": "~2"
+      },
+      {
+        "product": "servings of dried apricots (40g at 2000mg/kg)",
+        "typical_content_mg": 80,
+        "quantity": "~0.5"
+      }
+    ],
+    "source_note": "Based on EFSA/JECFA temporary group ADI for sulfites (E220-E228). WARNING: MAJOR ALLERGEN. Affects ~1% general population, 5-10% of asthmatics. Symptoms: wheezing, difficulty breathing, skin rashes, hives, headache, nausea, diarrhea, hypotension, anaphylaxis (rare). EFSA noted safety concerns for high consumers who may exceed ADI through diet alone. Mandatory 'contains sulfites' labeling when ≥10 mg/kg or mg/L."
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "e234-nisin",
+  "names": {
+    "e_number": "E234",
+    "ins_number": "234",
+    "cas_number": "1414-45-5",
+    "common_name": "Nisin",
+    "scientific_name": "Nisin (polycyclic antibacterial peptide)",
+    "japanese_name": "ナイシン",
+    "japanese_label_name": "ナイシン",
+    "aliases": []
+  },
+  "classification": {
+    "functional_class": "preservative (antimicrobial peptide, bacteriocin)",
+    "sub_class": "natural antimicrobial",
+    "source_type": "NATURAL (produced by bacteria)",
+    "chemical_group": "lantibiotic peptide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Produced by Lactococcus lactis bacteria during fermentation"
+    ],
+    "description": "NATURAL preservative produced by 'good bacteria' (Lactococcus lactis) during fermentation. A 'bacteriocin' - literally a peptide made by bacteria to kill other bacteria. Works like a natural antibiotic but is NOT considered an antibiotic. Discovered in 1928 (same era as penicillin!) at a Nissan cheese factory in England. Named after the Latin 'Nisus'. Breaks down in stomach acid, so no impact on gut bacteria. One of the safest preservatives - made by the same bacteria used to make cheese."
+  },
+  "manufacturing": {
+    "method": "natural fermentation",
+    "description": "Produced by fermentation using Lactococcus lactis bacteria, then purified and concentrated for use as a food preservative."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Research into antimicrobial applications",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E234",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Approved for use in various food categories including cheese, canned vegetables, and dairy desserts",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1538",
+      "fda_url": null,
+      "notes": "Affirmed as GRAS for use in pasteurized cheese spreads and other foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ナイシン",
+      "notes": "Approved as existing food additive (natural origin)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "234",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for use in various food categories"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Approved with maximum use levels specified"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.13 mg/kg bw/day (expressed as pure nisin)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.13 mg/kg bw/day",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=nisin+E234+bacteriocin+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=nisin+natural+preservative+lactococcus",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1538",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=234"
+  },
+  "regulatory_history": [
+    {
+      "year": 1928,
+      "event": "Nisin discovered at Nissan cheese factory in England (same era as penicillin discovery)"
+    },
+    {
+      "year": 1969,
+      "event": "JECFA first evaluates nisin; recognized as safe"
+    },
+    {
+      "year": 1988,
+      "event": "FDA affirms GRAS status for nisin"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA re-evaluates nisin; maintains ADI of 0.13 mg/kg bw/day"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA confirms safety; nisin considered one of the safest preservatives"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.1",
+      "category_name": "Unripened cheese",
+      "max_level_mg_kg": "12.5"
+    },
+    {
+      "category_code": "04.2.3",
+      "category_name": "Canned or bottled vegetables",
+      "max_level_mg_kg": "10"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Processed cheese spreads",
+    "Cheese products",
+    "Canned vegetables",
+    "Dairy desserts and puddings",
+    "Clotted cream",
+    "Pasteurized liquid eggs",
+    "Beer (to prevent spoilage)",
+    "Cottage cheese"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.13,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 7.8,
+    "equivalents": [
+      {
+        "product": "servings of processed cheese (30g)",
+        "typical_content_mg": 0.375,
+        "quantity": "~20"
+      },
+      {
+        "product": "servings of canned vegetables (150g)",
+        "typical_content_mg": 1.5,
+        "quantity": "~5"
+      }
+    ],
+    "source_note": "NATURAL preservative, considered 'clean label' friendly. Breaks down in stomach acid. Made by the same bacteria used in cheese production. One of the safest preservatives available."
+  }
+}

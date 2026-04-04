@@ -1,0 +1,147 @@
+{
+  "slug": "e160e-beta-apo-8-carotenal",
+  "names": {
+    "e_number": "E160e",
+    "ins_number": "160e",
+    "cas_number": "1107-26-2",
+    "common_name": "Beta-apo-8'-carotenal (C30)",
+    "scientific_name": "trans-β-Apo-8'-carotenal",
+    "japanese_name": "アポカロテナール",
+    "japanese_label_name": "β-アポ-8'-カロテナール",
+    "aliases": [
+      "Apocarotenal",
+      "Food Orange 6",
+      "CI 40820",
+      "beta-apo-8-carotenal"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "carotenoid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "oranges",
+      "tangerines",
+      "spinach",
+      "citrus fruits"
+    ],
+    "description": "Although it occurs naturally in small amounts in citrus fruits and spinach, beta-apo-8'-carotenal used as a food additive is synthetically produced. It is a C30 carotenoid (shorter than the C40 structure of most carotenoids) with orange to orange-red color."
+  },
+  "manufacturing": {
+    "method": "synthesis",
+    "description": "Produced by chemical synthesis rather than extraction from natural sources. The synthetic process creates a pure, standardized product with consistent coloring properties. While the compound exists in nature, commercial production is entirely synthetic."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a colorant in cosmetics and personal care products.",
+    "industrial": null,
+    "pharmaceutical": "Used as a colorant in pharmaceutical preparations.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E160e",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Permitted in specified food categories with maximum levels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2012",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved for use in foods generally",
+      "cfr_reference": "21 CFR 73.90",
+      "fda_url": null,
+      "notes": "Maximum level: 15 mg per pound of solid/semisolid food or per pint of liquid food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "β-アポ-8'-カロテナール",
+      "notes": "Approved as a designated additive (synthetic colorant)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "160e",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.05 mg/kg bw/day",
+    "efsa_evaluation_year": 2012,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=beta-apo-8-carotenal+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=apocarotenal+E160e+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.90",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=160e"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat emulsions mainly of type water-in-oil",
+      "max_level_mg_kg": "25"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery including breath freshening microsweets",
+      "max_level_mg_kg": "100"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2012"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Orange-colored beverages and soft drinks",
+    "Margarine and butter substitutes",
+    "Cheese products",
+    "Baked goods and desserts",
+    "Confectionery and candies",
+    "Salad dressings and sauces",
+    "Breakfast cereals"
+  ],
+  "fun_facts": [
+    "E160e is synthetic but chemically identical to the compound found naturally in oranges and citrus fruits.",
+    "It has approximately 50% of the pro-vitamin A activity of beta-carotene, meaning it can be partially converted to vitamin A in the body.",
+    "Beta-apo-8'-carotenal is a C30 carotenoid, making it smaller than most natural carotenoids which have a C40 structure.",
+    "This colorant is particularly stable in fatty foods and can help protect fats from oxidative rancidity, extending shelf life.",
+    "Despite being synthetic when used as an additive, it mimics natural carotenoid structures and functions."
+  ],
+  "health_benefits_disclaimer": "While beta-apo-8'-carotenal has provitamin A activity and shows antioxidant properties in studies, it is used as a food colorant in very small quantities. Any potential health benefits should not be considered medical claims. Consult healthcare professionals for health advice."
+}

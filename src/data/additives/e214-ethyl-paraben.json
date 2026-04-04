@@ -1,0 +1,157 @@
+{
+  "slug": "e214-ethyl-paraben",
+  "names": {
+    "e_number": "E214",
+    "ins_number": "214",
+    "cas_number": "120-47-8",
+    "common_name": "Ethyl Paraben",
+    "scientific_name": "Ethyl 4-hydroxybenzoate",
+    "japanese_name": "パラオキシ安息香酸エチル",
+    "japanese_label_name": "パラオキシ安息香酸エチル",
+    "aliases": [
+      "Ethyl p-hydroxybenzoate",
+      "Ethylparaben",
+      "4-Hydroxybenzoic acid ethyl ester"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "paraben",
+    "source_type": "synthetic",
+    "chemical_group": "p-hydroxybenzoate ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic ester of p-hydroxybenzoic acid. Part of the paraben family of preservatives with broad-spectrum antimicrobial activity against bacteria, yeasts, and molds. More commonly used in cosmetics than food due to controversy over potential endocrine-disrupting properties."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by esterification of p-hydroxybenzoic acid with ethanol in the presence of an acid catalyst (typically sulfuric acid or hydrochloric acid). Can also be synthesized through the Kolbe-Schmitt reaction followed by esterification."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in cosmetics, lotions, shampoos, and personal care products (up to 0.4%)",
+    "industrial": "Used in industrial coatings and adhesives",
+    "pharmaceutical": "Used in pharmaceutical preparations, tablet coatings, and topical medications",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E214",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Group ADI of 0-10 mg/kg bw/day for methyl and ethyl parabens; use restricted to specific food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2004",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1490",
+      "fda_url": null,
+      "notes": "Approved for food use; more commonly found in cosmetics and pharmaceuticals"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "パラオキシ安息香酸エチル",
+      "notes": "Part of paraben group with usage standards; limited food applications"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "214",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–10 mg/kg bw/day (group ADI for methyl and ethyl parabens)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "10 mg/kg bw/day (group ADI for methyl and ethyl parabens and their sodium salts)",
+    "efsa_evaluation_year": 2004,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ethyl+paraben+endocrine+disruption",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ethylparaben+E214+hormone+safety",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1490",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=214"
+  },
+  "regulatory_history": [
+    {
+      "year": 2004,
+      "event": "EFSA establishes group ADI of 10 mg/kg bw/day for methyl and ethyl parabens"
+    },
+    {
+      "year": 2006,
+      "event": "EU bans propylparaben (E216) and isopropylparaben from food due to endocrine concerns; methyl and ethyl parabens remain approved"
+    },
+    {
+      "year": 2014,
+      "event": "EU bans isopropylparaben from cosmetics and food"
+    },
+    {
+      "year": 2023,
+      "event": "European Commission classifies parabens as Category 1 endocrine disrupters in database"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2004",
+      "European Commission Endocrine Disruptor Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cosmetics and personal care products (primary use)",
+    "Shampoos and lotions",
+    "Pharmaceutical preparations",
+    "Limited use in beverages (rare)",
+    "Some processed foods (declining use)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 10,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 600,
+    "equivalents": [
+      {
+        "product": "cosmetic products (0.4% paraben content, 10g applied)",
+        "typical_content_mg": 40,
+        "quantity": "~15 applications"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA group ADI for methyl and ethyl parabens. CONTROVERSY: Parabens can mimic estrogen and have anti-androgenic effects. EU classified all parabens as Category 1 endocrine disrupters. Propyl and longer-chain parabens banned in EU food (2006) due to stronger hormonal activity. Methyl and ethyl parabens remain approved but controversial. Declining use in food; primarily used in cosmetics where limited dermal absorption reduces systemic exposure."
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "e340-potassium-phosphates",
+  "names": {
+    "e_number": "E340",
+    "ins_number": "340",
+    "cas_number": "7778-77-0 (i), 7758-11-4 (ii), 7778-53-2 (iii)",
+    "common_name": "Potassium Phosphates",
+    "scientific_name": "Monopotassium phosphate (E340i), Dipotassium phosphate (E340ii), Tripotassium phosphate (E340iii)",
+    "japanese_name": "リン酸カリウム",
+    "japanese_label_name": "リン酸K",
+    "aliases": [
+      "Potassium orthophosphates",
+      "MKP (monopotassium phosphate)",
+      "DKP (dipotassium phosphate)",
+      "TKP (tripotassium phosphate)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "buffering agent, emulsifier, stabilizer",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Potassium phosphates do not occur naturally in free form. While phosphate compounds are essential components of all living organisms, the potassium salts used in food are synthetically manufactured."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing phosphoric acid with potassium hydroxide or potassium carbonate. The degree of neutralization determines which form is produced: monopotassium phosphate (E340i, KH2PO4), dipotassium phosphate (E340ii, K2HPO4), or tripotassium phosphate (E340iii, K3PO4). Each form has different pH and buffering properties."
+  },
+  "other_uses": {
+    "cosmetics": "Buffering agent in personal care formulations.",
+    "industrial": "Fertilizers (especially monopotassium phosphate), detergents, water treatment.",
+    "pharmaceutical": "Buffering agent, electrolyte replenisher, urinary acidifier (monopotassium phosphate).",
+    "household": "Some cleaning products and water softeners."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E340(i-iii)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits in others due to concerns about total dietary phosphate intake.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1087 (various)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Often used as a reduced-sodium alternative to sodium phosphates"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "118",
+      "japanese_regulation_name": "リン酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "340",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+phosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+phosphate+dietary+intake",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=340"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA's comprehensive evaluation of food phosphates expressed concern about high dietary intake from additives, particularly in Western processed food diets. Applies to all phosphate additives including potassium phosphates."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "20000 (as P2O5)"
+    },
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium or reduced-sodium processed foods",
+    "Baking powder and leavening agents",
+    "Coffee creamers (non-dairy creamers)",
+    "Processed cheese products",
+    "Soft drinks and cola beverages",
+    "Breakfast cereals",
+    "Instant puddings and dessert mixes",
+    "Sports drinks and electrolyte beverages"
+  ],
+  "fun_facts": [
+    "Often used as a sodium-free alternative to sodium phosphates in low-sodium products",
+    "Provides potassium supplementation while also serving as a buffering agent",
+    "Monopotassium phosphate is widely used as a highly efficient fertilizer in agriculture",
+    "Different forms have different buffering capacities - dipotassium phosphate is commonly used in baking powder",
+    "Part of the growing trend toward reducing sodium in processed foods while maintaining functionality"
+  ]
+}

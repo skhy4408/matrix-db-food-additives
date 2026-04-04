@@ -1,0 +1,157 @@
+{
+  "slug": "e341-calcium-phosphates",
+  "names": {
+    "e_number": "E341",
+    "ins_number": "341",
+    "cas_number": "7758-23-8 (i), 7757-93-9 (ii), 7758-87-4 (iii)",
+    "common_name": "Calcium Phosphates",
+    "scientific_name": "Monocalcium phosphate (E341i), Dicalcium phosphate (E341ii), Tricalcium phosphate (E341iii)",
+    "japanese_name": "リン酸カルシウム",
+    "japanese_label_name": "リン酸Ca",
+    "aliases": [
+      "Calcium orthophosphates",
+      "MCP (monocalcium phosphate)",
+      "DCP (dicalcium phosphate)",
+      "TCP (tricalcium phosphate)",
+      "Bone phosphate of lime"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "raising agent, anti-caking agent, firming agent, calcium source",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "bones and teeth (as hydroxyapatite, a form of calcium phosphate)",
+      "milk (small amounts)",
+      "phosphate rock minerals"
+    ],
+    "description": "Calcium phosphates are the main mineral component of bones and teeth. In nature, they exist primarily as hydroxyapatite. The forms used as food additives are synthetically produced for purity and consistency."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting phosphoric acid with calcium hydroxide, calcium carbonate, or calcium chloride. The molar ratio of reactants determines which form is produced: monocalcium phosphate (E341i, Ca(H2PO4)2), dicalcium phosphate (E341ii, CaHPO4), or tricalcium phosphate (E341iii, Ca3(PO4)2). Each form has different solubility and functional properties."
+  },
+  "other_uses": {
+    "cosmetics": "Abrasive in toothpaste, opacifying agent, bulking agent.",
+    "industrial": "Animal feed supplements, fertilizers, polishing agents.",
+    "pharmaceutical": "Calcium supplement, tablet excipient, antacid, toothpaste abrasive.",
+    "household": "Pet food supplements, plant fertilizer."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E341(i-iii)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories. E341iii commonly used as anti-caking agent. Subject to overall phosphate intake monitoring.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.8217 (various)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in baking powder and as calcium fortification"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "119",
+      "japanese_regulation_name": "リン酸カルシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "341",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+phosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+phosphate+dietary+supplement",
+    "controversy_level": "low_to_moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=341"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA reviewed all food phosphates and expressed concern about total dietary phosphate intake from additives. However, calcium phosphates are generally viewed more favorably due to dual benefit of providing calcium."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.2.2",
+      "category_name": "Seasonings and condiments",
+      "max_level_mg_kg": "quantum satis (E341iii as anti-caking agent)"
+    },
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baking powder (E341i - monocalcium phosphate is the acid component)",
+    "Calcium-fortified foods and beverages",
+    "Powdered spices and seasonings (E341iii as anti-caking agent)",
+    "Breakfast cereals (calcium fortification)",
+    "Flour and baking mixes",
+    "Processed cheese products",
+    "Nutritional supplements and protein powders",
+    "Toothpaste (as mild abrasive and calcium source)"
+  ],
+  "fun_facts": [
+    "Monocalcium phosphate is the key acidic component in most commercial baking powders - it reacts with baking soda to produce carbon dioxide for leavening",
+    "Your bones and teeth are made primarily of a natural form of calcium phosphate called hydroxyapatite",
+    "Tricalcium phosphate is used as an anti-caking agent to keep salt, spices, and powdered sugar free-flowing",
+    "Serves a dual purpose: provides both calcium supplementation and phosphate functionality",
+    "Dicalcium phosphate is a common calcium supplement in both human nutrition and animal feed"
+  ]
+}

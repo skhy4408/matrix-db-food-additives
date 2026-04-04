@@ -1,0 +1,183 @@
+{
+  "slug": "e132-indigotine",
+  "names": {
+    "e_number": "E132",
+    "ins_number": "132",
+    "cas_number": "860-22-0",
+    "common_name": "Indigotine",
+    "scientific_name": "Disodium 3,3'-dioxo-2,2'-bi-indolylidene-5,5'-disulfonate",
+    "japanese_name": "インジゴカルミン",
+    "japanese_label_name": "青色2号",
+    "aliases": [
+      "Indigo Carmine",
+      "FD&C Blue No. 2",
+      "Blue No. 2",
+      "Indigotindisulfonate",
+      "CI 73015",
+      "Food Blue 1"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "indigoid dye"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic derivative of indigo created through sulfonation. While the parent compound indigo exists naturally in plants, the water-soluble sulfonated form (E132) does not occur in nature. Produces blue colouration."
+  },
+  "manufacturing": {
+    "method": "indigo sulfonation or biotechnological production",
+    "description": "Traditional method: Indigo is manufactured by fusion of N-phenylglycine (prepared from aniline + formaldehyde) in molten mixture of sodamide, sodium hydroxide, and potassium hydroxide under ammonia pressure. Purified indigo undergoes aromatic sulfonation to introduce sulfonic acid groups at 5,5' positions, creating water solubility. Converted to disodium salt form. Modern method: Can be produced biotechnologically using genetically modified microorganisms."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Textile dyeing (limited); laboratory pH indicator and research stain",
+    "pharmaceutical": "Tablet/capsule coatings; medical diagnostic procedures (cystoscopy, brain surgery, urological surgery, sentinel lymph node biopsy)",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E132",
+      "max_level_mg_kg": "varies by food category (50+ categories with quantum satis or specific limits)",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children' (since 2010); must meet 93% purity standard",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3768"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "FD&C Blue No. 2 (certified color additive)",
+      "cfr_reference": "21 CFR 74.602",
+      "fda_url": "https://www.fda.gov/industry/color-additives/fdc-blue-no-2",
+      "notes": "Approved for food use; FDA approved for medical diagnostic use in July 2022"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "青色2号",
+      "notes": "Approved as designated synthetic colour additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "132",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must be declared on labels"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "List of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in food products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2019,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3768"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=indigo+carmine+E132+medical",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=indigotine+FD%26C+blue+2+brain+surgery",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3768",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-74.602",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=132"
+  },
+  "regulatory_history": [
+    {
+      "year": 1975,
+      "event": "JECFA established ADI of 0-5 mg/kg body weight per day"
+    },
+    {
+      "year": 2010,
+      "event": "EU mandated warning label for effects on children's activity and attention (despite not being part of Southampton Six)"
+    },
+    {
+      "year": 2013,
+      "event": "EFSA re-evaluation confirmed ADI of 5 mg/kg bw/day with 93% purity requirement"
+    },
+    {
+      "year": 2019,
+      "event": "JECFA 86th Report confirmed ADI; emphasized purity standards"
+    },
+    {
+      "year": 2022,
+      "event": "FDA approved indigo carmine for medical diagnostic use (cystoscopy, urological procedures) in July 2022"
+    },
+    {
+      "year": 2023,
+      "event": "EFSA follow-up evaluation on purity and manufacturing standards"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2013",
+      "EFSA Follow-up 2023",
+      "JECFA 86th Report 2019",
+      "FDA 21 CFR 74.602",
+      "Medical literature (cystoscopy, neurosurgery)"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Blue raspberry flavoured candies and ice pops",
+    "Blue ice cream and popsicles",
+    "Blue-coloured beverages and sports drinks",
+    "Confectionery requiring blue colour",
+    "Baked goods (blue icing, cake decorations)",
+    "Gelatin desserts",
+    "Medical: Cystoscopy procedures (ureteral orifice localization)",
+    "Medical: Brain surgery (stereotactic tumor margin marking)",
+    "Medical: Urological surgery and laparoscopy"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "blue raspberry ice pops (60g each)",
+        "typical_content_mg": 6,
+        "quantity": "~50"
+      },
+      {
+        "product": "servings of blue sports drink (250ml)",
+        "typical_content_mg": 12,
+        "quantity": "~25"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA ADI of 5 mg/kg bw/day with 93% purity requirement. ADI applies to material manufactured using processes comparable to studies by Borzelleca (1985-1986). One of few food dyes with major medical applications."
+  }
+}

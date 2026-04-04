@@ -1,0 +1,156 @@
+{
+  "slug": "e231-orthophenyl-phenol",
+  "names": {
+    "e_number": "E231",
+    "ins_number": "231",
+    "cas_number": "90-43-7",
+    "common_name": "Orthophenyl Phenol",
+    "scientific_name": "2-Phenylphenol",
+    "japanese_name": "オルトフェニルフェノール",
+    "japanese_label_name": "OPP",
+    "aliases": [
+      "OPP",
+      "2-Phenylphenol"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative (surface treatment, fungicide)",
+    "sub_class": "phenolic compound",
+    "source_type": "synthetic",
+    "chemical_group": "phenyl compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic post-harvest fungicide applied to citrus fruit peels to prevent mold growth during transport and storage. Works similarly to E230 but is chemically different (has an -OH group). More effective against certain fungi than biphenyl. Also used as a disinfectant and antiseptic in non-food applications. Should be washed off before using citrus zest in cooking."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized from phenol and benzene through chemical reactions, typically via oxidative coupling processes."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used as disinfectant, antiseptic, and fungicide in non-food applications",
+    "pharmaceutical": "Antiseptic agent",
+    "household": "Disinfectant in household cleaning products"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E231",
+      "max_level_mg_kg": "12 mg/kg (on peel surface)",
+      "conditions": "RESTRICTED to citrus fruit surface treatment ONLY; must be declared on labels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2014",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved as pesticide for citrus fruits",
+      "cfr_reference": "40 CFR 180.377",
+      "fda_url": null,
+      "notes": "Regulated as a pesticide by EPA; approved for post-harvest treatment of citrus"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "オルトフェニルフェノール",
+      "notes": "Approved for surface treatment; also approved as agricultural chemical (農薬としても承認)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "231",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved with restrictions for citrus surface treatment"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Food and Drug Regulations",
+      "health_canada_url": null,
+      "notes": "Approved for surface treatment with maximum residue limits"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.2 mg/kg bw/day",
+    "jecfa_evaluation_year": 2014,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.2 mg/kg bw/day",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=orthophenyl+phenol+E231+carcinogen",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=2-phenylphenol+OPP+citrus+fungicide+safety",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-40/section-180.377",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=231"
+  },
+  "regulatory_history": [
+    {
+      "year": 1980,
+      "event": "Animal studies raise concerns about possible carcinogenicity in high doses"
+    },
+    {
+      "year": 2014,
+      "event": "JECFA and EFSA re-evaluate OPP; establish ADI of 0.2 mg/kg bw/day with restrictions"
+    },
+    {
+      "year": "ongoing",
+      "event": "Debate continues over residue levels on peel vs. penetration into fruit flesh"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.1",
+      "category_name": "Citrus fruit (surface treatment only)",
+      "max_level_mg_kg": "12 on peel surface"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EPA 40 CFR",
+      "JECFA Evaluations Database 2014",
+      "EFSA Scientific Opinion 2014"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Oranges (post-harvest treated)",
+    "Lemons (post-harvest treated)",
+    "Limes (post-harvest treated)",
+    "Grapefruits (post-harvest treated)",
+    "Fruit wrapping materials"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.2,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 12,
+    "equivalents": [
+      {
+        "product": "oranges (200g each, consuming peel)",
+        "typical_content_mg": 2.4,
+        "quantity": "~5 (if eating peel)"
+      },
+      {
+        "product": "lemon zest (5g)",
+        "typical_content_mg": 0.6,
+        "quantity": "~20 servings"
+      }
+    ],
+    "source_note": "WARNING: Classified as possible carcinogen in high doses (animal studies). Always wash citrus thoroughly before using zest. Some countries have stricter limits than others."
+  }
+}

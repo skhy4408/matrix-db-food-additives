@@ -1,0 +1,158 @@
+{
+  "slug": "e218-methyl-paraben",
+  "names": {
+    "e_number": "E218",
+    "ins_number": "218",
+    "cas_number": "99-76-3",
+    "common_name": "Methyl Paraben",
+    "scientific_name": "Methyl 4-hydroxybenzoate",
+    "japanese_name": "パラオキシ安息香酸メチル",
+    "japanese_label_name": "パラオキシ安息香酸メチル",
+    "aliases": [
+      "Methyl p-hydroxybenzoate",
+      "Methylparaben",
+      "4-Hydroxybenzoic acid methyl ester"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "paraben",
+    "source_type": "synthetic",
+    "chemical_group": "p-hydroxybenzoate ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic ester of p-hydroxybenzoic acid. The most commonly used member of the paraben family, with broad-spectrum antimicrobial and antifungal activity. Widely used in cosmetics and pharmaceuticals; limited but approved use in food products."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by esterification of p-hydroxybenzoic acid with methanol in the presence of an acid catalyst (typically sulfuric acid or hydrochloric acid). Industrial production uses continuous esterification processes followed by purification through crystallization."
+  },
+  "other_uses": {
+    "cosmetics": "Most widely used preservative in cosmetics, personal care products, shampoos, and lotions (up to 0.4%)",
+    "industrial": "Used in industrial products and coatings",
+    "pharmaceutical": "Extensively used in pharmaceutical preparations, oral medications, and topical products",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E218",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Group ADI of 0-10 mg/kg bw/day for methyl and ethyl parabens; permitted as conditionally permitted preservative in limited food categories; cosmetics limited to 0.4% (or 0.8% for mixed parabens)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II; EC Directive 95/2/EC",
+      "efsa_last_evaluated": "2004",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1490",
+      "fda_url": null,
+      "notes": "FDA recognizes as GRAS for food and cosmetic antibacterial preservation"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "パラオキシ安息香酸メチル",
+      "notes": "Part of paraben group (5 types designated); used with usage standards"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "218",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–10 mg/kg bw/day (group ADI for methyl and ethyl parabens)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "10 mg/kg bw/day (group ADI for methyl and ethyl parabens and their sodium salts)",
+    "efsa_evaluation_year": 2004,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=methyl+paraben+safety+endocrine",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=methylparaben+E218+hormone+disruption",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1490",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=218"
+  },
+  "regulatory_history": [
+    {
+      "year": 2004,
+      "event": "EFSA establishes group ADI of 10 mg/kg bw/day for methyl and ethyl parabens and their sodium salts"
+    },
+    {
+      "year": 2006,
+      "event": "EU bans propylparaben (E216) from food; methyl and ethyl parabens remain approved"
+    },
+    {
+      "year": 2014,
+      "event": "EU bans isopropylparaben from all uses (cosmetics and food)"
+    },
+    {
+      "year": 2023,
+      "event": "European Commission classifies all parabens as Category 1 endocrine disrupters; safety opinion under review"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Beverages",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2004",
+      "SCCS Opinion on Methylparaben 2023",
+      "European Commission Endocrine Disruptor Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cosmetics and personal care products (primary use - over 90% of applications)",
+    "Shampoos, lotions, and skin creams",
+    "Pharmaceutical preparations and oral medications",
+    "Limited use in beverages and processed foods",
+    "Toothpaste and oral care products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 10,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 600,
+    "equivalents": [
+      {
+        "product": "cosmetic product applications (0.4% paraben, 10g)",
+        "typical_content_mg": 40,
+        "quantity": "~15 applications"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA group ADI for methyl and ethyl parabens. CONTROVERSY: Methylparaben shows estrogenic effects in animal studies and has been classified as a Category 1 endocrine disrupter by the EU. However, 2008 study found NO competitive binding for human estrogen/androgen receptors for methylparaben (unlike longer-chain parabens). Considered safer than propyl/butyl parabens. EU SCCS (2023) states safe at up to 0.4% in cosmetics. Declining use in food; primarily used in cosmetics where dermal absorption is limited."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "slug": "e309-delta-tocopherol",
+  "names": {
+    "e_number": "E309",
+    "ins_number": "309",
+    "cas_number": "119-13-1",
+    "common_name": "Delta-Tocopherol",
+    "scientific_name": "8-Methyltocol",
+    "japanese_name": "δ-トコフェロール",
+    "japanese_label_name": "ビタミンE (δ型)",
+    "aliases": [
+      "δ-Tocopherol",
+      "8-Methyltocol"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin",
+    "source_type": "natural",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Soybean oil",
+      "Cottonseed oil",
+      "Corn oil",
+      "Sunflower seeds"
+    ],
+    "description": "A naturally occurring variant of vitamin E derived primarily from soybean oil. Acts as a natural antioxidant with unique protective properties."
+  },
+  "manufacturing": {
+    "method": "extraction from vegetable oils",
+    "description": "Extracted from soybean oil deodorizer distillate and other vegetable oil processing by-products. Often co-extracted with gamma-tocopherol from the same sources. Molecular formula: C27H46O2, Molecular weight: 402.65."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant in skincare formulations",
+    "industrial": null,
+    "pharmaceutical": "Component of mixed tocopherol vitamin E supplements",
+    "household": "Vitamin supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E309",
+      "max_level_mg_kg": "quantum satis (most categories)",
+      "conditions": "Evaluated together with E306, E307, E308",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3890",
+      "fda_url": null,
+      "notes": "Approved as antioxidant and nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "δ-トコフェロール",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "309",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0.15–2 mg/kg bw/day",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=delta-tocopherol+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=delta-tocopherol+E309",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3890",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=309"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA concludes no safety concern at reported uses and levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7",
+      "category_name": "Dairy-based desserts",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat spreads",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soybean oil and soy products",
+    "Cottonseed oil products",
+    "Mixed vegetable oils",
+    "Margarine and spreads",
+    "Salad dressings",
+    "Fortified foods",
+    "Mixed tocopherol supplements",
+    "Vitamin E-fortified cereals"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "EFSA concluded no safety concern at reported uses and levels. Included in group ADI with other tocopherols. Essential nutrient form of vitamin E."
+  },
+  "fun_facts": [
+    {
+      "title": "Soybean Sidekick",
+      "description": "Often co-occurs with gamma-tocopherol in soybeans and is co-extracted during oil processing - they're natural partners from the same plant source."
+    },
+    {
+      "title": "Strong but Scarce",
+      "description": "Has potent antioxidant activity but is less abundant in foods than alpha and gamma forms, making it the 'rare but powerful' member of the tocopherol family."
+    },
+    {
+      "title": "Best in Teams",
+      "description": "Usually found in mixed tocopherol preparations rather than isolated, as the combination of alpha, gamma, and delta provides synergistic antioxidant protection."
+    },
+    {
+      "title": "Cell Guardian",
+      "description": "Studies show it helps protect cells from oxidative stress and can help regulate gene expression - it's not just a preservative, it's actively protective at the cellular level."
+    },
+    {
+      "title": "Research Interest",
+      "description": "Increasingly studied for unique anti-inflammatory and anti-cancer properties that may differ from other tocopherol forms, though research is still emerging."
+    }
+  ]
+}

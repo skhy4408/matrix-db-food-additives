@@ -1,0 +1,139 @@
+{
+  "slug": "e332-potassium-citrates",
+  "names": {
+    "e_number": "E332",
+    "ins_number": "332",
+    "cas_number": "866-84-2 (i), 3609-96-9 (ii)",
+    "common_name": "Potassium Citrates",
+    "scientific_name": "Tripotassium citrate (E332i), Monopotassium citrate (E332ii)",
+    "japanese_name": "クエン酸カリウム",
+    "japanese_label_name": "クエン酸K",
+    "aliases": [
+      "Potassium citrate",
+      "Tripotassium 2-hydroxypropane-1,2,3-tricarboxylate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "buffering agent, sequestrant",
+    "source_type": "synthetic (from citric acid)",
+    "chemical_group": "organic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Potassium citrates are synthetic compounds derived from citric acid. While citric acid occurs naturally in citrus fruits, the potassium salts are produced industrially."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing citric acid with potassium hydroxide or potassium carbonate. The degree of neutralization determines whether monopotassium citrate (E332ii) or tripotassium citrate (E332i) is formed. Tripotassium citrate is the most commonly used form."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster and buffering agent in personal care products.",
+    "industrial": "Cleaning agents, water treatment, antifreeze formulations.",
+    "pharmaceutical": "Urinary alkalinizer for treating kidney stones, electrolyte replenisher, buffering agent.",
+    "household": "Descaling products, water softeners."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E332(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1625",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1625",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": "110",
+      "japanese_regulation_name": "クエン酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "332",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=278",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+citrate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+citrate+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=278",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1625",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=332"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1625",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium beverages and soft drinks",
+    "Reduced-sodium processed foods",
+    "Jams and preserves",
+    "Dairy products",
+    "Confectionery products",
+    "Sports drinks and electrolyte beverages",
+    "Powdered drink mixes",
+    "Wine and beer (as acidity regulator)"
+  ],
+  "fun_facts": [
+    "Often used as a sodium-free alternative to sodium citrate in low-sodium products",
+    "Provides potassium supplementation while also regulating acidity",
+    "In medicine, it helps prevent and treat kidney stones by alkalinizing urine",
+    "Less commonly used than sodium citrate but preferred in products marketed as 'reduced sodium'"
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "slug": "e304-ascorbyl-palmitate",
+  "names": {
+    "e_number": "E304",
+    "ins_number": "304",
+    "cas_number": "137-66-6",
+    "common_name": "Ascorbyl Palmitate",
+    "scientific_name": "L-Ascorbyl 6-palmitate",
+    "japanese_name": "パルミチン酸アスコルビル",
+    "japanese_label_name": "パルミチン酸アスコルビル",
+    "aliases": [
+      "6-Palmitoyl-3-keto-L-gulofuranolactone",
+      "Fatty acid esters of ascorbic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin derivative",
+    "source_type": "synthetic",
+    "chemical_group": "organic ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Fat-soluble form of vitamin C created by esterifying ascorbic acid with palmitic acid. Ester formed from naturally occurring ascorbic acid (vitamin C) and palmitic acid (found in palm oil, meat, dairy)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis (esterification)",
+    "description": "Produced by reaction of the primary alcohol group of ascorbic acid (vitamin C) with the carboxylic acid group of palmitic acid. Simple monoester with ascorbyl and palmitate moieties in 1:1 mole ratio. Molecular formula: C22H38O7."
+  },
+  "other_uses": {
+    "cosmetics": "Skin-care products (antioxidant, preservative)",
+    "industrial": null,
+    "pharmaceutical": "Vitamin supplement, tablet stabilizer",
+    "household": "Fat-soluble vitamin C supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E304",
+      "max_level_mg_kg": "quantum satis (varies by food category)",
+      "conditions": "E304i (ascorbyl palmitate) and E304ii (ascorbyl stearate) evaluated together",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.365",
+      "fda_url": null,
+      "notes": "FDA allows up to 0.02% by weight in margarine as optional preservative"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-アスコルビル6-パルミタート",
+      "notes": "Approved as designated food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "304",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–25 mg/kg bw/day",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "1.1 mg/kg bw/day",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ascorbyl+palmitate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ascorbyl+palmitate+E304",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.365",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=304"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms safe at reported uses and use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat spreads",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "13.1",
+      "category_name": "Foods for infants and young children",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Vegetable oils (preservation)",
+    "Margarine and shortening",
+    "Fatty snack foods",
+    "Baked goods (biscuits, cereals)",
+    "Frozen foods",
+    "Canned foods",
+    "Infant formula (protects DHA and ARA from oxidation)",
+    "Vitamin supplements (fat-soluble vitamin C)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 1.1,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 66,
+    "equivalents": [],
+    "source_note": "Based on EFSA ADI of 1.1 mg/kg bw/day established in 2015. JECFA set a higher ADI of 0-25 mg/kg bw/day."
+  },
+  "fun_facts": [
+    {
+      "title": "Fat-Soluble Vitamin C",
+      "description": "Unlike regular vitamin C which is water-soluble, ascorbyl palmitate dissolves in fats and oils, allowing it to protect lipid-based products from oxidation."
+    },
+    {
+      "title": "Dual Identity",
+      "description": "Functions both as a source of vitamin C (when consumed, it breaks down into vitamin C and palmitic acid) AND as a powerful fat-preserving antioxidant."
+    },
+    {
+      "title": "Margarine Guardian",
+      "description": "FDA allows up to 0.02% by weight in margarine as an optional preservative, significantly extending shelf life by preventing rancidity."
+    },
+    {
+      "title": "Free Radical Fighter",
+      "description": "Dissolves directly into lipid systems where it neutralizes free radicals and inhibits the oxidation chain reaction at its source - protecting fats from the inside out."
+    },
+    {
+      "title": "Baby Formula Protector",
+      "description": "Essential in infant formula for protecting vulnerable polyunsaturated fats like DHA and ARA from oxidation, ensuring babies get their vital nutrients intact."
+    }
+  ]
+}

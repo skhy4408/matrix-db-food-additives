@@ -1,0 +1,156 @@
+{
+  "slug": "e230-biphenyl",
+  "names": {
+    "e_number": "E230",
+    "ins_number": "230",
+    "cas_number": "92-52-4",
+    "common_name": "Biphenyl",
+    "scientific_name": "1,1'-Biphenyl",
+    "japanese_name": "ジフェニル",
+    "japanese_label_name": "ジフェニル",
+    "aliases": [
+      "Diphenyl"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative (surface treatment)",
+    "sub_class": "aromatic hydrocarbon",
+    "source_type": "synthetic",
+    "chemical_group": "phenyl compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic surface treatment preservative sprayed or applied to citrus fruit peels to prevent mold during shipping. One of the few food additives applied EXTERNALLY to food, not mixed in. BANNED in Australia despite EU/USA approval. Must be washed off before consuming citrus peel (zest). NOT intended to be eaten - remains on outer surface only."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by coupling two benzene rings through chemical reactions, typically via catalytic dehydrogenation of benzene."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used as heat transfer fluid, organic intermediate in chemical manufacturing",
+    "pharmaceutical": null,
+    "household": "Impregnated in fruit wrapping papers and shipping boxes"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E230",
+      "max_level_mg_kg": "70 mg/kg (on peel surface)",
+      "conditions": "RESTRICTED to citrus fruit peel surface treatment ONLY; not for direct food contact",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2014",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved for citrus fruit wrapping paper only",
+      "cfr_reference": "21 CFR 172.735",
+      "fda_url": null,
+      "notes": "Approved only for use in citrus fruit wrapping materials, not directly on fruit"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジフェニル",
+      "notes": "Approved for surface treatment of citrus fruits"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Banned due to safety concerns despite approval in EU/USA"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Food and Drug Regulations",
+      "health_canada_url": null,
+      "notes": "Approved with restrictions for citrus surface treatment"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=biphenyl+E230+toxicity+citrus",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=biphenyl+diphenyl+food+preservative+safety",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3860",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.735",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=230"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA establishes ADI of 0.5 mg/kg bw/day for surface treatment use"
+    },
+    {
+      "year": 2000,
+      "event": "Australia bans biphenyl due to endocrine disruption and neurotoxicity concerns"
+    },
+    {
+      "year": 2014,
+      "event": "EFSA re-evaluates biphenyl; maintains approval for citrus surface treatment with restrictions"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.1",
+      "category_name": "Citrus fruit (surface treatment only)",
+      "max_level_mg_kg": "70 on peel surface"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2014"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Oranges (surface-treated)",
+    "Lemons (surface-treated)",
+    "Grapefruits (surface-treated)",
+    "Limes (surface-treated)",
+    "Citrus fruit wrapping papers",
+    "Citrus shipping boxes (impregnated)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 30,
+    "equivalents": [
+      {
+        "product": "oranges (200g each, consuming peel)",
+        "typical_content_mg": 14,
+        "quantity": "~2 (if eating peel)"
+      },
+      {
+        "product": "lemon zest (5g)",
+        "typical_content_mg": 3.5,
+        "quantity": "~8.5 servings"
+      }
+    ],
+    "source_note": "WARNING: Should NEVER peel citrus with teeth if E230 was used. Always wash citrus thoroughly before using zest. Suspected endocrine disruptor and potential neurotoxin."
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "slug": "e330-citric-acid",
+  "names": {
+    "e_number": "E330",
+    "ins_number": "330",
+    "cas_number": "77-92-9",
+    "common_name": "Citric Acid",
+    "scientific_name": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+    "japanese_name": "クエン酸",
+    "japanese_label_name": "クエン酸",
+    "aliases": [
+      "2-hydroxy-1,2,3-propanetricarboxylic acid",
+      "Citric acid anhydrous",
+      "Citro"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "acidulant",
+    "source_type": "natural (fermentation)",
+    "chemical_group": "organic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "citrus fruits (lemons, limes, oranges)",
+      "berries",
+      "tomatoes",
+      "pineapples",
+      "peaches"
+    ],
+    "description": "The most abundant organic acid in citrus fruits, giving them their characteristic sour taste. Lemons and limes contain 5-8% citric acid by weight."
+  },
+  "manufacturing": {
+    "method": "microbial fermentation",
+    "description": "Commercially produced by fermentation of glucose or sucrose using the black mold Aspergillus niger. This method replaced extraction from citrus fruits in the early 20th century. Over 2 million tonnes are produced annually, making it one of the most widely manufactured food additives in the world."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a pH adjuster and chelating agent in skincare, haircare, and bath products.",
+    "industrial": "Descaling agent, cleaning products, water softener, metal polish, concrete admixture.",
+    "pharmaceutical": "Buffering agent, effervescent tablets, blood anticoagulant (sodium citrate form).",
+    "household": "Natural cleaning agent, limescale remover, descaler for coffee machines and kettles."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E330",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories without specific limits",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1033",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1033",
+      "notes": "Generally Recognized As Safe with no specific limitations"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": "108",
+      "japanese_regulation_name": "クエン酸",
+      "notes": "Widely used without specific restrictions"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "330",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted in most food categories"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "No specific use restrictions"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=278",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=citric+acid+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=citric+acid+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=278",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1033",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=330"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1033",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soft drinks and carbonated beverages (most common acid)",
+    "Candy and sour sweets",
+    "Jams and preserves",
+    "Fruit juices and fruit-flavored drinks",
+    "Ice cream and sorbets",
+    "Canned fruits and vegetables",
+    "Wine and beer (as acidulant)",
+    "Cheese and processed cheese products",
+    "Baked goods and dessert mixes"
+  ],
+  "fun_facts": [
+    "Citric acid is present in every lemon - a single lemon contains about 3 grams of citric acid",
+    "It is the most widely used acidulant in the food industry, with over 2 million tonnes produced annually",
+    "Produced by fermenting sugar with Aspergillus niger mold, the same process developed in 1917 by James Currie",
+    "Citric acid is part of the Krebs cycle (citric acid cycle), a fundamental metabolic pathway in all living organisms",
+    "In soft drinks, it provides not just sourness but also helps preserve flavor and acts as a natural preservative"
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "slug": "e124-ponceau-4r",
+  "names": {
+    "e_number": "E124",
+    "ins_number": "124",
+    "cas_number": "2611-82-7",
+    "common_name": "Ponceau 4R",
+    "scientific_name": "Trisodium (4E)-3-oxo-4-[(4-sulfonatonaphthalen-1-yl)hydrazinylidene]naphthalene-2,7-disulfonate",
+    "japanese_name": "ポンソー4R",
+    "japanese_label_name": "赤色102号",
+    "aliases": [
+      "Cochineal Red A",
+      "New Coccine",
+      "Acid Red 18",
+      "CI 16255"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "azo dye"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A fully synthetic azo dye derived from petroleum-based aromatic compounds (historically coal tar). Produces strawberry-red colour. One of the 'Southampton Six' colours linked to hyperactivity in children."
+  },
+  "manufacturing": {
+    "method": "diazotization and azo coupling",
+    "description": "Naphthionic acid (1-amino-4-naphthalenesulfonic acid) is diazotized using sodium nitrite in hydrochloric acid at 0-5°C. The resulting diazonium salt couples with G-acid (2-naphthol-6,8-disulfonic acid) in alkaline medium (pH 9-10) via electrophilic aromatic substitution. The product is purified, salted out with sodium chloride, and converted to the trisodium salt form."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in some regions (EU, Japan, China compliant)",
+    "industrial": "Textile and leather dyeing",
+    "pharmaceutical": "Tablet and capsule coatings",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E124",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children' (since 2010); Southampton Six member",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved for human consumption",
+      "cfr_reference": "Not listed",
+      "fda_url": null,
+      "notes": "Never authorized; FDA considers it carcinogenic"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "赤色102号",
+      "notes": "Approved as synthetic colour with purity specifications"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "124",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved with restrictions"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": "Not permitted in foods",
+      "health_canada_url": null,
+      "notes": "Prohibited due to carcinogenic concerns"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–4 mg/kg bw/day",
+    "jecfa_evaluation_year": 2009,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ponceau+4R+E124+hyperactivity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ponceau+4R+Southampton+study",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1328",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=124"
+  },
+  "regulatory_history": [
+    {
+      "year": 2007,
+      "event": "Southampton Study (McCann et al., The Lancet) linked E124 and five other colours to hyperactivity in children"
+    },
+    {
+      "year": 2009,
+      "event": "EFSA lowered ADI from 4 mg/kg to 0.7 mg/kg bw/day - an 82% reduction reflecting safety concerns"
+    },
+    {
+      "year": 2010,
+      "event": "EU mandated warning label for Southampton Six colours including E124"
+    },
+    {
+      "year": 2015,
+      "event": "Major UK retailers voluntarily removed Southampton Six colours, triggering industry-wide reformulation"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "300"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "50"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2009",
+      "JECFA Evaluations Database",
+      "McCann et al. (2007) Southampton Study",
+      "International Association of Color Manufacturers"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Glacé cherries and candied cherries",
+    "Tinned strawberries and canned fruit pie fillings",
+    "Turkish delight",
+    "Salami and processed meats",
+    "Crab sticks and surimi (imitation seafood)",
+    "Dessert mixes and jelly crystals",
+    "Cheesecake mixes",
+    "Seafood products (colour enhancement)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [
+      {
+        "product": "litres of flavoured drink (at 50mg/kg)",
+        "typical_content_mg": 50,
+        "quantity": "~0.84"
+      },
+      {
+        "product": "servings of dessert mix (100g at 300mg/kg)",
+        "typical_content_mg": 30,
+        "quantity": "~1.4"
+      }
+    ],
+    "source_note": "Based on EFSA's reduced ADI of 0.7 mg/kg bw/day (2009). Note: EFSA's 82% reduction from 4 to 0.7 mg/kg reflects heightened safety concerns. Children may approach or exceed ADI with high consumption of coloured foods."
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "slug": "e226-calcium-sulfite",
+  "names": {
+    "e_number": "E226",
+    "ins_number": "226",
+    "cas_number": "10257-55-3",
+    "common_name": "Calcium Sulfite",
+    "scientific_name": "Calcium sulfite",
+    "japanese_name": "亜硫酸カルシウム",
+    "japanese_label_name": "亜硫酸Ca",
+    "aliases": []
+  },
+  "classification": {
+    "functional_class": "preservative, antioxidant",
+    "sub_class": "inorganic",
+    "source_type": "synthetic",
+    "chemical_group": "sulfite"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic sulfite compound used for thousands of years in winemaking. Part of the sulfite family of preservatives that release sulfur dioxide (SO2) to prevent oxidation and microbial growth. Can trigger allergic reactions in sulfite-sensitive individuals (~1% of population)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting calcium hydroxide with sulfur dioxide gas."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in water treatment and as a reducing agent",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E226",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Restricted use; must be labeled when present above 10 ppm due to allergen concerns",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS affirmed",
+      "cfr_reference": "21 CFR 182.3766",
+      "fda_url": null,
+      "notes": "Must be declared on labels; sulfites must be labeled when ≥10 ppm"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜硫酸カルシウム",
+      "notes": "Approved as designated food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "226",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must be declared; sulfites are allergens"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Must be declared; subject to maximum use levels"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.7 mg/kg bw/day (as SO2, group ADI for all sulfites)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg/kg bw/day (as SO2)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+sulfite+E226+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+sulfite+food+preservative",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4438",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3766",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=226"
+  },
+  "regulatory_history": [
+    {
+      "year": "ancient times",
+      "event": "Sulfites used in winemaking for thousands of years"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA and EFSA re-evaluate sulfites; maintain ADI of 0.7 mg/kg bw/day as SO2"
+    },
+    {
+      "year": 1980,
+      "event": "FDA requires sulfite declaration on labels due to allergen concerns"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2",
+      "category_name": "Wine and other fermented beverages",
+      "max_level_mg_kg": "varies"
+    },
+    {
+      "category_code": "04.2.5.2",
+      "category_name": "Dried fruit and vegetables",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "EFSA Scientific Opinion 2016"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine (red and white)",
+    "Dried apricots and raisins",
+    "Dried apple slices",
+    "Dehydrated potato products",
+    "Fruit juices and concentrates",
+    "Beer and cider"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [
+      {
+        "product": "glasses of wine (150ml)",
+        "typical_content_mg": 10,
+        "quantity": "~4"
+      },
+      {
+        "product": "servings of dried apricots (50g)",
+        "typical_content_mg": 100,
+        "quantity": "less than 1"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA ADI (as SO2) and typical sulfite levels in preserved foods. Note: One serving of dried apricots can exceed daily ADI."
+  }
+}

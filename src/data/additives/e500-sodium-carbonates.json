@@ -1,0 +1,153 @@
+{
+  "slug": "e500-sodium-carbonates",
+  "names": {
+    "e_number": "E500",
+    "ins_number": "500",
+    "cas_number": "497-19-8 (i), 144-55-8 (ii), 533-96-0 (iii)",
+    "common_name": "Sodium Carbonates",
+    "scientific_name": "Sodium carbonate (E500i), Sodium hydrogen carbonate/bicarbonate (E500ii), Sodium sesquicarbonate (E500iii)",
+    "japanese_name": "炭酸ナトリウム",
+    "japanese_label_name": "炭酸Na",
+    "aliases": [
+      "Soda ash (E500i)",
+      "Baking soda (E500ii)",
+      "Sodium bicarbonate (E500ii)",
+      "Bicarbonate of soda (E500ii)",
+      "Washing soda (E500i)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "raising agent, alkalizing agent, anti-caking agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Trona ore deposits (natural mineral)",
+      "Natron (naturally occurring sodium carbonate decahydrate)",
+      "Sodium-rich mineral lakes"
+    ],
+    "description": "Sodium carbonate occurs naturally in the mineral trona and in certain alkaline lake deposits. However, most commercial sodium carbonate and sodium bicarbonate are synthetically manufactured through the Solvay process or extracted from trona ore."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or mining",
+    "description": "E500i (sodium carbonate) is primarily produced via the Solvay process (reacting sodium chloride with ammonia and carbon dioxide) or by mining and processing natural trona ore. E500ii (sodium bicarbonate/baking soda) is made by passing CO2 through a solution of sodium carbonate, or directly from trona. E500iii (sesquicarbonate) is a mixed crystal of sodium carbonate and bicarbonate, also derived from trona processing."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster in soaps, bath products, and personal care items.",
+    "industrial": "Glass manufacturing, water softening, detergents, pulp and paper production.",
+    "pharmaceutical": "Antacid (sodium bicarbonate), pH buffer in medications.",
+    "household": "Baking soda for cleaning, deodorizing, and home remedies; washing soda for laundry."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E500(i-iii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in most food categories at levels necessary to achieve the intended technical effect.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1736 (bicarbonate), 21 CFR 182.1781 (carbonate)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Sodium bicarbonate is one of the most widely used leavening agents in baking."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "189",
+      "japanese_regulation_name": "炭酸ナトリウム",
+      "notes": "Widely used in Japanese confectionery and noodle production."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "500",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1965,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4059",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+bicarbonate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+carbonate+dietary+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4059",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=500"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baking powder and baking soda (E500ii is THE baking soda)",
+    "Breads, cakes, cookies, and all baked goods",
+    "Cocoa powder (Dutch-processed)",
+    "Instant noodles and ramen",
+    "Soft pretzels (for browning)",
+    "Mineral water and carbonated beverages",
+    "Candies and confections",
+    "Self-raising flour"
+  ],
+  "fun_facts": [
+    "E500ii (sodium bicarbonate) IS baking soda - one of the most iconic kitchen ingredients worldwide",
+    "When mixed with acid (like vinegar or lemon juice), baking soda produces CO2 bubbles - the classic science fair volcano reaction",
+    "Used for over 150 years in home baking, cleaning, and even as a folk remedy for heartburn",
+    "The 'bicarb' in sodium bicarbonate means it has two carbonate groups, making it a perfect CO2 generator for leavening",
+    "Arm & Hammer has been selling baking soda since 1867, making it one of America's oldest branded products",
+    "Can be used to tenderize meat, reduce acidity in tomato sauce, and even clean teeth - a true kitchen multitasker"
+  ]
+}

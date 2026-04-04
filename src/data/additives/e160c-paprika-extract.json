@@ -1,0 +1,145 @@
+{
+  "slug": "e160c-paprika-extract",
+  "names": {
+    "e_number": "E160c",
+    "ins_number": "160c",
+    "cas_number": "465-42-9 (capsanthin), 470-38-2 (capsorubin)",
+    "common_name": "Paprika extract",
+    "scientific_name": "Capsanthin and capsorubin",
+    "japanese_name": "パプリカ色素",
+    "japanese_label_name": "トウガラシ色素",
+    "aliases": [
+      "Paprika oleoresin",
+      "Capsanthin",
+      "Capsorubin",
+      "CI 75470"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "carotenoid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "red bell peppers (Capsicum annuum)",
+      "paprika",
+      "red chili peppers"
+    ],
+    "description": "Natural orange-red carotenoid pigments extracted from paprika fruits. Capsanthin and capsorubin are the main coloring compounds, responsible for the vibrant red-orange hue of paprika."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from the fruits of sweet red peppers (Capsicum annuum) using solvent extraction with vegetable oil or other approved solvents. The extract is then refined to concentrate the carotenoid content."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a colorant in cosmetics and personal care products.",
+    "industrial": "Used in textile dyeing and natural colorants.",
+    "pharmaceutical": "Used as a colorant in pharmaceutical preparations.",
+    "household": "Commonly used as a culinary spice (paprika powder)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E160c",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in various food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4320"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.345",
+      "fda_url": null,
+      "notes": "Widely used in cheese, sausages, and snack foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "パプリカ色素",
+      "notes": "Also listed as トウガラシ色素 (capsicum pigment)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "160c",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–24 mg/kg bw/day (for full extract); 0–1.7 mg/kg bw/day (for total carotenoids)",
+    "jecfa_evaluation_year": 2006,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.6 mg/kg bw/day (for total carotenoids from E160c)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4320"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=paprika+extract+capsanthin+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=paprika+extract+E160c+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4320",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.345",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=160c"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.1",
+      "category_name": "Unripened cheese",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Spanish chorizo and other cured sausages",
+    "Paprika-flavored potato chips and crisps",
+    "Cheese products (especially orange/red varieties)",
+    "Processed meat products",
+    "Snack foods and savory products",
+    "Spice blends and seasonings",
+    "Salad dressings and sauces"
+  ],
+  "fun_facts": [
+    "Capsanthin has potent antioxidant properties and helps protect cells from oxidative damage.",
+    "Capsorubin can inhibit UVB-induced DNA damage in skin cells, making it valuable in cosmetic formulations.",
+    "Paprika extract has been used as a natural food colorant for centuries in traditional cuisine.",
+    "The color intensity of paprika extract depends on the variety of peppers used and their ripeness at harvest."
+  ],
+  "health_benefits_disclaimer": "While capsanthin and capsorubin possess antioxidant properties in laboratory studies, paprika extract is used in foods primarily as a colorant in very small quantities. Any potential health benefits should not be considered medical claims. Consult healthcare professionals for health advice."
+}

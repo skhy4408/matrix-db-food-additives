@@ -1,0 +1,164 @@
+{
+  "slug": "e903-carnauba-wax",
+  "names": {
+    "e_number": "E903",
+    "ins_number": "903",
+    "cas_number": "8015-86-9",
+    "common_name": "Carnauba wax",
+    "scientific_name": "Copernicia prunifera wax",
+    "japanese_name": "カルナウバロウ",
+    "japanese_label_name": "カルナウバロウ",
+    "aliases": [
+      "Brazil wax",
+      "Palm wax",
+      "Copernicia wax",
+      "Queen of waxes"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating",
+    "source_type": "natural",
+    "chemical_group": "plant wax"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Carnauba palm tree (Copernicia prunifera) leaves"
+    ],
+    "description": "A natural plant wax obtained from the leaves of the carnauba palm native to Brazil. Known as the 'queen of waxes' for its hardness and high melting point. The hardest natural wax available."
+  },
+  "manufacturing": {
+    "method": "extraction from palm leaves",
+    "description": "Harvested from young carnauba palm leaves during the dry season. Leaves are sun-dried, beaten to loosen the wax, then the wax is refined through melting, filtering, and bleaching if needed."
+  },
+  "other_uses": {
+    "cosmetics": "Mascara, lipstick, lip balm, vegan cosmetics",
+    "industrial": "Car wax, shoe polish, floor wax, surfboard wax",
+    "pharmaceutical": "Tablet coating, dental floss coating",
+    "household": "Furniture polish, leather treatment, guitar finish"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E903",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2007",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1978",
+      "fda_url": null,
+      "notes": "Approved for use in food as glazing agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カルナウバロウ",
+      "notes": "Natural additive, existing use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "903",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2007,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=carnauba+wax+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E903+carnauba+wax+glazing",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1978",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=903"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "FDA affirms carnauba wax as GRAS"
+    },
+    {
+      "year": 2007,
+      "event": "EFSA confirms safety as food additive"
+    },
+    {
+      "year": 2018,
+      "event": "Media reports on labor conditions in Brazilian carnauba wax industry"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1.2",
+      "category_name": "Fresh fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "carnauba-wax"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1978",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Candy coating (M&Ms, Skittles, Reese's Pieces)",
+    "Chocolate confectionery",
+    "Chewing gum",
+    "Fresh fruit coatings (apples, citrus)",
+    "Coffee beans (glazing)",
+    "Pharmaceutical tablets",
+    "Vegan food products",
+    "Decorative food items"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - carnauba wax is considered safe at all levels of consumption due to its inert nature and lack of absorption."
+  },
+  "fun_facts": [
+    "Known as the 'queen of waxes' - the hardest natural wax in existence",
+    "The same wax on your candy is also on your car (car wax)",
+    "Gives M&Ms and Skittles their signature glossy coating",
+    "Has the highest melting point of all natural waxes (82-86°C)",
+    "Brazil produces nearly 100% of the world's carnauba wax",
+    "Used in surfboard wax, guitar finishes, and dental floss"
+  ]
+}

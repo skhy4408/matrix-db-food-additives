@@ -1,0 +1,151 @@
+{
+  "slug": "e161b-lutein",
+  "names": {
+    "e_number": "E161b",
+    "ins_number": "161b",
+    "cas_number": "127-40-2",
+    "common_name": "Lutein",
+    "scientific_name": "Lutein (xanthophyll)",
+    "japanese_name": "ルテイン",
+    "japanese_label_name": "マリーゴールド色素",
+    "aliases": [
+      "Xanthophyll",
+      "Marigold extract",
+      "CI 75135",
+      "Vegetable lutein"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "carotenoid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "marigold flowers (Tagetes erecta)",
+      "kale",
+      "spinach",
+      "egg yolks",
+      "corn",
+      "orange peppers",
+      "kiwi fruit",
+      "grapes"
+    ],
+    "description": "Yellow-orange xanthophyll carotenoid naturally occurring in many plants, particularly abundant in marigold flower petals. Lutein is one of the two primary carotenoids found in the human retina."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Commercially extracted from the petals of Mexican marigold (Tagetes erecta) flowers using solvent extraction. The extract contains at least 80% carotenoids, primarily lutein (approximately 79%) and zeaxanthin (approximately 5%). Marigold flowers are specially cultivated for lutein production."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a colorant and antioxidant in cosmetics.",
+    "industrial": "Used in animal feed, particularly poultry feed to enhance egg yolk color.",
+    "pharmaceutical": "Widely used in eye health supplements and multivitamins.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E161b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in various food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1678"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.295",
+      "fda_url": null,
+      "notes": "Also approved as a dietary supplement ingredient"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "マリーゴールド色素",
+      "notes": "Approved as marigold pigment (natural source)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "161b",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–2 mg/kg bw/day (group ADI for lutein from Tagetes erecta and zeaxanthin)",
+    "jecfa_evaluation_year": 2004,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "1 mg/kg bw/day (for lutein from Tagetes erecta)",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1678"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=lutein+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=lutein+E161b+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2010.1678",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.295",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=161b"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat emulsions mainly of type water-in-oil",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2010"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Egg yolks (from chickens fed lutein-enriched feed)",
+    "Chicken feed (to enhance egg yolk color)",
+    "Eye health dietary supplements",
+    "Multivitamin supplements",
+    "Pasta and noodles",
+    "Baked goods and confectionery",
+    "Beverages and soft drinks"
+  ],
+  "fun_facts": [
+    "Lutein is added to chicken feed to make egg yolks more yellow - consumers prefer deeper yellow egg yolks, which indicate higher lutein content.",
+    "Along with zeaxanthin, lutein is one of only two carotenoids found in the human retina, where it forms the macular pigment.",
+    "Egg yolks are one of the most bioavailable dietary sources of lutein due to their fat content, which enhances absorption.",
+    "Lutein has been extensively studied for its role in eye health, particularly in protecting against age-related macular degeneration and cataracts.",
+    "Because of its fat content, lutein from eggs is absorbed more efficiently than lutein from vegetables like spinach."
+  ],
+  "health_benefits_disclaimer": "While lutein has been extensively researched for potential benefits related to eye health, cardiovascular health, and cognitive function, lutein as a food colorant (E161b) is used primarily for coloring purposes. Research suggests lutein may support macular health and protect against blue light damage, but these findings should not be considered medical claims. Consult eye care professionals and healthcare providers for personalized health guidance."
+}

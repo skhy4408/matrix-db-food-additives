@@ -1,0 +1,138 @@
+{
+  "slug": "e173-aluminium",
+  "names": {
+    "e_number": "E173",
+    "ins_number": "173",
+    "cas_number": "7429-90-5",
+    "common_name": "Aluminium",
+    "scientific_name": "Aluminium (metallic)",
+    "japanese_name": "アルミニウム",
+    "japanese_label_name": "アルミニウム",
+    "aliases": [
+      "Aluminum",
+      "CI 77000",
+      "Aluminium powder",
+      "Metallic aluminium"
+    ]
+  },
+  "classification": {
+    "functional_class": "surface colorant",
+    "sub_class": "metallic",
+    "source_type": "metallic",
+    "chemical_group": "metal"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Bauxite ore (aluminium oxide)",
+      "Feldspar minerals",
+      "Clay minerals"
+    ],
+    "description": "Aluminium is the most abundant metal in Earth's crust but never occurs naturally in pure metallic form. Food-grade metallic aluminium is produced industrially from bauxite ore."
+  },
+  "manufacturing": {
+    "method": "industrial extraction",
+    "description": "Produced through the Hall-Héroult process: extracting aluminium from bauxite ore through electrolysis. The metal is then ground into fine powder or flakes for use as a surface colorant in food decoration."
+  },
+  "other_uses": {
+    "cosmetics": "Used in eye shadows, nail polish, and other cosmetics for metallic/shimmering effects.",
+    "industrial": "Widely used in construction, transportation, packaging (foil), electrical applications, and aerospace.",
+    "pharmaceutical": "Used as a coating for pills and tablets for visual appeal.",
+    "household": "Aluminium foil, cooking utensils, beverage cans."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E173",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Only for external decoration of confectionery and cake decorations. Not permitted for internal use.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3194"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": null,
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not approved for use as a food colorant in the United States"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アルミニウム",
+      "notes": "Restricted to external surface decoration only"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": "173",
+      "fsanz_reference": null,
+      "notes": "Not permitted for use in food"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted for surface decoration only"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (limited oral absorption; use restricted to surface decoration)",
+    "jecfa_evaluation_year": 2011,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (minimal exposure due to external use only)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3194"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=aluminium+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=aluminium+E173+food+colorant+safety",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3194",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=173"
+  },
+  "regulatory_history": [
+    {
+      "year": 2013,
+      "event": "EFSA reviews aluminium and confirms safety for external surface decoration only"
+    },
+    {
+      "year": null,
+      "event": "USA and Australia do not approve E173 for food use despite EU approval"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.4",
+      "category_name": "Decorations, coatings and fillings (external coating only)",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2013",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cake decorations (EU only)",
+    "Confectionery external coatings (EU only)",
+    "Dragées and sugar-coated almonds (EU only)",
+    "Decorative edible pearls (EU only)"
+  ]
+}

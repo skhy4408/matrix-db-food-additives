@@ -1,0 +1,181 @@
+{
+  "slug": "e306-tocopherols",
+  "names": {
+    "e_number": "E306",
+    "ins_number": "306",
+    "cas_number": "1406-18-4",
+    "common_name": "Tocopherols",
+    "scientific_name": "Tocopherols (mixture of alpha, beta, gamma, delta forms)",
+    "japanese_name": "トコフェロール",
+    "japanese_label_name": "ビタミンE",
+    "aliases": [
+      "Natural Vitamin E",
+      "Mixed tocopherols",
+      "Tocopherol-rich extract",
+      "Mixed tocopherol concentrate"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin",
+    "source_type": "natural",
+    "chemical_group": "phenolic compounds"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Soybean oil",
+      "Sunflower oil",
+      "Corn oil",
+      "Olive oil",
+      "Rapeseed oil",
+      "Palm oil",
+      "Wheat germ",
+      "Nuts (almonds)",
+      "Seeds (sunflower)",
+      "Sea buckthorn berries",
+      "Whole grains"
+    ],
+    "description": "Vitamin E exists in eight forms: four tocopherols (alpha, beta, gamma, delta) and four tocotrienols. E306 is a mixture rich in tocopherols extracted from natural sources, primarily vegetable oils."
+  },
+  "manufacturing": {
+    "method": "extraction from vegetable oils",
+    "description": "Commonly extracted from the distillate obtained during deodorization of vegetable oils (especially soybean, canola, sunflower, corn, cottonseed). Soybean oil deodorized distillate is the primary source due to low cost. Can also be extracted using supercritical CO2 from wheat germ."
+  },
+  "other_uses": {
+    "cosmetics": "Anti-aging skincare, antioxidant",
+    "industrial": null,
+    "pharmaceutical": "Vitamin E supplements, capsule stabilizer",
+    "household": "Vitamin E supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E306",
+      "max_level_mg_kg": "quantum satis (most categories)",
+      "conditions": "Evaluated together with E307, E308, E309",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3890",
+      "fda_url": null,
+      "notes": "Approved as antioxidant and nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "トコフェロール",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "306",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0.15–2 mg/kg bw/day",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=tocopherols+vitamin+E+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=tocopherols+E306",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3890",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=306"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA concludes no safety concern at reported uses and levels; notes vitamin E is essential nutrient"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7",
+      "category_name": "Dairy-based desserts",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat spreads",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Fortified breakfast cereals",
+    "Vegetable oils and cooking oils",
+    "Nuts and nut butters",
+    "Margarine and spreads",
+    "Baked goods",
+    "Snack foods",
+    "Infant formula",
+    "Vitamin supplements"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "EFSA concluded available data too limited to establish ADI, but no safety concern at reported uses and levels. Vitamin E is an essential nutrient widely consumed via food."
+  },
+  "fun_facts": [
+    {
+      "title": "Essential Nutrient Disguised as Additive",
+      "description": "Unlike most food additives, tocopherols (Vitamin E) are actually essential nutrients that humans must obtain from diet - they're beneficial compounds, not just preservatives!"
+    },
+    {
+      "title": "Nature's Own Antioxidant",
+      "description": "Found naturally in the same oils it's used to protect. When you eat nuts, seeds, or vegetable oils, you're consuming both the fats AND nature's built-in protection system."
+    },
+    {
+      "title": "Multiple Forms Working Together",
+      "description": "Exists in 8 different forms (4 tocopherols, 4 tocotrienols), each with slightly different antioxidant powers. Mixed tocopherols provide broader protection than single forms."
+    },
+    {
+      "title": "Extracted from Waste",
+      "description": "Economically extracted from deodorizer distillate - a by-product of vegetable oil refining - turning what was once waste into valuable vitamin E."
+    },
+    {
+      "title": "Diet Geography",
+      "description": "α-tocopherol dominates European diets (olive/sunflower oils), while γ-tocopherol is most common in American diets (soybean/corn oils) - your vitamin E profile depends on your cooking oil culture!"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "slug": "e235-natamycin",
+  "names": {
+    "e_number": "E235",
+    "ins_number": "235",
+    "cas_number": "7681-93-8",
+    "common_name": "Natamycin",
+    "scientific_name": "Natamycin (polyene macrolide antibiotic)",
+    "japanese_name": "ナタマイシン",
+    "japanese_label_name": "ナタマイシン",
+    "aliases": [
+      "Pimaricin"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative (antifungal agent)",
+    "sub_class": "natural antimicrobial",
+    "source_type": "NATURAL (produced by bacteria)",
+    "chemical_group": "polyene macrolide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Produced by soil bacterium Streptomyces natalensis"
+    ],
+    "description": "NATURAL antifungal produced by soil bacterium Streptomyces natalensis. Named after Natal, South Africa where the bacteria was discovered. Also called 'pimaricin' (from Pietermaritzburg, South Africa). Works ONLY on the surface - not meant to penetrate into food. The white coating you see on some cheese rinds is often natamycin. Extremely effective against yeasts and molds but has NO effect on bacteria. Does NOT promote antibiotic resistance because it's only used on surfaces and breaks down quickly. Used in medicine as antifungal for eye infections (not taken orally)."
+  },
+  "manufacturing": {
+    "method": "natural fermentation",
+    "description": "Produced by fermentation using Streptomyces natalensis bacteria, then purified and concentrated for use as a surface treatment antifungal."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": "Used as antifungal medication for eye infections (ophthalmic use)",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E235",
+      "max_level_mg_kg": "1 mg/dm² (surface treatment)",
+      "conditions": "RESTRICTED to surface treatment of cheese and dried sausages ONLY; not for internal use",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1412"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.155",
+      "fda_url": null,
+      "notes": "Approved for surface treatment of cheese and dried sausages"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ナタマイシン",
+      "notes": "Approved as existing food additive (natural origin)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "235",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for surface treatment applications"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Approved for surface treatment with specific limits"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.3 mg/kg bw/day",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.3 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1412"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=natamycin+E235+pimaricin+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=natamycin+natural+antifungal+streptomyces",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1412",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.155",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=235"
+  },
+  "regulatory_history": [
+    {
+      "year": 1950,
+      "event": "Natamycin discovered in soil samples from Natal, South Africa"
+    },
+    {
+      "year": 1982,
+      "event": "JECFA evaluates natamycin; approves for surface treatment use"
+    },
+    {
+      "year": 2009,
+      "event": "EFSA re-evaluates natamycin; confirms ADI of 0.3 mg/kg bw/day"
+    },
+    {
+      "year": 2016,
+      "event": "JECFA re-evaluation maintains safety assessment; recognized as natural preservative"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.5",
+      "category_name": "Cheese (surface treatment)",
+      "max_level_mg_kg": "1 mg/dm² surface"
+    },
+    {
+      "category_code": "08.2.2",
+      "category_name": "Dried sausages (surface treatment)",
+      "max_level_mg_kg": "1 mg/dm² surface"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2016",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cheese rinds (white coating)",
+    "Aged cheddar cheese",
+    "Gouda cheese",
+    "Dried and fermented sausages (salami, pepperoni)",
+    "Sausage casings",
+    "Surface-treated baked goods",
+    "Yogurt (in some countries)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.3,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 18,
+    "equivalents": [
+      {
+        "product": "servings of surface-treated cheese (30g)",
+        "typical_content_mg": 0.3,
+        "quantity": "~60"
+      },
+      {
+        "product": "servings of dried sausage (50g)",
+        "typical_content_mg": 0.5,
+        "quantity": "~36"
+      }
+    ],
+    "source_note": "NATURAL antifungal from soil bacteria. Considered 'clean label' friendly. Works ONLY on surfaces. Popular in organic and natural food products. Does NOT promote antibiotic resistance."
+  }
+}

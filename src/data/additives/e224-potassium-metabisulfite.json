@@ -1,0 +1,180 @@
+{
+  "slug": "e224-potassium-metabisulfite",
+  "names": {
+    "e_number": "E224",
+    "ins_number": "224",
+    "cas_number": "16731-55-8",
+    "common_name": "Potassium Metabisulfite",
+    "scientific_name": "Dipotassium disulfite",
+    "japanese_name": "メタ重亜硫酸カリウム",
+    "japanese_label_name": "メタ重亜硫酸K",
+    "aliases": [
+      "Potassium metabisulphite",
+      "Dipotassium pyrosulfite",
+      "Potassium pyrosulfite"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "sulfite",
+    "source_type": "synthetic",
+    "chemical_group": "sulfite compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic inorganic salt widely used as an antioxidant and preservative in wine, beer, and food products. Main ingredient in wine-making Campden tablets (alternative to sodium form). Part of the sulfite family (E220-E228) that release sulfur dioxide (SO₂). Known allergen causing severe reactions in sensitive individuals, particularly asthmatics."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by passing sulfur dioxide (SO₂) through a solution of potassium carbonate or potassium hydroxide. The solution is concentrated and crystallized to yield potassium metabisulfite (K₂S₂O₅). Upon dissolution in water, it releases sulfur dioxide and forms potassium bisulfite. Preferred over sodium form in wine-making to avoid adding sodium."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in cosmetics",
+    "industrial": "Used in photography, textile processing, and water treatment",
+    "pharmaceutical": "Used as an antioxidant in some pharmaceutical preparations",
+    "household": "Main ingredient in Campden tablets for home wine-making and brewing"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E224",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "MANDATORY declaration 'contains sulfites' when total SO₂ ≥ 10 mg/kg or 10 mg/L. Temporary group ADI with safety concerns for high consumers. Maximum use levels: fresh/dried fruits/vegetables 10-2000 mg/kg.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II; EU Directive 2003/89/EC",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3798",
+      "fda_url": null,
+      "notes": "MANDATORY 'contains sulfites' declaration when ≥10 ppm SO₂. Banned from fresh fruits and vegetables for raw consumption (1986)."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "メタ重亜硫酸カリウム",
+      "notes": "Part of sulfite group; allergen labeling required"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "224",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Allergen declaration mandatory"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Priority allergen; mandatory labeling required"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.7 mg/kg bw/day (temporary group ADI for E220-E228, expressed as SO₂)",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.7 mg SO₂ equivalents/kg bw/day (temporary group ADI for E220-E228)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+metabisulfite+asthma+sulfite+allergy",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sulfite+sensitivity+E224+wine",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3798",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=224"
+  },
+  "regulatory_history": [
+    {
+      "year": 1986,
+      "event": "FDA bans sulfites from fresh produce after deaths from severe allergic reactions"
+    },
+    {
+      "year": 1998,
+      "event": "JECFA sets ADI of 0-0.7 mg/kg bw/day for sulfites (E220-E228)"
+    },
+    {
+      "year": 2003,
+      "event": "EU Directive 2003/89/EC mandates allergen labeling for sulfites when ≥10 mg/kg or mg/L"
+    },
+    {
+      "year": 2016,
+      "event": "EFSA/JECFA re-evaluate sulfites; maintain temporary ADI citing database uncertainties and concerns for high consumers"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2",
+      "category_name": "Wine, beer, cider, and fruit wine",
+      "max_level_mg_kg": "varies (150-200 mg/L total SO₂)"
+    },
+    {
+      "category_code": "04.2.1",
+      "category_name": "Dried fruits and vegetables",
+      "max_level_mg_kg": "varies (up to 2000 mg/kg)"
+    },
+    {
+      "category_code": "01.6",
+      "category_name": "Fresh, peeled, cut, shredded, and frozen vegetables",
+      "max_level_mg_kg": "varies (10-400 mg/kg)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA re-evaluation 2016",
+      "EU Directive 2003/89/EC"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine and cider (most common - Campden tablets)",
+    "Beer and fruit wines",
+    "Dried apricots, raisins, prunes",
+    "Dried vegetables",
+    "Fresh, peeled, cut and shredded vegetables",
+    "Frozen potato products and vegetables",
+    "Fruit juices and concentrates",
+    "Pickled vegetables"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.7,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 42,
+    "equivalents": [
+      {
+        "product": "Campden tablets for wine (standard tablet ~440mg metabisulfite)",
+        "typical_content_mg": 440,
+        "quantity": "~0.1 tablet"
+      },
+      {
+        "product": "glasses of wine (150ml at 150mg/L SO₂)",
+        "typical_content_mg": 22.5,
+        "quantity": "~2"
+      },
+      {
+        "product": "servings of dried apricots (40g at 2000mg/kg SO₂)",
+        "typical_content_mg": 80,
+        "quantity": "~0.5"
+      }
+    ],
+    "source_note": "Based on EFSA/JECFA temporary group ADI for sulfites (E220-E228). MAJOR ALLERGEN: Affects ~1% of general population, 5-10% of asthmatics. Symptoms: difficulty breathing, wheezing, skin rashes, hives, headache, nausea, bronchoconstriction, anaphylaxis (rare). EFSA noted safety concerns for high consumers who may exceed the ADI through diet. Mandatory 'contains sulfites' labeling required. Wine bottles worldwide carry sulfite warnings. Preferred over sodium form in wine-making to avoid sodium addition."
+  }
+}

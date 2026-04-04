@@ -1,0 +1,161 @@
+{
+  "slug": "e141-copper-chlorophyll",
+  "names": {
+    "e_number": "E141",
+    "ins_number": "141",
+    "cas_number": "11006-34-1",
+    "common_name": "Copper complexes of chlorophylls and chlorophyllins",
+    "scientific_name": "Copper complexes of chlorophyll derivatives / Sodium copper chlorophyllin",
+    "japanese_name": "銅クロロフィル",
+    "japanese_label_name": "銅クロロフィリンナトリウム",
+    "aliases": [
+      "Natural Green 3",
+      "Copper chlorophyllin",
+      "CI 75810"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural (semi-synthetic derivative)",
+    "source_type": "plant-derived with chemical modification",
+    "chemical_group": "copper-containing porphyrin"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Semi-synthetic derivative of natural chlorophyll. While base chlorophyll is extracted from plants (spinach, alfalfa, nettles), the copper complex does not occur in nature. Created by replacing magnesium ion with copper, which makes the green colour 10-100x more stable to heat, acid, and light than natural chlorophyll."
+  },
+  "manufacturing": {
+    "method": "extraction and copper substitution",
+    "description": "Chlorophyll is extracted from green plant materials (spinach, alfalfa, nettles) using food-grade solvents. The natural magnesium ion in the porphyrin ring is then replaced with copper through chemical treatment with copper salts. E141(i) is oil-soluble (retains phytol chain). E141(ii) is water-soluble (phytol chain hydrolyzed off). The copper stabilizes the green color and allows it to withstand pasteurization (85°C+) without degradation."
+  },
+  "other_uses": {
+    "cosmetics": "Natural-looking green colorant in cosmetic products",
+    "industrial": "Food supplements",
+    "pharmaceutical": "Dietary supplements; wound healing products",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E141",
+      "max_level_mg_kg": "quantum satis in specific food categories",
+      "conditions": "ADI WITHDRAWN in 2015 due to insufficient safety data, but approval maintained at quantum satis levels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4151"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Color additive for food use",
+      "cfr_reference": "21 CFR 73.125",
+      "fda_url": null,
+      "notes": "Approved for use in food products"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "銅クロロフィリンナトリウム",
+      "notes": "Approved as designated additive (chemically modified natural)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "141",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted as modified natural colour"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "List of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Approved for use in food products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–15 mg/kg bw/day",
+    "jecfa_evaluation_year": 2008,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "withdrawn (2015 - insufficient data on ADME, genotoxicity, chronic toxicity, carcinogenicity)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4151"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=copper+chlorophyllin+E141+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=copper+chlorophyll+food+additive",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4151",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.125",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=141"
+  },
+  "regulatory_history": [
+    {
+      "year": 2008,
+      "event": "JECFA established ADI of 0-15 mg/kg body weight per day"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA withdrew ADI due to insufficient data on absorption, distribution, metabolism, excretion (ADME), genotoxicity, chronic toxicity, and carcinogenicity; approval maintained but data gaps identified"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.1",
+      "category_name": "Dried vegetables",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "04.2.2",
+      "category_name": "Vegetables in vinegar, oil or brine",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2015",
+      "JECFA Evaluations 2008",
+      "FDA 21 CFR 73.125",
+      "International Association of Color Manufacturers"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Canned peas (mushy peas) - retains green colour during canning",
+    "Canned vegetables (green beans, peas, pickles)",
+    "Preserved pickles and relishes",
+    "Green-coloured beverages",
+    "Confectionery (green sweets)",
+    "Ice cream (mint and pistachio flavours)",
+    "Dietary supplements (chlorophyllin tablets)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 15,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 900,
+    "equivalents": [
+      {
+        "product": "servings of canned peas (100g)",
+        "typical_content_mg": 50,
+        "quantity": "~18"
+      },
+      {
+        "product": "scoops of mint ice cream (60g)",
+        "typical_content_mg": 12,
+        "quantity": "~75"
+      }
+    ],
+    "source_note": "Based on JECFA ADI of 0-15 mg/kg bw/day (2008). Note: EFSA withdrew ADI in 2015 due to insufficient long-term safety data, though approval was maintained. The copper ion is firmly bound and generally considered unlikely to be harmful. Widely used specifically in canned vegetables because copper-stabilized chlorophyll survives the high-temperature canning process (85°C+) without turning olive/brown like natural chlorophyll."
+  }
+}

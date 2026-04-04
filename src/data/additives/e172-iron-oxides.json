@@ -1,0 +1,141 @@
+{
+  "slug": "e172-iron-oxides",
+  "names": {
+    "e_number": "E172",
+    "ins_number": "172",
+    "cas_number": "1309-37-1, 1332-37-2, 51274-00-1",
+    "common_name": "Iron Oxides and Hydroxides",
+    "scientific_name": "Iron oxides and iron hydroxides",
+    "japanese_name": "酸化鉄",
+    "japanese_label_name": "酸化鉄",
+    "aliases": [
+      "Iron Oxide Red (CI 77491)",
+      "Iron Oxide Yellow (CI 77492)",
+      "Iron Oxide Black (CI 77499)",
+      "Rust",
+      "Ferric Oxide"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "inorganic",
+    "source_type": "mineral/metallic",
+    "chemical_group": "metal oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Hematite (Fe2O3) - red iron ore",
+      "Magnetite (Fe3O4) - black iron ore",
+      "Goethite (FeO(OH)) - yellow/brown iron ore",
+      "Rust (natural oxidation of iron)"
+    ],
+    "description": "Naturally occurring minerals found abundantly in iron ore deposits. The different colors (red, yellow, black, brown) depend on the oxidation state and hydration of the iron."
+  },
+  "manufacturing": {
+    "method": "industrial synthesis or natural extraction",
+    "description": "Food-grade iron oxides are typically produced synthetically through controlled oxidation of iron salts or by calcination of iron compounds. The production process ensures particle size, purity, and specific color (red, yellow, or black)."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in makeup, lipstick, eye shadow, and foundation as a colorant. One of the safest colorants for cosmetics.",
+    "industrial": "Used in paints, pigments, ceramics, construction materials, and magnetic recording media.",
+    "pharmaceutical": "Used as a colorant in tablets and capsules. Also used in iron supplements.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E172",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in various food categories. Not permitted in foods where coloring is prohibited.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4317"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Exempt from certification",
+      "cfr_reference": "21 CFR 73.200 (Iron Oxides)",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-A/part-73/subpart-A/section-73.200",
+      "notes": "Not to exceed 0.1% by weight in sausage casings"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酸化鉄",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "172",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for general use"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in specified food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concerns at current use levels)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (acceptable at current use levels)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4317"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=iron+oxide+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=iron+oxide+E172+food+colorant",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4317",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-73.200",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=172"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery including breath refreshening microsweets",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.4",
+      "category_name": "Decorations, coatings and fillings",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 73.200",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Mars bars (iconic reddish-brown color)",
+    "Salmon paste and fish spreads",
+    "Sausage casings",
+    "Confectionery and candy coatings",
+    "Cake decorations",
+    "Bakery products",
+    "Pet food",
+    "Nutritional supplements (as iron source)"
+  ]
+}

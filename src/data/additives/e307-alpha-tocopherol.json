@@ -1,0 +1,179 @@
+{
+  "slug": "e307-alpha-tocopherol",
+  "names": {
+    "e_number": "E307",
+    "ins_number": "307",
+    "cas_number": "59-02-9",
+    "common_name": "Alpha-Tocopherol",
+    "scientific_name": "(2R)-2,5,7,8-Tetramethyl-2-[(4R,8R)-4,8,12-trimethyltridecyl]-3,4-dihydrochromen-6-ol",
+    "japanese_name": "α-トコフェロール",
+    "japanese_label_name": "ビタミンE (α型)",
+    "aliases": [
+      "Vitamin E",
+      "α-Tocopherol",
+      "D-alpha-tocopherol (natural)",
+      "DL-alpha-tocopherol (synthetic)"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin",
+    "source_type": "natural",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Olive oil",
+      "Sunflower oil",
+      "Wheat germ",
+      "Almonds",
+      "Hazelnuts",
+      "Sunflower seeds",
+      "Spinach",
+      "Broccoli",
+      "Kiwi"
+    ],
+    "description": "The most biologically active form of Vitamin E. Main dietary source in European diet (from olive and sunflower oils). The natural form (d-alpha) is more bioavailable than synthetic (dl-alpha)."
+  },
+  "manufacturing": {
+    "method": "extraction from vegetable oils or chemical synthesis",
+    "description": "Natural d-alpha-tocopherol extracted from vegetable oil deodorizer distillate, particularly from sunflower and wheat germ oils. Synthetic dl-alpha-tocopherol produced through chemical synthesis from petrochemical precursors."
+  },
+  "other_uses": {
+    "cosmetics": "Anti-aging creams, skin protection",
+    "industrial": null,
+    "pharmaceutical": "Vitamin E supplements (most common form), antioxidant in drug formulations",
+    "household": "Vitamin E supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E307",
+      "max_level_mg_kg": "quantum satis (most categories)",
+      "conditions": "Evaluated together with E306, E308, E309",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3890",
+      "fda_url": null,
+      "notes": "Approved as antioxidant and nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "α-トコフェロール",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "307",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0.15–2 mg/kg bw/day",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=alpha-tocopherol+vitamin+E+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=alpha-tocopherol+E307",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3890",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=307"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA concludes no safety concerns given widespread consumption as essential nutrient"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7",
+      "category_name": "Dairy-based desserts",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat spreads",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Fortified breakfast cereals",
+    "Vitamin supplements (often labeled 'Vitamin E')",
+    "Vegetable oils",
+    "Margarine and spreads",
+    "Infant formula",
+    "Baked goods",
+    "Nuts and nut products",
+    "Functional foods and beverages"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "EFSA concluded no safety concern at reported uses and levels. Alpha-tocopherol is the most bioactive form of vitamin E, an essential nutrient."
+  },
+  "fun_facts": [
+    {
+      "title": "Vitamin E Champion",
+      "description": "The most biologically active form of all eight vitamin E variants - your body preferentially retains and uses alpha-tocopherol over other forms."
+    },
+    {
+      "title": "Natural vs. Synthetic Mystery",
+      "description": "Natural d-alpha-tocopherol (from plants) is about 50% more bioactive than synthetic dl-alpha-tocopherol (from chemistry), even though they're nearly identical molecules!"
+    },
+    {
+      "title": "Brain Protector",
+      "description": "Alpha-tocopherol is the predominant form of vitamin E in the brain and nervous system, protecting these critical fatty tissues from oxidative damage."
+    },
+    {
+      "title": "Sunflower Superstar",
+      "description": "Sunflower oil is richest in alpha-tocopherol, making it a prime source for both dietary vitamin E and commercial extraction."
+    },
+    {
+      "title": "European Essential",
+      "description": "Main vitamin E source in European diets through olive and sunflower oils, making E307 both a traditional dietary component and a food additive."
+    }
+  ]
+}

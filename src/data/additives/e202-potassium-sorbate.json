@@ -1,0 +1,175 @@
+{
+  "slug": "e202-potassium-sorbate",
+  "names": {
+    "e_number": "E202",
+    "ins_number": "202",
+    "cas_number": "24634-61-5",
+    "common_name": "Potassium Sorbate",
+    "scientific_name": "Potassium (2E,4E)-hexa-2,4-dienoate",
+    "japanese_name": "ソルビン酸カリウム",
+    "japanese_label_name": "ソルビン酸K",
+    "aliases": [
+      "Potassium 2,4-hexadienoate"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic acid salt",
+    "source_type": "synthetic",
+    "chemical_group": "sorbate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Rowan berries (Sorbus aucuparia)",
+      "Sea buckthorn berries"
+    ],
+    "description": "The potassium salt of sorbic acid. Named after rowan berries (Sorbus aucuparia) from which sorbic acid was first isolated in 1859. While natural sorbic acid exists in rowan berries at about 0.1%, virtually all commercial potassium sorbate is produced synthetically. Most widely used food preservative globally."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing synthetically manufactured sorbic acid with potassium hydroxide or potassium carbonate. Sorbic acid is synthesized through condensation of crotonaldehyde with ketene. Potassium salt is preferred over sodium salt due to better solubility and lack of genotoxic concerns."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used as a preservative in cosmetics and personal care products",
+    "industrial": null,
+    "pharmaceutical": "Used in oral medications and topical preparations",
+    "household": "Wine-making, beer brewing, home canning"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E202",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Maximum levels typically 200-2000 mg/kg depending on food type",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.3640",
+      "fda_url": null,
+      "notes": "Recognized as Generally Recognized as Safe when used appropriately"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ソルビン酸カリウム",
+      "notes": "Most widely used preservative in Japan; often preferred over sorbic acid due to better water solubility"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "202",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–25 mg/kg bw/day (group ADI for sorbic acid and sorbates, expressed as sorbic acid)",
+    "jecfa_evaluation_year": 2023,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2724",
+    "efsa_adi": "25 mg/kg bw/day (group ADI for sorbic acid and sorbates)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+sorbate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+sorbate+E202+preservative",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2015.4144",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/2724",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3640",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=202"
+  },
+  "regulatory_history": [
+    {
+      "year": 1859,
+      "event": "Sorbic acid first isolated from rowan berries by A.W. von Hofmann"
+    },
+    {
+      "year": 1930,
+      "event": "Antimicrobial properties of sorbic acid discovered"
+    },
+    {
+      "year": 1974,
+      "event": "JECFA establishes group ADI of 25 mg/kg bw/day for sorbic acid and sorbates"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA comprehensive re-evaluation confirms safety; maintains group ADI"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "300"
+    },
+    {
+      "category_code": "01.7.2",
+      "category_name": "Cheese",
+      "max_level_mg_kg": "1000"
+    },
+    {
+      "category_code": "04.2.5.3",
+      "category_name": "Semi-preserved fish products",
+      "max_level_mg_kg": "2000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cheese and dairy products",
+    "Wine and cider (Campden tablets)",
+    "Dried fruits and vegetables",
+    "Baked goods and bread",
+    "Soft drinks and fruit juices",
+    "Yogurt",
+    "Pickles and olives",
+    "Processed meats"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 25,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 1500,
+    "equivalents": [
+      {
+        "product": "servings of cheese (30g at 1000mg/kg)",
+        "typical_content_mg": 30,
+        "quantity": "~50"
+      },
+      {
+        "product": "glasses of wine (150ml treated with Campden tablets)",
+        "typical_content_mg": 20,
+        "quantity": "~75"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA group ADI for sorbic acid and sorbates. Potassium sorbate is considered one of the safest and most effective food preservatives available."
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "slug": "e153-vegetable-carbon",
+  "names": {
+    "e_number": "E153",
+    "ins_number": "153",
+    "cas_number": "1333-86-4",
+    "common_name": "Vegetable Carbon",
+    "scientific_name": "Carbon black (vegetable origin)",
+    "japanese_name": "植物炭末色素",
+    "japanese_label_name": "植物炭末色素",
+    "aliases": [
+      "Carbon black",
+      "Vegetable carbon black",
+      "Charcoal powder",
+      "CI 77266",
+      "Pigment Black 6"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "natural",
+    "source_type": "plant carbonization",
+    "chemical_group": "elemental carbon"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [
+      "Wood",
+      "Coconut shells",
+      "Bamboo",
+      "Nutshells",
+      "Peat",
+      "Cellulose residues"
+    ],
+    "description": "While the raw materials are natural plant materials, vegetable carbon is produced through high-temperature carbonization processes. The product is essentially pure carbon derived from incomplete combustion of vegetable matter."
+  },
+  "manufacturing": {
+    "method": "high-temperature carbonization",
+    "description": "Produced by carbonization of vegetable materials (wood, coconut shells, bamboo, peat, or other plant residues) at high temperatures in a limited supply of air, followed by steam activation. The process involves controlled incomplete combustion that converts organic plant matter into finely divided elemental carbon particles. This is literally burnt plant material processed into a stable black pigment."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetics and personal care products for black coloring",
+    "industrial": "Used in inks, paints, and industrial applications",
+    "pharmaceutical": "Used as a colorant in pharmaceutical preparations and activated charcoal products",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E153",
+      "max_level_mg_kg": "quantum satis (in permitted categories)",
+      "conditions": "Must meet strict purity standards; carcinogenic PAHs must be <1.0 µg/kg (as benzo[a]pyrene)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2012",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2592"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "FDA does not approve E153 for use in food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "植物炭末色素",
+      "notes": "Classified as existing food additive under Japanese regulations"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "153",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as Carbon blacks or Vegetable carbon"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Canadian review 2011",
+      "health_canada_url": null,
+      "notes": "Canadian Government concluded in 2011 that carbon black could continue to be used in food packaging and consumer products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1987,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": 2012,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2592"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=vegetable+carbon+E153+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=vegetable+carbon+food+colorant+safety",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/2592",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=153"
+  },
+  "regulatory_history": [
+    {
+      "year": 1987,
+      "event": "JECFA evaluates vegetable carbon but does not establish ADI"
+    },
+    {
+      "year": 2011,
+      "event": "Canada reviews carbon black and concludes it can continue to be used in consumer products"
+    },
+    {
+      "year": 2012,
+      "event": "EFSA re-evaluates E153; Panel considers data too limited to establish ADI but concludes not of safety concern when PAH levels <1.0 µg/kg"
+    },
+    {
+      "year": 2026,
+      "event": "EFSA publishes scientific opinion on amendment of specifications for vegetable carbon"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.6",
+      "category_name": "Cheese rind/coatings",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2012",
+      "JECFA Evaluations Database",
+      "Japanese MHLW Existing Additives List"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cheese coatings and rinds",
+    "Black confectionery and candies",
+    "Decorative food elements",
+    "Black caviar substitute",
+    "Bakery products and desserts",
+    "Ice cream (black/activated charcoal flavor)",
+    "Some cosmetic and pharmaceutical products"
+  ]
+}

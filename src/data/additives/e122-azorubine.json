@@ -1,0 +1,181 @@
+{
+  "slug": "e122-azorubine",
+  "names": {
+    "e_number": "E122",
+    "ins_number": "122",
+    "cas_number": "3567-69-9",
+    "common_name": "Azorubine",
+    "scientific_name": "Disodium 4-hydroxy-3-[(4-sulfonato-1-naphthyl)azo]-1-naphthalenesulfonate",
+    "japanese_name": "アゾルビン",
+    "japanese_label_name": "食用赤色102号",
+    "aliases": [
+      "Carmoisine",
+      "Food Red 3",
+      "Acid Red 14",
+      "C.I. 14720"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "azo dye"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic azo dye derived from coal tar and petroleum-based aromatic compounds. Not known to occur naturally. Produces red to burgundy colours approximately 100 times more intense than natural beetroot extract."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis (diazotization and azo coupling)",
+    "description": "Synthesized through diazotization of naphthalene-4-sulfonic acid, followed by azo coupling with 1-naphthol-4-sulfonic acid. The resulting azo compound is converted to the disodium salt form, purified, and standardized to food-grade specifications."
+  },
+  "other_uses": {
+    "cosmetics": "Used in EU-approved cosmetics (lipsticks, eyeshadows) but restricted in some jurisdictions",
+    "industrial": "Historically used as textile dye before food applications",
+    "pharmaceutical": "Pharmaceutical tablet coatings and capsules",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E122",
+      "max_level_mg_kg": "varies by food category (100 mg/kg in beverages, 200 mg/kg in confectionery)",
+      "conditions": "Must carry warning: 'May have an adverse effect on activity and attention in children' (since 2010)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1332"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Unapproved colour additive",
+      "cfr_reference": "Not listed",
+      "fda_url": null,
+      "notes": "Never authorized for use in foods, drugs, or cosmetics. Import of products containing E122 prohibited."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "食用赤色102号",
+      "notes": "Approved as synthetic colour with purity specifications and maximum use levels"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "122",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Must be declared on labels"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "List of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in specific food categories with maximum use levels"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–4 mg/kg bw/day",
+    "jecfa_evaluation_year": 1983,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "4 mg/kg bw/day",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1332"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=azorubine+E122+hyperactivity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=azorubine+carmoisine+Southampton+study",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1332",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=122"
+  },
+  "regulatory_history": [
+    {
+      "year": 1962,
+      "event": "Approved for use in UK and European countries as coal tar dye"
+    },
+    {
+      "year": 1983,
+      "event": "JECFA established ADI of 0-4 mg/kg body weight per day"
+    },
+    {
+      "year": 2007,
+      "event": "Southampton Study published linking E122 and five other colours (the 'Southampton Six') to hyperactivity in children"
+    },
+    {
+      "year": 2009,
+      "event": "EFSA re-evaluated E122, maintained ADI but acknowledged behavioural concerns in sensitive children"
+    },
+    {
+      "year": 2010,
+      "event": "EU mandated warning label: 'May have an adverse effect on activity and attention in children'"
+    },
+    {
+      "year": 2015,
+      "event": "Major UK retailers (M&S, Waitrose) voluntarily removed Southampton Six colours including E122, triggering industry-wide reformulation"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "100"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2009",
+      "JECFA Evaluations Database",
+      "McCann et al. (2007) Southampton Study, The Lancet",
+      "FDA Color Additive Status List",
+      "Japan MHLW Food Additives Standards"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Strawberry and raspberry flavoured desserts (blancmange, mousses)",
+    "Fruit-flavoured soft drinks and cordials",
+    "Red and pink jams, jellies, and preserves",
+    "Marzipan and almond paste",
+    "Instant dessert mixes (Angel Delight-style products)",
+    "Cake decorations, icing, and fondant",
+    "Swiss rolls and sponge cakes",
+    "Packet soup mixes (tomato, oxtail)",
+    "Breadcrumbs and coating mixes for processed meats"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 4,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 240,
+    "equivalents": [
+      {
+        "product": "litres of soft drink (at 100mg/kg max level)",
+        "typical_content_mg": 100,
+        "quantity": "~2.4"
+      },
+      {
+        "product": "servings of jelly dessert (100g at 150mg/kg)",
+        "typical_content_mg": 15,
+        "quantity": "~16"
+      }
+    ],
+    "source_note": "Based on EFSA ADI (2009) and maximum permitted levels in EU Regulation 1333/2008. Actual usage levels are typically lower than maximum permitted levels."
+  }
+}

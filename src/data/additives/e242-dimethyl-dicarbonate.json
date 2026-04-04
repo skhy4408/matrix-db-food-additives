@@ -1,0 +1,167 @@
+{
+  "slug": "e242-dimethyl-dicarbonate",
+  "names": {
+    "e_number": "E242",
+    "ins_number": "242",
+    "cas_number": "4525-33-1",
+    "common_name": "Dimethyl Dicarbonate",
+    "scientific_name": "Dimethyl dicarbonate",
+    "japanese_name": "ジメチルジカルボネート",
+    "japanese_label_name": "DMDC",
+    "aliases": [
+      "DMDC",
+      "Velcorin"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative (cold sterilant)",
+    "sub_class": "organic carbonate",
+    "source_type": "synthetic",
+    "chemical_group": "dicarbonate ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Breaks down within SECONDS into CO2 and trace methanol (both already in beverages naturally). Known as 'cold sterilization' - kills microbes without heating. Leaves virtually NO residue in final product (self-eliminating). Brand name 'Velcorin' is well-known in beverage industry. Allows preservation of beverages without heat treatment (preserves flavor). The methanol produced is less than what's naturally in fruit juices. Must be added with precise dosing equipment due to rapid reaction."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by reacting dimethyl carbonate with phosgene or by other carbonate coupling reactions."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E242",
+      "max_level_mg_kg": "250 mg/L (beverages only)",
+      "conditions": "RESTRICTED to beverages only; must hydrolyze before consumption",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4319"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS for beverages",
+      "cfr_reference": "21 CFR 172.133",
+      "fda_url": null,
+      "notes": "Approved for use in wine, juice-based beverages, and ready-to-drink tea"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジメチルジカルボネート",
+      "notes": "Approved as designated food additive for beverages"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "242",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved with restrictions for beverage applications"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Approved for beverages with maximum use levels"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "NOT SPECIFIED (rapidly hydrolyzes to CO2 and methanol at safe levels)",
+    "jecfa_evaluation_year": 2005,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "NOT SPECIFIED (self-eliminating)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4319"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=dimethyl+dicarbonate+E242+DMDC+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=DMDC+Velcorin+cold+sterilization+beverages",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4319",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.133",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=242"
+  },
+  "regulatory_history": [
+    {
+      "year": 1988,
+      "event": "DMDC (Velcorin) first approved for use in wine in the USA"
+    },
+    {
+      "year": 2005,
+      "event": "JECFA evaluates DMDC; notes rapid hydrolysis eliminates residue concerns"
+    },
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluates DMDC; confirms safety for beverage applications"
+    },
+    {
+      "year": 2020,
+      "event": "Expanded approval for ready-to-drink tea and sports drinks in multiple countries"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.2.3",
+      "category_name": "Wine and wine-like beverages",
+      "max_level_mg_kg": "250"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "250"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database 2005",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine (still and sparkling)",
+    "Ready-to-drink iced tea",
+    "Sports drinks and isotonic beverages",
+    "Fruit juice-based drinks",
+    "Flavored water",
+    "Non-alcoholic wine",
+    "Low-alcohol beverages"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [
+      {
+        "product": "bottles of wine (750ml)",
+        "typical_content_mg": 0,
+        "quantity": "unlimited (DMDC disappears within seconds)"
+      },
+      {
+        "product": "bottles of iced tea (500ml)",
+        "typical_content_mg": 0,
+        "quantity": "unlimited (self-eliminating)"
+      }
+    ],
+    "source_note": "UNIQUE among preservatives: DMDC breaks down within SECONDS into CO2 and trace methanol (both naturally present in beverages). NO residue remains in final product. Considered low-risk because it doesn't persist. The methanol produced is less than naturally occurring levels in fruit juice."
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "slug": "e170-calcium-carbonate",
+  "names": {
+    "e_number": "E170",
+    "ins_number": "170",
+    "cas_number": "471-34-1",
+    "common_name": "Calcium Carbonate",
+    "scientific_name": "Calcium carbonate",
+    "japanese_name": "炭酸カルシウム",
+    "japanese_label_name": "炭酸Ca",
+    "aliases": [
+      "Chalk",
+      "Limestone",
+      "Calcite",
+      "Aragonite",
+      "CI 77220"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour, acidity regulator, anticaking agent",
+    "sub_class": "inorganic",
+    "source_type": "mineral",
+    "chemical_group": "metal carbonate"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Limestone rocks",
+      "Marble",
+      "Chalk deposits",
+      "Shells of marine organisms",
+      "Eggshells",
+      "Coral reefs"
+    ],
+    "description": "One of the most abundant minerals on Earth, naturally occurring in sedimentary rocks, shells, and skeletal remains of marine organisms."
+  },
+  "manufacturing": {
+    "method": "mining and processing",
+    "description": "Extracted from natural limestone or marble deposits through quarrying, followed by grinding and purification. Can also be produced synthetically through precipitation from calcium hydroxide and carbon dioxide."
+  },
+  "other_uses": {
+    "cosmetics": "Used as a bulking agent, opacifier, and abrasive in toothpaste and cosmetics.",
+    "industrial": "Used in construction materials (cement, lime), paper manufacturing, and as a filler in plastics and paints.",
+    "pharmaceutical": "Widely used as an antacid, calcium supplement, and tablet excipient.",
+    "household": "Used in cleaning products, antacids, and as a calcium supplement."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E170",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in multiple food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4105"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 184.1191",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1191",
+      "notes": "Widely used as a color additive, nutrient supplement, and anticaking agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "炭酸カルシウム",
+      "notes": "Also approved as a nutritional fortification agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "170",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for general use"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": null,
+      "notes": "Permitted as a colour and anticaking agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered safe at current use levels)",
+    "jecfa_evaluation_year": 2011,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concerns at current use levels)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4105"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+carbonate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+carbonate+E170+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4105",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1191",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=170"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1191",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Flour and bread (fortification)",
+    "Chewing gum",
+    "Antacid tablets",
+    "Calcium-fortified orange juice",
+    "Baking powder",
+    "Breakfast cereals",
+    "Flour improvers",
+    "Confectionery"
+  ]
+}

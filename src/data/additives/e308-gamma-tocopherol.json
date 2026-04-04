@@ -1,0 +1,175 @@
+{
+  "slug": "e308-gamma-tocopherol",
+  "names": {
+    "e_number": "E308",
+    "ins_number": "308",
+    "cas_number": "7616-22-0",
+    "common_name": "Gamma-Tocopherol",
+    "scientific_name": "7,8-Dimethyltocol",
+    "japanese_name": "γ-トコフェロール",
+    "japanese_label_name": "ビタミンE (γ型)",
+    "aliases": [
+      "γ-Tocopherol",
+      "7,8-Dimethyltocol",
+      "DL-γ-Tocopherol"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin",
+    "source_type": "natural",
+    "chemical_group": "phenolic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Soybean oil",
+      "Corn oil",
+      "Walnuts",
+      "Pecans",
+      "Sesame seeds",
+      "Pumpkin seeds"
+    ],
+    "description": "A form of vitamin E particularly abundant in American diet due to high consumption of soybean and corn oils. Has unique antioxidant properties complementary to alpha-tocopherol."
+  },
+  "manufacturing": {
+    "method": "extraction from vegetable oils",
+    "description": "Extracted primarily from soybean and corn oil deodorizer distillates. Gamma-tocopherol is the predominant tocopherol in these oil sources, making extraction economically efficient. Molecular formula: C28H48O2, Molecular weight: 416.7."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant in skincare",
+    "industrial": null,
+    "pharmaceutical": "Vitamin E supplements (often in mixed tocopherol formulations)",
+    "household": "Vitamin supplement"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E308",
+      "max_level_mg_kg": "quantum satis (most categories)",
+      "conditions": "Evaluated together with E306, E307, E309",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3890",
+      "fda_url": null,
+      "notes": "Approved as antioxidant and nutrient supplement"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "γ-トコフェロール",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "308",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antioxidants",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0.15–2 mg/kg bw/day",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=gamma-tocopherol+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=gamma-tocopherol+E308",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4247",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3890",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=308"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA concludes no safety concern at reported uses and levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7",
+      "category_name": "Dairy-based desserts",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "02.2.2",
+      "category_name": "Fat spreads",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soybean oil and soy-based products",
+    "Corn oil products",
+    "Mixed vegetable oils",
+    "Margarine and spreads",
+    "Salad dressings",
+    "Baked goods",
+    "Snack foods",
+    "Fortified cereals"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "EFSA concluded no safety concern at reported uses and levels. Included in group ADI with other tocopherols. Essential nutrient form of vitamin E."
+  },
+  "fun_facts": [
+    {
+      "title": "American Vitamin E",
+      "description": "The most common form of vitamin E in the American diet due to widespread use of soybean and corn oils - Americans consume more gamma than alpha tocopherol!"
+    },
+    {
+      "title": "Nitrogen Specialist",
+      "description": "Uniquely effective at trapping reactive nitrogen species (like peroxynitrite), not just oxygen radicals - offers protection that alpha-tocopherol can't provide."
+    },
+    {
+      "title": "Soybean Treasure",
+      "description": "Soybean oil is naturally high in gamma-tocopherol, and the deodorizer distillate from soy processing is a major commercial source."
+    },
+    {
+      "title": "Inflammation Fighter",
+      "description": "Research suggests gamma-tocopherol may have superior anti-inflammatory properties compared to alpha-tocopherol, with unique benefits for cardiovascular health."
+    },
+    {
+      "title": "Different Antioxidant Strategy",
+      "description": "While alpha-tocopherol is better at integrating into cell membranes, gamma-tocopherol excels at scavenging specific types of free radicals, making them complementary partners."
+    }
+  ]
+}

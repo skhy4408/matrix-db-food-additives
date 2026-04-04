@@ -1,0 +1,158 @@
+{
+  "slug": "e239-hexamethylenetetramine",
+  "names": {
+    "e_number": "E239",
+    "ins_number": "239",
+    "cas_number": "100-97-0",
+    "common_name": "Hexamethylenetetramine",
+    "scientific_name": "Hexamethylenetetramine",
+    "japanese_name": "ヘキサメチレンテトラミン",
+    "japanese_label_name": "ヘキサミン",
+    "aliases": [
+      "Hexamine",
+      "Urotropin"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative",
+    "sub_class": "organic compound",
+    "source_type": "synthetic",
+    "chemical_group": "cyclic tertiary amine"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "BANNED in EU and USA but still used in some countries. Breaks down into formaldehyde in acidic conditions - major safety concern. Also used as fuel tablets for camping stoves (same chemical!). Historical use dates back to early 1900s. One of the most controversial preservatives still in use anywhere. The formaldehyde formed is the reason for the ban in most countries. Example of a preservative being phased out globally."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Synthesized by reacting formaldehyde with ammonia under controlled conditions."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": "Used in production of resins, rubber additives, and explosives",
+    "pharmaceutical": "Historical use as urinary antiseptic (rarely used now)",
+    "household": "Fuel tablets for camping stoves (hexamine stove fuel)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": null,
+      "max_level_mg_kg": null,
+      "conditions": "Removed from approved list for food use due to formaldehyde formation",
+      "legal_reference": "Not listed in Regulation (EC) No 1333/2008",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved by FDA for food use",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Not approved due to formaldehyde decomposition concerns"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ヘキサメチレンテトラミン",
+      "notes": "Approved with restrictions for specific foods only (特定の食品のみ)"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "235 (limited)",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for provolone cheese only (traditional use grandfathered in)"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Food and Drug Regulations",
+      "health_canada_url": null,
+      "notes": "Restricted use; limited to specific traditional applications"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "NOT ESTABLISHED (withdrawn from evaluation)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "NOT ESTABLISHED",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=hexamethylenetetramine+E239+formaldehyde+toxicity",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=hexamine+urotropin+food+preservative+formaldehyde",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": null
+  },
+  "regulatory_history": [
+    {
+      "year": "early 1900s",
+      "event": "Hexamine first used as food preservative in traditional cheese production"
+    },
+    {
+      "year": 1970,
+      "event": "Research identifies formaldehyde formation from hexamine in acidic conditions"
+    },
+    {
+      "year": 1990,
+      "event": "EU begins phasing out hexamine from food approvals due to carcinogen concerns"
+    },
+    {
+      "year": 2000,
+      "event": "EU removes hexamine from approved food additives list"
+    },
+    {
+      "year": "ongoing",
+      "event": "Remains banned in most developed countries; some traditional uses grandfathered in limited regions"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": null,
+      "category_name": "BANNED - not approved for any food category",
+      "max_level_mg_kg": null
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008 (not listed)",
+      "FSANZ (Australia/NZ) Schedule 16",
+      "Scientific literature on hexamine decomposition",
+      "Historical regulatory records"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "partial",
+      "australia_nz": "complete",
+      "canada": "partial"
+    }
+  },
+  "commonly_found_in": [
+    "Provolone cheese (traditional, limited regions only)",
+    "Caviar (in some countries where still legal)",
+    "Marinated herring (limited regions)",
+    "BANNED in most food applications globally"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [
+      {
+        "product": "NO SAFE DAILY INTAKE ESTABLISHED",
+        "typical_content_mg": null,
+        "quantity": "AVOID - banned in EU/USA"
+      }
+    ],
+    "source_note": "CRITICAL WARNING: Decomposes into formaldehyde (a known carcinogen) in acidic conditions. No established ADI due to safety concerns. Banned in EU and USA. Still used in some traditional cheese production where grandfathered in. One of the most controversial preservatives."
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "e336-potassium-tartrates",
+  "names": {
+    "e_number": "E336",
+    "ins_number": "336",
+    "cas_number": "868-14-4 (i), 921-53-9 (ii)",
+    "common_name": "Potassium Tartrates (Cream of Tartar)",
+    "scientific_name": "Monopotassium tartrate (E336i), Dipotassium tartrate (E336ii)",
+    "japanese_name": "酒石酸カリウム",
+    "japanese_label_name": "酒石酸K",
+    "aliases": [
+      "Cream of tartar (E336i)",
+      "Potassium bitartrate (E336i)",
+      "Potassium hydrogen tartrate (E336i)",
+      "Argol (crude form)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "buffering agent, raising agent, stabilizer",
+    "source_type": "natural (from wine production)",
+    "chemical_group": "organic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "wine barrels (crystallizes during fermentation)",
+      "grape juice (naturally present)",
+      "tamarind"
+    ],
+    "description": "Monopotassium tartrate (cream of tartar) occurs naturally in grapes and crystallizes on the inside of wine barrels during fermentation. These crystals, called argol, are collected and purified to produce commercial cream of tartar."
+  },
+  "manufacturing": {
+    "method": "extraction from wine industry byproducts",
+    "description": "Monopotassium tartrate (E336i, cream of tartar) is produced by collecting argol (crude potassium bitartrate crystals) from wine casks, then purifying through recrystallization. Dipotassium tartrate (E336ii) is produced by neutralizing tartaric acid with potassium carbonate or potassium hydroxide. The wine industry produces thousands of tonnes of cream of tartar annually as a byproduct."
+  },
+  "other_uses": {
+    "cosmetics": "Buffering agent in personal care products.",
+    "industrial": "Electroplating, silvering mirrors, leather tanning.",
+    "pharmaceutical": "Laxative, diuretic (historical use), buffering agent.",
+    "household": "Cleaning agent (removes stains from cookware), play dough ingredient, stabilizer in whipped egg whites."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E336(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1804",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1804",
+      "notes": "Widely used as cream of tartar in baking"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": "114",
+      "japanese_regulation_name": "酒石酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "336",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cream+of+tartar+potassium+tartrate",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+tartrate+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1804",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=336"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1804",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baking powder (key ingredient with baking soda)",
+    "Meringues and angel food cake (stabilizes egg whites)",
+    "Cookies and cakes",
+    "Candies and frostings",
+    "Snickerdoodle cookies (gives tangy flavor)",
+    "Wine (naturally present)",
+    "Cream puffs and choux pastry",
+    "Sugar syrups (prevents crystallization)"
+  ],
+  "fun_facts": [
+    "Cream of tartar is the white crystalline deposit found on wine barrel walls after fermentation",
+    "Essential ingredient in baking powder - reacts with baking soda to produce carbon dioxide for leavening",
+    "Stabilizes whipped egg whites and prevents sugar syrups from crystallizing",
+    "The 'cream' in cream of tartar comes from its creamy white color when purified, not from dairy",
+    "Used by bakers since the 18th century after being discovered in wine casks"
+  ]
+}

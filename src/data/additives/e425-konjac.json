@@ -1,0 +1,147 @@
+{
+  "slug": "e425-konjac",
+  "names": {
+    "e_number": "E425",
+    "ins_number": "425",
+    "cas_number": "37220-17-0",
+    "common_name": "Konjac",
+    "scientific_name": "Amorphophallus konjac glucomannan",
+    "japanese_name": "コンニャク",
+    "japanese_label_name": "コンニャク",
+    "aliases": [
+      "Konjac gum",
+      "Konjac glucomannan",
+      "Glucomannan",
+      "Konjac flour",
+      "Devil's tongue",
+      "Voodoo lily",
+      "Konnyaku"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "konjac plant corm (Amorphophallus konjac)"
+    ],
+    "description": "A water-soluble dietary fiber extracted from the corm (bulb) of the konjac plant, native to Southeast Asia. Traditional Japanese food for over 1,000 years, known as konnyaku."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Konjac corms are harvested, washed, dried, and ground into flour. Glucomannan is extracted and purified from the flour. The gel form requires treatment with alkali (calcium hydroxide) to form a stable gel structure."
+  },
+  "other_uses": {
+    "cosmetics": "Used in facial cleansing sponges (konjac sponges) and as a thickener in skincare products.",
+    "industrial": null,
+    "pharmaceutical": "Sold as a dietary fiber supplement for weight loss, cholesterol reduction, and blood sugar management.",
+    "household": "Traditional Japanese New Year food (osechi ryori)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E425",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved with restrictions. Mini-cup jelly containing konjac is banned due to choking hazard.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II; Commission Decision 2004/374/EC (konjac ban in mini-cups)",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (as dietary fiber)",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "FDA issued warnings about konjac candy/gel confections due to choking hazard. Import alerts in place for mini-cup jelly products."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "コンニャク",
+      "notes": "Traditional food with centuries of use. Warnings issued about choking hazards, especially for children and elderly."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "425",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Konjac mini-cup jellies banned due to choking risk"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Health Canada has issued warnings about konjac candy choking hazards"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=konjac+glucomannan+health",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=konjac+E425+dietary+fiber",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=425"
+  },
+  "regulatory_history": [
+    {
+      "year": 2002,
+      "event": "FDA issues import alert and consumer warning about konjac candy choking hazards after multiple deaths"
+    },
+    {
+      "year": 2004,
+      "event": "EU bans konjac in mini-cup jelly confections (Commission Decision 2004/374/EC)"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.7.6",
+      "category_name": "Food supplements",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.5",
+      "category_name": "Noodles",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA import alerts",
+      "JECFA evaluations",
+      "Commission Decision 2004/374/EC"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Shirataki noodles (zero-calorie noodles)",
+    "Konnyaku jelly (Japanese traditional food)",
+    "Vegan jelly and gummy candies",
+    "Weight-loss supplements",
+    "Low-calorie rice substitute",
+    "Asian desserts"
+  ]
+}

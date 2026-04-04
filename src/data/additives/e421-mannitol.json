@@ -1,0 +1,137 @@
+{
+  "slug": "e421-mannitol",
+  "names": {
+    "e_number": "E421",
+    "ins_number": "421",
+    "cas_number": "69-65-8",
+    "common_name": "Mannitol",
+    "scientific_name": "D-Mannitol",
+    "japanese_name": "マンニトール",
+    "japanese_label_name": "マンニトール",
+    "aliases": [
+      "Manna sugar",
+      "Mannite",
+      "D-Mannitol"
+    ]
+  },
+  "classification": {
+    "functional_class": "sweetener",
+    "sub_class": "polyol",
+    "source_type": "natural/synthetic",
+    "chemical_group": "sugar alcohol"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "mushrooms",
+      "seaweed",
+      "celery",
+      "olives",
+      "manna ash tree"
+    ],
+    "description": "A sugar alcohol found naturally in many plants and fungi, especially abundant in mushrooms and brown seaweed. Historically extracted from the manna ash tree, which secretes sweet sap called 'manna'."
+  },
+  "manufacturing": {
+    "method": "hydrogenation",
+    "description": "Commercially produced by catalytic hydrogenation of fructose or mannose. Can also be extracted from seaweed, but synthetic production from fructose is more common and economical."
+  },
+  "other_uses": {
+    "cosmetics": "Used in skincare products as a humectant and texture enhancer.",
+    "industrial": null,
+    "pharmaceutical": "Widely used as an osmotic diuretic drug for reducing brain swelling and intracranial pressure. Also used in kidney function tests and as a coating for tablets.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E421",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1446",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "マンニトール",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "421",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Sweeteners",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=mannitol+E421",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=mannitol+sweetener+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1446",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=421"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery including breath refreshing microsweets",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chewing gum",
+    "Sugar-free candies and chocolate",
+    "Breath mints",
+    "Dietetic foods",
+    "Pharmaceutical tablets (coating)",
+    "Sugar-free desserts"
+  ]
+}

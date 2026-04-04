@@ -1,0 +1,160 @@
+{
+  "slug": "e155-brown-ht",
+  "names": {
+    "e_number": "E155",
+    "ins_number": "155",
+    "cas_number": "4553-89-3",
+    "common_name": "Brown HT",
+    "scientific_name": "Disodium 4,4'-(2,4-dihydroxy-5-hydroxymethyl-1,3-phenylene-bisazo)di-1-naphthalene-sulfonate",
+    "japanese_name": "ブラウンHT",
+    "japanese_label_name": "カカオ色素",
+    "aliases": [
+      "Chocolate Brown HT",
+      "Food Brown 3",
+      "CI 20285"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "azo dye",
+    "chemical_group": "bis-azo compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic brown coal tar diazo dye not found in nature, used to substitute cocoa or caramel as a brown colorant."
+  },
+  "manufacturing": {
+    "method": "azo coupling synthesis",
+    "description": "Synthesized through chemical azo coupling reactions. As a bis-azo dye, it contains two azo bonds (N=N functional groups) created through diazotization and coupling processes. The resulting disodium salt provides a brown color and occurs as a brown powder or granules, used primarily to mimic chocolate or cocoa coloring without using actual cocoa."
+  },
+  "other_uses": {
+    "cosmetics": "May be used in cosmetics in regions where approved",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E155",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Permitted in specific food categories with maximum levels",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1536"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not approved",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Never authorized for use in food, drugs or cosmetics due to safety concerns including potential allergic reactions and hyperactivity in children"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Prohibited in Japan"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Not permitted in Australia or New Zealand"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Not permitted in Canada"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–1.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 1984,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "1.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1536"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Brown+HT+E155",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E155+Brown+HT+food+dye+safety",
+    "controversy_level": "high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1536",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=155"
+  },
+  "regulatory_history": [
+    {
+      "year": 1984,
+      "event": "JECFA establishes ADI of 0-1.5 mg/kg bw/day (28th meeting)"
+    },
+    {
+      "year": 2010,
+      "event": "EFSA re-evaluates E155 and confirms ADI of 1.5 mg/kg bw/day"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "varies"
+    },
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA Evaluations Database (28th meeting, 1984)",
+      "EFSA Re-evaluation 2010"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chocolate cakes and brownies",
+    "Chocolate-flavored desserts",
+    "Cookies and biscuits",
+    "Candies and sweets",
+    "Chocolate-flavored beverages and drinks",
+    "Ice cream and frozen desserts",
+    "Yogurt and dairy products",
+    "Breakfast cereals"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 1.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 90,
+    "equivalents": [
+      {
+        "product": "servings of chocolate cake (100g)",
+        "typical_content_mg": 15,
+        "quantity": "~6"
+      },
+      {
+        "product": "servings of brown-colored dessert (150g)",
+        "typical_content_mg": 20,
+        "quantity": "~4-5"
+      }
+    ],
+    "source_note": "Based on EFSA 2010 ADI. Note: E155 is banned in many countries including USA, Japan, Canada, Australia, Austria, Belgium, Denmark, France, Germany, Norway, Sweden, Switzerland, and Russia."
+  }
+}

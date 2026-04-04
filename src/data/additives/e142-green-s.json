@@ -1,0 +1,162 @@
+{
+  "slug": "e142-green-s",
+  "names": {
+    "e_number": "E142",
+    "ins_number": "142",
+    "cas_number": "3087-16-9",
+    "common_name": "Green S",
+    "scientific_name": "Sodium salt of N-[4-[[4-(dimethylamino)phenyl](2-hydroxy-3,6-disulfo-1-naphthalenyl)methylene]-2,5-cyclohexadien-1-ylidene]-N-methylmethanaminium",
+    "japanese_name": "ブリリアントグリーンS",
+    "japanese_label_name": null,
+    "aliases": [
+      "Acid Brilliant Green BS",
+      "Food Green 4",
+      "Lissamine Green",
+      "CI 44090",
+      "Acid Green 50"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "triarylmethane dye"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A completely synthetic triarylmethane dye manufactured from petroleum-derived chemicals through sulfonation of aromatic amine intermediates. Not found in nature. Produces bright green colour in solution. One of the most controversial green food dyes - banned in more countries than it is approved in."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis via sulfonation",
+    "description": "Synthesized through sulfonation of aromatic amine intermediates derived from petroleum-based chemicals. The reaction produces a synthetic triarylmethane dye that appears as dark blue/dark green powder and yields bright green colour when dissolved in water or other solvents."
+  },
+  "other_uses": {
+    "cosmetics": "Limited use in some jurisdictions",
+    "industrial": "Textile dyeing (historical use)",
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E142",
+      "max_level_mg_kg": "100 mg/kg in canned vegetables and confectionery",
+      "conditions": "Limited uses; permitted in specific food categories only",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1851"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Not authorized",
+      "cfr_reference": "Not listed",
+      "fda_url": null,
+      "notes": "Never authorized for use in food, drugs, or cosmetics"
+    },
+    "japan": {
+      "status": "banned",
+      "category": null,
+      "mhlw_list_number": null,
+      "japanese_regulation_name": null,
+      "notes": "Not approved for food use in Japan"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "142",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted in limited food categories"
+    },
+    "canada": {
+      "status": "banned",
+      "reference": "Not permitted",
+      "health_canada_url": null,
+      "notes": "Prohibited in Canadian foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not established (limited evaluation)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "5 mg/kg bw/day",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1851"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=green+S+E142+allergy",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=green+S+acid+brilliant+green+food+dye",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1851",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=142"
+  },
+  "regulatory_history": [
+    {
+      "year": 2010,
+      "event": "EFSA re-evaluation established ADI of 5 mg/kg bw/day but noted inadequate chronic toxicity data and reports of hypersensitivity reactions"
+    },
+    {
+      "year": 2010,
+      "event": "Multiple countries maintain bans: USA, Canada, Japan, Norway, Sweden, Finland all prohibit E142 due to safety concerns and potential mutagenic breakdown products"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.2.3",
+      "category_name": "Vegetables in vinegar, oil, brine, or soybean sauce",
+      "max_level_mg_kg": "100"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "100"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2010",
+      "Various national regulatory agencies",
+      "International food additive bans database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Mint sauce (UK/EU)",
+    "Canned peas (mushy peas in EU/Australia)",
+    "Mint jelly",
+    "Gravy granules",
+    "Green-coloured desserts and ice cream (EU only)",
+    "Confectionery (sweets) in EU",
+    "Cake mixes"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 300,
+    "equivalents": [
+      {
+        "product": "servings of canned peas (100g at 100mg/kg)",
+        "typical_content_mg": 10,
+        "quantity": "~30"
+      },
+      {
+        "product": "tablespoons of mint sauce (15g at 100mg/kg)",
+        "typical_content_mg": 1.5,
+        "quantity": "~200"
+      }
+    ],
+    "source_note": "Based on EFSA ADI of 5 mg/kg bw/day (2010). Safety concerns include: inadequate chronic toxicity data, reports of hypersensitivity reactions (urticaria, asthma), and potential breakdown into aromatic amine metabolites with mutagenic properties. Not recommended for consumption by children. Banned in USA, Canada, Japan, Norway, Sweden, Finland due to these concerns."
+  }
+}

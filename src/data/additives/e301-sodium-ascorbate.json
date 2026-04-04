@@ -1,0 +1,167 @@
+{
+  "slug": "e301-sodium-ascorbate",
+  "names": {
+    "e_number": "E301",
+    "ins_number": "301",
+    "cas_number": "134-03-2",
+    "common_name": "Sodium Ascorbate",
+    "scientific_name": "Sodium L-ascorbate",
+    "japanese_name": "L-アスコルビン酸ナトリウム",
+    "japanese_label_name": "ビタミンCナトリウム",
+    "aliases": [
+      "Sodium vitamin C",
+      "Sodium salt of ascorbic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "vitamin derivative",
+    "source_type": "synthetic",
+    "chemical_group": "organic acid salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetically produced sodium salt of L-ascorbic acid (Vitamin C). The ascorbic acid portion is identical to naturally occurring vitamin C found in citrus fruits, strawberries, kiwi, bell peppers, broccoli, and tomatoes."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by dissolving ascorbic acid in water with addition of sodium bicarbonate. After the reaction is complete and foaming stops, the compound is precipitated with isopropanol, yielding a white or slightly yellowish powder."
+  },
+  "other_uses": {
+    "cosmetics": "Antioxidant and skin-brightening agent",
+    "industrial": "Oxygen scavenger in packaging",
+    "pharmaceutical": "Vitamin C supplement (gentler, less acidic form)",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E301",
+      "max_level_mg_kg": "quantum satis (varies by food category)",
+      "conditions": "Re-evaluated together with E300 and E302 in 2015 EFSA opinion",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 182.3731",
+      "fda_url": null,
+      "notes": "Approved for use in food as antioxidant and nutrient"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-アスコルビン酸ナトリウム",
+      "notes": "Approved as existing food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "301",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Permitted as antioxidant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+ascorbate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+ascorbate+E301",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4373",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.3731",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=301"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "EFSA re-evaluation confirms no health risks at normal intake levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.3",
+      "category_name": "Meat products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cured meats (bacon, ham, pepperoni, sausage, salami, prosciutto)",
+    "Ground meat products",
+    "Cold cuts",
+    "Fruit preserves and jams",
+    "Fruit juices and beverages",
+    "Canned fruits and vegetables",
+    "Frozen foods",
+    "Fortified breakfast cereals"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI necessary - EFSA and JECFA concluded no health risks at normal intake levels. Sodium ascorbate is a form of Vitamin C, an essential nutrient."
+  },
+  "fun_facts": [
+    {
+      "title": "Color Preservation Hero",
+      "description": "In cured meats, sodium ascorbate preserves the appealing purple-red hue by preventing oxidation of myoglobin, keeping products looking fresh longer."
+    },
+    {
+      "title": "Curing Accelerator",
+      "description": "Acts as a curing accelerator that speeds up conversion of nitrite to nitric oxide, ensuring faster and more uniform color development in processed meats."
+    },
+    {
+      "title": "Nitrosamine Fighter",
+      "description": "Significantly reduces formation of nitrosamines (potentially harmful compounds that can form from nitrite under high heat) in cured meats."
+    },
+    {
+      "title": "Dual Function",
+      "description": "Serves both as an antioxidant to prevent rancidity AND as a nutritional fortification agent providing vitamin C."
+    },
+    {
+      "title": "Less Acidic Alternative",
+      "description": "More pH-neutral than pure ascorbic acid, making it gentler on stomach and suitable for people who find regular vitamin C supplements too acidic."
+    }
+  ]
+}

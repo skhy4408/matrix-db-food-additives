@@ -1,0 +1,160 @@
+{
+  "slug": "e902-candelilla-wax",
+  "names": {
+    "e_number": "E902",
+    "ins_number": "902",
+    "cas_number": "8006-44-8",
+    "common_name": "Candelilla wax",
+    "scientific_name": "Euphorbia cerifera wax",
+    "japanese_name": "キャンデリラワックス",
+    "japanese_label_name": "キャンデリラワックス",
+    "aliases": [
+      "Euphorbia wax",
+      "Candelilla",
+      "E. cerifera wax"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating",
+    "source_type": "natural",
+    "chemical_group": "plant wax"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Candelilla plant (Euphorbia cerifera)",
+      "Euphorbia antisyphilitica"
+    ],
+    "description": "A natural plant wax obtained from the leaves and stems of the candelilla shrub native to northern Mexico and southwestern United States. Harder and more brittle than beeswax."
+  },
+  "manufacturing": {
+    "method": "extraction from plant material",
+    "description": "Harvested candelilla plants are boiled in water with sulfuric acid. The wax rises to the surface, is skimmed off, filtered, and refined. The wax coating protects the plant from water loss in arid climates."
+  },
+  "other_uses": {
+    "cosmetics": "Lipstick, lip balm, lotions, vegan cosmetics",
+    "industrial": "Car wax, polish, leather conditioner, varnishes",
+    "pharmaceutical": "Tablet coating, ointment base",
+    "household": "Candles, waterproofing, chewing gum base"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E902",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2007",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1978",
+      "fda_url": null,
+      "notes": "Approved for use in food as glazing agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "キャンデリラワックス",
+      "notes": "Natural additive, existing use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "902",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2007,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=candelilla+wax+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E902+candelilla+wax+glazing",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1978",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=902"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "FDA affirms candelilla wax as GRAS"
+    },
+    {
+      "year": 2007,
+      "event": "EFSA confirms safety as food additive"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1.2",
+      "category_name": "Fresh fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "candelilla-wax"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1978",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum base",
+    "Candy coating (vegan alternative to beeswax)",
+    "Chocolate confectionery",
+    "Fresh fruit coatings",
+    "Vegan cosmetics and food products",
+    "Glazed nuts and snacks",
+    "Hard candies",
+    "Food-grade polish"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - candelilla wax is considered safe at all levels of consumption due to its inert nature and lack of absorption."
+  },
+  "fun_facts": [
+    "Popular vegan alternative to beeswax in both food and cosmetics",
+    "The same wax used in candy is also used in car wax and shoe polish",
+    "Named after the 'little candle' appearance of the candelilla plant",
+    "Harvested in the Chihuahuan Desert of Mexico and Texas",
+    "Harder and more brittle than beeswax, with a higher melting point",
+    "The plant secretes wax to prevent water loss in desert conditions"
+  ]
+}

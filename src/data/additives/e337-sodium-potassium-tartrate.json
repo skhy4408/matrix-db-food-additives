@@ -1,0 +1,139 @@
+{
+  "slug": "e337-sodium-potassium-tartrate",
+  "names": {
+    "e_number": "E337",
+    "ins_number": "337",
+    "cas_number": "6381-59-5",
+    "common_name": "Sodium Potassium Tartrate",
+    "scientific_name": "Potassium sodium 2,3-dihydroxybutanedioate tetrahydrate",
+    "japanese_name": "酒石酸ナトリウムカリウム",
+    "japanese_label_name": "酒石酸NaK",
+    "aliases": [
+      "Rochelle salt",
+      "Seignette salt",
+      "Potassium sodium tartrate tetrahydrate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "buffering agent, sequestrant",
+    "source_type": "synthetic (from tartaric acid)",
+    "chemical_group": "organic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Sodium potassium tartrate (Rochelle salt) does not occur naturally. It is synthesized from tartaric acid, which is naturally found in grapes and wine."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing tartaric acid with a mixture of sodium hydroxide and potassium hydroxide, or by combining sodium tartrate and potassium tartrate solutions. The product crystallizes as the tetrahydrate form. First prepared in 1675 by Pierre Seignette, a French apothecary in La Rochelle (hence the name Rochelle salt)."
+  },
+  "other_uses": {
+    "cosmetics": "Buffering agent in formulations.",
+    "industrial": "Component of Fehling's solution (chemical testing), silvering mirrors, piezoelectric crystals (historical use in early microphones and phonograph pickups).",
+    "pharmaceutical": "Laxative (mild), component in effervescent formulations.",
+    "household": "Ingredient in some cleaning products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E337",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1804",
+      "fda_url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-184/subpart-B/section-184.1804",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": "115",
+      "japanese_regulation_name": "酒石酸ナトリウムカリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "337",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 1973,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=rochelle+salt+sodium+potassium+tartrate",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+potassium+tartrate+food+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5063",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=2066",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1804",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=337"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1804",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Confectionery products",
+    "Processed cheese",
+    "Jams and jellies",
+    "Soft drinks and carbonated beverages",
+    "Baked goods",
+    "Powdered drink mixes",
+    "Gelatin desserts"
+  ],
+  "fun_facts": [
+    "Known as 'Rochelle salt' after the French city La Rochelle where it was first prepared in 1675",
+    "Was the first substance discovered to exhibit piezoelectricity (generates electricity when compressed), leading to its use in early microphones and gramophone pickups",
+    "Named after Pierre Seignette, the pharmacist who first synthesized it, hence also called 'Seignette salt'",
+    "Less commonly used in food than other tartrate salts, but has important historical significance in electronics"
+  ]
+}

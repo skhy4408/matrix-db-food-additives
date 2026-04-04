@@ -1,0 +1,161 @@
+{
+  "slug": "e312-dodecyl-gallate",
+  "names": {
+    "e_number": "E312",
+    "ins_number": "312",
+    "cas_number": "1166-52-5",
+    "common_name": "Dodecyl Gallate",
+    "scientific_name": "Dodecyl 3,4,5-trihydroxybenzoate",
+    "japanese_name": "没食子酸ドデシル",
+    "japanese_label_name": "没食子酸ドデシル",
+    "aliases": [
+      "Lauryl gallate",
+      "Gallic acid dodecyl ester",
+      "n-Dodecyl gallate"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "synthetic phenolic antioxidant",
+    "source_type": "synthetic",
+    "chemical_group": "phenolic ester (gallate)"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic antioxidant with longest alkyl chain of the three gallates, providing highest fat solubility. Derived from gallic acid (natural) esterified with dodecanol (lauryl alcohol)."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis (esterification)",
+    "description": "Produced by esterifying gallic acid with dodecanol (dodecyl/lauryl alcohol). Highest fat solubility of all gallates due to 12-carbon chain. Empirical formula: C₁₉H₃₀O₅, Molecular weight: 338.44."
+  },
+  "other_uses": {
+    "cosmetics": "Historical use in cosmetics and hair products (now largely discontinued)",
+    "industrial": "Limited to research/analytical standards",
+    "pharmaceutical": "Historical use (discontinued)",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": null,
+      "max_level_mg_kg": null,
+      "conditions": "REMOVED from EU approved additives list in 2018 due to persistent safety concerns",
+      "legal_reference": "Previously in Regulation (EC) No 1333/2008, now removed",
+      "efsa_last_evaluated": "prior to 2018",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Approved with limitations",
+      "cfr_reference": "21 CFR 172.615",
+      "fda_url": null,
+      "notes": "Previously approved with limits; current use declining after EU removal"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "没食子酸ドデシル",
+      "notes": "Status maintained despite EU removal"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "312",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved but use declining after EU removal"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": null,
+      "health_canada_url": null,
+      "notes": "Check current status"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not established",
+    "jecfa_evaluation_year": 1996,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not established",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=dodecyl+gallate+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=dodecyl+gallate+E312+removed",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=312"
+  },
+  "regulatory_history": [
+    {
+      "year": 1976,
+      "event": "SCF establishes group ADI of 0-0.2 mg/kg bw for three gallates (E310, E311, E312)"
+    },
+    {
+      "year": 1996,
+      "event": "JECFA declines to establish individual ADI for dodecyl gallate despite prior group ADI"
+    },
+    {
+      "year": 2018,
+      "event": "EU removes E312 (dodecyl gallate) from approved additives list along with E311 (octyl gallate)"
+    }
+  ],
+  "food_categories_eu": [],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU historical regulations",
+      "JECFA Evaluations Database",
+      "Scientific literature"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete (removed)",
+      "usa": "partial",
+      "japan": "partial",
+      "australia_nz": "partial",
+      "canada": "partial"
+    }
+  },
+  "commonly_found_in": [
+    "Historical use in vegetable oils and fats",
+    "Historical use in chewing gum",
+    "Historical use in dried meats",
+    "Historical use in food packaging materials",
+    "NOTE: Use significantly restricted or eliminated in most jurisdictions after EU removal"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established. JECFA chose not to establish ADI for dodecyl gallate in 1996. EU removed authorization in 2018 due to persistent safety concerns."
+  },
+  "fun_facts": [
+    {
+      "title": "Longest Chain Champion",
+      "description": "With a 12-carbon alkyl chain, dodecyl gallate has the highest fat solubility of all three gallates - it's the most 'oil-loving' member of the family."
+    },
+    {
+      "title": "The Great Gallate Purge",
+      "description": "Removed from EU's approved list in 2018 alongside octyl gallate (E311), leaving only propyl gallate (E310) as the surviving member of the gallate trio."
+    },
+    {
+      "title": "Triple Rejection",
+      "description": "Differs from propyl gallate by only the length of its aliphatic side chain, yet this structural difference led JECFA to refuse establishing an ADI, flagging potential safety concerns."
+    },
+    {
+      "title": "Lauryl Link",
+      "description": "Also known as lauryl gallate because it's made with dodecanol (lauryl alcohol) - the same 12-carbon alcohol used in lauryl sulfate detergents."
+    },
+    {
+      "title": "Precautionary Principle in Action",
+      "description": "The 2018 removal demonstrates the dynamic nature of food additive regulation - compounds used for decades can be withdrawn when accumulated safety evidence raises concerns."
+    }
+  ]
+}

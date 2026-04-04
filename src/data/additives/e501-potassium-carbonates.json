@@ -1,0 +1,151 @@
+{
+  "slug": "e501-potassium-carbonates",
+  "names": {
+    "e_number": "E501",
+    "ins_number": "501",
+    "cas_number": "584-08-7 (i), 298-14-6 (ii)",
+    "common_name": "Potassium Carbonates",
+    "scientific_name": "Potassium carbonate (E501i), Potassium hydrogen carbonate/bicarbonate (E501ii)",
+    "japanese_name": "炭酸カリウム",
+    "japanese_label_name": "炭酸K",
+    "aliases": [
+      "Potash (E501i)",
+      "Pearl ash (E501i)",
+      "Potassium bicarbonate (E501ii)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "raising agent, alkalizing agent, stabilizer",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Wood ash (potash)",
+      "Certain mineral deposits",
+      "Sea water (trace amounts)"
+    ],
+    "description": "Historically obtained from wood ash, giving rise to the name 'potash.' Modern production is synthetic. Potassium carbonate was traditionally extracted by leaching wood ashes and evaporating the solution."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "E501i (potassium carbonate) is produced by the electrolysis of potassium chloride solution, or by reacting potassium hydroxide with carbon dioxide. E501ii (potassium bicarbonate) is made by passing CO2 through a potassium carbonate solution or by reacting potassium hydroxide with excess CO2."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster in personal care products.",
+    "industrial": "Glass manufacturing, soap production, fertilizers.",
+    "pharmaceutical": "Antacid, urinary alkalinizer, electrolyte replenisher.",
+    "household": "Fire extinguishers (potassium bicarbonate), wine making."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E501(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories at levels necessary to achieve intended effect.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1619 (bicarbonate), 21 CFR 184.1613 (carbonate)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used as sodium-free alternative to sodium carbonates."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "190",
+      "japanese_regulation_name": "炭酸カリウム",
+      "notes": "Commonly used in Japanese noodle production."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "501",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1965,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4060",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+carbonate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+bicarbonate+dietary+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4060",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=501"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium or sodium-free baking powder",
+    "Asian noodles (especially ramen and udon)",
+    "Cocoa powder (alkalizing agent)",
+    "Wine production (acidity regulator)",
+    "Effervescent tablets and supplements",
+    "Reduced-sodium baked goods",
+    "Sports drinks (potassium source)",
+    "Instant coffee"
+  ],
+  "fun_facts": [
+    "Historically called 'pearl ash' and was one of America's first industrial exports in colonial times",
+    "The name 'potash' literally comes from 'pot ash' - ashes from cooking pots that were leached for potassium",
+    "Used as a sodium-free leavening agent for people on low-sodium diets",
+    "In Asian noodle-making, it creates the characteristic firm, springy texture and yellowish color",
+    "Potassium bicarbonate is used in Class K fire extinguishers designed for kitchen fires",
+    "Provides both leavening action AND potassium supplementation in dietary products"
+  ]
+}

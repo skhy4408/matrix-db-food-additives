@@ -1,0 +1,173 @@
+{
+  "slug": "e900-dimethylpolysiloxane",
+  "names": {
+    "e_number": "E900",
+    "ins_number": "900",
+    "cas_number": "63148-62-9",
+    "common_name": "Dimethylpolysiloxane",
+    "scientific_name": "Poly(dimethylsiloxane)",
+    "japanese_name": "ジメチルポリシロキサン",
+    "japanese_label_name": "ジメチルポリシロキサン",
+    "aliases": [
+      "PDMS",
+      "Polydimethylsiloxane",
+      "Dimethicone",
+      "Simethicone"
+    ]
+  },
+  "classification": {
+    "functional_class": "antifoaming agent",
+    "sub_class": "glazing agent",
+    "source_type": "synthetic",
+    "chemical_group": "silicone polymer"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic silicone-based polymer used as an anti-foaming agent in frying oils and other food processing applications. Chemically inert and heat-stable."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by hydrolysis and polymerization of dichlorodimethylsilane, derived from silicon and methyl chloride."
+  },
+  "other_uses": {
+    "cosmetics": "Hair conditioners, skin moisturizers, makeup products",
+    "industrial": "Lubricants, sealants, adhesives, hydraulic fluids",
+    "pharmaceutical": "Anti-gas medication (simethicone), tablet coating",
+    "household": "Silly Putty, contact lens solution, fabric softener"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E900",
+      "max_level_mg_kg": "10 (anti-foaming), quantum satis (confectionery coating)",
+      "conditions": "Authorized for specific food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2007",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 173.340",
+      "fda_url": null,
+      "notes": "Approved as defoaming agent in processing foods, up to 10 ppm"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジメチルポリシロキサン",
+      "notes": "Used as anti-foaming agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "900",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted anti-foaming agent and glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Antifoaming Agents",
+      "health_canada_url": null,
+      "notes": "Maximum 10 ppm in foods"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-1.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 1999,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "1.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2007,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=dimethylpolysiloxane+PDMS+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E900+dimethylpolysiloxane+food+additive",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-173.340",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=900"
+  },
+  "regulatory_history": [
+    {
+      "year": 1998,
+      "event": "JECFA evaluates PDMS and establishes ADI"
+    },
+    {
+      "year": 2014,
+      "event": "Media controversy over PDMS in McDonald's Chicken McNuggets and french fries"
+    },
+    {
+      "year": 2016,
+      "event": "McDonald's removes PDMS from McNuggets recipe in response to consumer pressure"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with sugar coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "15.1",
+      "category_name": "Processing aids",
+      "max_level_mg_kg": "10"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "dimethicone"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 173.340",
+      "JECFA Evaluations Database",
+      "Scientific literature on silicone polymers"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Deep-frying oil (anti-foaming agent)",
+    "French fries (McDonald's - historically)",
+    "Chicken McNuggets (historically)",
+    "Chewing gum",
+    "Soft drinks",
+    "Fruit juices",
+    "Confectionery coatings",
+    "Cooking oils"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 1.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 90,
+    "equivalents": [
+      {
+        "product": "liters of frying oil containing PDMS at 10 ppm",
+        "typical_content_mg": 10,
+        "quantity": "~9 L"
+      },
+      {
+        "product": "servings of french fries (historical McDonald's formulation)",
+        "typical_content_mg": 0.5,
+        "quantity": "~180"
+      }
+    ],
+    "source_note": "Based on JECFA ADI and maximum permitted levels in foods. Very low exposure from typical diet."
+  },
+  "fun_facts": [
+    "The same silicone used in Silly Putty and breast implants",
+    "McDonald's removed it from McNuggets in 2016 after customer complaints",
+    "Also found in shampoo, contact lens solution, and anti-gas medication",
+    "Prevents dangerous foaming and spattering during deep-frying",
+    "Chemically inert - passes through the digestive system unchanged"
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "slug": "e175-gold",
+  "names": {
+    "e_number": "E175",
+    "ins_number": "175",
+    "cas_number": "7440-57-5",
+    "common_name": "Gold",
+    "scientific_name": "Gold (metallic)",
+    "japanese_name": "金",
+    "japanese_label_name": "金",
+    "aliases": [
+      "Aurum",
+      "CI 77480",
+      "Edible gold",
+      "Gold leaf",
+      "24-karat gold leaf"
+    ]
+  },
+  "classification": {
+    "functional_class": "surface colorant",
+    "sub_class": "metallic",
+    "source_type": "metallic",
+    "chemical_group": "precious metal"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Native gold nuggets and deposits",
+      "Gold-bearing quartz veins",
+      "Placer deposits (alluvial gold)",
+      "As a trace element in seawater"
+    ],
+    "description": "Gold is a precious metal that occurs naturally in pure metallic form. It is chemically inert and does not corrode. Food-grade gold is extremely pure (typically 22-24 karat) and hammered into ultra-thin sheets."
+  },
+  "manufacturing": {
+    "method": "refining and processing",
+    "description": "Produced by refining gold from ores or recycled sources, then hammered into extremely thin sheets (gold leaf, typically 0.1-0.2 micrometers thick) or ground into fine powder or flakes. Food-grade gold must be at least 90% pure (22 karat), preferably 99.9% (24 karat)."
+  },
+  "other_uses": {
+    "cosmetics": "Used in luxury skincare products, face masks, and cosmetics for anti-aging claims and aesthetic appeal.",
+    "industrial": "Used in electronics, aerospace, dentistry, and as a conductor in various high-tech applications.",
+    "pharmaceutical": "Used in some medications for rheumatoid arthritis (gold salts) and in dental restorations.",
+    "household": "Gold jewelry, decorative items, and investment."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E175",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Only for external decoration of confectionery, chocolate products, and liqueurs. Decorative use only.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4362"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Generally Recognized As Safe (GRAS) for decorative purposes",
+      "cfr_reference": "21 CFR 189.100",
+      "fda_url": null,
+      "notes": "Approved only for external decoration, not for general consumption. Must be pure gold."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "金",
+      "notes": "Used traditionally in premium Japanese confectionery and sake"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "175",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for decorative purposes only"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted for surface decoration of confectionery and alcoholic beverages"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (gold is chemically inert; virtually no absorption)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (negligible exposure; use restricted to external decoration)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4362"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=edible+gold+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=edible+gold+E175+safety",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4362",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-189.100",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=175"
+  },
+  "regulatory_history": [
+    {
+      "year": 2016,
+      "event": "EFSA confirms safety of gold for external decoration at current use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.4",
+      "category_name": "Decorations, coatings and fillings (external decoration only)",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.2.8",
+      "category_name": "Spirituous beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "EFSA Scientific Opinion 2016",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Ultra-luxury chocolates and truffles (24k gold leaf)",
+    "High-end wedding and celebration cakes",
+    "Premium liqueurs (Goldschläger, Danziger Goldwasser with gold flakes)",
+    "Gourmet desserts at Michelin-starred restaurants",
+    "Luxury ice cream and gelato",
+    "Premium sushi and Japanese cuisine garnish",
+    "Expensive coffee drinks and cocktails"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "e339-sodium-phosphates",
+  "names": {
+    "e_number": "E339",
+    "ins_number": "339",
+    "cas_number": "7558-80-7 (i), 7558-79-4 (ii), 7601-54-9 (iii)",
+    "common_name": "Sodium Phosphates",
+    "scientific_name": "Monosodium phosphate (E339i), Disodium phosphate (E339ii), Trisodium phosphate (E339iii)",
+    "japanese_name": "リン酸ナトリウム",
+    "japanese_label_name": "リン酸Na",
+    "aliases": [
+      "Sodium orthophosphates",
+      "MSP (monosodium phosphate)",
+      "DSP (disodium phosphate)",
+      "TSP (trisodium phosphate)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "buffering agent, emulsifier, texturizer",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Sodium phosphates do not occur naturally in free form. Phosphate compounds are ubiquitous in nature as essential components of bones, DNA, and cellular energy systems, but sodium phosphates used in food are synthetically produced."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by neutralizing phosphoric acid with sodium hydroxide or sodium carbonate. The degree of neutralization determines which form is produced: monosodium phosphate (E339i, one sodium atom), disodium phosphate (E339ii, two sodium atoms), or trisodium phosphate (E339iii, three sodium atoms). Each has different pH and functional properties."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster and buffering agent in personal care products.",
+    "industrial": "Detergents, water treatment, metal cleaning, flame retardants.",
+    "pharmaceutical": "Buffering agent, laxative (some forms), pharmaceutical excipient.",
+    "household": "Cleaning products, TSP used as heavy-duty cleaner and paint prep."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E339(i-iii)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits in others. EFSA 2019 raised concerns about total dietary phosphate intake.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1781 (various)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in processed foods"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "117",
+      "japanese_regulation_name": "リン酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "339",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+phosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=dietary+phosphate+intake+health",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=339"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA published a comprehensive review expressing concern about excessive dietary phosphate intake from food additives in Western diets, particularly in processed foods. Recommended monitoring and potential reduction strategies."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "20000 (as P2O5)"
+    },
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "5000 (as P2O5)"
+    },
+    {
+      "category_code": "06.4",
+      "category_name": "Fresh pasta",
+      "max_level_mg_kg": "1000 (as P2O5)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Processed cheese and cheese spreads (emulsifying salt)",
+    "Baking powder and cake mixes",
+    "Processed meats (ham, sausages - improves moisture retention)",
+    "Breakfast cereals",
+    "Cola beverages and soft drinks",
+    "Instant puddings and gelatin desserts",
+    "Canned soups and sauces",
+    "Frozen French fries and potato products"
+  ],
+  "fun_facts": [
+    "Sodium phosphates are the magic ingredient that makes processed cheese melt smoothly and stay creamy",
+    "In processed meats, they help retain moisture and improve texture, making products juicier",
+    "Western diets often contain high levels of phosphate additives from processed foods, which has raised health concerns",
+    "Different forms (mono-, di-, tri-) have different pH levels and are chosen based on the specific food application",
+    "Trisodium phosphate (TSP) is also a powerful household cleaner, but food-grade versions are much purer"
+  ]
+}

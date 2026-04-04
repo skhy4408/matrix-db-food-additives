@@ -1,0 +1,143 @@
+{
+  "slug": "e174-silver",
+  "names": {
+    "e_number": "E174",
+    "ins_number": "174",
+    "cas_number": "7440-22-4",
+    "common_name": "Silver",
+    "scientific_name": "Silver (metallic)",
+    "japanese_name": "銀",
+    "japanese_label_name": "銀",
+    "aliases": [
+      "Argentum",
+      "CI 77820",
+      "Edible silver",
+      "Silver leaf",
+      "Vark/Varak (Indian silver leaf)"
+    ]
+  },
+  "classification": {
+    "functional_class": "surface colorant",
+    "sub_class": "metallic",
+    "source_type": "metallic",
+    "chemical_group": "precious metal"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Native silver deposits",
+      "Silver ore (argentite, chlorargyrite)",
+      "As a byproduct of copper, gold, lead, and zinc mining"
+    ],
+    "description": "Silver is a precious metal that occurs naturally in pure metallic form and in various ores. Food-grade silver is highly purified metallic silver, often in the form of very thin leaf or powder."
+  },
+  "manufacturing": {
+    "method": "refining and processing",
+    "description": "Produced by refining silver from ores or recycled sources, then hammered into extremely thin sheets (silver leaf) or ground into fine powder. Food-grade silver must be at least 99.9% pure."
+  },
+  "other_uses": {
+    "cosmetics": "Used in luxury skincare products and cosmetics for antimicrobial properties and aesthetic appeal.",
+    "industrial": "Used in electronics, solar panels, mirrors, photography, and antimicrobial coatings.",
+    "pharmaceutical": "Used in wound dressings and antimicrobial medical devices (silver sulfadiazine).",
+    "household": "Silver jewelry, tableware, and decorative items."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E174",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Only for external decoration of confectionery, chocolate products, and liqueurs. Decorative use only.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4545"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Generally Recognized As Safe (GRAS) for decorative purposes",
+      "cfr_reference": "21 CFR 189.250 (restricted use)",
+      "fda_url": null,
+      "notes": "Approved only for external decoration, not for general consumption"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "銀",
+      "notes": "Used traditionally in Japanese confectionery"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "174",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved for decorative purposes only"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Permitted for surface decoration of confectionery"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (very limited absorption; use restricted to external decoration)",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (negligible exposure due to decorative use only)",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4545"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=silver+edible+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=edible+silver+E174+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4545",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-189.250",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=174"
+  },
+  "regulatory_history": [
+    {
+      "year": 2016,
+      "event": "EFSA confirms safety of silver for external decoration at current use levels"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.4",
+      "category_name": "Decorations, coatings and fillings (external decoration only)",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.2.8",
+      "category_name": "Spirituous beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "EFSA Scientific Opinion 2016",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Luxury chocolates and pralines (decorative silver leaf)",
+    "High-end wedding cakes (edible silver decoration)",
+    "Indian sweets - Barfi, Peda (varak silver leaf)",
+    "Premium liqueurs (silver flakes)",
+    "Gourmet desserts at fine dining restaurants",
+    "Decorative dragées and Jordan almonds"
+  ]
+}

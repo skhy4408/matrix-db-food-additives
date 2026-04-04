@@ -1,0 +1,188 @@
+{
+  "slug": "e127-erythrosine",
+  "names": {
+    "e_number": "E127",
+    "ins_number": "127",
+    "cas_number": "16423-68-0",
+    "common_name": "Erythrosine",
+    "scientific_name": "Disodium 2-(2,4,5,7-tetraiodo-6-oxido-3-oxoxanthen-9-yl)benzoate monohydrate",
+    "japanese_name": "エリスロシン",
+    "japanese_label_name": "赤色3号",
+    "aliases": [
+      "Red No. 3",
+      "FD&C Red No. 3",
+      "Acid Red 51",
+      "CI 45430",
+      "Tetraiodofluorescein"
+    ]
+  },
+  "classification": {
+    "functional_class": "colour",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "xanthene dye (organoiodine compound)"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A fully synthetic organoiodine compound derived from fluorescein. Contains four iodine atoms (approximately 58% iodine by weight), making it unique among food dyes. Not found in nature."
+  },
+  "manufacturing": {
+    "method": "fluorescein iodination",
+    "description": "Resorcinol reacts with phthalic anhydride through condensation to form fluorescein. The fluorescein undergoes iodination to introduce four iodine atoms at positions 2, 4, 5, and 7, producing the bright cherry-red dye. It is then converted to the disodium salt (Erythrosin B) for water solubility."
+  },
+  "other_uses": {
+    "cosmetics": "BANNED in USA since 1990; limited EU use",
+    "industrial": "Textile dyeing (limited)",
+    "pharmaceutical": "Tablet/capsule coatings; diagnostic procedures",
+    "household": "Dental disclosing tablets (plaque visualization)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E127",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "EXCLUSIVELY authorized for cocktail cherries, candied cherries, Bigarreaux cherries, and glacé cherries only. No other food uses permitted.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2011",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+    },
+    "usa": {
+      "status": "banned",
+      "classification": "Prohibited colour additive (effective 2025)",
+      "cfr_reference": "Banned from 21 CFR",
+      "fda_url": "https://www.fda.gov/industry/color-additives/fdc-red-no-3",
+      "notes": "FDA banned January 15, 2025; enforcement begins January 15, 2027 (food) and January 18, 2028 (drugs). Cosmetics/topical drugs banned 1990 (Delaney Clause - thyroid tumors in rats)."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "赤色3号",
+      "notes": "Approved as synthetic colour with purity specifications"
+    },
+    "australia_nz": {
+      "status": "banned",
+      "code": null,
+      "fsanz_reference": null,
+      "notes": "Not permitted in Australia or New Zealand"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Permitted Colouring Agents",
+      "health_canada_url": null,
+      "notes": "Health Canada states 'does not pose health risk at permitted levels' (as of 2025)"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–0.1 mg/kg bw/day",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "0.1 mg/kg bw/day",
+    "efsa_evaluation_year": 2011,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1854"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=erythrosine+E127+thyroid",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=erythrosine+FD%26C+Red+3+thyroid+tumors",
+    "controversy_level": "very_high",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1854",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.fda.gov/industry/color-additives/fdc-red-no-3",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=127"
+  },
+  "regulatory_history": [
+    {
+      "year": 1980,
+      "event": "Studies first linked erythrosine to thyroid tumors in male rats"
+    },
+    {
+      "year": 1990,
+      "event": "FDA banned from cosmetics and topical drugs under Delaney Clause (any animal carcinogen = banned)"
+    },
+    {
+      "year": 2011,
+      "event": "EFSA set ADI at 0.1 mg/kg bw/day; EU restricted use to cherries only"
+    },
+    {
+      "year": 2018,
+      "event": "JECFA confirmed ADI of 0-0.1 mg/kg bw/day at 86th meeting"
+    },
+    {
+      "year": 2025,
+      "event": "FDA banned from food and ingested drugs (January 15, 2025); 35 years after cosmetics ban"
+    },
+    {
+      "year": 2027,
+      "event": "FDA enforcement begins for food products (January 15, 2027)"
+    },
+    {
+      "year": 2028,
+      "event": "FDA enforcement begins for pharmaceuticals (January 18, 2028)"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.4",
+      "category_name": "Candied cherries",
+      "max_level_mg_kg": "200"
+    },
+    {
+      "category_code": "04.2.5.4",
+      "category_name": "Glacé cherries",
+      "max_level_mg_kg": "200"
+    },
+    {
+      "category_code": "14.2.6",
+      "category_name": "Cocktail cherries",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "EFSA Scientific Opinion 2011",
+      "JECFA 86th Report 2018",
+      "FDA Color Additive Status List 2025",
+      "Health Canada Position Statement 2025"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Maraschino cherries (classic use - now banned in USA)",
+    "Glacé cherries and candied cherries (EU only)",
+    "Cocktail cherries (EU only)",
+    "Bigarreaux cherries (EU only)",
+    "Certain medications and syrups (pharmaceutical colorant)",
+    "Gelatin desserts (historically - now rare)",
+    "Dental disclosing tablets (plaque visualization)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 0.1,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 6,
+    "equivalents": [
+      {
+        "product": "cocktail cherries (at 200mg/kg, ~10g each)",
+        "typical_content_mg": 2,
+        "quantity": "~3"
+      },
+      {
+        "product": "serving of candied cherries (50g at 200mg/kg)",
+        "typical_content_mg": 10,
+        "quantity": "~0.6"
+      }
+    ],
+    "source_note": "Based on JECFA/EFSA ADI of 0.1 mg/kg bw/day. This is one of the LOWEST ADIs among food colours, reflecting thyroid concerns. Very easy to approach or exceed ADI with cherry products."
+  }
+}

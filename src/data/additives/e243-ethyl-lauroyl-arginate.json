@@ -1,0 +1,169 @@
+{
+  "slug": "e243-ethyl-lauroyl-arginate",
+  "names": {
+    "e_number": "E243",
+    "ins_number": "243",
+    "cas_number": "60372-77-2",
+    "common_name": "Ethyl Lauroyl Arginate",
+    "scientific_name": "Ethyl Nα-lauroyl-L-arginate hydrochloride",
+    "japanese_name": "エチルラウロイルアルギネート",
+    "japanese_label_name": "LAE",
+    "aliases": [
+      "LAE",
+      "MireNat"
+    ]
+  },
+  "classification": {
+    "functional_class": "preservative (antimicrobial)",
+    "sub_class": "cationic surfactant",
+    "source_type": "synthetic (from natural components)",
+    "chemical_group": "arginine derivative"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "One of the NEWEST preservatives approved (EU: 2015). Made from amino acid L-arginine and lauric acid (both found in nature). Breaks down in the body into natural components (arginine, lauric acid, ethanol). Effective at very low concentrations. Works against both bacteria AND fungi. Marketed as 'clean label' friendly despite being synthetic. Particularly popular in refrigerated fresh foods. Brand name 'MireNat' in commercial applications. Represents modern trend toward safer, biodegradable preservatives."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis from natural precursors",
+    "description": "Synthesized by coupling L-arginine with lauric acid and ethanol through esterification and amidation reactions."
+  },
+  "other_uses": {
+    "cosmetics": "Used in personal care products as antimicrobial preservative",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E243",
+      "max_level_mg_kg": "varies by food category",
+      "conditions": "Approved in 2015; restricted to specific food categories with maximum use levels",
+      "legal_reference": "Regulation (EU) 2015/1378",
+      "efsa_last_evaluated": "2014",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3919"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS since 2005",
+      "cfr_reference": "GRAS Notice No. GRN 000164",
+      "fda_url": null,
+      "notes": "Approved earlier than EU (2005); widely used in meat products and sauces"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エチルラウロイルアルギネート塩酸塩",
+      "notes": "Approved as designated food additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "243",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved following EU/USA approvals"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Preservatives",
+      "health_canada_url": null,
+      "notes": "Approved with maximum use levels specified"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0–3 mg/kg bw/day",
+    "jecfa_evaluation_year": 2014,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "3 mg/kg bw/day",
+    "efsa_evaluation_year": 2014,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3919"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ethyl+lauroyl+arginate+E243+LAE+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=LAE+ethyl+lauroyl+arginate+preservative+antimicrobial",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3919",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=243"
+  },
+  "regulatory_history": [
+    {
+      "year": 2005,
+      "event": "FDA affirms GRAS status for LAE in the USA (first major approval)"
+    },
+    {
+      "year": 2014,
+      "event": "JECFA and EFSA evaluate LAE; establish ADI of 3 mg/kg bw/day"
+    },
+    {
+      "year": 2015,
+      "event": "EU approves LAE as E243 - one of the newest preservatives added to E-number system"
+    },
+    {
+      "year": 2020,
+      "event": "Growing adoption in 'clean label' products as alternative to traditional preservatives"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.1",
+      "category_name": "Fresh meat",
+      "max_level_mg_kg": "200"
+    },
+    {
+      "category_code": "12.6",
+      "category_name": "Sauces",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EU) 2015/1378",
+      "FDA GRAS Notice GRN 000164",
+      "JECFA Evaluations Database 2014",
+      "EFSA Scientific Opinion 2014"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Processed ham and deli meats",
+    "Fresh sausages",
+    "Bacon",
+    "Mayonnaise and salad dressings",
+    "Salsa and guacamole",
+    "Fresh-cut vegetables (packaged)",
+    "Egg-based products",
+    "Tortillas and wraps",
+    "Refrigerated pasta sauces"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 3,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 180,
+    "equivalents": [
+      {
+        "product": "servings of processed meat (50g)",
+        "typical_content_mg": 10,
+        "quantity": "~18"
+      },
+      {
+        "product": "servings of mayonnaise (15g)",
+        "typical_content_mg": 3,
+        "quantity": "~60"
+      }
+    ],
+    "source_note": "NEWEST preservative (EU approval 2015). Made from natural components (L-arginine + lauric acid). Breaks down into natural substances in the body. Considered 'clean label' despite being synthetic. Highly effective at low concentrations. Biodegradable and environmentally friendly."
+  }
+}
