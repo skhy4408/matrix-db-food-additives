@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import CookieConsent from '../components/CookieConsent.astro';
 
 interface Props {
   title: string;
@@ -54,5 +55,6 @@ const canonicalURL = canonical || new URL(Astro.url.pathname, Astro.site).href;
   </head>
   <body class="min-h-screen bg-gray-50">
     <slot />
+    <CookieConsent />
   </body>
 </html>

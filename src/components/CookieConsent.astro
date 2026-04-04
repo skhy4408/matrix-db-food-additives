@@ -1,0 +1,106 @@
+---
+// Cookie Consent Banner for EEA/UK users only
+---
+
+<div id="cookie-consent-banner" class="hidden fixed bottom-0 left-0 right-0 z-50 p-4 bg-white border-t-4 border-accent shadow-2xl">
+  <div class="container max-w-5xl mx-auto">
+    <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+      <div class="flex-1">
+        <h3 class="text-sm font-bold text-brand-900 mb-2 flex items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-accent"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          We Value Your Privacy
+        </h3>
+        <p class="text-xs text-brand-600 leading-relaxed">
+          We use cookies and analytics to improve your experience and understand how you use our site.
+          By clicking "Accept", you consent to our use of cookies for analytics and measurement.
+          <a href="/privacy-policy" class="underline hover:text-accent">Privacy Policy</a>
+        </p>
+      </div>
+
+      <div class="flex gap-3 flex-shrink-0">
+        <button
+          id="cookie-reject"
+          class="px-4 py-2 text-xs font-bold text-brand-600 bg-brand-100 hover:bg-brand-200 rounded-lg transition-all"
+        >
+          Decline
+        </button>
+        <button
+          id="cookie-accept"
+          class="px-6 py-2 text-xs font-bold text-white bg-accent hover:bg-accent/90 rounded-lg transition-all shadow-lg shadow-accent/20"
+        >
+          Accept All
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Check if user is in EEA/UK based on timezone
+  function isLikelyEEA() {
+    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+    const eeaTimezones = [
+      'Europe/', 'Atlantic/Reykjavik', 'Atlantic/Canary',
+      'Atlantic/Faroe', 'Atlantic/Madeira', 'Africa/Ceuta'
+    ];
+    return eeaTimezones.some(tz => timezone.startsWith(tz));
+  }
+
+  // Check if user has already made a choice
+  function hasConsentChoice() {
+    return localStorage.getItem('cookie-consent') !== null;
+  }
+
+  // Show banner only for EEA users who haven't made a choice
+  function initCookieBanner() {
+    const banner = document.getElementById('cookie-consent-banner');
+    if (!banner) return;
+
+    if (isLikelyEEA() && !hasConsentChoice()) {
+      banner.classList.remove('hidden');
+    }
+  }
+
+  // Handle accept
+  document.getElementById('cookie-accept')?.addEventListener('click', () => {
+    // Update consent mode
+    if (typeof gtag !== 'undefined') {
+      gtag('consent', 'update', {
+        'ad_storage': 'granted',
+        'ad_user_data': 'granted',
+        'ad_personalization': 'granted',
+        'analytics_storage': 'granted'
+      });
+    }
+
+    // Store choice
+    localStorage.setItem('cookie-consent', 'accepted');
+
+    // Hide banner
+    document.getElementById('cookie-consent-banner')?.classList.add('hidden');
+  });
+
+  // Handle reject
+  document.getElementById('cookie-reject')?.addEventListener('click', () => {
+    // Keep consent denied (already set by default)
+
+    // Store choice
+    localStorage.setItem('cookie-consent', 'rejected');
+
+    // Hide banner
+    document.getElementById('cookie-consent-banner')?.classList.add('hidden');
+  });
+
+  // Initialize on page load
+  initCookieBanner();
+
+  // Re-apply consent on subsequent page loads if previously accepted
+  if (localStorage.getItem('cookie-consent') === 'accepted' && typeof gtag !== 'undefined') {
+    gtag('consent', 'update', {
+      'ad_storage': 'granted',
+      'ad_user_data': 'granted',
+      'ad_personalization': 'granted',
+      'analytics_storage': 'granted'
+    });
+  }
+</script>
