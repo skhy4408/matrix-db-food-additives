@@ -1,0 +1,145 @@
+{
+  "slug": "e418-gellan-gum",
+  "names": {
+    "e_number": "E418",
+    "ins_number": "418",
+    "cas_number": "71010-52-1",
+    "common_name": "Gellan Gum",
+    "scientific_name": "Gellan gum",
+    "japanese_name": "ジェランガム",
+    "japanese_label_name": "ジェランガム",
+    "aliases": [
+      "Gelrite",
+      "Kelcogel"
+    ]
+  },
+  "classification": {
+    "functional_class": "gelling agent",
+    "sub_class": "natural-derived",
+    "source_type": "fermentation",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [
+      "Produced by fermentation of naturally occurring bacterium"
+    ],
+    "description": "A polysaccharide produced by bacterial fermentation of Sphingomonas elodea (formerly Pseudomonas elodea). Discovered in 1978 by Kelco Company researchers. Creates firm, brittle gels similar to agar but at lower concentrations."
+  },
+  "manufacturing": {
+    "method": "fermentation",
+    "description": "Produced by aerobic fermentation of glucose or other carbohydrates by the bacterium Sphingomonas elodea, followed by precipitation with alcohol, filtration, drying, and milling into powder."
+  },
+  "other_uses": {
+    "cosmetics": "Used in personal care products as a gelling agent.",
+    "industrial": "Used in plant tissue culture media as an agar substitute.",
+    "pharmaceutical": "Used in controlled-release drug formulations.",
+    "household": "Used in molecular gastronomy and vegan cooking"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E418",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.665",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-172.665",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジェランガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "418",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=gellan+gum+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=gellan+gum+E418",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.665",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=418"
+  },
+  "regulatory_history": [
+    {
+      "year": 1978,
+      "event": "Discovered by Kelco Company researchers isolating microorganisms from natural habitats"
+    },
+    {
+      "year": 1990,
+      "event": "Approved for food use in Japan"
+    },
+    {
+      "year": 1992,
+      "event": "Approved for food use in the European Union"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Vegan jellies and desserts",
+    "Plant-based milk alternatives",
+    "Jams and fruit spreads",
+    "Confectionery",
+    "Dessert gels",
+    "Water-based gels"
+  ]
+}

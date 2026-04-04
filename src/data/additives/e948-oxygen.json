@@ -1,0 +1,153 @@
+{
+  "slug": "e948-oxygen",
+  "names": {
+    "e_number": "E948",
+    "ins_number": "948",
+    "cas_number": "7782-44-7",
+    "common_name": "Oxygen",
+    "scientific_name": "Dioxygen (O₂)",
+    "japanese_name": "酸素",
+    "japanese_label_name": "酸素",
+    "aliases": [
+      "O2",
+      "Oxygen gas",
+      "Molecular oxygen"
+    ]
+  },
+  "classification": {
+    "functional_class": "propellant",
+    "sub_class": "packaging gas",
+    "source_type": "natural/industrial",
+    "chemical_group": "elemental gas"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Atmosphere (21% of air)",
+      "Produced by photosynthesis in plants",
+      "Second most abundant gas in Earth's atmosphere"
+    ],
+    "description": "A colorless, odorless gas essential for life. Makes up 21% of Earth's atmosphere. Paradoxically used as both a food preservative (in modified atmosphere packaging) and causes oxidation in foods."
+  },
+  "manufacturing": {
+    "method": "fractional distillation of liquid air",
+    "description": "Produced industrially by cooling air to liquid state and separating oxygen from nitrogen through fractional distillation. Can also be produced through electrolysis of water or pressure swing adsorption."
+  },
+  "other_uses": {
+    "cosmetics": "Oxygen facials, aerosol propellant",
+    "industrial": "Steel production, chemical manufacturing, water treatment, rocket propellant",
+    "pharmaceutical": "Medical oxygen therapy, hyperbaric chambers",
+    "household": "Oxygenated water products, aquarium aeration"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E948",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as propellant and packaging gas",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1560",
+      "fda_url": null,
+      "notes": "Approved for direct addition to food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酸素",
+      "notes": "Approved as packaging gas"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "948",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted propellant and packaging gas"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as packaging gas"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concern)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (essential for life)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=oxygen+food+packaging",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E948+oxygen+modified+atmosphere+packaging",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1560",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=948"
+  },
+  "regulatory_history": [
+    {
+      "year": 1774,
+      "event": "Oxygen discovered independently by Carl Wilhelm Scheele and Joseph Priestley"
+    },
+    {
+      "year": 1960,
+      "event": "Modified atmosphere packaging with oxygen control becomes widespread"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Propellant and packaging gas",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "oxygen"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1560",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Modified atmosphere packaging for fresh produce",
+    "Packaged fresh-cut salads (maintains color)",
+    "Fresh meat packaging (keeps red color)",
+    "Medical oxygen tanks",
+    "Oxygenated water products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - oxygen makes up 21% of the air you breathe. Essential for life!"
+  },
+  "fun_facts": [
+    "You breathe it all day - 21% of air is oxygen",
+    "Keeps packaged meat looking fresh and red",
+    "Too much oxygen causes food to go stale (oxidation paradox)",
+    "Discovered independently by two scientists in 1774",
+    "The O in H2O - essential for all known life",
+    "You inhale about 550 liters of oxygen per day"
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "e944-propane",
+  "names": {
+    "e_number": "E944",
+    "ins_number": "944",
+    "cas_number": "74-98-6",
+    "common_name": "Propane",
+    "scientific_name": "Propane (C₃H₈)",
+    "japanese_name": "プロパン",
+    "japanese_label_name": "プロパン",
+    "aliases": [
+      "LPG (Liquefied Petroleum Gas)",
+      "Propane gas"
+    ]
+  },
+  "classification": {
+    "functional_class": "propellant",
+    "sub_class": "aerating agent, extraction solvent",
+    "source_type": "petroleum/natural gas",
+    "chemical_group": "alkane hydrocarbon"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Natural gas",
+      "Petroleum deposits",
+      "Produced during oil refining"
+    ],
+    "description": "A colorless, highly flammable gas commonly used as fuel and as a propellant in food aerosol products. Liquefied under moderate pressure for storage and transport."
+  },
+  "manufacturing": {
+    "method": "petroleum refining and natural gas processing",
+    "description": "Extracted from natural gas or produced as a byproduct of petroleum refining and natural gas processing. Separated from other hydrocarbons through fractional distillation and purified for various uses including food-grade applications."
+  },
+  "other_uses": {
+    "cosmetics": "Aerosol propellant in hairsprays and other products",
+    "industrial": "Fuel (BBQ grills, heating), refrigerant, chemical feedstock, vehicle fuel",
+    "pharmaceutical": "Aerosol propellant in topical sprays",
+    "household": "BBQ fuel, portable heaters, camping equipment, forklift fuel"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E944",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as propellant and extraction solvent",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1655",
+      "fda_url": null,
+      "notes": "Approved as propellant and extraction solvent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "プロパン",
+      "notes": "Approved as propellant"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "944",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted propellant and extraction solvent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as propellant and extraction solvent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use as propellant)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no toxicological concern when used as propellant)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=propane+food+propellant+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E944+propane+aerosol+propellant",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1655",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=944"
+  },
+  "regulatory_history": [
+    {
+      "year": 1970,
+      "event": "Propane approved as aerosol propellant"
+    },
+    {
+      "year": 1990,
+      "event": "Increased use after CFC ban"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Propellant and extraction solvent",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "propane"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1655",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cooking spray (PAM, etc.)",
+    "Aerosol whipped cream",
+    "Food-grade aerosol products",
+    "BBQ grills and outdoor cooking (main use)",
+    "Hairspray and deodorants (non-food)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - propane evaporates immediately from food products and is not consumed in significant amounts."
+  },
+  "fun_facts": [
+    "The same gas in your cooking spray and your BBQ grill",
+    "Most common fuel for outdoor grilling and camping",
+    "Also known as LPG (Liquefied Petroleum Gas) when mixed with butane",
+    "Highly flammable - never spray near open flames!",
+    "Evaporates instantly when sprayed - doesn't remain in food",
+    "Often mixed with butane and isobutane in aerosol cans"
+  ]
+}

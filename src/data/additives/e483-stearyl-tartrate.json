@@ -1,0 +1,148 @@
+{
+  "slug": "e483-stearyl-tartrate",
+  "names": {
+    "e_number": "E483",
+    "ins_number": "483",
+    "cas_number": "15196-53-3",
+    "common_name": "Stearyl Tartrate",
+    "scientific_name": "Stearyl tartrate",
+    "japanese_name": "ステアロイル酒石酸",
+    "japanese_label_name": "ステアロイル酒石酸",
+    "aliases": [
+      "Stearyl tartrate",
+      "E483"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "tartaric acid derivative",
+    "source_type": "synthetic",
+    "chemical_group": "tartaric acid esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier created by esterifying tartaric acid with stearyl alcohol. Previously used in bakery products but banned in the EU as of April 2024."
+  },
+  "manufacturing": {
+    "method": "chemical esterification",
+    "description": "Produced by reacting tartaric acid (typically derived from wine-making byproducts) with stearyl alcohol under controlled conditions with esterification catalysts."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E483",
+      "max_level_mg_kg": "0",
+      "conditions": "Authorization removed in April 2024; no longer permitted in EU",
+      "legal_reference": "Commission Regulation (EU) 2024/850",
+      "efsa_last_evaluated": "2023",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/8262"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 184.1095",
+      "fda_url": null,
+      "notes": "Still permitted in the USA despite EU ban"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ステアロイル酒石酸",
+      "notes": "Still approved in Japan"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "483",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Still approved as emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Still permitted in Canada"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "withdrawn",
+    "efsa_evaluation_year": 2023,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/8262"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=stearyl+tartrate+E483",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E483+stearyl+tartrate+ban",
+    "controversy_level": "medium",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/8262",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1095",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=483"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates stearyl tartrate"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E483 in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2023,
+      "event": "EFSA unable to complete safety re-evaluation due to insufficient data"
+    },
+    {
+      "year": 2024,
+      "event": "EU removes authorization for E483 effective April 2024 due to lack of safety data"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "N/A",
+      "category_name": "Banned - no longer permitted",
+      "max_level_mg_kg": "0"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "Commission Regulation (EU) 2024/850",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2023"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Previously used in bakery products (EU ban since April 2024)",
+    "May still be found in products from USA, Japan, and other markets",
+    "Bread improvers (outside EU)",
+    "Cake mixes (outside EU)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "E483 was removed from the EU approved list in April 2024 because the food industry failed to provide sufficient safety data for EFSA's re-evaluation. This doesn't necessarily mean E483 is unsafe, but rather that there wasn't enough modern scientific evidence to confirm its safety. The additive remains approved in the USA, Japan, Australia, and Canada."
+  }
+}

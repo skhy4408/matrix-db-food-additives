@@ -1,0 +1,131 @@
+{
+  "slug": "e432-polysorbate-20",
+  "names": {
+    "e_number": "E432",
+    "ins_number": "432",
+    "cas_number": "9005-64-5",
+    "common_name": "Polysorbate 20",
+    "scientific_name": "Polyoxyethylene (20) sorbitan monolaurate",
+    "japanese_name": "ポリソルベート20",
+    "japanese_label_name": "ポリソルベート20",
+    "aliases": [
+      "Tween 20",
+      "PS20",
+      "Polysorbate 20"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "polyoxyethylene sorbitan ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier created from sorbitol, lauric acid, and ethylene oxide. The lauric acid component is typically derived from coconut or palm kernel oil."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced in two steps: (1) sorbitan (from sorbitol) is reacted with lauric acid to form sorbitan monolaurate, then (2) ethoxylated with approximately 20 units of ethylene oxide. Lauric acid is typically sourced from coconut or palm kernel oil."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in cosmetics, skincare, and personal care products as an emulsifier and solubilizer.",
+    "industrial": "Used in industrial applications as a surfactant and wetting agent.",
+    "pharmaceutical": "Common in pharmaceutical formulations, vaccines, and as a solubilizer for fat-soluble vitamins.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E432",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.840",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリソルベート20",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "432",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-25 mg/kg body weight (for all polysorbates combined)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polysorbate+20+tween+20",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=polysorbate+20+E432+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.840",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=432"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "03",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Ice cream and frozen desserts",
+    "Baked goods and cake mixes",
+    "Salad dressings",
+    "Pickles",
+    "Vitamin and mineral supplements",
+    "COVID-19 mRNA vaccines"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "e504-magnesium-carbonates",
+  "names": {
+    "e_number": "E504",
+    "ins_number": "504",
+    "cas_number": "546-93-0 (i), 39409-82-0 (ii)",
+    "common_name": "Magnesium Carbonates",
+    "scientific_name": "Magnesium carbonate (E504i), Magnesium hydroxide carbonate (E504ii)",
+    "japanese_name": "炭酸マグネシウム",
+    "japanese_label_name": "炭酸Mg",
+    "aliases": [
+      "Magnesite (mineral form)",
+      "Magnesia alba (E504i)",
+      "Basic magnesium carbonate (E504ii)"
+    ]
+  },
+  "classification": {
+    "functional_class": "anti-caking agent",
+    "sub_class": "acidity regulator, color retention agent, raising agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Magnesite mineral (MgCO3)",
+      "Dolomite (mixed calcium magnesium carbonate)",
+      "Sea water (as dissolved ions)"
+    ],
+    "description": "Magnesium carbonate occurs naturally in the mineral magnesite and in dolomite rock. However, food-grade magnesium carbonate is typically synthesized to ensure purity and consistent quality."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting magnesium salts (usually magnesium chloride or sulfate) with sodium carbonate or by treating magnesium hydroxide with carbon dioxide. E504ii is a hydrated form containing both carbonate and hydroxide groups, often called 'basic magnesium carbonate.'"
+  },
+  "other_uses": {
+    "cosmetics": "Bulking agent, absorbent in powders and makeup.",
+    "industrial": "Refractories, fireproofing, rubber production, ceramics.",
+    "pharmaceutical": "Antacid, laxative, magnesium supplement.",
+    "household": "Gymnastic chalk, rock climbing chalk, drying agent for hands."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E504(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories including as anti-caking agent and acidity regulator.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1425",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in table salt and sports supplements."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "192",
+      "japanese_regulation_name": "炭酸マグネシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "504",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1965,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4062",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+carbonate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=magnesium+carbonate+dietary+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1083",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4062",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=504"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Table salt and salt substitutes",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.5",
+      "category_name": "Soups and broths",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Table salt (anti-caking agent)",
+    "Icing sugar and powdered sugar (prevents clumping)",
+    "Sports supplements (magnesium source)",
+    "Baking powder formulations",
+    "Protein powders and meal replacements",
+    "Chewing gum",
+    "Wafer cookies",
+    "Dried milk powder"
+  ],
+  "fun_facts": [
+    "The same substance used as GYMNASTIC CHALK and ROCK CLIMBING CHALK to keep hands dry",
+    "Acts as both a mineral supplement (magnesium source) and anti-caking agent simultaneously",
+    "In icing sugar, it prevents the formation of lumps even in humid conditions",
+    "Has been used as an antacid for over a century - Milk of Magnesia is magnesium hydroxide",
+    "Completely tasteless and odorless, making it ideal for use in delicate foods",
+    "Used by athletes not just in food but also applied to hands for better grip"
+  ]
+}

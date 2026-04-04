@@ -1,0 +1,147 @@
+{
+  "slug": "e460-cellulose",
+  "names": {
+    "e_number": "E460",
+    "ins_number": "460",
+    "cas_number": "9004-34-6 (i), 9004-34-6 (ii)",
+    "common_name": "Cellulose",
+    "scientific_name": "Microcrystalline cellulose (E460i), Powdered cellulose (E460ii)",
+    "japanese_name": "セルロース",
+    "japanese_label_name": "セルロース",
+    "aliases": [
+      "MCC (microcrystalline cellulose)",
+      "Cellulose powder",
+      "Wood pulp",
+      "Plant fiber"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "bulking agent, anti-caking agent, texture modifier, emulsifier",
+    "source_type": "natural (modified)",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Plant cell walls (primary structural component)",
+      "Wood (40-50% cellulose)",
+      "Cotton (90% cellulose)",
+      "Paper",
+      "All fruits and vegetables (dietary fiber)"
+    ],
+    "description": "Cellulose is the most abundant organic polymer on Earth, forming the structural framework of plant cell walls. When you eat fruits, vegetables, or whole grains, you're consuming cellulose as dietary fiber. Food-grade cellulose is purified from wood pulp or cotton."
+  },
+  "manufacturing": {
+    "method": "physical and chemical processing",
+    "description": "Microcrystalline cellulose (E460i): Wood pulp or cotton is treated with dilute acid to remove amorphous (non-crystalline) regions, leaving highly crystalline microcrystals. These are then spray-dried to produce fine particles. Powdered cellulose (E460ii): Wood pulp is mechanically processed and purified to produce fine cellulose powder. Both forms are essentially purified, processed plant fiber."
+  },
+  "other_uses": {
+    "cosmetics": "Bulking agent, absorbent, and viscosity controller in cosmetics.",
+    "industrial": "Paper production, textile fibers, construction materials, biofuels.",
+    "pharmaceutical": "Tablet binder and disintegrant (most common pharmaceutical excipient), capsule filler.",
+    "household": "Paper products, cotton textiles, cellulose sponges."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E460(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories; considered inert dietary fiber.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.90, 184.1444",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Considered dietary fiber"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "結晶セルロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "460",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered inert dietary fiber)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=microcrystalline+cellulose+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=cellulose+dietary+fiber",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=460"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "13.0",
+      "category_name": "Foods for particular nutritional uses",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-calorie and reduced-fat foods (adds bulk without calories)",
+    "Shredded cheese (anti-caking agent prevents clumping)",
+    "Dietary supplements and vitamin tablets (binder and filler)",
+    "Ice cream and frozen desserts (prevents ice crystal formation)",
+    "Baked goods (improves texture)",
+    "Grated Parmesan cheese",
+    "Processed meats",
+    "Gluten-free products (texture improvement)"
+  ],
+  "fun_facts": [
+    "When you eat cellulose, you're literally eating processed wood pulp or cotton fiber - but it's completely safe and natural plant material!",
+    "Humans can't digest cellulose (we lack the enzyme cellulase), so it passes through as dietary fiber - it's calorie-free bulk",
+    "Cellulose is the most abundant organic compound on Earth - there are about 1.5 trillion tons of it",
+    "The shredded cheese in your refrigerator stays separated thanks to cellulose coating - otherwise it would clump into a solid mass",
+    "Microcrystalline cellulose is the world's most common pharmaceutical ingredient - most tablets contain it as a binder"
+  ]
+}

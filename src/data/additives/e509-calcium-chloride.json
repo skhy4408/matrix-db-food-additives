@@ -1,0 +1,147 @@
+{
+  "slug": "e509-calcium-chloride",
+  "names": {
+    "e_number": "E509",
+    "ins_number": "509",
+    "cas_number": "10043-52-4",
+    "common_name": "Calcium Chloride",
+    "scientific_name": "Calcium chloride (CaCl2)",
+    "japanese_name": "塩化カルシウム",
+    "japanese_label_name": "塩化Ca",
+    "aliases": [
+      "Calcium salt",
+      "CaCl2",
+      "Dowflake (commercial name)"
+    ]
+  },
+  "classification": {
+    "functional_class": "firming agent",
+    "sub_class": "sequestrant, stabilizer, thickener",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Sea water and brine",
+      "Limestone caves (as solution)",
+      "Some mineral springs"
+    ],
+    "description": "Calcium chloride occurs naturally in brine and sea water, but is commercially produced as a byproduct of the Solvay process or by treating limestone with hydrochloric acid."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced as a byproduct of the Solvay process (sodium carbonate production) or by reacting calcium carbonate (limestone) or calcium hydroxide with hydrochloric acid. Purified through crystallization and drying."
+  },
+  "other_uses": {
+    "cosmetics": "Viscosity regulator, stabilizer in personal care products.",
+    "industrial": "De-icing roads and sidewalks, concrete acceleration, desiccant, dust control on unpaved roads.",
+    "pharmaceutical": "Electrolyte replenisher, calcium supplement, treatment for hypocalcemia.",
+    "household": "DampRid moisture absorber, aquarium water hardener."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E509",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories as firming agent and stabilizer.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1193",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in food processing and molecular gastronomy."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "236",
+      "japanese_regulation_name": "塩化カルシウム",
+      "notes": "Commonly used in tofu production."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "509",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4065",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+chloride+food+firming+agent",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+chloride+molecular+gastronomy",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4065",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=509"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.3",
+      "category_name": "Canned or bottled fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1",
+      "category_name": "Fresh meat",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Canned vegetables (keeps pickles crisp)",
+    "Sports drinks and electrolyte beverages",
+    "Tofu (as coagulant/firming agent)",
+    "Canned tomatoes (maintains firmness)",
+    "Cheese production (helps form curds)",
+    "Molecular gastronomy - SPHERIFICATION technique (reverse spherification)",
+    "Beer brewing (water hardening)",
+    "Canned fruits (prevents softening)"
+  ],
+  "fun_facts": [
+    "THE secret ingredient in MOLECULAR GASTRONOMY for 'reverse spherification' - creates those liquid-filled spheres that pop in your mouth",
+    "Used by modernist chefs like Ferran Adrià at elBulli to create iconic dishes like 'olive oil spheres'",
+    "Keeps pickles crunchy and prevents canned vegetables from turning to mush",
+    "The same chemical used to de-ice roads in winter (food grade is much purer)",
+    "Generates heat when dissolved in water - it's an exothermic reaction you can feel",
+    "Used in tofu production in Asia for centuries as a traditional coagulant",
+    "Can make a slightly salty/bitter taste if used in large amounts, so used sparingly in food"
+  ]
+}

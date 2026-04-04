@@ -1,0 +1,151 @@
+{
+  "slug": "e914-oxidized-polyethylene-wax",
+  "names": {
+    "e_number": "E914",
+    "ins_number": "914",
+    "cas_number": "68441-17-8",
+    "common_name": "Oxidized polyethylene wax",
+    "scientific_name": "Polyethylene wax, oxidized",
+    "japanese_name": "酸化ポリエチレンワックス",
+    "japanese_label_name": "酸化ポリエチレンワックス",
+    "aliases": [
+      "Oxidized PE wax",
+      "OPE wax",
+      "Polyethylene oxide wax"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating, release agent",
+    "source_type": "synthetic",
+    "chemical_group": "oxidized polymer"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic wax produced by controlled oxidation of low molecular weight polyethylene. Used as a glazing agent and release agent in confectionery. Chemically similar to plastic but food-grade and highly purified."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis and oxidation",
+    "description": "Produced by polymerization of ethylene to form low molecular weight polyethylene, followed by controlled oxidation to introduce polar functional groups (carboxylic acids, esters). Highly purified for food-grade applications."
+  },
+  "other_uses": {
+    "cosmetics": "Lipstick, lip gloss, cosmetic coatings",
+    "industrial": "Printing inks, hot-melt adhesives, PVC processing, rubber",
+    "pharmaceutical": "Tablet coating and polishing",
+    "household": "Floor polish, car wax, textile treatment"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E914",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment; only food-grade oxidized PE wax permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Indirect food additive",
+      "cfr_reference": "21 CFR 178.3700",
+      "fda_url": null,
+      "notes": "Approved as component of coatings"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酸化ポリエチレンワックス",
+      "notes": "Approved as glazing agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "914",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved as glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=oxidized+polyethylene+wax+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E914+oxidized+polyethylene+glazing",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-178.3700",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=914"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "JECFA and EFSA evaluate oxidized polyethylene wax for food use"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1.2",
+      "category_name": "Fresh fruit",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "polyethylene"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 178.3700",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Candy coating and glazing",
+    "Chewing gum",
+    "Fresh fruit coatings",
+    "Confectionery surface treatment",
+    "Pharmaceutical tablet coatings"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - oxidized polyethylene wax is not absorbed by the digestive system and passes through unchanged."
+  },
+  "fun_facts": [
+    "Chemically related to plastic bags - but food-grade and highly purified",
+    "Made from the same ethylene gas used to ripen fruit",
+    "Passes through your body completely unchanged",
+    "Used in both candy coating and car wax",
+    "Oxidation makes it more polar and better at coating than regular polyethylene",
+    "One of several synthetic waxes that replaced natural waxes in food"
+  ]
+}

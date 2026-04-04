@@ -1,0 +1,144 @@
+{
+  "slug": "e520-aluminium-sulfate",
+  "names": {
+    "e_number": "E520",
+    "ins_number": "520",
+    "cas_number": "10043-01-3",
+    "common_name": "Aluminium Sulfate",
+    "scientific_name": "Aluminium sulfate (Al2(SO4)3)",
+    "japanese_name": "硫酸アルミニウム",
+    "japanese_label_name": "硫酸Al",
+    "aliases": [
+      "Aluminum sulfate",
+      "Alum (when referring to hydrated forms)",
+      "Papermaker's alum"
+    ]
+  },
+  "classification": {
+    "functional_class": "firming agent",
+    "sub_class": "stabilizer, carrier",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Aluminium sulfate does not occur naturally in pure form, though related alum minerals exist. All commercial production is synthetic."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting aluminum hydroxide or bauxite ore with sulfuric acid. The solution is then crystallized to obtain various hydrated forms of aluminum sulfate."
+  },
+  "other_uses": {
+    "cosmetics": "Astringent in some antiperspirants and styptic pencils (though potassium alum is more common).",
+    "industrial": "Water treatment (flocculation), paper sizing, dyeing mordant, fireproofing textiles.",
+    "pharmaceutical": "Vaccine adjuvants (though usually as aluminum hydroxide or phosphate).",
+    "household": "Pickling cucumbers (in some traditional recipes), water purification."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E520",
+      "max_level_mg_kg": "varies by category (typically 30-200 mg/kg as Al)",
+      "conditions": "Permitted in limited food categories with maximum residue limits. Primarily candied and crystallized fruits.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (limited use)",
+      "cfr_reference": "21 CFR 184.1121",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to specific uses in food processing, particularly pickling."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "334",
+      "japanese_regulation_name": "硫酸アルミニウム",
+      "notes": "Restricted use with maximum residue levels."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "520",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Limited applications with maximum permitted levels."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Restricted use in specific food categories."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (limited use in specific applications)",
+    "jecfa_evaluation_year": 2006,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4073",
+    "efsa_adi": "no ADI established (limited use with maximum levels)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=aluminum+sulfate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=aluminum+sulfate+firming+agent",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5372",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4073",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=520"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated aluminium-containing food additives, expressing concern about dietary aluminium exposure, particularly for children. Established maximum residue limits for specific applications."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.2",
+      "category_name": "Candied fruits and vegetables",
+      "max_level_mg_kg": "200 (as Al)"
+    },
+    {
+      "category_code": "04.2.5.3",
+      "category_name": "Crystallized fruits and vegetables",
+      "max_level_mg_kg": "200 (as Al)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Candied and crystallized fruits (firming agent)",
+    "Maraschino cherries (traditional formulations)",
+    "Some traditional pickle recipes",
+    "Processed vegetables (limited use)",
+    "Water treatment (not in the water itself, but used to purify it)"
+  ],
+  "fun_facts": [
+    "More commonly used to purify drinking water than as a food ingredient - clumps impurities together for removal",
+    "In old-fashioned pickle recipes, called 'alum' and used to keep pickles crisp and crunchy",
+    "Related to the 'alum' used in styptic pencils to stop bleeding from shaving cuts",
+    "Use in food has declined due to concerns about aluminum exposure, though science on health effects remains debated",
+    "The same chemical that makes paper smooth and resistant to ink bleeding through (paper sizing)",
+    "Historically used to make maraschino cherries firm and translucent before modern formulations"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "e514-sodium-sulfates",
+  "names": {
+    "e_number": "E514",
+    "ins_number": "514",
+    "cas_number": "7757-82-6 (i), 7681-38-1 (ii)",
+    "common_name": "Sodium Sulfates",
+    "scientific_name": "Sodium sulfate (E514i), Sodium hydrogen sulfate/bisulfate (E514ii)",
+    "japanese_name": "硫酸ナトリウム",
+    "japanese_label_name": "硫酸Na",
+    "aliases": [
+      "Glauber's salt (E514i decahydrate)",
+      "Salt cake (E514i anhydrous)",
+      "Sodium bisulfate (E514ii)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "diluent, carrier",
+    "source_type": "synthetic or mineral",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Mirabilite mineral (sodium sulfate decahydrate)",
+      "Thenardite mineral (anhydrous sodium sulfate)",
+      "Salt lakes and mineral springs"
+    ],
+    "description": "Sodium sulfate occurs naturally as the mineral mirabilite (Glauber's salt). However, most commercial production is synthetic, often as a byproduct of chemical manufacturing."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis or mining",
+    "description": "Produced by the reaction of sodium chloride with sulfuric acid (Mannheim process), or as a byproduct of hydrochloric acid production and other chemical processes. Can also be extracted from natural mineral deposits. E514ii (sodium bisulfate) is made by partial neutralization of sulfuric acid with sodium carbonate or hydroxide."
+  },
+  "other_uses": {
+    "cosmetics": "Viscosity regulator, bulking agent.",
+    "industrial": "Kraft pulping in paper industry, detergents, glass manufacturing, textile dyeing.",
+    "pharmaceutical": "Laxative (Glauber's salt), diluent in tablets.",
+    "household": "Some cleaning products, hot tub pH reducers."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E514(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as acidity regulator and carrier in specific food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1797 (sulfate), 21 CFR 184.1754 (bisulfate)",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited use in food processing."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "330",
+      "japanese_regulation_name": "硫酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "514",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4069",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sodium+sulfate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+sulfate+dietary+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4069",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=514"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "12.6",
+      "category_name": "Sauces",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dried egg whites (carrier for whipping agents)",
+    "Some vitamin and mineral supplements (carrier/diluent)",
+    "Cattle feed supplements",
+    "Some processed foods as minor ingredient",
+    "Brewing industry (water treatment)"
+  ],
+  "fun_facts": [
+    "E514i in its hydrated form is known as 'Glauber's salt' - named after Johann Glauber who discovered it in 1625",
+    "Glauber's salt was historically used as a laxative and is still used medicinally for bowel cleansing",
+    "Has an unusual property: it dissolves in water with cooling (endothermic reaction) rather than heating",
+    "Used more in industrial food processing than as a direct food ingredient",
+    "The anhydrous form is also called 'salt cake' in industrial applications",
+    "Relatively rare in modern food products - more commonly found in industrial and pharmaceutical uses"
+  ]
+}

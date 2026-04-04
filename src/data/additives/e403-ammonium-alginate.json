@@ -1,0 +1,134 @@
+{
+  "slug": "e403-ammonium-alginate",
+  "names": {
+    "e_number": "E403",
+    "ins_number": "403",
+    "cas_number": "9005-34-9",
+    "common_name": "Ammonium Alginate",
+    "scientific_name": "Ammonium alginate",
+    "japanese_name": "アルギン酸アンモニウム",
+    "japanese_label_name": "アルギン酸アンモニウム",
+    "aliases": [
+      "Ammonium algin",
+      "Algin ammonium salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "seaweed-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Brown seaweed (Phaeophyceae)",
+      "Kelp (Laminaria species)",
+      "Giant kelp (Macrocystis pyrifera)"
+    ],
+    "description": "The ammonium salt of alginic acid, extracted from brown seaweed. Less commonly used than sodium or potassium alginates but provides similar functional properties."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from brown seaweed using ammonium hydroxide solution, or by converting alginic acid with ammonium hydroxide. Filtered, purified, and dried."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetic formulations as a thickening agent.",
+    "industrial": "Used in textile printing applications.",
+    "pharmaceutical": "Limited pharmaceutical applications.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E403",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1133",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1133",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アルギン酸アンモニウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "403",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ammonium+alginate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ammonium+alginate+E403",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1133",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=403"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Jellies and jams",
+    "Restructured foods",
+    "Dessert gels",
+    "Ice cream stabilizers",
+    "Instant puddings"
+  ]
+}

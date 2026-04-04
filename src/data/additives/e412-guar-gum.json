@@ -1,0 +1,134 @@
+{
+  "slug": "e412-guar-gum",
+  "names": {
+    "e_number": "E412",
+    "ins_number": "412",
+    "cas_number": "9000-30-0",
+    "common_name": "Guar Gum",
+    "scientific_name": "Cyamopsis tetragonoloba gum",
+    "japanese_name": "グアーガム",
+    "japanese_label_name": "グアーガム",
+    "aliases": [
+      "Guar flour",
+      "Cluster bean gum",
+      "Guaran"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Guar beans (Cyamopsis tetragonoloba)",
+      "Cluster beans native to India and Pakistan"
+    ],
+    "description": "A natural galactomannan polysaccharide extracted from guar beans. India and Pakistan produce over 80% of the world's guar, where it has been cultivated for thousands of years as both food and fodder."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Guar beans are dehusked, milled, and screened to separate the endosperm from the hull and germ. The endosperm is then ground into a fine powder."
+  },
+  "other_uses": {
+    "cosmetics": "Used in shampoos, conditioners, and lotions as a thickener.",
+    "industrial": "Extensively used in hydraulic fracturing (fracking), textile printing, and paper manufacturing.",
+    "pharmaceutical": "Used as a binder in tablets and as a laxative.",
+    "household": "Used in gluten-free baking as a binding agent"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E412",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1339",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1339",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "グアーガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "412",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=guar+gum+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=guar+gum+E412",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1339",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=412"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Gluten-free baked goods",
+    "Ice cream and frozen desserts",
+    "Salad dressings",
+    "Soups and sauces",
+    "Plant-based milk alternatives",
+    "Pet food"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "slug": "e515-potassium-sulfates",
+  "names": {
+    "e_number": "E515",
+    "ins_number": "515",
+    "cas_number": "7778-80-5 (i), 7646-93-7 (ii)",
+    "common_name": "Potassium Sulfates",
+    "scientific_name": "Potassium sulfate (E515i), Potassium hydrogen sulfate/bisulfate (E515ii)",
+    "japanese_name": "硫酸カリウム",
+    "japanese_label_name": "硫酸K",
+    "aliases": [
+      "Arcanite (mineral form of E515i)",
+      "Potassium bisulfate (E515ii)",
+      "Potash of sulfur"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "salt substitute component, stabilizer",
+    "source_type": "synthetic or mineral",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Arcanite mineral (rare)",
+      "Volcanic fumaroles",
+      "Some mineral springs"
+    ],
+    "description": "Potassium sulfate occurs in nature as the rare mineral arcanite and in volcanic areas, but commercial production is synthetic."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "E515i (potassium sulfate) is produced by reacting potassium chloride with sulfuric acid (Mannheim process) or as a byproduct of nitric acid production. E515ii (potassium bisulfate) is made by reacting potassium chloride or hydroxide with excess sulfuric acid."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Fertilizers (major use - chloride-free potassium source), alum production, glass manufacturing.",
+    "pharmaceutical": "Rarely used in pharmaceuticals.",
+    "household": "Wine making (acidity regulator), home brewing."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E515(i-ii)",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as acidity regulator in specific food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1643",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited use in food processing."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "331",
+      "japanese_regulation_name": "硫酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "515",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4070",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+sulfate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+sulfate+dietary+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4070",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=515"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "12.6",
+      "category_name": "Sauces",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Wine production (acidity regulator, potassium source)",
+    "Home brewing and beer making",
+    "Some reduced-sodium food products",
+    "Low-sodium salt substitutes (minor component)",
+    "Agricultural nutrient supplements"
+  ],
+  "fun_facts": [
+    "Used far more as an agricultural fertilizer than as a food additive - it's a 'chloride-free' potassium source for crops",
+    "Sometimes called 'potash of sulfur' historically",
+    "Particularly important for tobacco, fruits, and vegetables that don't tolerate chloride well",
+    "In winemaking, provides both acidity adjustment and potassium supplementation",
+    "Relatively uncommon in commercial food products compared to other sulfate salts",
+    "Neutral taste makes it suitable for use without affecting flavor"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "slug": "e404-calcium-alginate",
+  "names": {
+    "e_number": "E404",
+    "ins_number": "404",
+    "cas_number": "9005-35-0",
+    "common_name": "Calcium Alginate",
+    "scientific_name": "Calcium alginate",
+    "japanese_name": "アルギン酸カルシウム",
+    "japanese_label_name": "アルギン酸カルシウム",
+    "aliases": [
+      "Calcium algin",
+      "Algin calcium salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "seaweed-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Brown seaweed (Phaeophyceae)",
+      "Kelp (Laminaria species)",
+      "Giant kelp (Macrocystis pyrifera)"
+    ],
+    "description": "The calcium salt of alginic acid, extracted from brown seaweed. Forms strong gels and is particularly useful for creating firm textures in restructured foods."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Produced by treating sodium alginate with calcium chloride or calcium hydroxide, which causes immediate gelation. Can also be extracted directly from seaweed using calcium-containing solutions."
+  },
+  "other_uses": {
+    "cosmetics": "Used in wound dressings and face mask sheets.",
+    "industrial": "Used in textile printing and as a binder in welding rods.",
+    "pharmaceutical": "Used extensively in wound care products and hemostatic dressings.",
+    "household": "Used in molecular gastronomy for spherification"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E404",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1187",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1187",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アルギン酸カルシウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "404",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+alginate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+alginate+E404",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1187",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=404"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.3",
+      "category_name": "Meat products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Restructured onion rings",
+    "Fruit pieces in yogurt",
+    "Pet food",
+    "Stuffed olives",
+    "Molecular gastronomy spherification",
+    "Restructured meats and seafood"
+  ]
+}

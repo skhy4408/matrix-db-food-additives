@@ -1,0 +1,152 @@
+{
+  "slug": "e943b-isobutane",
+  "names": {
+    "e_number": "E943b",
+    "ins_number": "943b",
+    "cas_number": "75-28-5",
+    "common_name": "Isobutane",
+    "scientific_name": "2-Methylpropane (C₄H₁₀)",
+    "japanese_name": "イソブタン",
+    "japanese_label_name": "イソブタン",
+    "aliases": [
+      "2-Methylpropane",
+      "i-Butane"
+    ]
+  },
+  "classification": {
+    "functional_class": "propellant",
+    "sub_class": "aerating agent",
+    "source_type": "petroleum/natural gas",
+    "chemical_group": "branched alkane hydrocarbon"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Natural gas",
+      "Petroleum deposits",
+      "Produced during oil refining"
+    ],
+    "description": "An isomer of butane with a branched structure. Colorless, highly flammable gas used as a propellant in food aerosol products. Similar to butane but with slightly different physical properties."
+  },
+  "manufacturing": {
+    "method": "petroleum refining and natural gas processing",
+    "description": "Extracted from natural gas or produced during petroleum refining. Separated from n-butane and other hydrocarbons through fractional distillation and isomerization processes."
+  },
+  "other_uses": {
+    "cosmetics": "Aerosol propellant in hairsprays, deodorants, shaving cream",
+    "industrial": "Refrigerant (R-600a), lighter fuel, chemical feedstock",
+    "pharmaceutical": "Aerosol propellant in medical sprays",
+    "household": "Refrigerant in modern fridges, aerosol products"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E943b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as propellant",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1535",
+      "fda_url": null,
+      "notes": "Approved as propellant and aerating agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "イソブタン",
+      "notes": "Approved as propellant"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "943b",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted propellant"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as propellant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use as propellant)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no toxicological concern when used as propellant)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=isobutane+propellant+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E943b+isobutane+aerosol",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1535",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=943"
+  },
+  "regulatory_history": [
+    {
+      "year": 1990,
+      "event": "Isobutane increasingly used as propellant after CFC phase-out"
+    },
+    {
+      "year": 2000,
+      "event": "Isobutane (R-600a) becomes popular eco-friendly refrigerant"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Propellant",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "isobutane"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1535",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cooking spray aerosols",
+    "Aerosol whipped cream",
+    "Food-grade aerosol products",
+    "Hairsprays and deodorants (non-food)",
+    "Modern refrigerators (as R-600a refrigerant)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - isobutane evaporates immediately from food products and is not consumed in significant amounts."
+  },
+  "fun_facts": [
+    "Structural isomer of butane - same formula, different shape",
+    "Used in your fridge as eco-friendly refrigerant (R-600a)",
+    "Evaporates instantly when sprayed - gone before you eat",
+    "Highly flammable - same warning as regular butane",
+    "Replaced harmful CFCs in aerosols and refrigeration",
+    "Often mixed with propane and butane in aerosol products"
+  ]
+}

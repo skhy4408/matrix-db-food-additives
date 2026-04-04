@@ -1,0 +1,144 @@
+{
+  "slug": "e512-stannous-chloride",
+  "names": {
+    "e_number": "E512",
+    "ins_number": "512",
+    "cas_number": "7772-99-8",
+    "common_name": "Stannous Chloride",
+    "scientific_name": "Tin(II) chloride (SnCl2)",
+    "japanese_name": "塩化第一スズ",
+    "japanese_label_name": "塩化第一スズ",
+    "aliases": [
+      "Tin dichloride",
+      "Tin(II) chloride",
+      "Tin protochloride"
+    ]
+  },
+  "classification": {
+    "functional_class": "antioxidant",
+    "sub_class": "color retention agent, reducing agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Stannous chloride does not occur naturally. It is synthetically manufactured for use in food processing and industrial applications."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by dissolving metallic tin in hydrochloric acid. The resulting tin(II) chloride is purified and crystallized. Must be kept in acidic conditions to prevent oxidation to tin(IV) chloride."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Electroplating, reducing agent in chemical synthesis, catalyst, glass production.",
+    "pharmaceutical": "Reducing agent in pharmaceutical synthesis, stabilizer for hydrogen peroxide.",
+    "household": "Not used in household products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E512",
+      "max_level_mg_kg": "varies by category (typically 25-100 mg/kg)",
+      "conditions": "Limited use in specific canned and bottled foods for color retention. Not permitted in all categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2018",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5408"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (limited use)",
+      "cfr_reference": "21 CFR 184.1845",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Limited to specific uses in canned foods, maximum 15 ppm in asparagus."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "238",
+      "japanese_regulation_name": "塩化第一スズ",
+      "notes": "Limited use with maximum residue limits."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "512",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Restricted use with maximum permitted levels."
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": "Limited to specific applications in canned foods."
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-2 mg/kg bw/day (as tin)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4067",
+    "efsa_adi": "0.06 mg/kg bw/day (as tin)",
+    "efsa_evaluation_year": 2018,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5408"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=stannous+chloride+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=tin+chloride+antioxidant+canned+food",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5408",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4067",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=512"
+  },
+  "regulatory_history": [
+    {
+      "year": 2018,
+      "event": "EFSA re-evaluated stannous chloride and established a lower ADI than JECFA due to concerns about tin exposure from multiple sources including canned foods."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.2",
+      "category_name": "Canned or bottled vegetables",
+      "max_level_mg_kg": "100 (as Sn)"
+    },
+    {
+      "category_code": "04.2.3",
+      "category_name": "Canned or bottled fruit",
+      "max_level_mg_kg": "100 (as Sn)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2018"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Canned white asparagus (prevents color darkening)",
+    "Canned soft drinks in tin cans (rare now)",
+    "Some canned vegetables (color retention)",
+    "Canned fruits (prevents oxidation)",
+    "Bottled soft drinks (less common now)"
+  ],
+  "fun_facts": [
+    "Used specifically to keep canned WHITE ASPARAGUS looking white and not turning gray/brown",
+    "Acts as a reducing agent, preventing oxidation reactions that cause color changes in canned foods",
+    "Less commonly used today due to concerns about tin exposure and the shift to aluminum cans",
+    "Tin cans (actually steel with tin coating) can leach small amounts of tin into food, which is why there are strict limits",
+    "One of the few food additives containing a metal (tin) that isn't essential to human nutrition",
+    "The ADI is set for total tin exposure, not just from stannous chloride - regulators consider tin from can coatings too"
+  ]
+}

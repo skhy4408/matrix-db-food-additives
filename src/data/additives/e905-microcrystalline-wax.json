@@ -1,0 +1,157 @@
+{
+  "slug": "e905-microcrystalline-wax",
+  "names": {
+    "e_number": "E905",
+    "ins_number": "905",
+    "cas_number": "63231-60-7",
+    "common_name": "Microcrystalline wax",
+    "scientific_name": "Petroleum wax (microcrystalline)",
+    "japanese_name": "マイクロクリスタリンワックス",
+    "japanese_label_name": "マイクロクリスタリンワックス",
+    "aliases": [
+      "Petroleum wax",
+      "Microcrystalline petroleum wax",
+      "Microwax"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating",
+    "source_type": "petroleum",
+    "chemical_group": "petroleum-derived wax"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A refined petroleum-based wax with smaller, more irregular crystal structure than paraffin wax. More flexible and has better adhesive properties than paraffin. Derived from crude oil refining."
+  },
+  "manufacturing": {
+    "method": "petroleum refining",
+    "description": "Extracted during the petroleum refining process from heavier oil fractions. The crude wax is de-oiled, filtered, and purified through solvent extraction and hydrotreating to produce food-grade microcrystalline wax."
+  },
+  "other_uses": {
+    "cosmetics": "Lipstick, lip balm, creams, ointments",
+    "industrial": "Rubber processing, adhesives, crayons, candles",
+    "pharmaceutical": "Ointment base, tablet coating",
+    "household": "Modeling clay, ski wax, surfboard wax"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E905",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Only highly refined food-grade wax authorized for surface treatment",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 172.615",
+      "fda_url": null,
+      "notes": "Approved as masticatory substance in chewing gum base and protective coating"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "マイクロクリスタリンワックス",
+      "notes": "Approved as glazing agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "905a-c",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent (subdivided into E905a, E905b, E905c variants)"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved as glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2002,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=microcrystalline+wax+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E905+petroleum+wax+glazing+agent",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.615",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=905"
+  },
+  "regulatory_history": [
+    {
+      "year": 2002,
+      "event": "JECFA evaluates petroleum waxes for food use"
+    },
+    {
+      "year": 2013,
+      "event": "EFSA re-evaluates food-grade petroleum waxes and confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "microcrystalline-wax"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 172.615",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum base",
+    "Candy coating",
+    "Cheese wax coating",
+    "Fruit and vegetable coatings",
+    "Food packaging materials",
+    "Pharmaceutical tablets",
+    "Confectionery products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - microcrystalline wax is not absorbed by the digestive system and passes through unchanged."
+  },
+  "fun_facts": [
+    "Made from petroleum - the same source as gasoline and motor oil",
+    "More flexible than regular paraffin wax due to smaller crystal structure",
+    "Used in both your chewing gum and your cheese coating",
+    "Also found in crayons, lipstick, and ski wax",
+    "Passes through your digestive system completely unchanged",
+    "Must be highly refined to food-grade quality (removes carcinogens)"
+  ]
+}

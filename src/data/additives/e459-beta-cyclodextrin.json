@@ -1,0 +1,140 @@
+{
+  "slug": "e459-beta-cyclodextrin",
+  "names": {
+    "e_number": "E459",
+    "ins_number": "459",
+    "cas_number": "7585-39-9",
+    "common_name": "Beta-cyclodextrin",
+    "scientific_name": "β-Cyclodextrin",
+    "japanese_name": "β-シクロデキストリン",
+    "japanese_label_name": "β-シクロデキストリン",
+    "aliases": [
+      "β-CD",
+      "Cycloheptaamylose",
+      "Beta-dextrin",
+      "Betadex"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "encapsulation agent, carrier, flavor protector",
+    "source_type": "natural (modified)",
+    "chemical_group": "cyclic oligosaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Beta-cyclodextrin does not occur naturally in significant amounts. It is produced by enzymatic modification of starch, a natural polysaccharide. The cyclodextrin structure consists of 7 glucose units arranged in a ring, creating a molecular cage."
+  },
+  "manufacturing": {
+    "method": "enzymatic modification",
+    "description": "Produced by enzymatic degradation of starch using cyclodextrin glycosyltransferase (CGTase) enzyme, typically from Bacillus bacteria. The enzyme converts linear starch chains into cyclic structures. Beta-cyclodextrin contains 7 glucose units in a ring, forming a truncated cone shape with a hydrophobic (water-repelling) cavity and hydrophilic (water-loving) exterior. This unique structure allows it to encapsulate guest molecules."
+  },
+  "other_uses": {
+    "cosmetics": "Stabilizer and odor absorber in cosmetics and personal care products.",
+    "industrial": "Odor control (Febreze uses beta-cyclodextrin to trap odor molecules), textile treatment, pharmaceutical excipient.",
+    "pharmaceutical": "Drug delivery system, solubility enhancer, stabilizer for sensitive active ingredients.",
+    "household": "Febreze and other odor eliminators (traps odor molecules in molecular cage), air fresheners."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E459",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in specified food categories; not widely used in foods compared to pharmaceutical and industrial applications.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1444",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "More commonly used in pharmaceuticals and consumer products than direct food use"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "シクロデキストリン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "459",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered safe at levels used)",
+    "jecfa_evaluation_year": 2006,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=beta-cyclodextrin+food+application",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=beta-cyclodextrin+encapsulation",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=459"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery including breath freshening microsweets",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1",
+      "category_name": "Non-alcoholic beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dietary supplements (improves solubility and bioavailability)",
+    "Breath fresheners and mints",
+    "Flavor encapsulation systems",
+    "Functional beverages",
+    "Pharmaceutical tablets and capsules",
+    "Febreze and odor-eliminating sprays (traps odor molecules)",
+    "Some processed foods for flavor stability"
+  ],
+  "fun_facts": [
+    "Beta-cyclodextrin is the active ingredient in Febreze - it works by trapping stinky odor molecules inside its molecular cage, not by masking them with perfume",
+    "The molecule has a doughnut or truncated cone shape with a hollow center - like a molecular trap for other molecules",
+    "Because it's made from starch (which your body can digest), cyclodextrin passes through your digestive system unchanged - your enzymes can't break the unusual ring structure",
+    "In pharmaceuticals, cyclodextrins can make poorly soluble drugs dissolve better by encapsulating them - it's like molecular packaging",
+    "The cavity size of beta-cyclodextrin (7 glucose units) is just right for many flavor and odor molecules - alpha (6 units) is too small, gamma (8 units) is too large"
+  ]
+}

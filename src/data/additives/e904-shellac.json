@@ -1,0 +1,166 @@
+{
+  "slug": "e904-shellac",
+  "names": {
+    "e_number": "E904",
+    "ins_number": "904",
+    "cas_number": "9000-59-3",
+    "common_name": "Shellac",
+    "scientific_name": "Laccifer lacca resin",
+    "japanese_name": "セラック",
+    "japanese_label_name": "セラック",
+    "aliases": [
+      "Lac resin",
+      "Gum lac",
+      "Stick lac",
+      "Confectioner's glaze",
+      "E904"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating",
+    "source_type": "natural",
+    "chemical_group": "resinous secretion"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Secretion of female lac insect (Kerria lacca, Laccifer lacca)"
+    ],
+    "description": "A natural resin secreted by the female lac insect on trees in India and Thailand. The insects secrete the resin to form a protective cocoon. Refined shellac is used as a glazing agent in foods and as a finish for wood furniture."
+  },
+  "manufacturing": {
+    "method": "extraction from insect secretions",
+    "description": "Harvested from tree branches where lac insects have created resinous deposits. The raw material (sticklac) is processed by crushing, washing, filtering, and refining to produce purified shellac flakes or liquid."
+  },
+  "other_uses": {
+    "cosmetics": "Nail polish, hair spray, mascara",
+    "industrial": "Furniture polish, wood finish, vinyl record coating",
+    "pharmaceutical": "Enteric tablet coating, time-release capsules",
+    "household": "French polish for wood, primer/sealer, artist fixative"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E904",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2007",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1978",
+      "fda_url": null,
+      "notes": "Approved as resinous glaze on confectionery"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "セラック",
+      "notes": "Natural additive, existing use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "904",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2007,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2007,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=shellac+food+safety+glazing",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E904+shellac+confectioner+glaze",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1978",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=904"
+  },
+  "regulatory_history": [
+    {
+      "year": "ancient",
+      "event": "Shellac used for thousands of years in India for wood finishing and lacquerware"
+    },
+    {
+      "year": 1974,
+      "event": "FDA affirms shellac as GRAS for food use"
+    },
+    {
+      "year": 2007,
+      "event": "EFSA confirms safety as food additive"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1.2",
+      "category_name": "Fresh fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "shellac"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1978",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Candy coating (jelly beans, chocolate-coated items)",
+    "Confectioner's glaze on donuts and pastries",
+    "Fresh fruit coatings (apples, citrus)",
+    "Pharmaceutical pill coatings",
+    "Coffee beans (glazing)",
+    "Sprinkles and decorative candy",
+    "Glazed nuts",
+    "Chocolate confectionery"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - shellac is considered safe at all levels of consumption due to its inert nature and lack of absorption."
+  },
+  "fun_facts": [
+    "Made from bug secretions - the same as furniture polish and wood finish",
+    "Female lac insects produce the resin to protect their eggs",
+    "The shiny coating on jelly beans is literally insect secretion",
+    "Used to make old vinyl records before plastics were invented",
+    "Not vegan - derived from insect secretions",
+    "The word 'shellac' also means 'to defeat decisively' in slang",
+    "Takes about 300,000 lac insects to produce 1 kg of shellac"
+  ]
+}

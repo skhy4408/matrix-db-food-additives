@@ -1,0 +1,132 @@
+{
+  "slug": "e426-soybean-hemicellulose",
+  "names": {
+    "e_number": "E426",
+    "ins_number": "426",
+    "cas_number": "9034-32-6",
+    "common_name": "Soybean hemicellulose",
+    "scientific_name": "Soybean polysaccharide",
+    "japanese_name": "大豆多糖類",
+    "japanese_label_name": "大豆多糖類",
+    "aliases": [
+      "Soybean polysaccharide",
+      "Soy fiber",
+      "Soy soluble polysaccharide"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "soybean cell walls",
+      "soy fiber (okara)"
+    ],
+    "description": "A complex polysaccharide derived from soybean cotyledon fiber, a component of dietary fiber in soybeans. Typically extracted from okara, the pulp leftover from tofu production."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from soybean cotyledon fiber (okara), the byproduct of tofu and soy milk production. The fiber undergoes water extraction and purification to isolate the soluble polysaccharide fraction. This sustainable process utilizes food processing waste."
+  },
+  "other_uses": {
+    "cosmetics": "Used in some cosmetic formulations as a thickening and stabilizing agent.",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E426",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "大豆多糖類",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "426",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=soybean+polysaccharide+E426",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=soybean+hemicellulose+food+additive",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=426"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "02.2.2",
+      "category_name": "Other fat and oil emulsions including spreads",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Beverages (protein drinks, smoothies)",
+    "Salad dressings and sauces",
+    "Dairy alternatives",
+    "Bakery products",
+    "Processed meats (stabilizer)"
+  ]
+}

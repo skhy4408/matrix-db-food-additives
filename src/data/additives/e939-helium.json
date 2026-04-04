@@ -1,0 +1,151 @@
+{
+  "slug": "e939-helium",
+  "names": {
+    "e_number": "E939",
+    "ins_number": "939",
+    "cas_number": "7440-59-7",
+    "common_name": "Helium",
+    "scientific_name": "Helium (He)",
+    "japanese_name": "ヘリウム",
+    "japanese_label_name": "ヘリウム",
+    "aliases": [
+      "He",
+      "Helium gas"
+    ]
+  },
+  "classification": {
+    "functional_class": "packaging gas",
+    "sub_class": "propellant, protective gas",
+    "source_type": "natural/industrial",
+    "chemical_group": "noble gas"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Natural gas deposits (radioactive decay of uranium/thorium)",
+      "Atmosphere (0.0005%)",
+      "Solar fusion in the Sun"
+    ],
+    "description": "The second lightest and second most abundant element in the universe. An inert, colorless, odorless noble gas. Used in food packaging due to its inert properties and low density."
+  },
+  "manufacturing": {
+    "method": "extraction from natural gas",
+    "description": "Extracted from natural gas deposits where it accumulates from radioactive decay of uranium and thorium. Separated through cryogenic processing. Non-renewable resource on Earth."
+  },
+  "other_uses": {
+    "cosmetics": "Aerosol propellant (rare)",
+    "industrial": "MRI machines, welding, semiconductor manufacturing, rocket fuel pressurization",
+    "pharmaceutical": "Breathing mixtures for deep-sea diving",
+    "household": "Party balloons, airships/blimps"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E939",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as packaging gas and propellant",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1355",
+      "fda_url": null,
+      "notes": "Approved for direct addition to food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ヘリウム",
+      "notes": "Approved as packaging gas"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "939",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted packaging gas"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as packaging gas"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concern)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (noble gas, inert and non-toxic)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=helium+food+packaging+gas",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E939+helium+food+additive",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1355",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=939"
+  },
+  "regulatory_history": [
+    {
+      "year": 1868,
+      "event": "Helium discovered in the Sun's spectrum during a solar eclipse"
+    },
+    {
+      "year": 1895,
+      "event": "Helium isolated on Earth for the first time"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Packaging gas and propellant",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1355",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Specialized food packaging (rare use)",
+    "Party balloons (main consumer use)",
+    "Medical breathing gases",
+    "MRI machines"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - helium is a completely inert noble gas. Non-toxic and non-reactive."
+  },
+  "fun_facts": [
+    "Makes your voice high-pitched when you inhale it (changes sound wavelength)",
+    "Second most abundant element in the universe (after hydrogen)",
+    "Named after the Greek sun god 'Helios' - discovered in the Sun first",
+    "Non-renewable on Earth - we're running out!",
+    "Liquid helium is the coldest liquid on Earth (-269°C)",
+    "Used more in MRI machines and scientific research than in food"
+  ]
+}

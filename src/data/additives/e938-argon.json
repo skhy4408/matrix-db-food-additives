@@ -1,0 +1,151 @@
+{
+  "slug": "e938-argon",
+  "names": {
+    "e_number": "E938",
+    "ins_number": "938",
+    "cas_number": "7440-37-1",
+    "common_name": "Argon",
+    "scientific_name": "Argon (Ar)",
+    "japanese_name": "アルゴン",
+    "japanese_label_name": "アルゴン",
+    "aliases": [
+      "Ar",
+      "Argon gas"
+    ]
+  },
+  "classification": {
+    "functional_class": "packaging gas",
+    "sub_class": "protective gas, preservative",
+    "source_type": "natural/industrial",
+    "chemical_group": "noble gas"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Atmosphere (0.93% of air)",
+      "Third most abundant gas in Earth's atmosphere"
+    ],
+    "description": "An inert, colorless, odorless noble gas that makes up about 1% of Earth's atmosphere. Used as a packaging gas to displace oxygen and prevent oxidation in premium wine preservation and food packaging."
+  },
+  "manufacturing": {
+    "method": "fractional distillation of liquid air",
+    "description": "Produced as a byproduct of oxygen and nitrogen production through cryogenic distillation of air. Argon is separated due to its different boiling point (-185.8°C)."
+  },
+  "other_uses": {
+    "cosmetics": "Inert atmosphere for sensitive formulations",
+    "industrial": "Welding (inert gas shield), light bulbs, semiconductor manufacturing",
+    "pharmaceutical": "Packaging of sensitive medicines",
+    "household": "Wine preservation systems, incandescent light bulbs"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E938",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as packaging gas",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1012",
+      "fda_url": null,
+      "notes": "Approved for direct addition to food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アルゴン",
+      "notes": "Approved as packaging gas"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "938",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted packaging gas"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as packaging gas"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concern)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (noble gas, inert and non-toxic)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=argon+packaging+gas+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E938+argon+food+preservation",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1012",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=938"
+  },
+  "regulatory_history": [
+    {
+      "year": 1894,
+      "event": "Argon discovered by Lord Rayleigh and William Ramsay"
+    },
+    {
+      "year": 1960,
+      "event": "Argon adopted for food packaging and wine preservation"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Packaging gas",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1012",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Premium wine preservation systems",
+    "High-end food packaging",
+    "Packaged meats",
+    "Light bulbs (not food, but interesting)",
+    "Welding applications"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - argon is a noble gas that you breathe in every day (1% of air). Completely inert and non-reactive."
+  },
+  "fun_facts": [
+    "Third most abundant gas in the air you breathe (about 1%)",
+    "A noble gas - won't react with anything (chemically lazy)",
+    "Name comes from Greek 'argos' meaning 'lazy' or 'inactive'",
+    "Used in expensive wine preservation systems for wine enthusiasts",
+    "Also fills incandescent light bulbs",
+    "Discovered in 1894, earning its discoverers the Nobel Prize"
+  ]
+}

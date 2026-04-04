@@ -1,0 +1,165 @@
+{
+  "slug": "e920-l-cysteine",
+  "names": {
+    "e_number": "E920",
+    "ins_number": "920",
+    "cas_number": "52-90-4",
+    "common_name": "L-Cysteine",
+    "scientific_name": "L-2-amino-3-mercaptopropionic acid",
+    "japanese_name": "L-システイン",
+    "japanese_label_name": "L-システイン",
+    "aliases": [
+      "Cysteine",
+      "L-Cys",
+      "2-Amino-3-mercaptopropanoic acid"
+    ]
+  },
+  "classification": {
+    "functional_class": "flour treatment agent",
+    "sub_class": "dough conditioner",
+    "source_type": "synthetic or animal-derived",
+    "chemical_group": "amino acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Meat, poultry, eggs",
+      "Dairy products",
+      "Garlic, onions, broccoli",
+      "Human hair, duck feathers (historical commercial source)"
+    ],
+    "description": "A sulfur-containing amino acid that occurs naturally in proteins. Used in bread-making to break down gluten proteins, making dough more pliable and reducing mixing time."
+  },
+  "manufacturing": {
+    "method": "synthetic production, extraction, or fermentation",
+    "description": "Historically extracted from human hair (China) or duck/poultry feathers. Modern production primarily uses bacterial fermentation (E. coli) or chemical synthesis. Hair and feather sources have been phased out in most regions."
+  },
+  "other_uses": {
+    "cosmetics": "Hair permanents, skin whitening products",
+    "industrial": "Flavor enhancer (meat flavoring)",
+    "pharmaceutical": "Antioxidant supplements, mucolytic agent (N-acetylcysteine)",
+    "household": "Dietary supplements for skin and hair health"
+  },
+  "regulations": {
+    "eu": {
+      "status": "banned",
+      "e_number": "E920",
+      "max_level_mg_kg": "not permitted",
+      "conditions": "Banned as food additive since 2004",
+      "legal_reference": "Regulation (EC) No 1333/2008 - not listed in Annex II",
+      "efsa_last_evaluated": "2004",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 172.320",
+      "fda_url": null,
+      "notes": "Approved as dough conditioner, up to 90 ppm in flour"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "L-システイン塩酸塩",
+      "notes": "Approved as flour treatment agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "920",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted as processing aid for flour treatment"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Enzymes",
+      "health_canada_url": null,
+      "notes": "Approved as dough conditioner"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use as amino acid)",
+    "jecfa_evaluation_year": 2008,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not evaluated (banned in EU)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=L-cysteine+dough+conditioner+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E920+L-cysteine+flour+treatment+human+hair",
+    "controversy_level": "high",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.320",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=920"
+  },
+  "regulatory_history": [
+    {
+      "year": 1970,
+      "event": "FDA approves L-cysteine as GRAS dough conditioner"
+    },
+    {
+      "year": 2004,
+      "event": "EU bans L-cysteine as food additive"
+    },
+    {
+      "year": 2006,
+      "event": "Media reports expose use of human hair from China as source"
+    },
+    {
+      "year": 2011,
+      "event": "Major food companies pledge to use only synthetic or fermentation-derived L-cysteine"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "N/A",
+      "category_name": "Not permitted in EU",
+      "max_level_mg_kg": "banned"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "l-cysteine"
+  },
+  "metadata": {
+    "data_sources": [
+      "FDA 21 CFR 172.320",
+      "JECFA Evaluations Database",
+      "EU Regulation (EC) No 1333/2008",
+      "Scientific literature on dough conditioners"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Commercial bread dough (USA, not EU)",
+    "Bagels and pizza dough",
+    "Baked goods requiring dough conditioning",
+    "Meat flavoring compounds",
+    "Dietary supplements",
+    "Hair care products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - L-cysteine is a natural amino acid. EU banned its use as food additive in 2004 for regulatory reasons, not safety concerns."
+  },
+  "fun_facts": [
+    "Historically made from human hair collected from barbershops in China",
+    "Also extracted from duck and chicken feathers",
+    "Banned in EU since 2004 - not for safety, but due to 'yuck factor'",
+    "The 'human hair in bread' scandal led to widespread consumer outcry",
+    "Now mostly produced by bacterial fermentation to avoid ethical concerns",
+    "Still used in US bagels and pizza dough to make it stretchy",
+    "Muslim and Jewish communities avoid it unless certified from acceptable sources"
+  ]
+}

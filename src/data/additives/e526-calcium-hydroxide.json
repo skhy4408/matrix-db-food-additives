@@ -1,0 +1,148 @@
+{
+  "slug": "e526-calcium-hydroxide",
+  "names": {
+    "e_number": "E526",
+    "ins_number": "526",
+    "cas_number": "1305-62-0",
+    "common_name": "Calcium Hydroxide",
+    "scientific_name": "Calcium hydroxide (Ca(OH)2)",
+    "japanese_name": "水酸化カルシウム",
+    "japanese_label_name": "水酸化Ca",
+    "aliases": [
+      "Slaked lime",
+      "Hydrated lime",
+      "Pickling lime",
+      "Cal (Spanish/Latin American)",
+      "Calcium hydrate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "firming agent, processing aid, pH adjuster",
+    "source_type": "mineral-derived",
+    "chemical_group": "inorganic base"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Portlandite mineral (rare)",
+      "Formed when calcium oxide reacts with water"
+    ],
+    "description": "While calcium hydroxide can form naturally, commercial production is by reacting quicklime (calcium oxide) with water. The calcium oxide itself comes from heating limestone."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis from mineral",
+    "description": "Produced by reacting calcium oxide (quicklime) with water in an exothermic 'slaking' reaction. The calcium oxide is obtained by heating limestone (calcium carbonate) to high temperatures. Food-grade calcium hydroxide is purified to remove impurities."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used; pH adjuster in some formulations.",
+    "industrial": "Cement and mortar, water treatment, leather tanning, soil stabilization, plaster.",
+    "pharmaceutical": "Dental applications (root canal treatment), antacid formulations.",
+    "household": "Traditional whitewash, pickling (making pickles crisp)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E526",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as processing aid and firming agent; excess is washed away or neutralized.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1205",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in traditional food processing, especially nixtamalization and pickling."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "379",
+      "japanese_regulation_name": "水酸化カルシウム",
+      "notes": "Used in traditional food processing."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "526",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use, mostly removed during processing)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4076",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+hydroxide+nixtamalization",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=slaked+lime+pickling+food",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4076",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=526"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.2",
+      "category_name": "Canned or bottled vegetables",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.4",
+      "category_name": "Fresh pastas and noodles",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "TORTILLAS and masa (nixtamalization of corn - essential process for traditional Mexican food)",
+    "Crispy pickles (pickling lime keeps them crunchy)",
+    "Corn nuts and hominy",
+    "Some Asian noodles",
+    "Traditional lime-preserved eggs (century eggs)",
+    "Grape leaves for dolmas (firming agent)",
+    "Sugar refining (processing aid)",
+    "Some canned vegetables"
+  ],
+  "fun_facts": [
+    "ESSENTIAL for making authentic tortillas - the nixtamalization process with slaked lime unlocks nutrients in corn",
+    "Nixtamalization (cooking corn in lime water) has been used for 3,000+ years in Mesoamerica",
+    "Without lime treatment, corn-based diets can cause pellagra (niacin deficiency) - lime unlocks bound niacin",
+    "Called 'cal' in Spanish - you'll find it in Mexican grocery stores for making tortillas at home",
+    "The same substance used in construction as 'hydrated lime' for mortar and plaster",
+    "Makes pickles incredibly crispy by firming the pectin in cucumber cell walls",
+    "Turns yellow corn into white hominy and gives it a distinctive slightly alkaline flavor"
+  ]
+}

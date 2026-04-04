@@ -1,0 +1,146 @@
+{
+  "slug": "e507-hydrochloric-acid",
+  "names": {
+    "e_number": "E507",
+    "ins_number": "507",
+    "cas_number": "7647-01-0",
+    "common_name": "Hydrochloric Acid",
+    "scientific_name": "Hydrogen chloride (HCl)",
+    "japanese_name": "塩酸",
+    "japanese_label_name": "塩酸",
+    "aliases": [
+      "Muriatic acid",
+      "Spirits of salt",
+      "Hydrogen chloride (gas form)"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "pH adjuster, acidifying agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Human stomach acid (gastric acid is 0.5% HCl)",
+      "Volcanic gases",
+      "Sea salt spray (in trace amounts)"
+    ],
+    "description": "Hydrochloric acid is naturally produced in the human stomach as gastric acid, essential for digestion. It also occurs in volcanic emissions and some natural salt formations, but industrial production is entirely synthetic."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by dissolving hydrogen chloride gas (HCl) in water. The hydrogen chloride gas is typically generated as a byproduct of industrial chlorination reactions or by directly reacting hydrogen with chlorine gas. Food-grade hydrochloric acid must be of high purity."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used; pH adjuster in some chemical peels (professional use).",
+    "industrial": "Steel pickling, ore processing, chemical manufacturing, pH control in water treatment.",
+    "pharmaceutical": "Production of various pharmaceuticals, pH adjustment in formulations.",
+    "household": "Muriatic acid for cleaning masonry, removing rust (industrial grade, not food grade)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E507",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Used strictly as pH regulator; must be neutralized in final product. No residual acid remains free.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1057",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used for pH adjustment in food processing."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "234",
+      "japanese_regulation_name": "塩酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "507",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (neutralized in final product)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4063",
+    "efsa_adi": "not specified (no residue in finished food)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=hydrochloric+acid+food+processing",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=hydrochloric+acid+food+additive+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4063",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=507"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "12.5",
+      "category_name": "Soups and broths",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.6",
+      "category_name": "Sauces",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Corn syrup and glucose syrup production (processing aid)",
+    "Gelatin manufacturing (pH control)",
+    "Soy sauce production (acid hydrolysis)",
+    "Modified food starch production",
+    "Vegetable protein hydrolysis",
+    "Cheese production (pH adjustment)",
+    "Beer brewing (pH control)",
+    "High fructose corn syrup production"
+  ],
+  "fun_facts": [
+    "The SAME acid your stomach produces naturally for digestion - gastric acid is about 0.5% hydrochloric acid",
+    "Your stomach produces about 1.5 liters of hydrochloric acid daily to digest food",
+    "When used in food processing, it's always neutralized, so no free acid remains in the final product you eat",
+    "Historically called 'muriatic acid' from the Latin 'muriaticus' meaning 'pertaining to brine'",
+    "Despite its fearsome reputation, it's actually LESS acidic than your stomach contents",
+    "Used more as a processing aid than a food ingredient - helps break down proteins and starches during manufacturing"
+  ]
+}

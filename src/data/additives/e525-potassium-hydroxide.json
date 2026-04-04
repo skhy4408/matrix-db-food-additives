@@ -1,0 +1,134 @@
+{
+  "slug": "e525-potassium-hydroxide",
+  "names": {
+    "e_number": "E525",
+    "ins_number": "525",
+    "cas_number": "1310-58-3",
+    "common_name": "Potassium Hydroxide",
+    "scientific_name": "Potassium hydroxide (KOH)",
+    "japanese_name": "水酸化カリウム",
+    "japanese_label_name": "水酸化K",
+    "aliases": [
+      "Caustic potash",
+      "Potassium lye",
+      "Potassium hydrate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "pH adjuster, processing aid, stabilizer",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic base"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Potassium hydroxide does not occur naturally. All production is industrial through electrolysis of potassium chloride solution."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by electrolysis of potassium chloride solution, similar to sodium hydroxide production. The resulting potassium hydroxide is concentrated, purified, and available in pellet or solution form."
+  },
+  "other_uses": {
+    "cosmetics": "pH adjuster in liquid soaps (makes softer soap than sodium hydroxide), hair products.",
+    "industrial": "Fertilizers, electrolyte in alkaline batteries, chemical manufacturing, biodiesel production.",
+    "pharmaceutical": "pH adjustment in pharmaceutical formulations.",
+    "household": "Liquid soap making (traditional soft soap), drain cleaners."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E525",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Used as processing aid; must be neutralized in final product.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1086"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1631",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used in food processing, particularly cocoa processing."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "378",
+      "japanese_regulation_name": "水酸化カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "525",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (neutralized in final product)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4075",
+    "efsa_adi": "not specified (no residue in finished food)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1086"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+hydroxide+food+processing",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+hydroxide+cocoa+processing",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1086",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4075",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=525"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dutch-processed cocoa powder (alkalization)",
+    "Soft pretzels (alternative to sodium hydroxide)",
+    "Some chocolate products",
+    "Peeled fruits and vegetables (processing aid)",
+    "Reduced-sodium food products (provides alkalinity without sodium)"
+  ],
+  "fun_facts": [
+    "Known as 'caustic potash' - the potassium equivalent of caustic soda (sodium hydroxide)",
+    "Used in the Dutch process for cocoa - gives cocoa powder its darker color and milder, less acidic taste",
+    "Makes SOFTER soap than sodium hydroxide - traditional 'soft soap' is made with potassium hydroxide",
+    "Found in every alkaline battery (AA, AAA, etc.) as the electrolyte",
+    "Used as a sodium-free alternative to sodium hydroxide in food processing for low-sodium products",
+    "More expensive than sodium hydroxide, so it's used selectively when potassium is preferred over sodium"
+  ]
+}

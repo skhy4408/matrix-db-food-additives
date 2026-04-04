@@ -1,0 +1,165 @@
+{
+  "slug": "e470a-fatty-acid-salts",
+  "names": {
+    "e_number": "E470a",
+    "ins_number": "470(i)",
+    "cas_number": "557-05-1 (sodium), 590-29-4 (potassium), 1592-23-0 (calcium)",
+    "common_name": "Sodium, Potassium and Calcium Salts of Fatty Acids",
+    "scientific_name": "Fatty acid salts (sodium, potassium, calcium)",
+    "japanese_name": "脂肪酸ナトリウム、脂肪酸カリウム、脂肪酸カルシウム",
+    "japanese_label_name": "脂肪酸ナトリウム、脂肪酸カリウム、脂肪酸カルシウム",
+    "aliases": [
+      "Sodium stearate",
+      "Calcium palmitate",
+      "Potassium oleate",
+      "Soap"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "fatty acid derivative",
+    "source_type": "natural or synthetic",
+    "chemical_group": "fatty acid salts"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Animal fats",
+      "Vegetable oils",
+      "Palm oil",
+      "Coconut oil"
+    ],
+    "description": "Salts of fatty acids formed by neutralizing fatty acids with sodium, potassium, or calcium. Chemically identical to traditional soap when sodium or potassium salts are used."
+  },
+  "manufacturing": {
+    "method": "saponification or neutralization",
+    "description": "Produced by neutralizing fatty acids (from animal or vegetable sources) with sodium hydroxide, potassium hydroxide, or calcium hydroxide. This is the same process used to make soap."
+  },
+  "other_uses": {
+    "cosmetics": "Used in soaps, creams, and lotions as emulsifiers and cleansing agents",
+    "industrial": "Manufacturing of metallic soaps, lubricants, and waterproofing agents",
+    "pharmaceutical": "Used in ointments and creams as emulsifying agents",
+    "household": "Traditional bar soap (sodium and potassium salts)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E470a",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis (as much as needed for technical effect)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.863",
+      "fda_url": null,
+      "notes": "GRAS status; no specific quantitative limits"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "脂肪酸ナトリウム、脂肪酸カリウム、脂肪酸カルシウム",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "470",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier and stabilizer"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=fatty+acid+salts+E470a+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E470a+fatty+acid+salts+emulsifier",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.863",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=470"
+  },
+  "regulatory_history": [
+    {
+      "year": 1960,
+      "event": "JECFA evaluates fatty acid salts and establishes acceptable use"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E470a in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and confirms safety as food additive"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "sodium-stearate"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baked goods and cakes",
+    "Chocolate and confectionery",
+    "Coffee whitener and creamers",
+    "Powdered drink mixes",
+    "Cake mixes and icings",
+    "Chewing gum",
+    "Dietary supplements (anti-caking)",
+    "Infant formula"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. These are the same chemical compounds found in traditional soap and are well-tolerated by the human digestive system."
+  }
+}

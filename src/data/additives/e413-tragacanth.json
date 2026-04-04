@@ -1,0 +1,140 @@
+{
+  "slug": "e413-tragacanth",
+  "names": {
+    "e_number": "E413",
+    "ins_number": "413",
+    "cas_number": "9000-65-1",
+    "common_name": "Tragacanth",
+    "scientific_name": "Astragalus gummifer gum",
+    "japanese_name": "トラガントガム",
+    "japanese_label_name": "トラガントガム",
+    "aliases": [
+      "Gum tragacanth",
+      "Tragacanth gum",
+      "Goat's thorn"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Astragalus species shrubs",
+      "Native to Middle East (Iran, Turkey, Syria)",
+      "Dried sap from plant stems"
+    ],
+    "description": "A natural gum obtained from the dried sap of several Astragalus species. One of the oldest known food additives, used for over 2,000 years. It is collected by making incisions in the plant stems."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "The gum naturally exudes from wounds in the stems of Astragalus shrubs. It is hand-collected as dried ribbons or flakes, then ground into powder."
+  },
+  "other_uses": {
+    "cosmetics": "Used in lotions, hair styling products, and toothpaste.",
+    "industrial": "Used in textile printing, calico printing, and as a binder in artist paints.",
+    "pharmaceutical": "Used in pharmaceutical emulsions and as a tablet binder.",
+    "household": "Used in cake decorating and sugar paste"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E413",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1351",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1351",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "トラガントガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "413",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=tragacanth+gum+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=tragacanth+E413",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1351",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=413"
+  },
+  "regulatory_history": [
+    {
+      "year": "Ancient",
+      "event": "Used by ancient Egyptians, Greeks, and Romans for over 2,000 years"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Salad dressings",
+    "Confectionery and candy",
+    "Cake decorating paste",
+    "Ice cream",
+    "Sauces and condiments",
+    "Pharmaceutical lozenges"
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "slug": "e941-nitrogen",
+  "names": {
+    "e_number": "E941",
+    "ins_number": "941",
+    "cas_number": "7727-37-9",
+    "common_name": "Nitrogen",
+    "scientific_name": "Dinitrogen (N₂)",
+    "japanese_name": "窒素",
+    "japanese_label_name": "窒素",
+    "aliases": [
+      "N2",
+      "Nitrogen gas",
+      "Molecular nitrogen"
+    ]
+  },
+  "classification": {
+    "functional_class": "packaging gas",
+    "sub_class": "propellant, preservative gas",
+    "source_type": "natural/industrial",
+    "chemical_group": "elemental gas"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Atmosphere (78% of air)",
+      "Most abundant gas in Earth's atmosphere"
+    ],
+    "description": "An inert, colorless, odorless gas that makes up 78% of Earth's atmosphere. Used as a packaging gas to displace oxygen and prevent oxidation, and as a propellant in aerosol products."
+  },
+  "manufacturing": {
+    "method": "fractional distillation of liquid air",
+    "description": "Produced industrially by cooling air to liquid state, then fractionally distilling to separate nitrogen from oxygen and other gases. Can also be produced by membrane separation or pressure swing adsorption."
+  },
+  "other_uses": {
+    "cosmetics": "Aerosol propellant in sprays",
+    "industrial": "Welding, chemical production, semiconductor manufacturing, cryogenics",
+    "pharmaceutical": "Packaging of medicines, liquid nitrogen for cryotherapy",
+    "household": "Draft beer systems (nitrogen widget), aerosol products"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E941",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as packaging gas and propellant",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1540",
+      "fda_url": null,
+      "notes": "Approved for direct addition to food for human consumption"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "窒素",
+      "notes": "Approved as packaging gas and propellant"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "941",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted packaging gas"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as packaging gas"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concern)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (inert gas, no toxicological concern)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=nitrogen+packaging+gas+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E941+nitrogen+food+packaging",
+    "controversy_level": "none",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1540",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=941"
+  },
+  "regulatory_history": [
+    {
+      "year": 1960,
+      "event": "Nitrogen widely adopted for food packaging to prevent oxidation"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Packaging gas and propellant",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "nitrogen"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1540",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Packaged salads and vegetables",
+    "Potato chip bags (prevents staleness)",
+    "Coffee packaging",
+    "Nuts and dried fruits",
+    "Wine preservation systems",
+    "Draft beer (Guinness widget)",
+    "Whipped cream dispensers",
+    "Instant noodle packages"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed - nitrogen makes up 78% of the air we breathe. Completely inert and non-toxic."
+  },
+  "fun_facts": [
+    "Makes up 78% of the air you breathe - you inhale it all day",
+    "The gas in your potato chip bag that keeps chips crispy",
+    "Creates the creamy foam in Guinness beer (nitrogen widget)",
+    "Completely inert - doesn't react with food at all",
+    "You breathe in about 11,000 liters of nitrogen per day",
+    "Liquid nitrogen is -196°C and used for flash freezing food"
+  ]
+}

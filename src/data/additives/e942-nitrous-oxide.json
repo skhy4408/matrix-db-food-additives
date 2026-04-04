@@ -1,0 +1,161 @@
+{
+  "slug": "e942-nitrous-oxide",
+  "names": {
+    "e_number": "E942",
+    "ins_number": "942",
+    "cas_number": "10024-97-2",
+    "common_name": "Nitrous oxide",
+    "scientific_name": "Dinitrogen monoxide (N₂O)",
+    "japanese_name": "亜酸化窒素",
+    "japanese_label_name": "亜酸化窒素",
+    "aliases": [
+      "N2O",
+      "Laughing gas",
+      "Nitrous",
+      "Nos",
+      "Whippits"
+    ]
+  },
+  "classification": {
+    "functional_class": "propellant",
+    "sub_class": "packaging gas, aerating agent",
+    "source_type": "synthetic/industrial",
+    "chemical_group": "nitrogen oxide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Atmospheric trace gas (0.00003%)",
+      "Produced by soil bacteria",
+      "Ocean microbial activity"
+    ],
+    "description": "A colorless, sweet-smelling gas with mild anesthetic properties. Best known as 'laughing gas' in dentistry, but widely used in food industry as a propellant for whipped cream and aerosol products."
+  },
+  "manufacturing": {
+    "method": "thermal decomposition of ammonium nitrate",
+    "description": "Produced industrially by carefully controlled thermal decomposition of ammonium nitrate at 240-270°C. The gas is purified, compressed, and stored in steel cylinders for food and medical use."
+  },
+  "other_uses": {
+    "cosmetics": "Aerosol propellant in hair spray and other sprays",
+    "industrial": "Rocket propellant, race car engine booster, semiconductor manufacturing",
+    "pharmaceutical": "Dental anesthesia, surgical anesthesia (laughing gas)",
+    "household": "Whipped cream chargers (N2O cartridges), automotive performance"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E942",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as propellant and packaging gas",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1545",
+      "fda_url": null,
+      "notes": "Approved for direct addition to food as propellant and aerating agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "亜酸化窒素",
+      "notes": "Approved as propellant"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "942",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted propellant and packaging gas"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Carrier or Extraction Solvents",
+      "health_canada_url": null,
+      "notes": "Approved as propellant"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (no safety concern for food use)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no toxicological concern at food use levels)",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=nitrous+oxide+food+propellant",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E942+nitrous+oxide+whipped+cream",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1545",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=942"
+  },
+  "regulatory_history": [
+    {
+      "year": 1844,
+      "event": "Horace Wells uses nitrous oxide as dental anesthetic"
+    },
+    {
+      "year": 1950,
+      "event": "Nitrous oxide approved for use in whipped cream dispensers"
+    },
+    {
+      "year": 2019,
+      "event": "UK and other countries implement age restrictions on N2O sales due to recreational abuse"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "All categories",
+      "category_name": "Propellant and packaging gas",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "nitrous-oxide"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1545",
+      "JECFA database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Whipped cream cans (propellant)",
+    "Whipped cream chargers (N2O cartridges)",
+    "Aerosol dessert toppings",
+    "Cooking spray cans",
+    "Dental offices (anesthesia)",
+    "Some aerosol food products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI needed for food use - nitrous oxide disperses immediately from food products and is not consumed in significant amounts."
+  },
+  "fun_facts": [
+    "Also known as 'laughing gas' - used in dentistry since 1844",
+    "The propellant in your whipped cream can",
+    "Causes euphoria when inhaled (recreational abuse is illegal)",
+    "Also used as a performance booster in race cars ('NOS')",
+    "Discovered in 1772 by Joseph Priestley",
+    "Makes whipped cream fluffy by dissolving in fat and expanding",
+    "Potent greenhouse gas - 300x more powerful than CO2"
+  ]
+}

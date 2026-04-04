@@ -1,0 +1,152 @@
+{
+  "slug": "e452-polyphosphates",
+  "names": {
+    "e_number": "E452",
+    "ins_number": "452",
+    "cas_number": "68915-31-1 (i), 68915-31-1 (ii), 50813-16-6 (iv), 68915-31-1 (v)",
+    "common_name": "Polyphosphates",
+    "scientific_name": "Sodium polyphosphates (E452i), Potassium polyphosphates (E452ii), Calcium polyphosphates (E452iv), Ammonium polyphosphates (E452v)",
+    "japanese_name": "ポリリン酸塩",
+    "japanese_label_name": "ポリリン酸Na",
+    "aliases": [
+      "Sodium hexametaphosphate",
+      "Graham's salt",
+      "Calgon",
+      "Glassy phosphates"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "sequestrant, stabilizer, moisture retention agent, texturizer",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Polyphosphates do not occur naturally. They are long-chain phosphate polymers produced synthetically through controlled heating and condensation of orthophosphate salts."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by heating orthophosphates or pyrophosphates to temperatures above 600°C, causing progressive condensation to form long-chain polyphosphates. Chain length can be controlled by temperature, time, and starting material composition. Rapid cooling produces glassy polyphosphates, while slow cooling yields crystalline forms."
+  },
+  "other_uses": {
+    "cosmetics": "Chelating agent and sequestrant in shampoos and toothpaste.",
+    "industrial": "Water treatment (prevents scale buildup), metal surface treatment, textile processing, oil drilling.",
+    "pharmaceutical": "Sequestrant and stabilizer in pharmaceutical formulations.",
+    "household": "Water softeners, detergents, boiler treatments (trade name Calgon for sodium hexametaphosphate)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E452(i-v)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits apply due to concerns about total dietary phosphate intake.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1810",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in processed cheese and cola beverages"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "126",
+      "japanese_regulation_name": "ポリリン酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "452",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polyphosphate+hexametaphosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+hexametaphosphate+food+application",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=452"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA's comprehensive evaluation of food phosphates expressed concern about high dietary intake from additives, particularly in Western processed food diets. Recommended monitoring and potential reduction."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "20000 (as P2O5)"
+    },
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "5000 (as P2O5)"
+    },
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks (cola)",
+      "max_level_mg_kg": "varies"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Processed cheese and cheese spreads",
+    "Cola beverages (along with phosphoric acid)",
+    "Processed meat products",
+    "Canned fish and seafood",
+    "Evaporated milk (prevents gelation)",
+    "Instant puddings",
+    "Imitation crab meat (surimi)",
+    "Processed potato products"
+  ],
+  "fun_facts": [
+    "Sodium hexametaphosphate (a polyphosphate) is sold as 'Calgon' water softener for washing machines - the same chemical family used in processed cheese",
+    "Polyphosphates can have chains ranging from just a few phosphate units to thousands - longer chains are better sequestrants (metal ion binders)",
+    "In evaporated milk, polyphosphates prevent the proteins from clumping together during heat processing and storage",
+    "The glassy, transparent form of sodium hexametaphosphate was historically called 'Graham's salt' after Thomas Graham who studied it in the 1830s",
+    "Polyphosphates gradually hydrolyze (break down) into simpler phosphates over time, especially in acidic or hot conditions - this is why cola beverages have a shelf life"
+  ]
+}

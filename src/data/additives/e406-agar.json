@@ -1,0 +1,142 @@
+{
+  "slug": "e406-agar",
+  "names": {
+    "e_number": "E406",
+    "ins_number": "406",
+    "cas_number": "9002-18-0",
+    "common_name": "Agar",
+    "scientific_name": "Agar-agar",
+    "japanese_name": "寒天",
+    "japanese_label_name": "寒天",
+    "aliases": [
+      "Agar-agar",
+      "Kanten (Japanese)",
+      "China grass"
+    ]
+  },
+  "classification": {
+    "functional_class": "gelling agent",
+    "sub_class": "natural",
+    "source_type": "seaweed-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Red seaweed (Rhodophyceae)",
+      "Gelidium species",
+      "Gracilaria species",
+      "Pterocladia species"
+    ],
+    "description": "A natural gelling agent extracted from red seaweed, widely used in Asian cuisine for centuries. Forms firm, heat-stable gels and is the vegetarian/vegan alternative to gelatin."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from red seaweed by boiling in water, filtering, freezing and thawing (traditional method), or modern spray-drying. The gel is then dried into flakes, powder, or bars."
+  },
+  "other_uses": {
+    "cosmetics": "Used in face masks and cosmetic formulations.",
+    "industrial": "Used extensively in microbiology as a culture medium (petri dishes).",
+    "pharmaceutical": "Used as a laxative and in capsule formulations.",
+    "household": "Used in molecular gastronomy and vegan cooking"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E406",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2016",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1115",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1115",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "寒天",
+      "notes": "Traditional ingredient in Japanese cuisine, not typically labeled as additive"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "406",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2016,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=agar+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=agar+E406+food",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1115",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=406"
+  },
+  "regulatory_history": [
+    {
+      "year": 1658,
+      "event": "First discovered in Japan by Minoya Tarozaemon; traditional use for over 350 years"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "Historical Japanese records"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Asian desserts (yokan, mizu yokan, anmitsu)",
+    "Vegan jellies and desserts",
+    "Fruit preserves and jams",
+    "Bakery glazes",
+    "Vegan gummy candies",
+    "Plant-based cheese alternatives"
+  ]
+}

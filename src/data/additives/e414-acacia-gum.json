@@ -1,0 +1,141 @@
+{
+  "slug": "e414-acacia-gum",
+  "names": {
+    "e_number": "E414",
+    "ins_number": "414",
+    "cas_number": "9000-01-5",
+    "common_name": "Acacia Gum",
+    "scientific_name": "Acacia senegal gum",
+    "japanese_name": "アラビアガム",
+    "japanese_label_name": "アカシアガム",
+    "aliases": [
+      "Gum arabic",
+      "Gum acacia",
+      "Arabic gum"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Acacia senegal trees",
+      "Acacia seyal trees",
+      "Native to sub-Saharan Africa (Sudan produces 70% of world supply)"
+    ],
+    "description": "A natural gum harvested from acacia trees in the African Sahel region. One of the oldest and most widely used food additives, with evidence of use dating back to ancient Egypt over 5,000 years ago."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Harvested as dried sap that naturally exudes from wounds in acacia tree bark. Collected by hand, cleaned, sorted by color and quality, then ground into powder or spray-dried."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetics and personal care products.",
+    "industrial": "Used in lithography, textile printing, pottery, paints, and inks.",
+    "pharmaceutical": "Used in cough syrups, lozenges, and as a tablet binder.",
+    "household": "Used in traditional watercolor paints and postage stamp adhesive"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E414",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1330",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1330",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アカシアガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "414",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=gum+arabic+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=acacia+gum+E414",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1330",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=414"
+  },
+  "regulatory_history": [
+    {
+      "year": "3000 BC",
+      "event": "Ancient Egyptians used gum arabic in mummification process and as adhesive"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "Historical records"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Soft drinks and beverages",
+    "Gummy candies and confectionery",
+    "Chewing gum",
+    "Marshmallows",
+    "Cake decorations",
+    "Wine clarification"
+  ]
+}

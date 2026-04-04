@@ -1,0 +1,138 @@
+{
+  "slug": "e469-enzymatically-hydrolyzed-carboxymethyl-cellulose",
+  "names": {
+    "e_number": "E469",
+    "ins_number": "469",
+    "cas_number": "9004-32-4",
+    "common_name": "Enzymatically Hydrolyzed Carboxymethyl Cellulose",
+    "scientific_name": "Enzymatically hydrolyzed carboxymethylcellulose",
+    "japanese_name": "酵素処理カルボキシメチルセルロース",
+    "japanese_label_name": "酵素処理CMC",
+    "aliases": [
+      "Enzymatically degraded CMC",
+      "Low viscosity CMC",
+      "Hydrolyzed cellulose gum"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "thickener, emulsifier, bulking agent",
+    "source_type": "natural (modified)",
+    "chemical_group": "cellulose ether"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Enzymatically hydrolyzed carboxymethyl cellulose is a semi-synthetic derivative of cellulose. It's created by chemically modifying plant cellulose with carboxymethyl groups, then enzymatically breaking down the polymer chains into shorter fragments. It's processed wood pulp or cotton that has been chemically and enzymatically modified."
+  },
+  "manufacturing": {
+    "method": "chemical modification and enzymatic hydrolysis",
+    "description": "Produced by first creating sodium carboxymethylcellulose (E466) through chemical modification of cellulose, then treating it with cellulase enzymes to partially break down the polymer chains. This enzymatic hydrolysis creates shorter chain fragments with lower viscosity than regular CMC but retains the beneficial emulsifying and stabilizing properties. The degree of hydrolysis can be controlled to achieve desired viscosity."
+  },
+  "other_uses": {
+    "cosmetics": "Low-viscosity stabilizer in liquid cosmetics and personal care products.",
+    "industrial": "Paper coating, textile processing.",
+    "pharmaceutical": "Excipient in liquid formulations, low-viscosity binder.",
+    "household": "Less common than regular CMC."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E469",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in specified food categories; less commonly used than regular CMC (E466).",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1745",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Treated as variant of CMC"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酵素分解カルボキシメチルセルロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "469",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered inert)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=enzymatically+hydrolyzed+carboxymethyl+cellulose",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=hydrolyzed+CMC+E469",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=469"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.0",
+      "category_name": "Beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-viscosity beverages requiring stabilization",
+    "Liquid dietary supplements",
+    "Some processed foods as low-viscosity stabilizer",
+    "Clear beverages (where high viscosity would be undesirable)",
+    "Low-fat dairy products",
+    "Less commonly encountered than regular CMC (E466)"
+  ],
+  "fun_facts": [
+    "Enzymatically hydrolyzed CMC is essentially pre-digested sawdust - enzymes break down the chemically modified wood fiber into smaller pieces",
+    "The enzymatic treatment makes it less viscous (thinner) than regular CMC, perfect for beverages where you want stabilization without thickness",
+    "It's like the difference between long spaghetti and broken spaghetti pieces - same material, but shorter chains behave differently",
+    "Completely indigestible by humans (we lack the right enzymes), so it passes through as dietary fiber with zero calories",
+    "The enzymes used to break it down are the same type that termites and fungi use to digest wood cellulose in nature"
+  ]
+}

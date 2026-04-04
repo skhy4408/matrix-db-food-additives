@@ -1,0 +1,148 @@
+{
+  "slug": "e466-carboxymethyl-cellulose",
+  "names": {
+    "e_number": "E466",
+    "ins_number": "466",
+    "cas_number": "9004-32-4",
+    "common_name": "Carboxymethyl Cellulose",
+    "scientific_name": "Carboxymethylcellulose sodium salt (CMC)",
+    "japanese_name": "カルボキシメチルセルロース",
+    "japanese_label_name": "CMC",
+    "aliases": [
+      "CMC",
+      "Sodium carboxymethylcellulose",
+      "Cellulose gum",
+      "Na-CMC"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "stabilizer, emulsifier, moisture retention agent, viscosity modifier",
+    "source_type": "natural (modified)",
+    "chemical_group": "cellulose ether"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "CMC is a semi-synthetic derivative of cellulose, created by chemically modifying plant cellulose with carboxymethyl groups. It's essentially processed and chemically modified wood pulp or cotton fiber."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating cellulose with alkali (sodium hydroxide), then reacting it with monochloroacetic acid. This substitutes carboxymethyl groups (-OCH2COOH) onto the cellulose backbone. The sodium salt form (sodium carboxymethylcellulose) is highly water-soluble and forms viscous solutions. The degree of substitution determines viscosity and other properties."
+  },
+  "other_uses": {
+    "cosmetics": "Thickener and stabilizer in toothpaste, lotions, shampoos, and cosmetics.",
+    "industrial": "Paper coating, textile sizing, oil drilling fluids, detergents, adhesives.",
+    "pharmaceutical": "Tablet binder and disintegrant, ophthalmic lubricant, laxative.",
+    "household": "Toothpaste (most common use - creates smooth texture), laundry detergent, cleaning products."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E466",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories; one of the most commonly used cellulose derivatives.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1745",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "One of most widely used food additives"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カルボキシメチルセルロースナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "466",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered inert)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=carboxymethyl+cellulose+CMC+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+carboxymethylcellulose+E466",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=466"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Ice cream and frozen desserts (prevents ice crystal formation)",
+    "Toothpaste (creates smooth, stable texture)",
+    "Low-fat and reduced-calorie foods (fat replacer)",
+    "Salad dressings and sauces",
+    "Baked goods (moisture retention)",
+    "Processed cheese",
+    "Beverages (prevents settling)",
+    "Gluten-free products (texture improvement)",
+    "Instant noodles",
+    "Pie fillings and puddings"
+  ],
+  "fun_facts": [
+    "The same ingredient that makes your ice cream creamy is also in your toothpaste - CMC is in both food and oral care products!",
+    "Like all celluloses, CMC is basically chemically modified wood pulp or plant fiber - you're eating processed sawdust in your ice cream",
+    "CMC is one of the most versatile and widely used food additives - you've probably consumed it multiple times today without realizing it",
+    "It's completely indigestible and passes through your digestive system as dietary fiber with zero calories, making it perfect for low-calorie foods",
+    "The viscosity of CMC solutions can be incredibly high - a tiny amount (less than 1%) can create a thick, creamy texture"
+  ]
+}

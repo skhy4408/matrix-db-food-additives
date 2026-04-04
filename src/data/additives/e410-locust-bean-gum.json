@@ -1,0 +1,134 @@
+{
+  "slug": "e410-locust-bean-gum",
+  "names": {
+    "e_number": "E410",
+    "ins_number": "410",
+    "cas_number": "9000-40-2",
+    "common_name": "Locust Bean Gum",
+    "scientific_name": "Ceratonia siliqua gum",
+    "japanese_name": "ローカストビーンガム",
+    "japanese_label_name": "カロブビーンガム",
+    "aliases": [
+      "Carob gum",
+      "Carob bean gum",
+      "LBG"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Carob tree seeds (Ceratonia siliqua)",
+      "Mediterranean region native trees"
+    ],
+    "description": "A natural galactomannan polysaccharide extracted from the seeds of the carob tree. The carob tree is native to the Mediterranean region and has been cultivated for thousands of years."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Seeds are removed from carob pods, roasted to split the hull, then the endosperm is separated, ground into powder, and purified to produce locust bean gum."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetics and personal care products as a thickener.",
+    "industrial": "Used in textile printing, paper manufacturing, and oil drilling.",
+    "pharmaceutical": "Used in pharmaceutical formulations as a binder and disintegrant.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E410",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1343",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1343",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カロブビーンガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "410",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=locust+bean+gum+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=locust+bean+gum+E410",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1343",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=410"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Ice cream and frozen desserts",
+    "Cream cheese and soft cheese",
+    "Processed meats",
+    "Gluten-free baked goods",
+    "Salad dressings",
+    "Pet food"
+  ]
+}

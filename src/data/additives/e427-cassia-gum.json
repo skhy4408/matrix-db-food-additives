@@ -1,0 +1,131 @@
+{
+  "slug": "e427-cassia-gum",
+  "names": {
+    "e_number": "E427",
+    "ins_number": "427",
+    "cas_number": "9000-76-4",
+    "common_name": "Cassia gum",
+    "scientific_name": "Cassia tora galactomannan",
+    "japanese_name": "カシアガム",
+    "japanese_label_name": "カシアガム",
+    "aliases": [
+      "Cassia tora gum",
+      "Chinese senna",
+      "Cassia occidentalis gum"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Cassia tora seeds",
+      "Cassia occidentalis seeds"
+    ],
+    "description": "A galactomannan polysaccharide extracted from the endosperm of cassia seeds. The cassia plant is native to tropical regions of Asia and the Americas, and its seeds have been used in traditional Chinese medicine."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Seeds of Cassia tora or Cassia occidentalis plants are dehulled to remove the outer coat. The endosperm is separated, ground, and extracted to produce cassia gum powder. The polysaccharide is then purified and standardized."
+  },
+  "other_uses": {
+    "cosmetics": "Used occasionally in cosmetic formulations as a thickener.",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": "Primarily used in pet food industry"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E427",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories with some restrictions",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "approved for pet food; limited food use",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": "Primarily approved and used in pet food applications"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カシアガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "427",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-1.5 mg/kg body weight",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=cassia+gum+E427",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=cassia+tora+gum+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=427"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "16",
+      "category_name": "Desserts",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Pet food (canned dog and cat food - primary use)",
+    "Cheese and dairy products",
+    "Meat products",
+    "Bakery goods"
+  ]
+}

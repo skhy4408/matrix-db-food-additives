@@ -1,0 +1,140 @@
+{
+  "slug": "e513-sulfuric-acid",
+  "names": {
+    "e_number": "E513",
+    "ins_number": "513",
+    "cas_number": "7664-93-9",
+    "common_name": "Sulfuric Acid",
+    "scientific_name": "Sulfuric acid (H2SO4)",
+    "japanese_name": "硫酸",
+    "japanese_label_name": "硫酸",
+    "aliases": [
+      "Oil of vitriol",
+      "Battery acid",
+      "Hydrogen sulfate"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "pH adjuster, processing aid",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic acid"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Volcanic emissions (sulfuric acid vapor)",
+      "Acid rain (from atmospheric SO2 oxidation)",
+      "Some acidic hot springs"
+    ],
+    "description": "While sulfuric acid can form naturally through oxidation of sulfur dioxide in volcanic emissions and acid rain, all commercial sulfuric acid is synthetically produced."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced primarily via the contact process: sulfur is burned to produce sulfur dioxide (SO2), which is then oxidized to sulfur trioxide (SO3) using a vanadium pentoxide catalyst, and finally absorbed in water to form sulfuric acid. Food-grade sulfuric acid must be of high purity."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used; pH adjuster in some chemical peels (professional use only).",
+    "industrial": "Fertilizer production (largest use), petroleum refining, metal processing, battery acid, chemical manufacturing.",
+    "pharmaceutical": "Manufacturing of various pharmaceuticals, pH adjustment in drug formulations.",
+    "household": "Drain cleaners (industrial grade, not food grade), car batteries."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E513",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Used strictly as processing aid and pH regulator. Must be neutralized in final product.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1095",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used primarily in food processing rather than as direct ingredient."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "329",
+      "japanese_regulation_name": "硫酸",
+      "notes": "Limited to processing aid applications."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "513",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (neutralized in final product)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4068",
+    "efsa_adi": "not specified (no residue in finished food)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sulfuric+acid+food+processing",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sulfuric+acid+food+additive+safety",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1085",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4068",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=513"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "11.2",
+      "category_name": "Sugar and syrups",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar refining (processing aid - not in final product)",
+    "Corn syrup and glucose production",
+    "Starch hydrolysis for modified starches",
+    "Alcohol fermentation processes",
+    "Caramel color production (processing aid)",
+    "Beer and wine production (pH adjustment)",
+    "Gelatin production (pH control)"
+  ],
+  "fun_facts": [
+    "One of the most important industrial chemicals in the world - production volume is an economic indicator",
+    "Despite its fearsome reputation as 'battery acid', food-grade sulfuric acid is neutralized during processing",
+    "When used in food manufacturing, it's always converted to sulfate salts - no free acid remains in the final product",
+    "Historically known as 'oil of vitriol' because it was originally made from green vitriol (iron sulfate)",
+    "The same acid that causes acid rain when sulfur dioxide pollution mixes with atmospheric moisture",
+    "Used in sugar refining to break down impurities, then neutralized with lime to form harmless calcium sulfate (gypsum)"
+  ]
+}

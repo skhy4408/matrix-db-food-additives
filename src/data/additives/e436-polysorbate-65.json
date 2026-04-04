@@ -1,0 +1,129 @@
+{
+  "slug": "e436-polysorbate-65",
+  "names": {
+    "e_number": "E436",
+    "ins_number": "436",
+    "cas_number": "9005-71-4",
+    "common_name": "Polysorbate 65",
+    "scientific_name": "Polyoxyethylene (20) sorbitan tristearate",
+    "japanese_name": "ポリソルベート65",
+    "japanese_label_name": "ポリソルベート65",
+    "aliases": [
+      "Tween 65",
+      "PS65",
+      "Polysorbate 65"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "polyoxyethylene sorbitan ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier created from sorbitol, stearic acid (three molecules), and ethylene oxide. Unlike other polysorbates which are mono-esters, this is a tri-ester with three stearic acid chains. The stearic acid can be derived from vegetable oils or animal fats."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced in two steps: (1) sorbitan (from sorbitol) is reacted with three molecules of stearic acid to form sorbitan tristearate, then (2) ethoxylated with approximately 20 units of ethylene oxide. The tri-ester structure makes it more lipophilic (fat-loving) than other polysorbates."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetic formulations as an emulsifier, particularly in high-fat products.",
+    "industrial": null,
+    "pharmaceutical": "Used in pharmaceutical formulations as an emulsifying agent.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E436",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.840",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリソルベート65",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "436",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-25 mg/kg body weight (for all polysorbates combined)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polysorbate+65+tween+65",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=polysorbate+65+E436",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.840",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=436"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Cake mixes and baked goods",
+    "Whipped toppings",
+    "Yeast-raised bakery products",
+    "Coffee whiteners"
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "slug": "e428-gelatin",
+  "names": {
+    "e_number": "E428",
+    "ins_number": "428",
+    "cas_number": "9000-70-8",
+    "common_name": "Gelatin",
+    "scientific_name": "Hydrolyzed collagen",
+    "japanese_name": "ゼラチン",
+    "japanese_label_name": "ゼラチン",
+    "aliases": [
+      "Gelatine",
+      "Gel",
+      "Animal gelatin",
+      "Collagen hydrolysate"
+    ]
+  },
+  "classification": {
+    "functional_class": "gelling agent",
+    "sub_class": "animal protein",
+    "source_type": "animal-derived",
+    "chemical_group": "protein"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [
+      "derived from animal collagen (bones, skin, connective tissue)"
+    ],
+    "description": "Gelatin is not found in this form in nature but is derived from collagen, the most abundant protein in animal connective tissues, bones, and skin. It must be extracted and processed to create the gelatin form."
+  },
+  "manufacturing": {
+    "method": "acid or alkali hydrolysis",
+    "description": "Type A gelatin (acid-processed) is primarily made from pork skin. Type B gelatin (alkali-processed) is made from cattle bones and hide. Fish gelatin is extracted from fish skin and bones using similar processes. Collagen is hydrolyzed to break it down into gelatin through heating and chemical treatment."
+  },
+  "other_uses": {
+    "cosmetics": "Used in skincare products, face masks, and hair care products for its film-forming properties.",
+    "industrial": "Historical use in photography (gelatin silver prints), adhesives, and paper manufacturing.",
+    "pharmaceutical": "Widely used for capsule shells (both hard and soft gelatin capsules), tablet coatings, and as a stabilizer in vaccines.",
+    "household": "Home cooking for aspics, mousses, and desserts"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E428",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories. Must declare source on label for religious/dietary considerations.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1320",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ゼラチン",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "428",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=gelatin+E428+health",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=gelatin+collagen+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-182.1320",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=428"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "16",
+      "category_name": "Desserts",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Marshmallows and gummy candies",
+    "Jello and dessert gels",
+    "Yogurt and dairy desserts",
+    "Mousses and panna cotta",
+    "Pharmaceutical capsules",
+    "Frosted cereals",
+    "Cheesecake and tiramisu"
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "e472e-datem",
+  "names": {
+    "e_number": "E472e",
+    "ins_number": "472e",
+    "cas_number": "100085-39-0",
+    "common_name": "Diacetyl Tartaric Acid Esters of Mono- and Diglycerides",
+    "scientific_name": "DATEM",
+    "japanese_name": "ジアセチル酒石酸モノグリセリド",
+    "japanese_label_name": "グリセリン脂肪酸エステル",
+    "aliases": [
+      "DATEM",
+      "E472e",
+      "Diacetyl tartaric acid esters"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "fatty acid derivative",
+    "source_type": "synthetic",
+    "chemical_group": "glyceride esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier created by esterifying mono- and diglycerides with diacetyl tartaric acid. This is one of the most widely used emulsifiers in commercial bread production worldwide - found in almost all supermarket bread, rolls, and buns."
+  },
+  "manufacturing": {
+    "method": "chemical esterification",
+    "description": "Produced by reacting mono- and diglycerides (derived from vegetable oils or animal fats) with diacetyl tartaric acid (a derivative of tartaric acid). The process requires controlled heating and esterification catalysts."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E472e",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis in specified food categories; extremely common in commercial bread",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.830",
+      "fda_url": null,
+      "notes": "GRAS status; ubiquitous in commercial bakery products"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ジアセチル酒石酸モノグリセリド",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "472e",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier; widely used in commercial bread"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories; standard in commercial baking"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=DATEM+E472e+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=DATEM+E472e+bread+emulsifier",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.830",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=472"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates diacetyl tartaric acid esters of mono- and diglycerides"
+    },
+    {
+      "year": 1980,
+      "event": "Becomes standard emulsifier in commercial bread production"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E472e in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates mono- and diglycerides and their esters, confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "06",
+      "category_name": "Cereals and cereal products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Commercial sandwich bread (nearly all brands)",
+    "Hamburger and hot dog buns",
+    "Dinner rolls and bread rolls",
+    "Bagels and English muffins",
+    "Tortillas and flatbreads",
+    "Frozen bread dough",
+    "Pizza dough",
+    "Baguettes and artisan-style breads (commercial)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. DATEM is the workhorse emulsifier of the commercial baking industry, strengthening gluten, improving dough handling, and extending shelf life. If you eat commercial bread, you're almost certainly consuming DATEM daily."
+  }
+}

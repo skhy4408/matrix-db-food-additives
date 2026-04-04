@@ -1,0 +1,148 @@
+{
+  "slug": "e508-potassium-chloride",
+  "names": {
+    "e_number": "E508",
+    "ins_number": "508",
+    "cas_number": "7447-40-7",
+    "common_name": "Potassium Chloride",
+    "scientific_name": "Potassium chloride (KCl)",
+    "japanese_name": "塩化カリウム",
+    "japanese_label_name": "塩化K",
+    "aliases": [
+      "Potassium salt",
+      "Sylvite (mineral form)",
+      "KCl"
+    ]
+  },
+  "classification": {
+    "functional_class": "gelling agent",
+    "sub_class": "stabilizer, thickener, salt substitute",
+    "source_type": "synthetic or mineral",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Sylvite mineral deposits",
+      "Sylvinite ore (mixed KCl and NaCl)",
+      "Sea water (trace amounts)",
+      "All living cells (essential electrolyte)"
+    ],
+    "description": "Potassium chloride occurs naturally in the mineral sylvite and in underground salt deposits. It is also an essential electrolyte in all living organisms. Commercial production comes from mining potash deposits or extraction from sea water."
+  },
+  "manufacturing": {
+    "method": "mining or chemical synthesis",
+    "description": "Extracted from underground potash deposits (mined as sylvinite ore and separated from sodium chloride) or produced by the reaction of potassium hydroxide with hydrochloric acid. Can also be recovered from sea water through evaporation and crystallization processes."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Fertilizers (major use), oil well drilling fluids, chemical manufacturing.",
+    "pharmaceutical": "Electrolyte replenisher, treatment for hypokalemia (low potassium), lethal injection component.",
+    "household": "Water softener salt (alternative to sodium chloride)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E508",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as gelling agent and salt substitute in various food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2010",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1691"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1622",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used as reduced-sodium salt substitute and labeled as such."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "235",
+      "japanese_regulation_name": "塩化カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "508",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4064",
+    "efsa_adi": "not specified (safe at levels used as salt substitute)",
+    "efsa_evaluation_year": 2010,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1691"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+chloride+salt+substitute",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+chloride+dietary+sodium+reduction",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1691",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4064",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=508"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.8",
+      "category_name": "Salt substitutes",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.4",
+      "category_name": "Fresh pastas",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2010"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium salt and salt substitutes (like 'Lite Salt', 'No Salt')",
+    "Reduced-sodium processed foods",
+    "Sports drinks and electrolyte beverages",
+    "Dietary supplements (potassium source)",
+    "Reduced-sodium canned soups",
+    "Low-sodium deli meats and sausages",
+    "Reduced-sodium cheese products",
+    "Meal replacement shakes"
+  ],
+  "fun_facts": [
+    "The main ingredient in 'low-sodium salt' products - replaces about 25-50% of the sodium chloride",
+    "Has a slightly bitter or metallic aftertaste compared to regular table salt, which some people find unpleasant",
+    "Can be DANGEROUS for people with kidney disease or taking certain medications (ACE inhibitors, potassium-sparing diuretics)",
+    "Your body needs potassium as much as sodium - it's an essential mineral for heart and muscle function",
+    "Mined from the same underground deposits as table salt, just from different mineral layers",
+    "The same chemical compound used in medical IV drips to treat low potassium (hypokalemia)",
+    "Controversial use: one of the drugs used in lethal injection executions (stops the heart)"
+  ]
+}

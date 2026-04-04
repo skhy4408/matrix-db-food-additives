@@ -1,0 +1,131 @@
+{
+  "slug": "e431-polyoxyethylene-40-stearate",
+  "names": {
+    "e_number": "E431",
+    "ins_number": "431",
+    "cas_number": "9004-99-3",
+    "common_name": "Polyoxyethylene (40) stearate",
+    "scientific_name": "Polyoxyethylene (40) stearate",
+    "japanese_name": "ポリオキシエチレン(40)ステアリン酸",
+    "japanese_label_name": "ポリオキシエチレン(40)ステアリン酸",
+    "aliases": [
+      "Polyoxyl 40 stearate",
+      "PEG-40 stearate",
+      "Polyethylene glycol 40 stearate",
+      "Macrogol stearate"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "polyoxyethylene ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier created by reacting stearic acid with polyethylene glycol. The stearic acid component can be derived from vegetable oils (palm, coconut) or animal fats."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by esterification of stearic acid with polyethylene glycol containing approximately 40 units of ethylene oxide. The stearic acid can be sourced from vegetable oils (typically palm or coconut) or animal fats."
+  },
+  "other_uses": {
+    "cosmetics": "Commonly used in cosmetic creams, lotions, and skincare products as an emulsifier and surfactant.",
+    "industrial": null,
+    "pharmaceutical": "Used in pharmaceutical formulations as an emulsifying agent and tablet excipient.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E431",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": null,
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリオキシエチレン(40)ステアリン酸",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "431",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-25 mg/kg body weight (for all polyoxyethylene stearates)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polyoxyethylene+stearate+E431",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=PEG-40+stearate+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": null,
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=431"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baked goods",
+    "Cake mixes",
+    "Whipped toppings",
+    "Ice cream",
+    "Desserts",
+    "Cosmetic creams and lotions"
+  ]
+}

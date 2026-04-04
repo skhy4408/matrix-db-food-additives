@@ -1,0 +1,160 @@
+{
+  "slug": "e476-pgpr",
+  "names": {
+    "e_number": "E476",
+    "ins_number": "476",
+    "cas_number": "29894-35-7",
+    "common_name": "Polyglycerol Polyricinoleate",
+    "scientific_name": "Polyglycerol esters of polycondensed fatty acids from castor oil",
+    "japanese_name": "ポリグリセリンポリリシノレート",
+    "japanese_label_name": "ポリグリセリン脂肪酸エステル",
+    "aliases": [
+      "PGPR",
+      "E476",
+      "Polyglycerol polyricinoleate"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "polyglycerol ester",
+    "source_type": "synthetic",
+    "chemical_group": "polyglycerol esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier made from castor oil and polyglycerol. Extremely effective at reducing chocolate viscosity, allowing manufacturers to use less expensive cocoa butter. This is the primary reason PGPR is so ubiquitous in mass-market chocolate - it's a significant cost-saving ingredient that allows chocolate to flow better during manufacturing."
+  },
+  "manufacturing": {
+    "method": "chemical esterification",
+    "description": "Produced by esterifying polyglycerol with condensed ricinoleic acid derived from castor bean oil. The resulting compound is an excellent emulsifier for chocolate systems."
+  },
+  "other_uses": {
+    "cosmetics": "Used in some cosmetic formulations",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E476",
+      "max_level_mg_kg": "5000-10000 depending on product",
+      "conditions": "Maximum levels vary by food category; widely permitted in chocolate products",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.876",
+      "fda_url": null,
+      "notes": "GRAS status; widely used in chocolate manufacturing"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリグリセリンポリリシノレート",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "476",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier in chocolate and confectionery"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in chocolate and confectionery products"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "7.5 mg/kg bw/day",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "7.5 mg/kg bw/day",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=PGPR+E476+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=polyglycerol+polyricinoleate+E476+chocolate",
+    "controversy_level": "low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.876",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=476"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates PGPR and establishes ADI"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E476 in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA and JECFA re-evaluate and confirm ADI of 7.5 mg/kg bw/day"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.1",
+      "category_name": "Cocoa and chocolate products",
+      "max_level_mg_kg": "5000"
+    },
+    {
+      "category_code": "05.2",
+      "category_name": "Other confectionery",
+      "max_level_mg_kg": "10000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Mass-market chocolate bars (Cadbury, Hershey's, Nestle, etc.)",
+    "Chocolate chips and baking chocolate",
+    "Chocolate coatings and compounds",
+    "Chocolate spreads (like Nutella)",
+    "Filled chocolates and pralines",
+    "Chocolate-covered confections",
+    "Compound chocolate (cheap chocolate substitutes)",
+    "Easter eggs and seasonal chocolate"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": 7.5,
+    "body_weight_kg": 60,
+    "daily_limit_mg": 450,
+    "equivalents": [
+      {
+        "product": "chocolate bars (typical content 0.3-0.5%)",
+        "typical_content_mg": 40,
+        "quantity": "~11"
+      }
+    ],
+    "source_note": "Based on JECFA and EFSA ADI of 7.5 mg/kg bw/day. PGPR is found in almost all mass-market chocolate because it reduces viscosity and allows manufacturers to use less cocoa butter, significantly reducing production costs. Premium chocolate brands often avoid PGPR and use only cocoa butter."
+  }
+}

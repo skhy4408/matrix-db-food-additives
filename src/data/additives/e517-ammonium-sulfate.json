@@ -1,0 +1,137 @@
+{
+  "slug": "e517-ammonium-sulfate",
+  "names": {
+    "e_number": "E517",
+    "ins_number": "517",
+    "cas_number": "7783-20-2",
+    "common_name": "Ammonium Sulfate",
+    "scientific_name": "Ammonium sulfate ((NH4)2SO4)",
+    "japanese_name": "硫酸アンモニウム",
+    "japanese_label_name": "硫酸アンモニウム",
+    "aliases": [
+      "Ammonium sulphate",
+      "Mascagnite (mineral form)",
+      "Ammonia alum"
+    ]
+  },
+  "classification": {
+    "functional_class": "acidity regulator",
+    "sub_class": "dough strengthener, yeast nutrient, processing aid",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Mascagnite mineral (rare)",
+      "Volcanic fumaroles",
+      "Some coal mine fires"
+    ],
+    "description": "While ammonium sulfate occurs naturally in volcanic areas and as the rare mineral mascagnite, all commercial production is synthetic."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by reacting ammonia with sulfuric acid, or as a byproduct of coke oven operations and various chemical manufacturing processes. The reaction of ammonia and sulfuric acid is highly exothermic."
+  },
+  "other_uses": {
+    "cosmetics": "Rarely used.",
+    "industrial": "Fertilizers (major use - nitrogen and sulfur source), flame retardants, protein purification.",
+    "pharmaceutical": "Rarely used in pharmaceuticals.",
+    "household": "Water treatment in swimming pools (rarely)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E517",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as processing aid and dough conditioner in specific food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2009",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1143",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Used primarily as yeast nutrient in bread making."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "333",
+      "japanese_regulation_name": "硫酸アンモニウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "517",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4072",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2009,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ammonium+sulfate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ammonium+sulfate+yeast+nutrient",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/1084",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4072",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=517"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2009"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Commercial bread and baked goods (yeast nutrient)",
+    "Beer brewing (yeast nutrient)",
+    "Wine fermentation (nitrogen source for yeast)",
+    "Some processed foods as acidity regulator"
+  ],
+  "fun_facts": [
+    "Acts as 'yeast food' - provides nitrogen that yeast cells need to reproduce and ferment efficiently",
+    "Used far more as agricultural fertilizer than as a food additive - it provides both nitrogen and sulfur for plants",
+    "Helps yeast work faster and more completely, leading to better bread rise and texture",
+    "The same chemical used in protein purification in biochemistry labs (salting out proteins)",
+    "Has a cooling effect when dissolved in water (endothermic reaction)",
+    "One of the oldest synthetic fertilizers, used in agriculture since the 1800s"
+  ]
+}

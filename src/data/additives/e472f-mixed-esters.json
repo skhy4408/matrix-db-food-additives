@@ -1,0 +1,154 @@
+{
+  "slug": "e472f-mixed-esters",
+  "names": {
+    "e_number": "E472f",
+    "ins_number": "472f",
+    "cas_number": "977064-79-5",
+    "common_name": "Mixed Acetic and Tartaric Acid Esters of Mono- and Diglycerides",
+    "scientific_name": "Acetotartaric esters of glycerides",
+    "japanese_name": "酢酸・酒石酸モノグリセリド",
+    "japanese_label_name": "グリセリン脂肪酸エステル",
+    "aliases": [
+      "Mixed acetyl tartaric esters",
+      "ATEM",
+      "Acetotartaric esters"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "fatty acid derivative",
+    "source_type": "synthetic",
+    "chemical_group": "glyceride esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier created by esterifying mono- and diglycerides with a mixture of acetic and tartaric acids. Provides combined benefits of both acid types."
+  },
+  "manufacturing": {
+    "method": "chemical esterification",
+    "description": "Produced by reacting mono- and diglycerides (derived from vegetable oils or animal fats) with a mixture of acetic acid and tartaric acid under controlled conditions."
+  },
+  "other_uses": {
+    "cosmetics": null,
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E472f",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.828",
+      "fda_url": null,
+      "notes": "GRAS status for use in food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "酢酸・酒石酸モノグリセリド",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "472f",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=mixed+acetyl+tartaric+esters+E472f",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E472f+mixed+esters+emulsifier",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.828",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=472"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates mixed acetic and tartaric acid esters"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E472f in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates mono- and diglycerides and their esters, confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "06",
+      "category_name": "Cereals and cereal products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Bread and bakery products",
+    "Cake mixes",
+    "Pastries and doughnuts",
+    "Frozen dough",
+    "Tortillas",
+    "Crackers",
+    "Biscuits",
+    "Wafers"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. JECFA and EFSA evaluated these esters as a group with mono- and diglycerides and found no safety concerns."
+  }
+}

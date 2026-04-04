@@ -1,0 +1,139 @@
+{
+  "slug": "e462-ethyl-cellulose",
+  "names": {
+    "e_number": "E462",
+    "ins_number": "462",
+    "cas_number": "9004-57-3",
+    "common_name": "Ethyl Cellulose",
+    "scientific_name": "Ethylcellulose",
+    "japanese_name": "エチルセルロース",
+    "japanese_label_name": "エチルセルロース",
+    "aliases": [
+      "EC",
+      "Ethylated cellulose",
+      "Cellulose ethyl ether"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "stabilizer, film-former, binder, coating agent",
+    "source_type": "natural (modified)",
+    "chemical_group": "cellulose ether"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Ethyl cellulose is a semi-synthetic derivative of natural cellulose. It's created by chemically modifying cellulose from wood pulp or cotton with ethyl groups, producing a material not found in nature."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating alkali cellulose with ethyl chloride, replacing some hydroxyl groups with ethyl ether groups. Unlike methyl cellulose, ethyl cellulose is water-insoluble but soluble in organic solvents, making it useful for protective coatings and films."
+  },
+  "other_uses": {
+    "cosmetics": "Film-former in nail polish, hair sprays, and cosmetics.",
+    "industrial": "Coatings, inks, adhesives, plastics modifier, hot-melt adhesives.",
+    "pharmaceutical": "Controlled-release tablet coating (water-insoluble barrier), microencapsulation, taste-masking.",
+    "household": "Wood finishes, varnishes."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E462",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in specified food categories; primarily used as film-forming agent.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.868",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Primarily used as coating agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エチルセルロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "462",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered inert)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ethyl+cellulose+food+coating",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ethylcellulose+E462",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=462"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "14.0",
+      "category_name": "Beverages",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dietary supplement tablets and capsules (protective coating)",
+    "Vitamin tablets (moisture barrier coating)",
+    "Confectionery (coating for candies and nuts)",
+    "Flavor encapsulation systems",
+    "Microencapsulated ingredients",
+    "Pharmaceutical extended-release tablets",
+    "Less common in direct food use compared to other cellulose derivatives"
+  ],
+  "fun_facts": [
+    "Ethyl cellulose is basically waterproof modified wood fiber - it repels water rather than absorbing it like other celluloses",
+    "The coating on many time-release vitamin pills is ethyl cellulose - it slowly breaks down in your digestive system to release nutrients over time",
+    "Unlike methyl cellulose, ethyl cellulose doesn't dissolve in water at all, making it perfect for moisture-resistant coatings",
+    "You're eating wood pulp that's been chemically treated to make it water-repellent - nature's plastic coating!",
+    "Because it's indigestible and water-insoluble, it passes through your digestive system completely unchanged"
+  ]
+}

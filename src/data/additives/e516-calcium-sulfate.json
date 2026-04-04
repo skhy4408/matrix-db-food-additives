@@ -1,0 +1,152 @@
+{
+  "slug": "e516-calcium-sulfate",
+  "names": {
+    "e_number": "E516",
+    "ins_number": "516",
+    "cas_number": "7778-18-9",
+    "common_name": "Calcium Sulfate",
+    "scientific_name": "Calcium sulfate (CaSO4)",
+    "japanese_name": "硫酸カルシウム",
+    "japanese_label_name": "硫酸Ca",
+    "aliases": [
+      "Gypsum (dihydrate)",
+      "Plaster of Paris (hemihydrate)",
+      "Anhydrite (anhydrous)"
+    ]
+  },
+  "classification": {
+    "functional_class": "firming agent",
+    "sub_class": "stabilizer, thickener, raising agent, coagulant",
+    "source_type": "mineral or synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Gypsum rock (calcium sulfate dihydrate)",
+      "Anhydrite mineral",
+      "Alabaster (a form of gypsum)"
+    ],
+    "description": "Calcium sulfate occurs abundantly in nature as the mineral gypsum. Food-grade calcium sulfate can be mined and purified from natural deposits or produced synthetically."
+  },
+  "manufacturing": {
+    "method": "mining or chemical synthesis",
+    "description": "Extracted from natural gypsum deposits through mining, crushing, and purification. Can also be produced synthetically by reacting calcium chloride with sulfuric acid or as a byproduct of various chemical processes. Available in anhydrous, hemihydrate, and dihydrate forms."
+  },
+  "other_uses": {
+    "cosmetics": "Bulking agent, opacifying agent in personal care products.",
+    "industrial": "Construction (drywall, plaster), cement production, agricultural soil conditioner.",
+    "pharmaceutical": "Tablet and capsule diluent, bone setting (plaster casts).",
+    "household": "Plaster of Paris for crafts, blackboard chalk."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E516",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in various food categories as firming agent, stabilizer, and raising agent.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1230",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in baking and tofu production."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "332",
+      "japanese_regulation_name": "硫酸カルシウム",
+      "notes": "Common tofu coagulant in Japan."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "516",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4071",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+sulfate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=calcium+sulfate+tofu+coagulant",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4071",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=516"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.2",
+      "category_name": "Batters",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "06.8.1",
+      "category_name": "Soya bean products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.0",
+      "category_name": "Bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Tofu (coagulant - makes firmer tofu than nigari)",
+    "Baking powder and self-raising flour",
+    "Breads and baked goods (dough conditioner)",
+    "Canned vegetables (firming agent)",
+    "Beer brewing (water hardener, gypsum)",
+    "Soy milk",
+    "Fortified flour (calcium source)",
+    "Some cheeses (coagulant aid)"
+  ],
+  "fun_facts": [
+    "The SAME mineral used to make drywall, plaster casts, and blackboard chalk - but food grade is purified",
+    "Produces firmer, more robust tofu than magnesium chloride (nigari) - preferred for tofu that needs to hold shape",
+    "In beer brewing, it's called 'brewing gypsum' and adjusts water chemistry for better hop extraction",
+    "Plaster of Paris is the hemihydrate form - when mixed with water, it hardens (used for broken bones)",
+    "Ancient Egyptians used gypsum plaster to build the pyramids",
+    "One of the few food additives that's literally a rock - mined from the ground, crushed, and purified",
+    "Naturally occurs in many mineral waters, giving them calcium content and slightly sulfurous taste"
+  ]
+}

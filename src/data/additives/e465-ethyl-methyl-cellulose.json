@@ -1,0 +1,137 @@
+{
+  "slug": "e465-ethyl-methyl-cellulose",
+  "names": {
+    "e_number": "E465",
+    "ins_number": "465",
+    "cas_number": "9004-67-5",
+    "common_name": "Ethyl Methyl Cellulose",
+    "scientific_name": "Ethylmethylcellulose",
+    "japanese_name": "エチルメチルセルロース",
+    "japanese_label_name": "エチルメチルセルロース",
+    "aliases": [
+      "EMC",
+      "Methylethylcellulose"
+    ]
+  },
+  "classification": {
+    "functional_class": "thickener",
+    "sub_class": "emulsifier, stabilizer, film-former, foaming agent",
+    "source_type": "natural (modified)",
+    "chemical_group": "cellulose ether"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Ethyl methyl cellulose is a semi-synthetic derivative of cellulose, created by chemically modifying plant cellulose with both ethyl and methyl groups. It's processed wood fiber or cotton that has been chemically altered."
+  },
+  "manufacturing": {
+    "method": "chemical modification",
+    "description": "Produced by treating alkali cellulose with a mixture of methyl chloride and ethyl chloride, substituting hydroxyl groups with both methyl and ethyl ether groups. The dual substitution creates unique properties intermediate between methyl cellulose and ethyl cellulose."
+  },
+  "other_uses": {
+    "cosmetics": "Film-former and thickener in cosmetics and personal care products.",
+    "industrial": "Coatings, adhesives, ceramics.",
+    "pharmaceutical": "Tablet binder and film coating.",
+    "household": "Less common than other cellulose ethers."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E465",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use in specified food categories; less commonly used than other cellulose derivatives.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.872",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "エチルメチルセルロース",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "465",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (considered inert)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=ethyl+methyl+cellulose+food",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=ethylmethylcellulose+E465",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=465"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.0",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05.0",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Foaming agents for whipped products",
+    "Bakery products",
+    "Edible coatings",
+    "Less commonly used in foods compared to other cellulose derivatives",
+    "Pharmaceutical coatings",
+    "Some processed foods as thickener and stabilizer"
+  ],
+  "fun_facts": [
+    "Like all cellulose derivatives, it's chemically modified wood pulp or plant fiber - literally processed sawdust!",
+    "Ethyl methyl cellulose combines properties of both methyl cellulose (water-soluble) and ethyl cellulose (water-resistant)",
+    "It's particularly good at creating stable foams, which is why it's used in whipped toppings and aerated products",
+    "Completely indigestible by humans, so it passes through as zero-calorie dietary fiber",
+    "Less common in food use than its cousin HPMC (E464), which has largely replaced it in many applications"
+  ]
+}

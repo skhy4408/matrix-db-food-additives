@@ -1,0 +1,143 @@
+{
+  "slug": "e511-magnesium-chloride",
+  "names": {
+    "e_number": "E511",
+    "ins_number": "511",
+    "cas_number": "7786-30-3",
+    "common_name": "Magnesium Chloride",
+    "scientific_name": "Magnesium chloride (MgCl2)",
+    "japanese_name": "塩化マグネシウム",
+    "japanese_label_name": "塩化Mg",
+    "aliases": [
+      "Nigari (Japanese name for food-grade brine)",
+      "Bischofite (mineral form)",
+      "MgCl2"
+    ]
+  },
+  "classification": {
+    "functional_class": "firming agent",
+    "sub_class": "coagulant, stabilizer",
+    "source_type": "mineral or synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Sea water (second most abundant ion after sodium)",
+      "Brine from salt lakes",
+      "Bischofite mineral",
+      "Dead Sea and Great Salt Lake"
+    ],
+    "description": "Magnesium chloride is abundant in sea water and natural brines. Traditional Japanese 'nigari' is concentrated sea water brine rich in magnesium chloride, used for centuries in tofu making."
+  },
+  "manufacturing": {
+    "method": "extraction or chemical synthesis",
+    "description": "Extracted from sea water or brine by solar evaporation and crystallization. Can also be produced by reacting magnesium hydroxide or carbonate with hydrochloric acid. Traditional 'nigari' is made by evaporating sea water to remove sodium chloride, leaving a magnesium-rich brine."
+  },
+  "other_uses": {
+    "cosmetics": "Skin conditioning agent in bath salts and lotions.",
+    "industrial": "De-icing agent, dust control, cement production, magnesium metal production.",
+    "pharmaceutical": "Magnesium supplement, laxative, topical applications.",
+    "household": "Bath salts, tofu coagulant."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E511",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted as firming agent and coagulant in specific food categories.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1426",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in tofu production."
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "237",
+      "japanese_regulation_name": "塩化マグネシウム",
+      "notes": "Traditional 'nigari' is the most common tofu coagulant in Japan."
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "511",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified (acceptable for use)",
+    "jecfa_evaluation_year": 1974,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4066",
+    "efsa_adi": "not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+chloride+tofu+coagulant",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=nigari+magnesium+chloride+food",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/3287",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=4066",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=511"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "06.8.1",
+      "category_name": "Soya bean products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Tofu (primary coagulant - called 'nigari' in Japan)",
+    "Soy milk products",
+    "Protein bars and supplements",
+    "Sports drinks (magnesium source)",
+    "Beer brewing (water mineral adjustment)",
+    "Some cheeses (coagulant)",
+    "Nutritional supplements",
+    "Magnesium-fortified foods"
+  ],
+  "fun_facts": [
+    "Known as 'NIGARI' in Japan - the traditional and preferred coagulant for making tofu for over 2,000 years",
+    "Nigari is literally the leftover brine from making sea salt - waste product turned culinary treasure",
+    "Different coagulants make different tofu textures: nigari makes smoother, sweeter tofu than calcium-based coagulants",
+    "The second most abundant mineral in sea water after sodium chloride",
+    "Used in the same form (as bath salts) for muscle relaxation and as a food ingredient for tofu",
+    "Can have a slightly bitter taste, which is why 'nigari tofu' has a subtle sweetness - the bitterness is cooked out",
+    "Traditional Japanese tofu masters can tell the quality of nigari by tasting the brine"
+  ]
+}

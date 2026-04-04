@@ -1,0 +1,152 @@
+{
+  "slug": "e450-diphosphates",
+  "names": {
+    "e_number": "E450",
+    "ins_number": "450",
+    "cas_number": "7758-16-9 (i), 7558-79-4 (ii), 10124-56-8 (iii), 7722-88-5 (v), 68915-31-1 (vii)",
+    "common_name": "Diphosphates",
+    "scientific_name": "Disodium diphosphate (E450i), Trisodium diphosphate (E450ii), Tetrasodium diphosphate (E450iii), Dipotassium diphosphate (E450v), Dicalcium diphosphate (E450vii)",
+    "japanese_name": "ピロリン酸塩",
+    "japanese_label_name": "ピロリン酸Na",
+    "aliases": [
+      "Pyrophosphates",
+      "Sodium pyrophosphates",
+      "TSPP (tetrasodium pyrophosphate)",
+      "SAPP (sodium acid pyrophosphate)"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "sequestrant, acidity regulator, raising agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Diphosphates do not occur naturally in free form. While phosphate compounds are essential components of all living organisms (DNA, ATP, bones), the diphosphate salts used in food are synthetically manufactured from phosphoric acid."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by heating orthophosphates (monophosphates) to high temperatures (above 200°C), causing dehydration and condensation to form diphosphates (pyrophosphates). Different cation forms (sodium, potassium, calcium) are obtained by using the corresponding orthophosphate salts as starting materials."
+  },
+  "other_uses": {
+    "cosmetics": "Buffering agent and chelating agent in toothpaste and dental products.",
+    "industrial": "Water treatment, metal surface treatment, detergents, textile processing.",
+    "pharmaceutical": "Buffering agent in pharmaceutical formulations.",
+    "household": "Toothpaste (tetrasodium pyrophosphate prevents tartar), cleaning products, baking powder."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E450(i-ix)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits apply due to concerns about total dietary phosphate intake.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.1087, 182.1778",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in processed cheese and baking powder"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "124",
+      "japanese_regulation_name": "ピロリン酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "450",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=diphosphate+pyrophosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=diphosphate+dietary+phosphate+intake",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=450"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA's comprehensive evaluation of food phosphates expressed concern about high dietary intake from additives, particularly in Western processed food diets. Recommended monitoring phosphate levels in processed foods."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "20000 (as P2O5)"
+    },
+    {
+      "category_code": "06.3",
+      "category_name": "Breakfast cereals",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "5000 (as P2O5)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Processed cheese and cheese spreads (makes cheese melt smoothly)",
+    "Baking powder and self-rising flour",
+    "Canned seafood (prevents struvite crystal formation)",
+    "Processed meat products (ham, sausages)",
+    "Instant puddings and dessert mixes",
+    "Potato products (French fries, hash browns)",
+    "Cola beverages",
+    "Toothpaste (tetrasodium pyrophosphate prevents tartar buildup)"
+  ],
+  "fun_facts": [
+    "Diphosphates are the secret ingredient that makes processed cheese melt smoothly and stay creamy - they prevent the proteins from clumping",
+    "The same chemical in your toothpaste preventing tartar (tetrasodium pyrophosphate) is also in your processed cheese",
+    "Sodium acid pyrophosphate in baking powder reacts slower than other acids, giving 'double-acting' leavening - once when wet, once when heated",
+    "Part of the reason canned tuna doesn't develop crunchy crystals (struvite) is thanks to diphosphates",
+    "Despite concerns about dietary phosphate overload in Western diets, phosphates are essential nutrients - your DNA and ATP (energy molecules) are built on phosphate backbones"
+  ]
+}

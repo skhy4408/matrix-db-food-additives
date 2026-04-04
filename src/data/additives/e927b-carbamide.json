@@ -1,0 +1,158 @@
+{
+  "slug": "e927b-carbamide",
+  "names": {
+    "e_number": "E927b",
+    "ins_number": "927b",
+    "cas_number": "57-13-6",
+    "common_name": "Carbamide",
+    "scientific_name": "Urea",
+    "japanese_name": "尿素",
+    "japanese_label_name": "尿素",
+    "aliases": [
+      "Urea",
+      "Carbonyl diamide",
+      "Diaminomethanal"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabilizer",
+    "sub_class": "humectant",
+    "source_type": "synthetic",
+    "chemical_group": "organic compound"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Human and animal urine (main excretion product)",
+      "Mammalian blood",
+      "Body tissues"
+    ],
+    "description": "A nitrogen-containing compound that is the main end product of protein metabolism in mammals. Naturally present in urine. Synthetic urea is identical to natural urea and is used in chewing gum to prevent hardening and maintain texture."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Industrially produced by reacting ammonia with carbon dioxide at high temperature and pressure (Bosch-Meiser urea process). First organic compound to be synthesized from inorganic materials (1828)."
+  },
+  "other_uses": {
+    "cosmetics": "Moisturizers, hand creams, nail treatments",
+    "industrial": "Fertilizer (main use), adhesives, plastics production",
+    "pharmaceutical": "Topical keratolytic agent, diuretic",
+    "household": "De-icing products, diesel exhaust fluid (AdBlue)"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E927b",
+      "max_level_mg_kg": "30,000 (chewing gum only)",
+      "conditions": "Authorized only for use in chewing gum without added sugar",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1923",
+      "fda_url": null,
+      "notes": "Approved for use in chewing gum"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "尿素",
+      "notes": "Approved for chewing gum"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "927b",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted in chewing gum"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Approved for chewing gum use"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use in chewing gum)",
+    "jecfa_evaluation_year": 2008,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at permitted levels)",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=urea+carbamide+food+additive+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E927b+carbamide+chewing+gum",
+    "controversy_level": "medium",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1923",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=927"
+  },
+  "regulatory_history": [
+    {
+      "year": 1828,
+      "event": "Friedrich Wöhler first synthesizes urea - breakthrough in organic chemistry"
+    },
+    {
+      "year": 2008,
+      "event": "JECFA evaluates urea for food use"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates urea as food additive in chewing gum"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "30000"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "urea"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1923",
+      "JECFA Evaluations Database",
+      "EFSA re-evaluation 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Sugar-free chewing gum",
+    "Chewing gum (prevents hardening)",
+    "Fertilizer (main industrial use)",
+    "Hand creams and moisturizers",
+    "De-icing products"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - urea is a natural metabolite produced by the human body daily (20-30g/day excreted in urine). Food additive use is minimal compared to endogenous production."
+  },
+  "fun_facts": [
+    "The main component of urine - your body produces 20-30g daily",
+    "First organic compound synthesized from inorganic materials (1828 - major scientific breakthrough)",
+    "In your chewing gum to keep it soft and prevent hardening",
+    "Main ingredient in fertilizer - 90% of synthetic urea goes to agriculture",
+    "Also used in diesel exhaust fluid (AdBlue) to reduce emissions",
+    "Your body naturally produces more urea in one day than you'd consume in years of chewing gum"
+  ]
+}

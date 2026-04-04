@@ -1,0 +1,135 @@
+{
+  "slug": "e402-potassium-alginate",
+  "names": {
+    "e_number": "E402",
+    "ins_number": "402",
+    "cas_number": "9005-36-1",
+    "common_name": "Potassium Alginate",
+    "scientific_name": "Potassium alginate",
+    "japanese_name": "アルギン酸カリウム",
+    "japanese_label_name": "アルギン酸カリウム",
+    "aliases": [
+      "Potassium algin",
+      "Algin potassium salt"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "seaweed-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Brown seaweed (Phaeophyceae)",
+      "Kelp (Laminaria species)",
+      "Giant kelp (Macrocystis pyrifera)"
+    ],
+    "description": "The potassium salt of alginic acid, extracted from brown seaweed. Similar to sodium alginate but provides potassium instead of sodium, making it suitable for low-sodium diets."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Extracted from brown seaweed using potassium carbonate solution, or by converting alginic acid with potassium hydroxide. Filtered, purified, and dried."
+  },
+  "other_uses": {
+    "cosmetics": "Used in face masks and dental impression materials.",
+    "industrial": "Used in textile printing and paper coatings.",
+    "pharmaceutical": "Used in pharmaceutical formulations as a thickening agent.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E402",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1610",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1610",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "アルギン酸カリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "402",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2016,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=potassium+alginate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=potassium+alginate+E402",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4944",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1610",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=402"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "03.0",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Low-sodium ice cream",
+    "Jellies and jams",
+    "Restructured foods",
+    "Dessert gels",
+    "Instant puddings",
+    "Low-sodium processed foods"
+  ]
+}

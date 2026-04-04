@@ -1,0 +1,164 @@
+{
+  "slug": "e470b-magnesium-fatty-acid-salts",
+  "names": {
+    "e_number": "E470b",
+    "ins_number": "470(ii)",
+    "cas_number": "557-04-0",
+    "common_name": "Magnesium Salts of Fatty Acids",
+    "scientific_name": "Magnesium fatty acid salts",
+    "japanese_name": "脂肪酸マグネシウム",
+    "japanese_label_name": "脂肪酸マグネシウム",
+    "aliases": [
+      "Magnesium stearate",
+      "Magnesium palmitate",
+      "Magnesium oleate"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "fatty acid derivative",
+    "source_type": "natural or synthetic",
+    "chemical_group": "magnesium fatty acid salts"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Animal fats",
+      "Vegetable oils",
+      "Palm oil",
+      "Coconut oil"
+    ],
+    "description": "Magnesium salts of fatty acids formed by neutralizing fatty acids with magnesium. Commonly used as anti-caking agents and emulsifiers. Like E470a, these are essentially soap molecules but with magnesium instead of sodium or potassium."
+  },
+  "manufacturing": {
+    "method": "saponification or neutralization",
+    "description": "Produced by neutralizing fatty acids (from animal or vegetable sources) with magnesium hydroxide or magnesium oxide. The process is similar to traditional soap-making but yields magnesium salts instead."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetics and personal care products as emulsifiers",
+    "industrial": "Lubricants and release agents in manufacturing",
+    "pharmaceutical": "Very commonly used as a lubricant in tablet and capsule manufacturing to prevent sticking",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E470b",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis (as much as needed for technical effect)",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 184.1440",
+      "fda_url": null,
+      "notes": "GRAS status; widely used in pharmaceuticals and food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "脂肪酸マグネシウム",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "470",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier and anti-caking agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=magnesium+stearate+E470b+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E470b+magnesium+fatty+acid+salts",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1440",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=470"
+  },
+  "regulatory_history": [
+    {
+      "year": 1960,
+      "event": "JECFA evaluates magnesium fatty acid salts and establishes acceptable use"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E470b in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and confirms safety as food additive"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "17",
+      "category_name": "Food supplements",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "magnesium-stearate"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Dietary supplements (tablets and capsules)",
+    "Powdered drink mixes",
+    "Confectionery and candy",
+    "Chewing gum",
+    "Cake mixes",
+    "Sugar confectionery",
+    "Pharmaceutical tablets",
+    "Food supplement powders"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. Magnesium stearate is one of the most commonly used pharmaceutical excipients and has an excellent safety profile."
+  }
+}

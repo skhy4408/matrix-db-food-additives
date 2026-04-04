@@ -1,0 +1,131 @@
+{
+  "slug": "e435-polysorbate-60",
+  "names": {
+    "e_number": "E435",
+    "ins_number": "435",
+    "cas_number": "9005-67-8",
+    "common_name": "Polysorbate 60",
+    "scientific_name": "Polyoxyethylene (20) sorbitan monostearate",
+    "japanese_name": "ポリソルベート60",
+    "japanese_label_name": "ポリソルベート60",
+    "aliases": [
+      "Tween 60",
+      "PS60",
+      "Polysorbate 60"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "synthetic",
+    "source_type": "synthetic",
+    "chemical_group": "polyoxyethylene sorbitan ester"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic emulsifier created from sorbitol, stearic acid, and ethylene oxide. The stearic acid component can be derived from vegetable oils or animal fats."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced in two steps: (1) sorbitan (from sorbitol) is reacted with stearic acid to form sorbitan monostearate, then (2) ethoxylated with approximately 20 units of ethylene oxide. Stearic acid is typically sourced from vegetable oils or animal fats."
+  },
+  "other_uses": {
+    "cosmetics": "Widely used in cosmetics, skincare products, and personal care items as an emulsifier.",
+    "industrial": "Used in industrial applications as a surfactant and dispersing agent.",
+    "pharmaceutical": "Common in pharmaceutical formulations as an emulsifier and solubilizer.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E435",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Permitted in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": null,
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 172.840",
+      "fda_url": null,
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ポリソルベート60",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "435",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-25 mg/kg body weight (for all polysorbates combined)",
+    "jecfa_evaluation_year": null,
+    "jecfa_url": null,
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": null,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=polysorbate+60+tween+60",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=polysorbate+60+E435+safety",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": null,
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.840",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=435"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "03",
+      "category_name": "Edible ices",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07.2",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA evaluations"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Ice cream and frozen desserts",
+    "Cakes and cake mixes",
+    "Whipped cream and toppings",
+    "Coffee whiteners",
+    "Dressings and sauces",
+    "Bread and bakery products"
+  ]
+}

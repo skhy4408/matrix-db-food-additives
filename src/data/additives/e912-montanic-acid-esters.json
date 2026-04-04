@@ -1,0 +1,158 @@
+{
+  "slug": "e912-montanic-acid-esters",
+  "names": {
+    "e_number": "E912",
+    "ins_number": "912",
+    "cas_number": "73138-45-1",
+    "common_name": "Montanic acid esters",
+    "scientific_name": "Montan wax esters",
+    "japanese_name": "モンタン酸エステル",
+    "japanese_label_name": "モンタン酸エステル",
+    "aliases": [
+      "Montan wax",
+      "Lignite wax esters",
+      "OP wax"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating, release agent",
+    "source_type": "natural/mineral",
+    "chemical_group": "long-chain fatty acid esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Lignite coal (brown coal)",
+      "Fossilized plant matter"
+    ],
+    "description": "A natural wax extracted from lignite (brown coal) and peat. Composed of esters of montanic acid and other long-chain fatty acids. Harder and higher melting point than most natural waxes."
+  },
+  "manufacturing": {
+    "method": "extraction from lignite",
+    "description": "Extracted from lignite coal using organic solvents, then refined and esterified. The crude montan wax is bleached and processed to remove impurities. Food-grade montan wax esters are highly purified."
+  },
+  "other_uses": {
+    "cosmetics": "Lipstick, mascara, cosmetic coatings",
+    "industrial": "Car wax, shoe polish, carbon paper, phonograph records",
+    "pharmaceutical": "Tablet coating and polishing",
+    "household": "Furniture polish, floor wax, leather treatment"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E912",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment; only refined food-grade esters permitted",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2013",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 184.1472",
+      "fda_url": null,
+      "notes": "Approved as release agent and surface-finishing agent"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "モンタン酸エステル",
+      "notes": "Approved as glazing agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "912",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved as glazing agent and release agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2013,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2013,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=montanic+acid+montan+wax+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E912+montanic+acid+esters+glazing",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1472",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=912"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "FDA affirms montan wax as GRAS"
+    },
+    {
+      "year": 2013,
+      "event": "EFSA and JECFA re-evaluate montan wax esters for food use"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "08.1.2",
+      "category_name": "Fresh fruit and vegetables",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "montan-wax"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 184.1472",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2013"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Fruit and vegetable coatings",
+    "Candy glazing",
+    "Chewing gum",
+    "Pharmaceutical tablet coatings",
+    "Car wax and shoe polish (non-food)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - montan wax esters are not absorbed by the digestive system and pass through unchanged."
+  },
+  "fun_facts": [
+    "Extracted from fossilized plants in brown coal (lignite)",
+    "The same wax used in candy coating is also in car wax and shoe polish",
+    "Millions of years old - from ancient fossilized plant matter",
+    "Harder than beeswax with a higher melting point",
+    "Used to make carbon paper and old phonograph records",
+    "Must be highly refined for food use to remove coal impurities"
+  ]
+}

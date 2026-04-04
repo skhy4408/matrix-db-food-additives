@@ -1,0 +1,159 @@
+{
+  "slug": "e474-sucroglycerides",
+  "names": {
+    "e_number": "E474",
+    "ins_number": "474",
+    "cas_number": "73049-73-7",
+    "common_name": "Sucroglycerides",
+    "scientific_name": "Sucrose esters of fatty acids mixed with mono- and diglycerides",
+    "japanese_name": "ショ糖グリセリド",
+    "japanese_label_name": "ショ糖脂肪酸エステル",
+    "aliases": [
+      "Sucroglyceride",
+      "Mixed sucrose esters",
+      "Sugar glycerides"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "sugar ester",
+    "source_type": "synthetic",
+    "chemical_group": "sucrose glyceride esters"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier consisting of a mixture of sucrose esters of fatty acids (E473) and mono- and diglycerides. Combines the functional properties of both components."
+  },
+  "manufacturing": {
+    "method": "chemical esterification and mixing",
+    "description": "Produced by reacting sucrose with fatty acids to create sucrose esters, which are then mixed with mono- and diglycerides of fatty acids. The mixture provides enhanced emulsifying properties."
+  },
+  "other_uses": {
+    "cosmetics": "Used in cosmetic formulations as emulsifier",
+    "industrial": null,
+    "pharmaceutical": "Used in pharmaceutical preparations",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E474",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis in specified food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.859",
+      "fda_url": null,
+      "notes": "GRAS status for use in food"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ショ糖グリセリド",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "474",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in various food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2017,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=sucroglycerides+E474+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E474+sucroglycerides+emulsifier",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.859",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=474"
+  },
+  "regulatory_history": [
+    {
+      "year": 1977,
+      "event": "JECFA evaluates sucroglycerides"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E474 in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA and JECFA re-evaluate and confirm safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "01",
+      "category_name": "Dairy products and analogues",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "05",
+      "category_name": "Confectionery",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Baked goods and cakes",
+    "Ice cream and frozen desserts",
+    "Confectionery products",
+    "Chocolate coatings",
+    "Whipped toppings",
+    "Coffee creamers",
+    "Dessert mixes",
+    "Fat-based spreads"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. Evaluated together with sucrose esters (E473) and mono- and diglycerides with no safety concerns identified."
+  }
+}

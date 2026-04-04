@@ -1,0 +1,150 @@
+{
+  "slug": "e907-hydrogenated-poly-1-decene",
+  "names": {
+    "e_number": "E907",
+    "ins_number": "907",
+    "cas_number": "68037-01-4",
+    "common_name": "Hydrogenated poly-1-decene",
+    "scientific_name": "Poly(1-decene), hydrogenated",
+    "japanese_name": "水添ポリ-1-デセン",
+    "japanese_label_name": "水添ポリ-1-デセン",
+    "aliases": [
+      "Synthetic wax",
+      "Poly-alpha-olefin wax"
+    ]
+  },
+  "classification": {
+    "functional_class": "glazing agent",
+    "sub_class": "surface coating",
+    "source_type": "synthetic",
+    "chemical_group": "synthetic hydrocarbon polymer"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "A synthetic wax produced by polymerization of 1-decene followed by hydrogenation. Used as a glazing agent and surface coating for confectionery and chewing gum. Chemically similar to polyethylene wax."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by oligomerization (short-chain polymerization) of 1-decene, followed by catalytic hydrogenation. The result is a clear, odorless, tasteless wax with excellent adhesive and coating properties."
+  },
+  "other_uses": {
+    "cosmetics": "Lip gloss, lipstick, cosmetic coatings",
+    "industrial": "Hot-melt adhesives, printing inks, rubber processing",
+    "pharmaceutical": "Tablet coating, controlled-release formulations",
+    "household": "Specialty coatings and adhesives"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E907",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Authorized as glazing agent for surface treatment",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2015",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "Indirect food additive",
+      "cfr_reference": "21 CFR 178.3720",
+      "fda_url": null,
+      "notes": "Approved as component of coatings"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "水添ポリ-1-デセン",
+      "notes": "Approved as glazing agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "907",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted glazing agent"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Glazing and Polishing Agents",
+      "health_canada_url": null,
+      "notes": "Approved as glazing agent"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (acceptable for use)",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (no safety concern at current use levels)",
+    "efsa_evaluation_year": 2015,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=hydrogenated+poly-1-decene+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E907+poly-1-decene+glazing",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-178.3720",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=907"
+  },
+  "regulatory_history": [
+    {
+      "year": 2015,
+      "event": "JECFA and EFSA evaluate hydrogenated poly-1-decene for food use"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "05.3",
+      "category_name": "Chewing gum",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "04.2.5.1",
+      "category_name": "Confectionery with surface coating",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 178.3720",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2015"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Chewing gum coating",
+    "Candy glazing",
+    "Confectionery surface treatment",
+    "Pharmaceutical tablet coatings",
+    "Decorative food coatings"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI established - hydrogenated poly-1-decene is not absorbed by the digestive system and passes through unchanged."
+  },
+  "fun_facts": [
+    "A synthetic wax made from petroleum-derived chemicals",
+    "Completely tasteless and odorless - you'd never know it's there",
+    "Passes through your digestive system unchanged",
+    "Similar to the polyethylene used in plastic bags, but food-grade",
+    "Used in both chewing gum and hot-melt adhesives",
+    "One of the newer synthetic waxes approved for food use"
+  ]
+}

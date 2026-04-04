@@ -1,0 +1,173 @@
+{
+  "slug": "e999-quillaia-extract",
+  "names": {
+    "e_number": "E999",
+    "ins_number": "999",
+    "cas_number": "68990-67-0",
+    "common_name": "Quillaia extract",
+    "scientific_name": "Quillaja saponaria extract",
+    "japanese_name": "キラヤ抽出物",
+    "japanese_label_name": "キラヤ抽出物",
+    "aliases": [
+      "Quillaja extract",
+      "Soapbark extract",
+      "Quillay extract",
+      "Soap tree bark extract"
+    ]
+  },
+  "classification": {
+    "functional_class": "foaming agent",
+    "sub_class": "emulsifier, stabilizer",
+    "source_type": "natural",
+    "chemical_group": "saponins"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Quillaja saponaria (soapbark tree) bark",
+      "Native to Chile and Peru"
+    ],
+    "description": "A natural extract from the bark of the Quillaja saponaria tree containing saponins (soap-like compounds). Creates stable foam in beverages and acts as an emulsifier. Best known for creating the foam in root beer and cream soda."
+  },
+  "manufacturing": {
+    "method": "aqueous extraction from tree bark",
+    "description": "The inner bark of Quillaja saponaria trees is harvested, dried, and extracted with hot water or dilute alcohol. The extract is filtered, concentrated, and purified to produce food-grade quillaia extract rich in saponins."
+  },
+  "other_uses": {
+    "cosmetics": "Shampoos, foaming bath products, skin cleansers",
+    "industrial": "Photography emulsions, fire extinguisher foam",
+    "pharmaceutical": "Vaccine adjuvant (immune booster), cough syrups",
+    "household": "Natural soap and cleaning products, pet shampoos"
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E999",
+      "max_level_mg_kg": "200 (beverages), varies by category",
+      "conditions": "Authorized as foaming agent in beverages",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized as Safe)",
+      "cfr_reference": "21 CFR 172.510",
+      "fda_url": null,
+      "notes": "Approved as foaming agent in beverages, max 200 ppm"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "キラヤ抽出物",
+      "notes": "Approved as foaming agent"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "999",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Permitted foaming agent in beverages"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Approved as foaming agent, max 200 ppm in beverages"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified (limited use level)",
+    "jecfa_evaluation_year": 2019,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified (use limited to 200 mg/kg in beverages)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=quillaia+extract+saponins+food+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E999+quillaia+extract+foaming+agent",
+    "controversy_level": "low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.510",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=999"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "FDA affirms quillaia extract as GRAS for use in beverages"
+    },
+    {
+      "year": 2019,
+      "event": "EFSA and JECFA re-evaluate quillaia extract and confirm safety at current use levels"
+    },
+    {
+      "year": 2020,
+      "event": "Quillaia saponins investigated as COVID-19 vaccine adjuvant"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "14.1.4",
+      "category_name": "Flavoured drinks",
+      "max_level_mg_kg": "200"
+    },
+    {
+      "category_code": "14.2.4",
+      "category_name": "Cider and perry",
+      "max_level_mg_kg": "200"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": "quillaja-extract"
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR 172.510",
+      "JECFA Evaluations Database",
+      "EFSA re-evaluation 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Root beer (creates the foam)",
+    "Cream soda",
+    "Soft drinks and carbonated beverages",
+    "Cocktail mixers",
+    "Foaming beverages",
+    "Some beers and ciders",
+    "Ice cream floats",
+    "Vaccine adjuvants (medical, not food)"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": 60,
+    "daily_limit_mg": null,
+    "equivalents": [
+      {
+        "product": "liters of root beer at max 200 ppm",
+        "typical_content_mg": 200,
+        "quantity": "Daily intake well below levels of concern"
+      }
+    ],
+    "source_note": "No ADI established - use levels are limited to 200 mg/kg in beverages. Typical exposure is low."
+  },
+  "fun_facts": [
+    "Makes root beer foam! That's its main claim to fame",
+    "Tree bark from Chile contains natural soap-like compounds (saponins)",
+    "Also used as a vaccine adjuvant to boost immune response",
+    "The name 'soapbark' comes from its traditional use as soap",
+    "Creates stable foam because saponins act like natural detergent",
+    "Also found in shampoos and natural cleaning products",
+    "Has been used in vaccine development, including COVID-19 vaccines"
+  ]
+}

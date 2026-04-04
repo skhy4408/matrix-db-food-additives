@@ -1,0 +1,135 @@
+{
+  "slug": "e416-karaya-gum",
+  "names": {
+    "e_number": "E416",
+    "ins_number": "416",
+    "cas_number": "9000-36-6",
+    "common_name": "Karaya Gum",
+    "scientific_name": "Sterculia urens gum",
+    "japanese_name": "カラヤガム",
+    "japanese_label_name": "カラヤガム",
+    "aliases": [
+      "Gum karaya",
+      "Sterculia gum",
+      "Indian tragacanth"
+    ]
+  },
+  "classification": {
+    "functional_class": "stabiliser",
+    "sub_class": "natural",
+    "source_type": "plant-derived",
+    "chemical_group": "polysaccharide"
+  },
+  "natural_occurrence": {
+    "found_in_nature": true,
+    "natural_sources": [
+      "Sterculia urens trees",
+      "Native to India (major producer)",
+      "Also found in Pakistan and some African countries"
+    ],
+    "description": "A natural gum obtained from the dried sap of Sterculia trees. India produces most of the world's karaya gum. It was historically used as a substitute for tragacanth gum."
+  },
+  "manufacturing": {
+    "method": "extraction",
+    "description": "Obtained by tapping Sterculia trees through incisions in the bark. The gum exudes and dries on the tree, then is hand-collected, cleaned, ground, and sieved into powder."
+  },
+  "other_uses": {
+    "cosmetics": "Used in hair wave sets and cosmetic lotions.",
+    "industrial": "Used in textile printing and adhesives.",
+    "pharmaceutical": "Used in denture adhesives, laxatives, and as a bulk-forming agent.",
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E416",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Widely permitted in most food categories",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": null
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 184.1349",
+      "fda_url": "https://www.ecfr.gov/current/title-21/section-184.1349",
+      "notes": null
+    },
+    "japan": {
+      "status": "approved",
+      "category": "既存添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "カラヤガム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "416",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "Not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "Not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": null
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=karaya+gum+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=karaya+gum+E416",
+    "controversy_level": "very_low",
+    "efsa_opinion_url": null,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-184.1349",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=416"
+  },
+  "regulatory_history": [],
+  "food_categories_eu": [
+    {
+      "category_code": "01.4",
+      "category_name": "Flavoured fermented milk products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "12.0",
+      "category_name": "Salts, spices, soups, sauces, salads, protein products",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Salad dressings",
+    "Cheese spreads",
+    "Ice cream",
+    "Sauces and gravies",
+    "Frozen desserts",
+    "Whipped toppings"
+  ]
+}

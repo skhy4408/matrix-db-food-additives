@@ -1,0 +1,155 @@
+{
+  "slug": "e451-triphosphates",
+  "names": {
+    "e_number": "E451",
+    "ins_number": "451",
+    "cas_number": "7758-29-4 (i), 13573-18-7 (ii)",
+    "common_name": "Triphosphates",
+    "scientific_name": "Pentasodium triphosphate (E451i), Pentapotassium triphosphate (E451ii)",
+    "japanese_name": "三リン酸塩",
+    "japanese_label_name": "三リン酸Na",
+    "aliases": [
+      "Sodium tripolyphosphate (STPP)",
+      "Pentasodium tripolyphosphate",
+      "Tripolyphosphates"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "sequestrant, stabilizer, moisture retention agent",
+    "source_type": "synthetic",
+    "chemical_group": "inorganic salt"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Triphosphates do not occur naturally in free form. While phosphate compounds are essential in biology, the triphosphate salts used in food processing are synthetically manufactured."
+  },
+  "manufacturing": {
+    "method": "chemical synthesis",
+    "description": "Produced by heating a mixture of monosodium phosphate and disodium phosphate to approximately 540-560°C, causing condensation to form sodium triphosphate. The process involves controlled dehydration and polymerization of orthophosphates."
+  },
+  "other_uses": {
+    "cosmetics": "Chelating agent and pH adjuster in personal care products.",
+    "industrial": "Heavy-duty detergents, water softening, ceramic production, paper processing, petroleum refining.",
+    "pharmaceutical": "Excipient in pharmaceutical formulations.",
+    "household": "Laundry detergents (historically common, now restricted in many regions due to environmental concerns about phosphates in wastewater)."
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E451(i-ii)",
+      "max_level_mg_kg": "varies by category",
+      "conditions": "Quantum satis in many categories; specific limits apply due to concerns about total dietary phosphate intake.",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2019",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS",
+      "cfr_reference": "21 CFR 182.6789",
+      "fda_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+      "notes": "Widely used in seafood processing"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": "125",
+      "japanese_regulation_name": "トリポリリン酸ナトリウム",
+      "notes": null
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "451",
+      "fsanz_reference": "Schedule 16",
+      "notes": null
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Food Additives",
+      "health_canada_url": "https://www.canada.ca/en/health-canada/services/food-nutrition/food-safety/food-additives.html",
+      "notes": null
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "0-70 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "jecfa_evaluation_year": 2018,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "efsa_adi": "40 mg/kg bw/day (as phosphorus, for all phosphates)",
+    "efsa_evaluation_year": 2019,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=triphosphate+tripolyphosphate+food+additive",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=sodium+tripolyphosphate+seafood",
+    "controversy_level": "moderate",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/5674",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/chemical.aspx?chemID=5294",
+    "fda_cfr_url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/CFRSearch.cfm",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=451"
+  },
+  "regulatory_history": [
+    {
+      "year": 2019,
+      "event": "EFSA's comprehensive evaluation of food phosphates expressed concern about high dietary intake from additives, particularly in Western processed food diets."
+    },
+    {
+      "year": 2010,
+      "event": "Many regions banned or restricted phosphates in laundry detergents due to eutrophication concerns (algae blooms in waterways), though food use remains approved."
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "08.2",
+      "category_name": "Meat preparations",
+      "max_level_mg_kg": "5000 (as P2O5)"
+    },
+    {
+      "category_code": "09.2",
+      "category_name": "Processed fish and fishery products",
+      "max_level_mg_kg": "5000 (as P2O5)"
+    },
+    {
+      "category_code": "01.6",
+      "category_name": "Cheese and cheese products",
+      "max_level_mg_kg": "20000 (as P2O5)"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2019"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Frozen shrimp and scallops (helps retain moisture during freezing)",
+    "Processed seafood products",
+    "Processed meat products (ham, bacon, sausages)",
+    "Processed cheese",
+    "Canned meat and fish",
+    "Instant noodles",
+    "Pet food (moisture retention)",
+    "Surimi (imitation crab meat)"
+  ],
+  "fun_facts": [
+    "Sodium tripolyphosphate can make seafood absorb up to 30% more water - this is why some frozen shrimp shrink dramatically when cooked",
+    "The same chemical used to make your frozen shrimp plump was once a major ingredient in laundry detergent until environmental bans",
+    "Triphosphates are particularly good at binding metal ions (chelating), which is why they prevent discoloration in processed foods",
+    "In the seafood industry, STPP-treated products must be labeled in many countries, as it increases weight (and price) through water retention",
+    "Despite the moisture retention benefits, excessive phosphate treatment can give seafood an unpleasant soapy or metallic taste"
+  ]
+}

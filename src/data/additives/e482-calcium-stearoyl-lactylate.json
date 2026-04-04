@@ -1,0 +1,154 @@
+{
+  "slug": "e482-calcium-stearoyl-lactylate",
+  "names": {
+    "e_number": "E482",
+    "ins_number": "482",
+    "cas_number": "5793-94-2",
+    "common_name": "Calcium Stearoyl Lactylate",
+    "scientific_name": "Calcium stearoyl-2-lactylate",
+    "japanese_name": "ステアロイル乳酸カルシウム",
+    "japanese_label_name": "ステアロイル乳酸カルシウム",
+    "aliases": [
+      "CSL",
+      "Calcium stearoyl lactylate",
+      "E482"
+    ]
+  },
+  "classification": {
+    "functional_class": "emulsifier",
+    "sub_class": "lactic acid derivative",
+    "source_type": "synthetic",
+    "chemical_group": "acyl lactylates"
+  },
+  "natural_occurrence": {
+    "found_in_nature": false,
+    "natural_sources": [],
+    "description": "Synthetic emulsifier and dough conditioner made from lactic acid and stearic acid, neutralized with calcium. Very similar in function to E481 (SSL) but uses calcium instead of sodium. Like SSL, CSL is a crucial bread-softening additive that strengthens gluten, improves dough handling, increases loaf volume, and extends shelf life by keeping bread soft."
+  },
+  "manufacturing": {
+    "method": "chemical esterification",
+    "description": "Produced by reacting stearic acid (from vegetable oils or animal fats) with lactic acid to form stearoyl lactic acid, which is then neutralized with calcium hydroxide to create the calcium salt."
+  },
+  "other_uses": {
+    "cosmetics": "Used in some cosmetic formulations as emulsifier",
+    "industrial": null,
+    "pharmaceutical": null,
+    "household": null
+  },
+  "regulations": {
+    "eu": {
+      "status": "approved",
+      "e_number": "E482",
+      "max_level_mg_kg": "quantum satis",
+      "conditions": "Approved for use at quantum satis in specified food categories; extensively used in bread",
+      "legal_reference": "Regulation (EC) No 1333/2008, Annex II",
+      "efsa_last_evaluated": "2017",
+      "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+    },
+    "usa": {
+      "status": "approved",
+      "classification": "GRAS (Generally Recognized As Safe)",
+      "cfr_reference": "21 CFR 172.844",
+      "fda_url": null,
+      "notes": "GRAS status; widely used in baking industry"
+    },
+    "japan": {
+      "status": "approved",
+      "category": "指定添加物",
+      "mhlw_list_number": null,
+      "japanese_regulation_name": "ステアロイル乳酸カルシウム",
+      "notes": "Approved for general food use"
+    },
+    "australia_nz": {
+      "status": "approved",
+      "code": "482",
+      "fsanz_reference": "Schedule 16",
+      "notes": "Approved as emulsifier and dough conditioner"
+    },
+    "canada": {
+      "status": "approved",
+      "reference": "Lists of Permitted Emulsifying, Gelling, Stabilizing or Thickening Agents",
+      "health_canada_url": null,
+      "notes": "Permitted in bakery products and other food categories"
+    }
+  },
+  "safety_evaluations": {
+    "jecfa_adi": "not specified",
+    "jecfa_evaluation_year": 2015,
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "efsa_adi": "not specified",
+    "efsa_evaluation_year": 2017,
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743"
+  },
+  "research_links": {
+    "pubmed_search_url": "https://pubmed.ncbi.nlm.nih.gov/?term=calcium+stearoyl+lactylate+E482+safety",
+    "google_scholar_url": "https://scholar.google.com/scholar?q=E482+CSL+bread+dough+conditioner",
+    "controversy_level": "none",
+    "efsa_opinion_url": "https://www.efsa.europa.eu/en/efsajournal/pub/4743",
+    "jecfa_url": "https://apps.who.int/food-additives-contaminants-jecfa-database/",
+    "fda_cfr_url": "https://www.ecfr.gov/current/title-21/section-172.844",
+    "codex_url": "https://www.fao.org/gsfaonline/additives/details.html?id=482"
+  },
+  "regulatory_history": [
+    {
+      "year": 1974,
+      "event": "JECFA evaluates calcium stearoyl lactylate"
+    },
+    {
+      "year": 2008,
+      "event": "EU regulation codifies E482 in Regulation (EC) No 1333/2008"
+    },
+    {
+      "year": 2017,
+      "event": "EFSA re-evaluates and confirms safety"
+    }
+  ],
+  "food_categories_eu": [
+    {
+      "category_code": "06",
+      "category_name": "Cereals and cereal products",
+      "max_level_mg_kg": "quantum satis"
+    },
+    {
+      "category_code": "07",
+      "category_name": "Fine bakery wares",
+      "max_level_mg_kg": "quantum satis"
+    }
+  ],
+  "cross_references": {
+    "cosmetics_db_slug": null
+  },
+  "metadata": {
+    "data_sources": [
+      "EU Regulation (EC) No 1333/2008",
+      "FDA 21 CFR",
+      "JECFA Evaluations Database",
+      "EFSA Scientific Opinion 2017"
+    ],
+    "last_updated": "2026-04-04",
+    "data_completeness": {
+      "eu": "complete",
+      "usa": "complete",
+      "japan": "complete",
+      "australia_nz": "complete",
+      "canada": "complete"
+    }
+  },
+  "commonly_found_in": [
+    "Commercial sandwich bread",
+    "Hamburger and hot dog buns",
+    "Bread rolls and dinner rolls",
+    "Tortillas and flatbreads",
+    "Bagels and English muffins",
+    "Pizza dough",
+    "Frozen bread dough",
+    "Cakes and pastries"
+  ],
+  "adi_context": {
+    "adi_value_mg_per_kg": null,
+    "body_weight_kg": null,
+    "daily_limit_mg": null,
+    "equivalents": [],
+    "source_note": "No ADI specified - considered safe for use at quantum satis levels. CSL and SSL (E481) are often used interchangeably in commercial bread production. Both are key to achieving the soft, pillow-like texture and extended shelf life that consumers expect from commercial bread."
+  }
+}
